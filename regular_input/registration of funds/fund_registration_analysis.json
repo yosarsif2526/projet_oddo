@@ -1,0 +1,2044 @@
+{
+  "hierarchical_analysis": {
+    "ODDO BHF Active Small Cap": {
+      "type": "fund",
+      "isin": "FR0011606268",
+      "registered_countries": [
+        "Germany",
+        "Austria",
+        "Switzerland"
+      ],
+      "children": {}
+    },
+    "ODDO BHF Active Micro Cap": {
+      "type": "fund",
+      "isin": "FR0013266269",
+      "registered_countries": [
+        "Germany",
+        "Switzerland"
+      ],
+      "children": {
+        "ODDO BHF Avenir": {
+          "type": "fund",
+          "isin": "FR0000989899",
+          "registered_countries": [
+            "Germany",
+            "Austria",
+            "Switzerland"
+          ],
+          "children": {}
+        }
+      }
+    },
+    "ODDO BHF Avenir Euro": {
+      "type": "fund",
+      "isin": "FR0000990095",
+      "registered_countries": [
+        "Germany",
+        "Austria",
+        "Switzerland"
+      ],
+      "children": {}
+    },
+    "ODDO BHF Avenir Europe": {
+      "type": "fund",
+      "isin": "FR0000974149",
+      "registered_countries": [
+        "Germany",
+        "Austria",
+        "Belgium",
+        "Switzerland"
+      ],
+      "children": {}
+    },
+    "ODDO BHF China Equity Stars": {
+      "type": "fund",
+      "isin": "FR001400USF8",
+      "registered_countries": [
+        "Germany"
+      ],
+      "children": {}
+    },
+    "ODDO BHF Generation": {
+      "type": "fund",
+      "isin": "FR0010574434",
+      "registered_countries": [
+        "Germany",
+        "Austria",
+        "Belgium",
+        "Switzerland"
+      ],
+      "children": {}
+    },
+    "ODDO BHF Global Target 2026": {
+      "type": "fund",
+      "isin": "FR0013426657",
+      "registered_countries": [
+        "Germany",
+        "Switzerland"
+      ],
+      "children": {}
+    },
+    "ODDO BHF Haut Rendement 2025": {
+      "type": "fund",
+      "isin": "FR0013300712",
+      "registered_countries": [
+        "Germany",
+        "Austria",
+        "Switzerland"
+      ],
+      "children": {}
+    },
+    "ODDO BHF Immobilier": {
+      "type": "fund",
+      "isin": "FR0000989915",
+      "registered_countries": [
+        "Germany",
+        "Austria",
+        "Switzerland"
+      ],
+      "children": {}
+    },
+    "ODDO BHF Euro Short Term Bond": {
+      "type": "fund",
+      "isin": "FR0007067673",
+      "registered_countries": [
+        "Germany",
+        "Austria",
+        "Switzerland"
+      ],
+      "children": {}
+    },
+    "ODDO BHF Patrimoine": {
+      "type": "fund",
+      "isin": "FR0000992042",
+      "registered_countries": [
+        "Germany",
+        "Belgium"
+      ],
+      "children": {}
+    },
+    "ODDO BHF ProActif Europe": {
+      "type": "fund",
+      "isin": "FR0010109165",
+      "registered_countries": [
+        "Germany",
+        "Austria",
+        "Belgium",
+        "Switzerland"
+      ],
+      "children": {}
+    },
+    "ODDO BHF US MID CAP": {
+      "type": "fund",
+      "isin": "FR0000988669",
+      "registered_countries": [
+        "Germany",
+        "Austria",
+        "Switzerland"
+      ],
+      "children": {}
+    },
+    "ODDO BHF European High Dividend": {
+      "type": "fund",
+      "isin": "FR0000989758",
+      "registered_countries": [
+        "Germany",
+        "Austria",
+        "Switzerland"
+      ],
+      "children": {}
+    },
+    "Pilotage Sélection Equilibrée": {
+      "type": "fund",
+      "isin": "FR0011250299",
+      "registered_countries": [],
+      "children": {}
+    },
+    "Pilotage Sélection Défensive": {
+      "type": "fund",
+      "isin": "FR0011250315",
+      "registered_countries": [],
+      "children": {}
+    },
+    "Pilotage Sélection Dynamique": {
+      "type": "fund",
+      "isin": "FR0011250281",
+      "registered_countries": [],
+      "children": {}
+    },
+    "Pilotage Sélection Durable": {
+      "type": "fund",
+      "isin": "FR0011250307",
+      "registered_countries": [],
+      "children": {}
+    },
+    "ODDO BHF METROPOLE Selection": {
+      "type": "fund",
+      "isin": "FR0007078811",
+      "registered_countries": [
+        "Germany",
+        "Austria",
+        "Belgium",
+        "Switzerland"
+      ],
+      "children": {}
+    },
+    "ODDO BHF METROPOLE Euro SRI": {
+      "type": "fund",
+      "isin": "FR0010632364",
+      "registered_countries": [
+        "Germany",
+        "Austria",
+        "United Kingdom",
+        "Switzerland"
+      ],
+      "children": {}
+    },
+    "ODDO BHF GLOBAL TARGET 2028": {
+      "type": "fund",
+      "isin": "FR001400C7V2",
+      "registered_countries": [
+        "Germany",
+        "Austria",
+        "Belgium",
+        "Switzerland"
+      ],
+      "children": {}
+    },
+    "ODDO BHF GLOBAL TARGET IG 2029": {
+      "type": "fund",
+      "isin": "FR001400HHP7",
+      "registered_countries": [
+        "Germany",
+        "Austria",
+        "Belgium",
+        "Switzerland"
+      ],
+      "children": {}
+    },
+    "ODDO BHF Sustainable Euro Corporate Bond": {
+      "type": "fund",
+      "isin": "LU0145975065",
+      "registered_countries": [
+        "Germany",
+        "Austria",
+        "United Kingdom",
+        "Switzerland"
+      ],
+      "children": {}
+    },
+    "ODDO BHF Euro Credit Short Duration": {
+      "type": "fund",
+      "isin": "LU0628638032",
+      "registered_countries": [
+        "Germany",
+        "Austria",
+        "Belgium",
+        "United Kingdom",
+        "Switzerland"
+      ],
+      "children": {}
+    },
+    "ODDO BHF Euro High Yield Bond": {
+      "type": "fund",
+      "isin": "LU0115288721",
+      "registered_countries": [
+        "Germany",
+        "Austria",
+        "Belgium",
+        "United Kingdom",
+        "Switzerland"
+      ],
+      "children": {}
+    },
+    "ODDO BHF Convertibles Global": {
+      "type": "fund",
+      "isin": "LU1493432618",
+      "registered_countries": [
+        "Germany",
+        "Austria",
+        "Belgium",
+        "Switzerland"
+      ],
+      "children": {}
+    },
+    "ODDO BHF Algo Trend US": {
+      "type": "fund",
+      "isin": "LU1833929216",
+      "registered_countries": [
+        "Germany",
+        "Austria",
+        "Belgium",
+        "Switzerland"
+      ],
+      "children": {}
+    },
+    "ODDO BHF Credit Opportunities": {
+      "type": "fund",
+      "isin": "LU1752460292",
+      "registered_countries": [
+        "Germany",
+        "Austria",
+        "Belgium",
+        "Switzerland"
+      ],
+      "children": {}
+    },
+    "ODDO BHF Global Credit Short Duration": {
+      "type": "fund",
+      "isin": "LU1833930222",
+      "registered_countries": [
+        "Germany",
+        "Austria",
+        "Switzerland"
+      ],
+      "children": {}
+    },
+    "ODDO BHF Artificial Intelligence": {
+      "type": "fund",
+      "isin": "LU1833932863",
+      "registered_countries": [
+        "Germany",
+        "Austria",
+        "Belgium",
+        "Switzerland"
+      ],
+      "children": {}
+    },
+    "ODDO BHF Global Target 2031": {
+      "type": "fund",
+      "isin": "LU3146732048",
+      "registered_countries": [
+        "Germany",
+        "Austria",
+        "Belgium"
+      ],
+      "children": {}
+    },
+    "ODDO BHF Global Navigator": {
+      "type": "fund",
+      "isin": "LU3103551514",
+      "registered_countries": [
+        "Germany",
+        "Belgium"
+      ],
+      "children": {}
+    },
+    "ODDO BHF Green Planet": {
+      "type": "fund",
+      "isin": "LU2189929602",
+      "registered_countries": [
+        "Germany",
+        "Austria",
+        "Belgium",
+        "Switzerland"
+      ],
+      "children": {}
+    },
+    "ODDO BHF Global High Yield Bond": {
+      "type": "fund",
+      "isin": "LU3103550540",
+      "registered_countries": [
+        "Germany"
+      ],
+      "children": {}
+    },
+    "ODDO BHF Polaris Flexible": {
+      "type": "fund",
+      "isin": "LU1807158784",
+      "registered_countries": [
+        "Germany",
+        "Austria",
+        "Switzerland"
+      ],
+      "children": {}
+    },
+    "ODDO BHF Polaris Balanced": {
+      "type": "fund",
+      "isin": "LU0319574272",
+      "registered_countries": [
+        "Germany",
+        "Austria",
+        "Switzerland"
+      ],
+      "children": {}
+    },
+    "ODDO BHF Polaris Dynamic": {
+      "type": "fund",
+      "isin": "LU1781770794",
+      "registered_countries": [
+        "Germany",
+        "Austria",
+        "Switzerland"
+      ],
+      "children": {}
+    },
+    "ODDO BHF Emerging Markets": {
+      "type": "fund",
+      "isin": "LU0632979174",
+      "registered_countries": [
+        "Germany",
+        "Switzerland"
+      ],
+      "children": {}
+    },
+    "ODDO BHF Exklusiv: Global Equity Stars": {
+      "type": "fund",
+      "isin": "LU2329578087",
+      "registered_countries": [
+        "Germany",
+        "Austria",
+        "Switzerland"
+      ],
+      "children": {}
+    },
+    "ODDO BHF Exklusiv: Flexibles Individual Portfolio": {
+      "type": "fund",
+      "isin": "LU0325203320",
+      "registered_countries": [
+        "Germany"
+      ],
+      "children": {}
+    },
+    "ODDO BHF Exklusiv: Rendite Portfolio": {
+      "type": "fund",
+      "isin": "LU0319572904",
+      "registered_countries": [
+        "Germany"
+      ],
+      "children": {}
+    },
+    "ODDO BHF Leading Global Trends": {
+      "type": "fund",
+      "isin": "LU2345841543",
+      "registered_countries": [
+        "Germany",
+        "Switzerland"
+      ],
+      "children": {}
+    },
+    "Grand Cru": {
+      "type": "fund",
+      "isin": "LU0399641637",
+      "registered_countries": [
+        "Germany",
+        "Switzerland"
+      ],
+      "children": {}
+    },
+    "HELLAS Opportunities Fund": {
+      "type": "fund",
+      "isin": "LU0920841169",
+      "registered_countries": [
+        "Germany",
+        "Austria"
+      ],
+      "children": {}
+    },
+    "DC Value Global Dynamic": {
+      "type": "fund",
+      "isin": "LU0370310038",
+      "registered_countries": [
+        "Germany",
+        "Austria"
+      ],
+      "children": {}
+    },
+    "SARA FUNDS": {
+      "type": "fund",
+      "isin": "LU0903532330",
+      "registered_countries": [
+        "Germany",
+        "Austria"
+      ],
+      "children": {}
+    },
+    "SMS Ars Selecta": {
+      "type": "fund",
+      "isin": "LU0118271369",
+      "registered_countries": [
+        "Germany"
+      ],
+      "children": {}
+    },
+    "GERMAN FUND": {
+      "type": "category",
+      "children": {
+        "DC Value Global Balanced": {
+          "type": "fund",
+          "isin": "DE000A0YAX64",
+          "registered_countries": [
+            "Germany",
+            "Austria"
+          ],
+          "children": {}
+        }
+      }
+    },
+    "DC Value Global Equity": {
+      "type": "fund",
+      "isin": "DE000A3CNEH8",
+      "registered_countries": [
+        "Germany",
+        "Austria"
+      ],
+      "children": {}
+    },
+    "ODDO BHF Polaris Moderate": {
+      "type": "fund",
+      "isin": "DE000A0D95Q0",
+      "registered_countries": [
+        "Germany",
+        "Austria",
+        "Belgium",
+        "Switzerland"
+      ],
+      "children": {}
+    },
+    "ODDO BHF Money Market": {
+      "type": "fund",
+      "isin": "DE000A1CUGJ8",
+      "registered_countries": [
+        "Germany",
+        "Austria",
+        "Switzerland"
+      ],
+      "children": {}
+    },
+    "ODDO BHF German Equities": {
+      "type": "fund",
+      "isin": "DE0008478058",
+      "registered_countries": [
+        "Germany",
+        "Austria",
+        "Switzerland"
+      ],
+      "children": {}
+    },
+    "ODDO BHF Green Bond": {
+      "type": "fund",
+      "isin": "DE0008478082",
+      "registered_countries": [
+        "Germany",
+        "Austria",
+        "Switzerland"
+      ],
+      "children": {}
+    },
+    "Orsay Merger Arbitrage": {
+      "type": "fund",
+      "isin": "IE00B3WP1990",
+      "registered_countries": [
+        "Germany",
+        "Austria",
+        "Belgium",
+        "United Kingdom"
+      ],
+      "children": {}
+    },
+    "ODDO BHF Secondaries Fund": {
+      "type": "fund",
+      "isin": "FR0013333630",
+      "registered_countries": [
+        "Germany",
+        "Austria",
+        "Belgium",
+        "United Kingdom",
+        "Switzerland"
+      ],
+      "children": {}
+    },
+    "FCPR ODDO BHF Secondaries Opportunities": {
+      "type": "fund",
+      "isin": "FR0013350022",
+      "registered_countries": [],
+      "children": {}
+    },
+    "FCPR ODDO BHF Debt & Equity Opportunities": {
+      "type": "fund",
+      "isin": "FR0013513892",
+      "registered_countries": [],
+      "children": {}
+    },
+    "ODDO BHF Technology Oportunities Fund S.L.P.": {
+      "type": "fund",
+      "isin": "FR001400BUK4",
+      "registered_countries": [
+        "Germany",
+        "Austria",
+        "Belgium",
+        "United Kingdom",
+        "Switzerland"
+      ],
+      "children": {}
+    },
+    "ODDO BHF Secondaries Fund II S.L.P.": {
+      "type": "fund",
+      "isin": "FR0014005Q80",
+      "registered_countries": [
+        "Germany",
+        "Austria",
+        "Belgium",
+        "United Kingdom",
+        "Switzerland"
+      ],
+      "children": {}
+    },
+    "FCPR ODDO BHF Global Secondary": {
+      "type": "fund",
+      "isin": "FR001400B1S2",
+      "registered_countries": [],
+      "children": {}
+    },
+    "FCPR ODDO BHF Invest For Tomorrow": {
+      "type": "fund",
+      "isin": "FR001400E466",
+      "registered_countries": [],
+      "children": {}
+    },
+    "FCPR ODDO BHF European Secondary": {
+      "type": "fund",
+      "isin": "FR001400OC04",
+      "registered_countries": [],
+      "children": {}
+    },
+    "ODDO BHF Strategic Opportunities": {
+      "type": "fund",
+      "isin": "FR001400J259",
+      "registered_countries": [
+        "Germany",
+        "Austria",
+        "Belgium",
+        "Switzerland"
+      ],
+      "children": {}
+    },
+    "ODDO BHF Opportunités Stratégiques": {
+      "type": "fund",
+      "isin": "FR001400KJ68",
+      "registered_countries": [
+        "Germany",
+        "Belgium",
+        "Switzerland"
+      ],
+      "children": {}
+    },
+    "ODDO BHF Environmental Opportunities II S.L.P.": {
+      "type": "fund",
+      "isin": "FR001400HPG9",
+      "registered_countries": [
+        "Germany",
+        "Austria",
+        "Belgium",
+        "United Kingdom",
+        "Switzerland"
+      ],
+      "children": {}
+    },
+    "FCPR ODDO BHF Global Private Equity": {
+      "type": "fund",
+      "isin": "FR001400ROU2",
+      "registered_countries": [
+        "Belgium"
+      ],
+      "children": {}
+    },
+    "FCPR ODDO BHF Debt & Equity Opportunities II": {
+      "type": "fund",
+      "isin": "FR00140118F0",
+      "registered_countries": [],
+      "children": {}
+    },
+    "ODDO BHF Commit For Tomorrow": {
+      "type": "fund",
+      "isin": "LU2739702079",
+      "registered_countries": [
+        "Germany",
+        "Austria",
+        "Belgium"
+      ],
+      "children": {}
+    },
+    "ODDO BHF Environmental Opportunities": {
+      "type": "fund",
+      "isin": "LU2206786795",
+      "registered_countries": [
+        "Germany",
+        "Austria",
+        "Switzerland"
+      ],
+      "children": {}
+    },
+    "ODDO BHF Technology Opportunities Fund Feeder SCA SICAV-RAIF": {
+      "type": "fund",
+      "isin": "LU2511875689",
+      "registered_countries": [
+        "Germany",
+        "Austria",
+        "Belgium",
+        "Switzerland"
+      ],
+      "children": {}
+    },
+    "ODDO BHF Secondaries Fund II Feeder SCA SICAV-RAIF": {
+      "type": "fund",
+      "isin": "LU2428033703",
+      "registered_countries": [
+        "Germany",
+        "Austria",
+        "Belgium",
+        "United Kingdom",
+        "Switzerland"
+      ],
+      "children": {}
+    },
+    "ODDO BHF Environmental Opportunities II Feeder SCA SICAV-RAIF": {
+      "type": "fund",
+      "isin": "LU2633113290",
+      "registered_countries": [
+        "Germany",
+        "Austria",
+        "Belgium",
+        "United Kingdom",
+        "Switzerland"
+      ],
+      "children": {}
+    }
+  },
+  "flat_results": {
+    "ODDO BHF Active Small Cap > Unknown Share": {
+      "isin": "FR0011606268",
+      "registered_countries": [
+        "Germany",
+        "Austria",
+        "Switzerland"
+      ],
+      "hierarchy": [
+        "ODDO BHF Active Small Cap"
+      ]
+    },
+    "ODDO BHF Active Micro Cap > Unknown Share": {
+      "isin": "FR0013266269",
+      "registered_countries": [
+        "Germany",
+        "Switzerland"
+      ],
+      "hierarchy": [
+        "ODDO BHF Active Micro Cap"
+      ]
+    },
+    "ODDO BHF Active Micro Cap > ODDO BHF Avenir > Unknown Share": {
+      "isin": "FR0000989899",
+      "registered_countries": [
+        "Germany",
+        "Austria",
+        "Switzerland"
+      ],
+      "hierarchy": [
+        "ODDO BHF Active Micro Cap",
+        "ODDO BHF Avenir"
+      ]
+    },
+    "ODDO BHF Avenir Euro > Unknown Share": {
+      "isin": "FR0000990095",
+      "registered_countries": [
+        "Germany",
+        "Austria",
+        "Switzerland"
+      ],
+      "hierarchy": [
+        "ODDO BHF Avenir Euro"
+      ]
+    },
+    "ODDO BHF Avenir Europe > Unknown Share": {
+      "isin": "FR0000974149",
+      "registered_countries": [
+        "Germany",
+        "Austria",
+        "Belgium",
+        "Switzerland"
+      ],
+      "hierarchy": [
+        "ODDO BHF Avenir Europe"
+      ]
+    },
+    "ODDO BHF China Equity Stars > Unknown Share": {
+      "isin": "FR001400USF8",
+      "registered_countries": [
+        "Germany"
+      ],
+      "hierarchy": [
+        "ODDO BHF China Equity Stars"
+      ]
+    },
+    "ODDO BHF Generation > Unknown Share": {
+      "isin": "FR0010574434",
+      "registered_countries": [
+        "Germany",
+        "Austria",
+        "Belgium",
+        "Switzerland"
+      ],
+      "hierarchy": [
+        "ODDO BHF Generation"
+      ]
+    },
+    "ODDO BHF Global Target 2026 > Unknown Share": {
+      "isin": "FR0013426657",
+      "registered_countries": [
+        "Germany",
+        "Switzerland"
+      ],
+      "hierarchy": [
+        "ODDO BHF Global Target 2026"
+      ]
+    },
+    "ODDO BHF Haut Rendement 2025 > Unknown Share": {
+      "isin": "FR0013300712",
+      "registered_countries": [
+        "Germany",
+        "Austria",
+        "Switzerland"
+      ],
+      "hierarchy": [
+        "ODDO BHF Haut Rendement 2025"
+      ]
+    },
+    "ODDO BHF Immobilier > Unknown Share": {
+      "isin": "FR0000989915",
+      "registered_countries": [
+        "Germany",
+        "Austria",
+        "Switzerland"
+      ],
+      "hierarchy": [
+        "ODDO BHF Immobilier"
+      ]
+    },
+    "ODDO BHF Euro Short Term Bond > Unknown Share": {
+      "isin": "FR0007067673",
+      "registered_countries": [
+        "Germany",
+        "Austria",
+        "Switzerland"
+      ],
+      "hierarchy": [
+        "ODDO BHF Euro Short Term Bond"
+      ]
+    },
+    "ODDO BHF Patrimoine > Unknown Share": {
+      "isin": "FR0000992042",
+      "registered_countries": [
+        "Germany",
+        "Belgium"
+      ],
+      "hierarchy": [
+        "ODDO BHF Patrimoine"
+      ]
+    },
+    "ODDO BHF ProActif Europe > Unknown Share": {
+      "isin": "FR0010109165",
+      "registered_countries": [
+        "Germany",
+        "Austria",
+        "Belgium",
+        "Switzerland"
+      ],
+      "hierarchy": [
+        "ODDO BHF ProActif Europe"
+      ]
+    },
+    "ODDO BHF US MID CAP > OOO": {
+      "isin": "FR0010680538",
+      "registered_countries": [
+        "Germany",
+        "Austria",
+        "Switzerland"
+      ],
+      "hierarchy": [
+        "ODDO BHF US MID CAP"
+      ]
+    },
+    "ODDO BHF US MID CAP > Unknown Share": {
+      "isin": "FR0000988669",
+      "registered_countries": [
+        "Germany",
+        "Austria",
+        "Switzerland"
+      ],
+      "hierarchy": [
+        "ODDO BHF US MID CAP"
+      ]
+    },
+    "ODDO BHF European High Dividend > Unknown Share": {
+      "isin": "FR0000989758",
+      "registered_countries": [
+        "Germany",
+        "Austria",
+        "Switzerland"
+      ],
+      "hierarchy": [
+        "ODDO BHF European High Dividend"
+      ]
+    },
+    "Pilotage Sélection Equilibrée > Unknown Share": {
+      "isin": "FR0011250299",
+      "registered_countries": [],
+      "hierarchy": [
+        "Pilotage Sélection Equilibrée"
+      ]
+    },
+    "Pilotage Sélection Défensive > Unknown Share": {
+      "isin": "FR0011250315",
+      "registered_countries": [],
+      "hierarchy": [
+        "Pilotage Sélection Défensive"
+      ]
+    },
+    "Pilotage Sélection Dynamique > Unknown Share": {
+      "isin": "FR0011250281",
+      "registered_countries": [],
+      "hierarchy": [
+        "Pilotage Sélection Dynamique"
+      ]
+    },
+    "Pilotage Sélection Durable > Unknown Share": {
+      "isin": "FR0011250307",
+      "registered_countries": [],
+      "hierarchy": [
+        "Pilotage Sélection Durable"
+      ]
+    },
+    "ODDO BHF METROPOLE Selection > Unknown Share": {
+      "isin": "FR0007078811",
+      "registered_countries": [
+        "Germany",
+        "Austria",
+        "Belgium",
+        "Switzerland"
+      ],
+      "hierarchy": [
+        "ODDO BHF METROPOLE Selection"
+      ]
+    },
+    "ODDO BHF METROPOLE Euro SRI > Unknown Share": {
+      "isin": "FR0010632364",
+      "registered_countries": [
+        "Germany",
+        "Austria",
+        "United Kingdom",
+        "Switzerland"
+      ],
+      "hierarchy": [
+        "ODDO BHF METROPOLE Euro SRI"
+      ]
+    },
+    "ODDO BHF GLOBAL TARGET 2028 > Unknown Share": {
+      "isin": "FR001400C7V2",
+      "registered_countries": [
+        "Germany",
+        "Austria",
+        "Belgium",
+        "Switzerland"
+      ],
+      "hierarchy": [
+        "ODDO BHF GLOBAL TARGET 2028"
+      ]
+    },
+    "ODDO BHF GLOBAL TARGET IG 2029 > Unknown Share": {
+      "isin": "FR001400HHP7",
+      "registered_countries": [
+        "Germany",
+        "Austria",
+        "Belgium",
+        "Switzerland"
+      ],
+      "hierarchy": [
+        "ODDO BHF GLOBAL TARGET IG 2029"
+      ]
+    },
+    "ODDO BHF Sustainable Euro Corporate Bond > Unknown Share": {
+      "isin": "LU0145975065",
+      "registered_countries": [
+        "Germany",
+        "Austria",
+        "United Kingdom",
+        "Switzerland"
+      ],
+      "hierarchy": [
+        "ODDO BHF Sustainable Euro Corporate Bond"
+      ]
+    },
+    "ODDO BHF Euro Credit Short Duration > Unknown Share": {
+      "isin": "LU0628638032",
+      "registered_countries": [
+        "Germany",
+        "Austria",
+        "Belgium",
+        "United Kingdom",
+        "Switzerland"
+      ],
+      "hierarchy": [
+        "ODDO BHF Euro Credit Short Duration"
+      ]
+    },
+    "ODDO BHF Euro High Yield Bond > Unknown Share": {
+      "isin": "LU0115288721",
+      "registered_countries": [
+        "Germany",
+        "Austria",
+        "Belgium",
+        "United Kingdom",
+        "Switzerland"
+      ],
+      "hierarchy": [
+        "ODDO BHF Euro High Yield Bond"
+      ]
+    },
+    "ODDO BHF Convertibles Global > Unknown Share": {
+      "isin": "LU1493432618",
+      "registered_countries": [
+        "Germany",
+        "Austria",
+        "Belgium",
+        "Switzerland"
+      ],
+      "hierarchy": [
+        "ODDO BHF Convertibles Global"
+      ]
+    },
+    "ODDO BHF Algo Trend US > Unknown Share": {
+      "isin": "LU1833929216",
+      "registered_countries": [
+        "Germany",
+        "Austria",
+        "Belgium",
+        "Switzerland"
+      ],
+      "hierarchy": [
+        "ODDO BHF Algo Trend US"
+      ]
+    },
+    "ODDO BHF Credit Opportunities > Unknown Share": {
+      "isin": "LU1752460292",
+      "registered_countries": [
+        "Germany",
+        "Austria",
+        "Belgium",
+        "Switzerland"
+      ],
+      "hierarchy": [
+        "ODDO BHF Credit Opportunities"
+      ]
+    },
+    "ODDO BHF Global Credit Short Duration > Unknown Share": {
+      "isin": "LU1833930222",
+      "registered_countries": [
+        "Germany",
+        "Austria",
+        "Switzerland"
+      ],
+      "hierarchy": [
+        "ODDO BHF Global Credit Short Duration"
+      ]
+    },
+    "ODDO BHF Artificial Intelligence > Unknown Share": {
+      "isin": "LU1833932863",
+      "registered_countries": [
+        "Germany",
+        "Austria",
+        "Belgium",
+        "Switzerland"
+      ],
+      "hierarchy": [
+        "ODDO BHF Artificial Intelligence"
+      ]
+    },
+    "ODDO BHF Global Target 2031 > Unknown Share": {
+      "isin": "LU3146732048",
+      "registered_countries": [
+        "Germany",
+        "Austria",
+        "Belgium"
+      ],
+      "hierarchy": [
+        "ODDO BHF Global Target 2031"
+      ]
+    },
+    "ODDO BHF Global Navigator > Unknown Share": {
+      "isin": "LU3103551514",
+      "registered_countries": [
+        "Germany",
+        "Belgium"
+      ],
+      "hierarchy": [
+        "ODDO BHF Global Navigator"
+      ]
+    },
+    "ODDO BHF Green Planet > Unknown Share": {
+      "isin": "LU2189929602",
+      "registered_countries": [
+        "Germany",
+        "Austria",
+        "Belgium",
+        "Switzerland"
+      ],
+      "hierarchy": [
+        "ODDO BHF Green Planet"
+      ]
+    },
+    "ODDO BHF Global High Yield Bond > Unknown Share": {
+      "isin": "LU3103550540",
+      "registered_countries": [
+        "Germany"
+      ],
+      "hierarchy": [
+        "ODDO BHF Global High Yield Bond"
+      ]
+    },
+    "ODDO BHF Polaris Flexible > Unknown Share": {
+      "isin": "LU1807158784",
+      "registered_countries": [
+        "Germany",
+        "Austria",
+        "Switzerland"
+      ],
+      "hierarchy": [
+        "ODDO BHF Polaris Flexible"
+      ]
+    },
+    "ODDO BHF Polaris Balanced > Unknown Share": {
+      "isin": "LU0319574272",
+      "registered_countries": [
+        "Germany",
+        "Austria",
+        "Switzerland"
+      ],
+      "hierarchy": [
+        "ODDO BHF Polaris Balanced"
+      ]
+    },
+    "ODDO BHF Polaris Dynamic > Unknown Share": {
+      "isin": "LU1781770794",
+      "registered_countries": [
+        "Germany",
+        "Austria",
+        "Switzerland"
+      ],
+      "hierarchy": [
+        "ODDO BHF Polaris Dynamic"
+      ]
+    },
+    "ODDO BHF Emerging Markets > Unknown Share": {
+      "isin": "LU0632979174",
+      "registered_countries": [
+        "Germany",
+        "Switzerland"
+      ],
+      "hierarchy": [
+        "ODDO BHF Emerging Markets"
+      ]
+    },
+    "ODDO BHF Exklusiv: Global Equity Stars > Unknown Share": {
+      "isin": "LU2329578087",
+      "registered_countries": [
+        "Germany",
+        "Austria",
+        "Switzerland"
+      ],
+      "hierarchy": [
+        "ODDO BHF Exklusiv: Global Equity Stars"
+      ]
+    },
+    "ODDO BHF Exklusiv: Flexibles Individual Portfolio > Unknown Share": {
+      "isin": "LU0325203320",
+      "registered_countries": [
+        "Germany"
+      ],
+      "hierarchy": [
+        "ODDO BHF Exklusiv: Flexibles Individual Portfolio"
+      ]
+    },
+    "ODDO BHF Exklusiv: Rendite Portfolio > Unknown Share": {
+      "isin": "LU0319572904",
+      "registered_countries": [
+        "Germany"
+      ],
+      "hierarchy": [
+        "ODDO BHF Exklusiv: Rendite Portfolio"
+      ]
+    },
+    "ODDO BHF Leading Global Trends > Unknown Share": {
+      "isin": "LU2345841543",
+      "registered_countries": [
+        "Germany",
+        "Switzerland"
+      ],
+      "hierarchy": [
+        "ODDO BHF Leading Global Trends"
+      ]
+    },
+    "Grand Cru > Unknown Share": {
+      "isin": "LU0399641637",
+      "registered_countries": [
+        "Germany",
+        "Switzerland"
+      ],
+      "hierarchy": [
+        "Grand Cru"
+      ]
+    },
+    "HELLAS Opportunities Fund > Unknown Share": {
+      "isin": "LU0920841169",
+      "registered_countries": [
+        "Germany",
+        "Austria"
+      ],
+      "hierarchy": [
+        "HELLAS Opportunities Fund"
+      ]
+    },
+    "DC Value Global Dynamic > Unknown Share": {
+      "isin": "LU0370310038",
+      "registered_countries": [
+        "Germany",
+        "Austria"
+      ],
+      "hierarchy": [
+        "DC Value Global Dynamic"
+      ]
+    },
+    "SARA FUNDS > Unknown Share": {
+      "isin": "LU0903532330",
+      "registered_countries": [
+        "Germany",
+        "Austria"
+      ],
+      "hierarchy": [
+        "SARA FUNDS"
+      ]
+    },
+    "SMS Ars Selecta > Unknown Share": {
+      "isin": "LU0118271369",
+      "registered_countries": [
+        "Germany"
+      ],
+      "hierarchy": [
+        "SMS Ars Selecta"
+      ]
+    },
+    "GERMAN FUND > DC Value Global Balanced > Unknown Share": {
+      "isin": "DE000A0YAX64",
+      "registered_countries": [
+        "Germany",
+        "Austria"
+      ],
+      "hierarchy": [
+        "GERMAN FUND",
+        "DC Value Global Balanced"
+      ]
+    },
+    "DC Value Global Equity > Unknown Share": {
+      "isin": "DE000A3CNEH8",
+      "registered_countries": [
+        "Germany",
+        "Austria"
+      ],
+      "hierarchy": [
+        "DC Value Global Equity"
+      ]
+    },
+    "ODDO BHF Polaris Moderate > Unknown Share": {
+      "isin": "DE000A0D95Q0",
+      "registered_countries": [
+        "Germany",
+        "Austria",
+        "Belgium",
+        "Switzerland"
+      ],
+      "hierarchy": [
+        "ODDO BHF Polaris Moderate"
+      ]
+    },
+    "ODDO BHF Money Market > Unknown Share": {
+      "isin": "DE000A1CUGJ8",
+      "registered_countries": [
+        "Germany",
+        "Austria",
+        "Switzerland"
+      ],
+      "hierarchy": [
+        "ODDO BHF Money Market"
+      ]
+    },
+    "ODDO BHF German Equities > Unknown Share": {
+      "isin": "DE0008478058",
+      "registered_countries": [
+        "Germany",
+        "Austria",
+        "Switzerland"
+      ],
+      "hierarchy": [
+        "ODDO BHF German Equities"
+      ]
+    },
+    "ODDO BHF Green Bond > Unknown Share": {
+      "isin": "DE0008478082",
+      "registered_countries": [
+        "Germany",
+        "Austria",
+        "Switzerland"
+      ],
+      "hierarchy": [
+        "ODDO BHF Green Bond"
+      ]
+    },
+    "Orsay Merger Arbitrage > Unknown Share": {
+      "isin": "IE00B3WP1990",
+      "registered_countries": [
+        "Germany",
+        "Austria",
+        "Belgium",
+        "United Kingdom"
+      ],
+      "hierarchy": [
+        "Orsay Merger Arbitrage"
+      ]
+    },
+    "ODDO BHF Secondaries Fund > Unknown Share": {
+      "isin": "FR0013333630",
+      "registered_countries": [
+        "Germany",
+        "Austria",
+        "Belgium",
+        "United Kingdom",
+        "Switzerland"
+      ],
+      "hierarchy": [
+        "ODDO BHF Secondaries Fund"
+      ]
+    },
+    "FCPR ODDO BHF Secondaries Opportunities > Unknown Share": {
+      "isin": "FR0013350022",
+      "registered_countries": [],
+      "hierarchy": [
+        "FCPR ODDO BHF Secondaries Opportunities"
+      ]
+    },
+    "FCPR ODDO BHF Debt & Equity Opportunities > Unknown Share": {
+      "isin": "FR0013513892",
+      "registered_countries": [],
+      "hierarchy": [
+        "FCPR ODDO BHF Debt & Equity Opportunities"
+      ]
+    },
+    "ODDO BHF Technology Oportunities Fund S.L.P. > Unknown Share": {
+      "isin": "FR001400BUK4",
+      "registered_countries": [
+        "Germany",
+        "Austria",
+        "Belgium",
+        "United Kingdom",
+        "Switzerland"
+      ],
+      "hierarchy": [
+        "ODDO BHF Technology Oportunities Fund S.L.P."
+      ]
+    },
+    "ODDO BHF Secondaries Fund II S.L.P. > Unknown Share": {
+      "isin": "FR0014005Q80",
+      "registered_countries": [
+        "Germany",
+        "Austria",
+        "Belgium",
+        "United Kingdom",
+        "Switzerland"
+      ],
+      "hierarchy": [
+        "ODDO BHF Secondaries Fund II S.L.P."
+      ]
+    },
+    "FCPR ODDO BHF Global Secondary > Unknown Share": {
+      "isin": "FR001400B1S2",
+      "registered_countries": [],
+      "hierarchy": [
+        "FCPR ODDO BHF Global Secondary"
+      ]
+    },
+    "FCPR ODDO BHF Invest For Tomorrow > Unknown Share": {
+      "isin": "FR001400E466",
+      "registered_countries": [],
+      "hierarchy": [
+        "FCPR ODDO BHF Invest For Tomorrow"
+      ]
+    },
+    "FCPR ODDO BHF European Secondary > Unknown Share": {
+      "isin": "FR001400OC04",
+      "registered_countries": [],
+      "hierarchy": [
+        "FCPR ODDO BHF European Secondary"
+      ]
+    },
+    "ODDO BHF Strategic Opportunities > Unknown Share": {
+      "isin": "FR001400J259",
+      "registered_countries": [
+        "Germany",
+        "Austria",
+        "Belgium",
+        "Switzerland"
+      ],
+      "hierarchy": [
+        "ODDO BHF Strategic Opportunities"
+      ]
+    },
+    "ODDO BHF Opportunités Stratégiques > Unknown Share": {
+      "isin": "FR001400KJ68",
+      "registered_countries": [
+        "Germany",
+        "Belgium",
+        "Switzerland"
+      ],
+      "hierarchy": [
+        "ODDO BHF Opportunités Stratégiques"
+      ]
+    },
+    "ODDO BHF Environmental Opportunities II S.L.P. > Unknown Share": {
+      "isin": "FR001400HPG9",
+      "registered_countries": [
+        "Germany",
+        "Austria",
+        "Belgium",
+        "United Kingdom",
+        "Switzerland"
+      ],
+      "hierarchy": [
+        "ODDO BHF Environmental Opportunities II S.L.P."
+      ]
+    },
+    "FCPR ODDO BHF Global Private Equity > Unknown Share": {
+      "isin": "FR001400ROU2",
+      "registered_countries": [
+        "Belgium"
+      ],
+      "hierarchy": [
+        "FCPR ODDO BHF Global Private Equity"
+      ]
+    },
+    "FCPR ODDO BHF Debt & Equity Opportunities II > Unknown Share": {
+      "isin": "FR00140118F0",
+      "registered_countries": [],
+      "hierarchy": [
+        "FCPR ODDO BHF Debt & Equity Opportunities II"
+      ]
+    },
+    "ODDO BHF Commit For Tomorrow > Unknown Share": {
+      "isin": "LU2739702079",
+      "registered_countries": [
+        "Germany",
+        "Austria",
+        "Belgium"
+      ],
+      "hierarchy": [
+        "ODDO BHF Commit For Tomorrow"
+      ]
+    },
+    "ODDO BHF Environmental Opportunities > Unknown Share": {
+      "isin": "LU2206786795",
+      "registered_countries": [
+        "Germany",
+        "Austria",
+        "Switzerland"
+      ],
+      "hierarchy": [
+        "ODDO BHF Environmental Opportunities"
+      ]
+    },
+    "ODDO BHF Technology Opportunities Fund Feeder SCA SICAV-RAIF > Unknown Share": {
+      "isin": "LU2511875689",
+      "registered_countries": [
+        "Germany",
+        "Austria",
+        "Belgium",
+        "Switzerland"
+      ],
+      "hierarchy": [
+        "ODDO BHF Technology Opportunities Fund Feeder SCA SICAV-RAIF"
+      ]
+    },
+    "ODDO BHF Secondaries Fund II Feeder SCA SICAV-RAIF > Unknown Share": {
+      "isin": "LU2428033703",
+      "registered_countries": [
+        "Germany",
+        "Austria",
+        "Belgium",
+        "United Kingdom",
+        "Switzerland"
+      ],
+      "hierarchy": [
+        "ODDO BHF Secondaries Fund II Feeder SCA SICAV-RAIF"
+      ]
+    },
+    "ODDO BHF Environmental Opportunities II Feeder SCA SICAV-RAIF > Unknown Share": {
+      "isin": "LU2633113290",
+      "registered_countries": [
+        "Germany",
+        "Austria",
+        "Belgium",
+        "United Kingdom",
+        "Switzerland"
+      ],
+      "hierarchy": [
+        "ODDO BHF Environmental Opportunities II Feeder SCA SICAV-RAIF"
+      ]
+    }
+  },
+  "category_stats": {
+    "ODDO BHF Active Small Cap": {
+      "total_funds": 1,
+      "countries": [
+        "Germany",
+        "Switzerland",
+        "Austria"
+      ]
+    },
+    "ODDO BHF Active Micro Cap": {
+      "total_funds": 2,
+      "countries": [
+        "Germany",
+        "Switzerland",
+        "Austria"
+      ]
+    },
+    "ODDO BHF Avenir Euro": {
+      "total_funds": 1,
+      "countries": [
+        "Germany",
+        "Switzerland",
+        "Austria"
+      ]
+    },
+    "ODDO BHF Avenir Europe": {
+      "total_funds": 1,
+      "countries": [
+        "Belgium",
+        "Germany",
+        "Switzerland",
+        "Austria"
+      ]
+    },
+    "ODDO BHF China Equity Stars": {
+      "total_funds": 1,
+      "countries": [
+        "Germany"
+      ]
+    },
+    "ODDO BHF Generation": {
+      "total_funds": 1,
+      "countries": [
+        "Belgium",
+        "Germany",
+        "Switzerland",
+        "Austria"
+      ]
+    },
+    "ODDO BHF Global Target 2026": {
+      "total_funds": 1,
+      "countries": [
+        "Germany",
+        "Switzerland"
+      ]
+    },
+    "ODDO BHF Haut Rendement 2025": {
+      "total_funds": 1,
+      "countries": [
+        "Germany",
+        "Switzerland",
+        "Austria"
+      ]
+    },
+    "ODDO BHF Immobilier": {
+      "total_funds": 1,
+      "countries": [
+        "Germany",
+        "Switzerland",
+        "Austria"
+      ]
+    },
+    "ODDO BHF Euro Short Term Bond": {
+      "total_funds": 1,
+      "countries": [
+        "Germany",
+        "Switzerland",
+        "Austria"
+      ]
+    },
+    "ODDO BHF Patrimoine": {
+      "total_funds": 1,
+      "countries": [
+        "Belgium",
+        "Germany"
+      ]
+    },
+    "ODDO BHF ProActif Europe": {
+      "total_funds": 1,
+      "countries": [
+        "Belgium",
+        "Germany",
+        "Switzerland",
+        "Austria"
+      ]
+    },
+    "ODDO BHF US MID CAP": {
+      "total_funds": 2,
+      "countries": [
+        "Germany",
+        "Switzerland",
+        "Austria"
+      ]
+    },
+    "ODDO BHF European High Dividend": {
+      "total_funds": 1,
+      "countries": [
+        "Germany",
+        "Switzerland",
+        "Austria"
+      ]
+    },
+    "Pilotage Sélection Equilibrée": {
+      "total_funds": 1,
+      "countries": []
+    },
+    "Pilotage Sélection Défensive": {
+      "total_funds": 1,
+      "countries": []
+    },
+    "Pilotage Sélection Dynamique": {
+      "total_funds": 1,
+      "countries": []
+    },
+    "Pilotage Sélection Durable": {
+      "total_funds": 1,
+      "countries": []
+    },
+    "ODDO BHF METROPOLE Selection": {
+      "total_funds": 1,
+      "countries": [
+        "Belgium",
+        "Germany",
+        "Switzerland",
+        "Austria"
+      ]
+    },
+    "ODDO BHF METROPOLE Euro SRI": {
+      "total_funds": 1,
+      "countries": [
+        "United Kingdom",
+        "Germany",
+        "Switzerland",
+        "Austria"
+      ]
+    },
+    "ODDO BHF GLOBAL TARGET 2028": {
+      "total_funds": 1,
+      "countries": [
+        "Belgium",
+        "Germany",
+        "Switzerland",
+        "Austria"
+      ]
+    },
+    "ODDO BHF GLOBAL TARGET IG 2029": {
+      "total_funds": 1,
+      "countries": [
+        "Belgium",
+        "Germany",
+        "Switzerland",
+        "Austria"
+      ]
+    },
+    "ODDO BHF Sustainable Euro Corporate Bond": {
+      "total_funds": 1,
+      "countries": [
+        "United Kingdom",
+        "Germany",
+        "Switzerland",
+        "Austria"
+      ]
+    },
+    "ODDO BHF Euro Credit Short Duration": {
+      "total_funds": 1,
+      "countries": [
+        "United Kingdom",
+        "Belgium",
+        "Germany",
+        "Switzerland",
+        "Austria"
+      ]
+    },
+    "ODDO BHF Euro High Yield Bond": {
+      "total_funds": 1,
+      "countries": [
+        "United Kingdom",
+        "Belgium",
+        "Germany",
+        "Switzerland",
+        "Austria"
+      ]
+    },
+    "ODDO BHF Convertibles Global": {
+      "total_funds": 1,
+      "countries": [
+        "Belgium",
+        "Germany",
+        "Switzerland",
+        "Austria"
+      ]
+    },
+    "ODDO BHF Algo Trend US": {
+      "total_funds": 1,
+      "countries": [
+        "Belgium",
+        "Germany",
+        "Switzerland",
+        "Austria"
+      ]
+    },
+    "ODDO BHF Credit Opportunities": {
+      "total_funds": 1,
+      "countries": [
+        "Belgium",
+        "Germany",
+        "Switzerland",
+        "Austria"
+      ]
+    },
+    "ODDO BHF Global Credit Short Duration": {
+      "total_funds": 1,
+      "countries": [
+        "Germany",
+        "Switzerland",
+        "Austria"
+      ]
+    },
+    "ODDO BHF Artificial Intelligence": {
+      "total_funds": 1,
+      "countries": [
+        "Belgium",
+        "Germany",
+        "Switzerland",
+        "Austria"
+      ]
+    },
+    "ODDO BHF Global Target 2031": {
+      "total_funds": 1,
+      "countries": [
+        "Belgium",
+        "Germany",
+        "Austria"
+      ]
+    },
+    "ODDO BHF Global Navigator": {
+      "total_funds": 1,
+      "countries": [
+        "Belgium",
+        "Germany"
+      ]
+    },
+    "ODDO BHF Green Planet": {
+      "total_funds": 1,
+      "countries": [
+        "Belgium",
+        "Germany",
+        "Switzerland",
+        "Austria"
+      ]
+    },
+    "ODDO BHF Global High Yield Bond": {
+      "total_funds": 1,
+      "countries": [
+        "Germany"
+      ]
+    },
+    "ODDO BHF Polaris Flexible": {
+      "total_funds": 1,
+      "countries": [
+        "Germany",
+        "Switzerland",
+        "Austria"
+      ]
+    },
+    "ODDO BHF Polaris Balanced": {
+      "total_funds": 1,
+      "countries": [
+        "Germany",
+        "Switzerland",
+        "Austria"
+      ]
+    },
+    "ODDO BHF Polaris Dynamic": {
+      "total_funds": 1,
+      "countries": [
+        "Germany",
+        "Switzerland",
+        "Austria"
+      ]
+    },
+    "ODDO BHF Emerging Markets": {
+      "total_funds": 1,
+      "countries": [
+        "Germany",
+        "Switzerland"
+      ]
+    },
+    "ODDO BHF Exklusiv: Global Equity Stars": {
+      "total_funds": 1,
+      "countries": [
+        "Germany",
+        "Switzerland",
+        "Austria"
+      ]
+    },
+    "ODDO BHF Exklusiv: Flexibles Individual Portfolio": {
+      "total_funds": 1,
+      "countries": [
+        "Germany"
+      ]
+    },
+    "ODDO BHF Exklusiv: Rendite Portfolio": {
+      "total_funds": 1,
+      "countries": [
+        "Germany"
+      ]
+    },
+    "ODDO BHF Leading Global Trends": {
+      "total_funds": 1,
+      "countries": [
+        "Germany",
+        "Switzerland"
+      ]
+    },
+    "Grand Cru": {
+      "total_funds": 1,
+      "countries": [
+        "Germany",
+        "Switzerland"
+      ]
+    },
+    "HELLAS Opportunities Fund": {
+      "total_funds": 1,
+      "countries": [
+        "Germany",
+        "Austria"
+      ]
+    },
+    "DC Value Global Dynamic": {
+      "total_funds": 1,
+      "countries": [
+        "Germany",
+        "Austria"
+      ]
+    },
+    "SARA FUNDS": {
+      "total_funds": 1,
+      "countries": [
+        "Germany",
+        "Austria"
+      ]
+    },
+    "SMS Ars Selecta": {
+      "total_funds": 1,
+      "countries": [
+        "Germany"
+      ]
+    },
+    "GERMAN FUND": {
+      "total_funds": 1,
+      "countries": [
+        "Germany",
+        "Austria"
+      ]
+    },
+    "DC Value Global Equity": {
+      "total_funds": 1,
+      "countries": [
+        "Germany",
+        "Austria"
+      ]
+    },
+    "ODDO BHF Polaris Moderate": {
+      "total_funds": 1,
+      "countries": [
+        "Belgium",
+        "Germany",
+        "Switzerland",
+        "Austria"
+      ]
+    },
+    "ODDO BHF Money Market": {
+      "total_funds": 1,
+      "countries": [
+        "Germany",
+        "Switzerland",
+        "Austria"
+      ]
+    },
+    "ODDO BHF German Equities": {
+      "total_funds": 1,
+      "countries": [
+        "Germany",
+        "Switzerland",
+        "Austria"
+      ]
+    },
+    "ODDO BHF Green Bond": {
+      "total_funds": 1,
+      "countries": [
+        "Germany",
+        "Switzerland",
+        "Austria"
+      ]
+    },
+    "Orsay Merger Arbitrage": {
+      "total_funds": 1,
+      "countries": [
+        "Belgium",
+        "United Kingdom",
+        "Germany",
+        "Austria"
+      ]
+    },
+    "ODDO BHF Secondaries Fund": {
+      "total_funds": 1,
+      "countries": [
+        "United Kingdom",
+        "Belgium",
+        "Germany",
+        "Switzerland",
+        "Austria"
+      ]
+    },
+    "FCPR ODDO BHF Secondaries Opportunities": {
+      "total_funds": 1,
+      "countries": []
+    },
+    "FCPR ODDO BHF Debt & Equity Opportunities": {
+      "total_funds": 1,
+      "countries": []
+    },
+    "ODDO BHF Technology Oportunities Fund S.L.P.": {
+      "total_funds": 1,
+      "countries": [
+        "United Kingdom",
+        "Belgium",
+        "Germany",
+        "Switzerland",
+        "Austria"
+      ]
+    },
+    "ODDO BHF Secondaries Fund II S.L.P.": {
+      "total_funds": 1,
+      "countries": [
+        "United Kingdom",
+        "Belgium",
+        "Germany",
+        "Switzerland",
+        "Austria"
+      ]
+    },
+    "FCPR ODDO BHF Global Secondary": {
+      "total_funds": 1,
+      "countries": []
+    },
+    "FCPR ODDO BHF Invest For Tomorrow": {
+      "total_funds": 1,
+      "countries": []
+    },
+    "FCPR ODDO BHF European Secondary": {
+      "total_funds": 1,
+      "countries": []
+    },
+    "ODDO BHF Strategic Opportunities": {
+      "total_funds": 1,
+      "countries": [
+        "Belgium",
+        "Germany",
+        "Switzerland",
+        "Austria"
+      ]
+    },
+    "ODDO BHF Opportunités Stratégiques": {
+      "total_funds": 1,
+      "countries": [
+        "Belgium",
+        "Germany",
+        "Switzerland"
+      ]
+    },
+    "ODDO BHF Environmental Opportunities II S.L.P.": {
+      "total_funds": 1,
+      "countries": [
+        "United Kingdom",
+        "Belgium",
+        "Germany",
+        "Switzerland",
+        "Austria"
+      ]
+    },
+    "FCPR ODDO BHF Global Private Equity": {
+      "total_funds": 1,
+      "countries": [
+        "Belgium"
+      ]
+    },
+    "FCPR ODDO BHF Debt & Equity Opportunities II": {
+      "total_funds": 1,
+      "countries": []
+    },
+    "ODDO BHF Commit For Tomorrow": {
+      "total_funds": 1,
+      "countries": [
+        "Belgium",
+        "Germany",
+        "Austria"
+      ]
+    },
+    "ODDO BHF Environmental Opportunities": {
+      "total_funds": 1,
+      "countries": [
+        "Germany",
+        "Switzerland",
+        "Austria"
+      ]
+    },
+    "ODDO BHF Technology Opportunities Fund Feeder SCA SICAV-RAIF": {
+      "total_funds": 1,
+      "countries": [
+        "Belgium",
+        "Germany",
+        "Switzerland",
+        "Austria"
+      ]
+    },
+    "ODDO BHF Secondaries Fund II Feeder SCA SICAV-RAIF": {
+      "total_funds": 1,
+      "countries": [
+        "United Kingdom",
+        "Belgium",
+        "Germany",
+        "Switzerland",
+        "Austria"
+      ]
+    },
+    "ODDO BHF Environmental Opportunities II Feeder SCA SICAV-RAIF": {
+      "total_funds": 1,
+      "countries": [
+        "United Kingdom",
+        "Belgium",
+        "Germany",
+        "Switzerland",
+        "Austria"
+      ]
+    }
+  }
+}
