@@ -1,0 +1,1399 @@
+
+[{
+  "rule_id": "1.1",
+  "section_code": "1",
+  "section": "Règles générales",
+  "rule_text": "Si document retail : inclure les disclaimers retail (cf. Glossaire des disclaimers)",
+  "applicable_to": [
+    "retail"
+  ],
+  "check_type": [
+    "linguistic"
+  ],
+  "triggers": [
+    "disclaimer"
+  ],
+  "requires_prospectus_check": false,
+  "requires_disclaimer": true,
+  "severity": "low",
+  "source": {
+    "document": "Synthèse règles présentations commerciales.docx",
+    "page": null
+  }
+},
+{
+  "rule_id": "1.3",
+  "section_code": "1",
+  "section": "Règles générales",
+  "rule_text": "Les études/ données chiffrées /graphiques etc., doivent faire l’objet d’un renvoi (note de bas de page) précisant à minima la source et la date",
+  "applicable_to": [
+    "all"
+  ],
+  "check_type": [
+    "format"
+  ],
+  "triggers": [
+    "études",
+    "données chiffrées",
+    "graphiques"
+  ],
+  "requires_prospectus_check": false,
+  "requires_disclaimer": false,
+  "severity": "medium",
+  "source": {
+    "document": "Synthèse règles présentations commerciales.docx",
+    "page": null
+  }
+},
+{
+  "rule_id": "1.4",
+  "section_code": "1",
+  "section": "Règles générales",
+  "rule_text": "Pour chaque fonds présenté : mention obligatoire du SRI avec le disclaimer associé sur la même slide (cf. Glossaire)",
+  "applicable_to": [
+    "all"
+  ],
+  "check_type": [
+    "linguistic"
+  ],
+  "triggers": [
+    "SRI"
+  ],
+  "requires_prospectus_check": false,
+  "requires_disclaimer": true,
+  "severity": "low",
+  "source": {
+    "document": "Synthèse règles présentations commerciales.docx",
+    "page": null
+  }
+},
+{
+  "rule_id": "1.5",
+  "section_code": "1",
+  "section": "Règles générales",
+  "rule_text": "Pour les présentations retail : inclure un Glossaire des termes techniques en fin de présentation et s’assurer que ces termes figurent dans le document",
+  "applicable_to": [
+    "retail"
+  ],
+  "check_type": [
+    "format"
+  ],
+  "triggers": [
+    "Glossaire"
+  ],
+  "requires_prospectus_check": false,
+  "requires_disclaimer": false,
+  "severity": "low",
+  "source": {
+    "document": "Synthèse règles présentations commerciales.docx",
+    "page": null
+  }
+},
+{
+  "rule_id": "1.6",
+  "section_code": "1",
+  "section": "Règles générales",
+  "rule_text": "Les avertissements/disclaimers sur les risques doivent : être en gras, utiliser la même police et taille que le texte principal, être visibles (pas en note de bas de page)",
+  "applicable_to": [
+    "all"
+  ],
+  "check_type": [
+    "format"
+  ],
+  "triggers": [
+    "avertissements",
+    "disclaimers"
+  ],
+  "requires_prospectus_check": false,
+  "requires_disclaimer": false,
+  "severity": "medium",
+  "source": {
+    "document": "Synthèse règles présentations commerciales.docx",
+    "page": null
+  }
+},
+{
+  "rule_id": "1.7",
+  "section_code": "1",
+  "section": "Règles générales",
+  "rule_text": "Les opinions et hypothèses doivent être atténuées : Ex. : « selon notre opinion », « selon nos analyses », « le fonds a pour objectif de… »",
+  "applicable_to": [
+    "all"
+  ],
+  "check_type": [
+    "linguistic"
+  ],
+  "triggers": [
+    "opinions",
+    "hypothèses"
+  ],
+  "requires_prospectus_check": false,
+  "requires_disclaimer": false,
+  "severity": "low",
+  "source": {
+    "document": "Synthèse règles présentations commerciales.docx",
+    "page": null
+  }
+},
+{
+  "rule_id": "1.8",
+  "section_code": "1",
+  "section": "Règles générales",
+  "rule_text": "La stratégie du fonds doit être présentée conformément à la documentation légale : seuils d’investissement par classe d’actifs, stratégie, allocation géographique, ticket minimum, etc.",
+  "applicable_to": [
+    "all"
+  ],
+  "check_type": [
+    "linguistic"
+  ],
+  "triggers": [
+    "stratégie"
+  ],
+  "requires_prospectus_check": true,
+  "requires_disclaimer": false,
+  "severity": "medium",
+  "source": {
+    "document": "Synthèse règles présentations commerciales.docx",
+    "page": null
+  }
+},
+{
+  "rule_id": "1.9",
+  "section_code": "1",
+  "section": "Règles générales",
+  "rule_text": "Les pays de commercialisation indiqués doivent être conformes aux dernières données (fichier EXCEL : « registration abroad » disponible : I:\\service\\DOC LIB\\GENERAL\\Registration abroad of Funds)",
+  "applicable_to": [
+    "all"
+  ],
+  "check_type": [
+    "data"
+  ],
+  "triggers": [
+    "pays de commercialisation"
+  ],
+  "requires_prospectus_check": false,
+  "requires_disclaimer": false,
+  "severity": "medium",
+  "source": {
+    "document": "Synthèse règles présentations commerciales.docx",
+    "page": null
+  }
+},
+{
+  "rule_id": "1.10",
+  "section_code": "1",
+  "section": "Règles générales",
+  "rule_text": "Les limites internes (fixées par le comité risque ou le contrôle des risques) ne doivent pas apparaître dans aucune présentation car non contractuel",
+  "applicable_to": [
+    "all"
+  ],
+  "check_type": [
+    "linguistic"
+  ],
+  "triggers": [
+    "limites internes"
+  ],
+  "requires_prospectus_check": false,
+  "requires_disclaimer": false,
+  "severity": "medium",
+  "source": {
+    "document": "Synthèse règles présentations commerciales.docx",
+    "page": null
+  }
+},
+{
+  "rule_id": "1.11",
+  "section_code": "1",
+  "section": "Règles générales",
+  "rule_text": "Éviter les anglicismes dans les présentations retail, ou les définir (notes de bas de page ou glossaire avec renvoi)",
+  "applicable_to": [
+    "retail"
+  ],
+  "check_type": [
+    "linguistic"
+  ],
+  "triggers": [
+    "anglicismes"
+  ],
+  "requires_prospectus_check": false,
+  "requires_disclaimer": false,
+  "severity": "low",
+  "source": {
+    "document": "Synthèse règles présentations commerciales.docx",
+    "page": null
+  }
+},
+{
+  "rule_id": "1.12",
+  "section_code": "1",
+  "section": "Règles générales",
+  "rule_text": "Les documents commerciaux relatifs à des stratégies sont réservés aux clients professionnels uniquement → inclure le disclaimer professionnel",
+  "applicable_to": [
+    "professionnel"
+  ],
+  "check_type": [
+    "linguistic"
+  ],
+  "triggers": [
+    "stratégies"
+  ],
+  "requires_prospectus_check": false,
+  "requires_disclaimer": true,
+  "severity": "low",
+  "source": {
+    "document": "Synthèse règles présentations commerciales.docx",
+    "page": null
+  }
+},
+{
+  "rule_id": "1.13",
+  "section_code": "1",
+  "section": "Règles générales",
+  "rule_text": "Pas de confusion entre la présentation d’une stratégie et celle d’un fonds dans un même document",
+  "applicable_to": [
+    "all"
+  ],
+  "check_type": [
+    "linguistic"
+  ],
+  "triggers": [
+    "stratégie",
+    "fonds"
+  ],
+  "requires_prospectus_check": false,
+  "requires_disclaimer": false,
+  "severity": "medium",
+  "source": {
+    "document": "Synthèse règles présentations commerciales.docx",
+    "page": null
+  }
+},
+{
+  "rule_id": "1.14",
+  "section_code": "1",
+  "section": "Règles générales",
+  "rule_text": "Pour la Belgique : si présentation à destination de clients non professionnels belges, s’assurer de la validation préalable de la FSMA",
+  "applicable_to": [
+    "Belgique"
+  ],
+  "check_type": [
+    "data"
+  ],
+  "triggers": [
+    "FSMA"
+  ],
+  "requires_prospectus_check": false,
+  "requires_disclaimer": false,
+  "severity": "medium",
+  "source": {
+    "document": "Synthèse règles présentations commerciales.docx",
+    "page": null
+  }
+},
+{
+  "rule_id": "1.15",
+  "section_code": "1",
+  "section": "Règles générales",
+  "rule_text": "Éviter de mentionner d’autres fonds (Oddo ou autres) dans une présentation standard d’un fonds sauf si c’est une présentation de gamme",
+  "applicable_to": [
+    "all"
+  ],
+  "check_type": [
+    "linguistic"
+  ],
+  "triggers": [
+    "fonds"
+  ],
+  "requires_prospectus_check": false,
+  "requires_disclaimer": false,
+  "severity": "low",
+  "source": {
+    "document": "Synthèse règles présentations commerciales.docx",
+    "page": null
+  }
+},
+{
+  "rule_id": "1.16",
+  "section_code": "1",
+  "section": "Règles générales",
+  "rule_text": "Ne pas dire qu'un ETF est liquide",
+  "applicable_to": [
+    "all"
+  ],
+  "check_type": [
+    "linguistic"
+  ],
+  "triggers": [
+    "ETF"
+  ],
+  "requires_prospectus_check": false,
+  "requires_disclaimer": false,
+  "severity": "low",
+  "source": {
+    "document": "Synthèse règles présentations commerciales.docx",
+    "page": null
+  }
+},
+{
+  "rule_id": "1.17",
+  "section_code": "1",
+  "section": "Règles générales",
+  "rule_text": "Si deux documents sont des versions du même texte mais dans des langues différentes, l'alignement entre le sens de chaque phrase et les données doit être exact et cohérent",
+  "applicable_to": [
+    "all"
+  ],
+  "check_type": [
+    "linguistic"
+  ],
+  "triggers": [
+    "langues"
+  ],
+  "requires_prospectus_check": false,
+  "requires_disclaimer": false,
+  "severity": "medium",
+  "source": {
+    "document": "Synthèse règles présentations commerciales.docx",
+    "page": null
+  }
+},
+{
+  "rule_id": "2.1",
+  "section_code": "2",
+  "section": "Page de garde - Présentation Standard (~30 pages)",
+  "rule_text": "Doit indiquer : le nom du fonds, le mois et l’année, la mention « document promotionnel », la cible : retail ou professionnel",
+  "applicable_to": [
+    "all"
+  ],
+  "check_type": [
+    "format"
+  ],
+  "triggers": [
+    "page de garde"
+  ],
+  "requires_prospectus_check": false,
+  "requires_disclaimer": false,
+  "severity": "low",
+  "source": {
+    "document": "Synthèse règles présentations commerciales.docx",
+    "page": null
+  }
+},
+{
+  "rule_id": "2.2",
+  "section_code": "2",
+  "section": "Page de garde - Présentation Standard (~30 pages)",
+  "rule_text": "Pour les fonds en pré-commercialisation : mentionner en rouge et gras sur la page de garde : « VEUILLEZ NOTER QUE LE FONDS N'A PAS ENCORE ÉTÉ AGRÉÉ PAR L'AUTORITÉ DES MARCHÉS FINANCIERS... »",
+  "applicable_to": [
+    "pré-commercialisation"
+  ],
+  "check_type": [
+    "format"
+  ],
+  "triggers": [
+    "pré-commercialisation"
+  ],
+  "requires_prospectus_check": false,
+  "requires_disclaimer": false,
+  "severity": "medium",
+  "source": {
+    "document": "Synthèse règles présentations commerciales.docx",
+    "page": null
+  }
+},
+{
+  "rule_id": "2.3",
+  "section_code": "2",
+  "section": "Page de garde - Présentation Standard (~30 pages)",
+  "rule_text": "Mention « do not disclose » si document professionnel",
+  "applicable_to": [
+    "professionnel"
+  ],
+  "check_type": [
+    "linguistic"
+  ],
+  "triggers": [
+    "do not disclose"
+  ],
+  "requires_prospectus_check": false,
+  "requires_disclaimer": false,
+  "severity": "low",
+  "source": {
+    "document": "Synthèse règles présentations commerciales.docx",
+    "page": null
+  }
+},
+{
+  "rule_id": "2.4",
+  "section_code": "2",
+  "section": "Page de garde - Présentation Standard (~30 pages)",
+  "rule_text": "Pour les documents spécifiques à un client, indiquer le nom du client",
+  "applicable_to": [
+    "client"
+  ],
+  "check_type": [
+    "data"
+  ],
+  "triggers": [
+    "nom du client"
+  ],
+  "requires_prospectus_check": false,
+  "requires_disclaimer": false,
+  "severity": "low",
+  "source": {
+    "document": "Synthèse règles présentations commerciales.docx",
+    "page": null
+  }
+},
+{
+  "rule_id": "3.1",
+  "section_code": "3",
+  "section": "La Slide 2 (après la page de garde - Présentation Standard)",
+  "rule_text": "Le disclaimer standard (retail ou professionnel) → attention à adapter le nom du fonds et les clients éligibles",
+  "applicable_to": [
+    "all"
+  ],
+  "check_type": [
+    "linguistic"
+  ],
+  "triggers": [
+    "disclaimer"
+  ],
+  "requires_prospectus_check": false,
+  "requires_disclaimer": true,
+  "severity": "low",
+  "source": {
+    "document": "Synthèse règles présentations commerciales.docx",
+    "page": null
+  }
+},
+{
+  "rule_id": "3.2",
+  "section_code": "3",
+  "section": "La Slide 2 (après la page de garde - Présentation Standard)",
+  "rule_text": "La mention exhaustive du profil de risque, conformément au prospectus",
+  "applicable_to": [
+    "all"
+  ],
+  "check_type": [
+    "linguistic"
+  ],
+  "triggers": [
+    "profil de risque"
+  ],
+  "requires_prospectus_check": true,
+  "requires_disclaimer": false,
+  "severity": "medium",
+  "source": {
+    "document": "Synthèse règles présentations commerciales.docx",
+    "page": null
+  }
+},
+{
+  "rule_id": "3.3",
+  "section_code": "3",
+  "section": "La Slide 2 (après la page de garde - Présentation Standard)",
+  "rule_text": "Les pays de commercialisation (registration abroad)",
+  "applicable_to": [
+    "all"
+  ],
+  "check_type": [
+    "data"
+  ],
+  "triggers": [
+    "pays de commercialisation"
+  ],
+  "requires_prospectus_check": false,
+  "requires_disclaimer": false,
+  "severity": "medium",
+  "source": {
+    "document": "Synthèse règles présentations commerciales.docx",
+    "page": null
+  }
+},
+{
+  "rule_id": "4.1",
+  "section_code": "4",
+  "section": "Pages suivantes",
+  "rule_text": "Ne jamais commencer une présentation par la performance : commencer à minima par la présentation du fonds",
+  "applicable_to": [
+    "all"
+  ],
+  "check_type": [
+    "format"
+  ],
+  "triggers": [
+    "performance"
+  ],
+  "requires_prospectus_check": false,
+  "requires_disclaimer": false,
+  "severity": "medium",
+  "source": {
+    "document": "Synthèse règles présentations commerciales.docx",
+    "page": null
+  }
+},
+{
+  "rule_id": "4.2",
+  "section_code": "4",
+  "section": "Pages suivantes",
+  "rule_text": "La Notation Morningstar doit être accompagnée (si elle existe) : de la date de calcul, de la catégorie Morningstar de référence",
+  "applicable_to": [
+    "all"
+  ],
+  "check_type": [
+    "data"
+  ],
+  "triggers": [
+    "Notation Morningstar"
+  ],
+  "requires_prospectus_check": false,
+  "requires_disclaimer": false,
+  "severity": "medium",
+  "source": {
+    "document": "Synthèse règles présentations commerciales.docx",
+    "page": null
+  }
+},
+{
+  "rule_id": "4.3",
+  "section_code": "4",
+  "section": "Pages suivantes",
+  "rule_text": "Les objectifs de nombre de lignes en portefeuille doivent être mentionnés dans le prospectus",
+  "applicable_to": [
+    "all"
+  ],
+  "check_type": [
+    "linguistic"
+  ],
+  "triggers": [
+    "objectifs"
+  ],
+  "requires_prospectus_check": true,
+  "requires_disclaimer": false,
+  "severity": "medium",
+  "source": {
+    "document": "Synthèse règles présentations commerciales.docx",
+    "page": null
+  }
+},
+{
+  "rule_id": "4.4",
+  "section_code": "4",
+  "section": "Pages suivantes",
+  "rule_text": "En fin de présentation : inclure les caractéristiques détaillées du fonds",
+  "applicable_to": [
+    "all"
+  ],
+  "check_type": [
+    "format"
+  ],
+  "triggers": [
+    "caractéristiques"
+  ],
+  "requires_prospectus_check": false,
+  "requires_disclaimer": false,
+  "severity": "low",
+  "source": {
+    "document": "Synthèse règles présentations commerciales.docx",
+    "page": null
+  }
+},
+{
+  "rule_id": "4.5",
+  "section_code": "4",
+  "section": "Pages suivantes",
+  "rule_text": "Vérifier la conformité des données avec la documentation légale (KID, Prospectus, Annexe SFDR)",
+  "applicable_to": [
+    "all"
+  ],
+  "check_type": [
+    "data"
+  ],
+  "triggers": [
+    "conformité"
+  ],
+  "requires_prospectus_check": true,
+  "requires_disclaimer": false,
+  "severity": "medium",
+  "source": {
+    "document": "Synthèse règles présentations commerciales.docx",
+    "page": null
+  }
+},
+{
+  "rule_id": "4.6",
+  "section_code": "4",
+  "section": "Pages suivantes",
+  "rule_text": "Indication du responsable de la validation de la présentation, cohérente avec le disclaimer général et la société de gestion",
+  "applicable_to": [
+    "all"
+  ],
+  "check_type": [
+    "data"
+  ],
+  "triggers": [
+    "responsable"
+  ],
+  "requires_prospectus_check": false,
+  "requires_disclaimer": false,
+  "severity": "low",
+  "source": {
+    "document": "Synthèse règles présentations commerciales.docx",
+    "page": null
+  }
+},
+{
+  "rule_id": "4.7",
+  "section_code": "4",
+  "section": "Pages suivantes",
+  "rule_text": "Lorsqu’on présente une équipe de gestion, ajouter en bas de page que « L’équipe est susceptible de changer »",
+  "applicable_to": [
+    "all"
+  ],
+  "check_type": [
+    "format"
+  ],
+  "triggers": [
+    "équipe de gestion"
+  ],
+  "requires_prospectus_check": false,
+  "requires_disclaimer": false,
+  "severity": "low",
+  "source": {
+    "document": "Synthèse règles présentations commerciales.docx",
+    "page": null
+  }
+},
+{
+  "rule_id": "4.8",
+  "section_code": "4",
+  "section": "Pages suivantes",
+  "rule_text": "Un document commercial ou une communication externe ne peut pas débuter par les performances mais au minimum par la présentation de la stratégie",
+  "applicable_to": [
+    "all"
+  ],
+  "check_type": [
+    "format"
+  ],
+  "triggers": [
+    "performances"
+  ],
+  "requires_prospectus_check": false,
+  "requires_disclaimer": false,
+  "severity": "medium",
+  "source": {
+    "document": "Synthèse règles présentations commerciales.docx",
+    "page": null
+  }
+},
+{
+  "rule_id": "4.9",
+  "section_code": "4",
+  "section": "Pages suivantes",
+  "rule_text": "Les performances doivent être présentées sur une durée minimum de 10 ans pour les performances annualisées et 5 ans pour les autres",
+  "applicable_to": [
+    "all"
+  ],
+  "check_type": [
+    "data"
+  ],
+  "triggers": [
+    "performances"
+  ],
+  "requires_prospectus_check": false,
+  "requires_disclaimer": false,
+  "severity": "medium",
+  "source": {
+    "document": "Synthèse règles présentations commerciales.docx",
+    "page": null
+  }
+},
+{
+  "rule_id": "4.10",
+  "section_code": "4",
+  "section": "Pages suivantes",
+  "rule_text": "Les performances doivent être présentées nécessairement sous forme de performances annuelles glissantes, annualisées et/ou cumulées",
+  "applicable_to": [
+    "all"
+  ],
+  "check_type": [
+    "data"
+  ],
+  "triggers": [
+    "performances"
+  ],
+  "requires_prospectus_check": false,
+  "requires_disclaimer": false,
+  "severity": "medium",
+  "source": {
+    "document": "Synthèse règles présentations commerciales.docx",
+    "page": null
+  }
+},
+{
+  "rule_id": "4.11",
+  "section_code": "4",
+  "section": "Pages suivantes",
+  "rule_text": "Les performances en YTD peuvent être mentionnées à la stricte condition de l’affichage des performances sur 10 ans, 5 ans, 3 ans, 1 an et/ou depuis la création",
+  "applicable_to": [
+    "all"
+  ],
+  "check_type": [
+    "data"
+  ],
+  "triggers": [
+    "YTD"
+  ],
+  "requires_prospectus_check": false,
+  "requires_disclaimer": false,
+  "severity": "medium",
+  "source": {
+    "document": "Synthèse règles présentations commerciales.docx",
+    "page": null
+  }
+},
+{
+  "rule_id": "4.12",
+  "section_code": "4",
+  "section": "Pages suivantes",
+  "rule_text": "Les performances des fonds avec un historique de moins d’un an ne peuvent en aucun cas être affichées",
+  "applicable_to": [
+    "all"
+  ],
+  "check_type": [
+    "data"
+  ],
+  "triggers": [
+    "historique"
+  ],
+  "requires_prospectus_check": false,
+  "requires_disclaimer": false,
+  "severity": "medium",
+  "source": {
+    "document": "Synthèse règles présentations commerciales.docx",
+    "page": null
+  }
+},
+{
+  "rule_id": "4.13",
+  "section_code": "4",
+  "section": "Pages suivantes",
+  "rule_text": "Les performances des indicateurs de référence sont indiquées selon les termes du prospectus",
+  "applicable_to": [
+    "all"
+  ],
+  "check_type": [
+    "data"
+  ],
+  "triggers": [
+    "indicateurs de référence"
+  ],
+  "requires_prospectus_check": true,
+  "requires_disclaimer": false,
+  "severity": "medium",
+  "source": {
+    "document": "Synthèse règles présentations commerciales.docx",
+    "page": null
+  }
+},
+{
+  "rule_id": "4.14",
+  "section_code": "4",
+  "section": "Pages suivantes",
+  "rule_text": "Les performances sont obligatoirement et en permanence comparées à l’indicateur de référence du fonds s’il existe",
+  "applicable_to": [
+    "all"
+  ],
+  "check_type": [
+    "data"
+  ],
+  "triggers": [
+    "indicateur de référence"
+  ],
+  "requires_prospectus_check": true,
+  "requires_disclaimer": false,
+  "severity": "medium",
+  "source": {
+    "document": "Synthèse règles présentations commerciales.docx",
+    "page": null
+  }
+},
+{
+  "rule_id": "4.15",
+  "section_code": "4",
+  "section": "Pages suivantes",
+  "rule_text": "Les performances ne peuvent être en aucun cas comparées à un autre indicateur de référence qui ne serait pas mentionné dans le prospectus/DIC du fonds",
+  "applicable_to": [
+    "all"
+  ],
+  "check_type": [
+    "data"
+  ],
+  "triggers": [
+    "indicateur de référence"
+  ],
+  "requires_prospectus_check": true,
+  "requires_disclaimer": false,
+  "severity": "medium",
+  "source": {
+    "document": "Synthèse règles présentations commerciales.docx",
+    "page": null
+  }
+},
+{
+  "rule_id": "4.16",
+  "section_code": "4",
+  "section": "Pages suivantes",
+  "rule_text": "Les performances sont obligatoirement présentées nettes de tout frais de gestion pour la clientèle retail",
+  "applicable_to": [
+    "retail"
+  ],
+  "check_type": [
+    "data"
+  ],
+  "triggers": [
+    "frais de gestion"
+  ],
+  "requires_prospectus_check": false,
+  "requires_disclaimer": false,
+  "severity": "medium",
+  "source": {
+    "document": "Synthèse règles présentations commerciales.docx",
+    "page": null
+  }
+},
+{
+  "rule_id": "4.17",
+  "section_code": "4",
+  "section": "Pages suivantes",
+  "rule_text": "Les performances des stratégies peuvent être présentées brutes de frais",
+  "applicable_to": [
+    "professionnel"
+  ],
+  "check_type": [
+    "data"
+  ],
+  "triggers": [
+    "frais"
+  ],
+  "requires_prospectus_check": false,
+  "requires_disclaimer": false,
+  "severity": "medium",
+  "source": {
+    "document": "Synthèse règles présentations commerciales.docx",
+    "page": null
+  }
+},
+{
+  "rule_id": "4.18",
+  "section_code": "4",
+  "section": "Pages suivantes",
+  "rule_text": "La période de référence et la source des données doivent être clairement indiquées dans le document",
+  "applicable_to": [
+    "all"
+  ],
+  "check_type": [
+    "data"
+  ],
+  "triggers": [
+    "période de référence"
+  ],
+  "requires_prospectus_check": false,
+  "requires_disclaimer": false,
+  "severity": "low",
+  "source": {
+    "document": "Synthèse règles présentations commerciales.docx",
+    "page": null
+  }
+},
+{
+  "rule_id": "4.19",
+  "section_code": "4",
+  "section": "Pages suivantes",
+  "rule_text": "Lorsqu’un benchmark est supprimé, il est nécessaire de laisser figurer les performances du benchmark sur la période concernée avec indication de la date de suppression du dit benchmark",
+  "applicable_to": [
+    "all"
+  ],
+  "check_type": [
+    "data"
+  ],
+  "triggers": [
+    "benchmark"
+  ],
+  "requires_prospectus_check": false,
+  "requires_disclaimer": false,
+  "severity": "medium",
+  "source": {
+    "document": "Synthèse règles présentations commerciales.docx",
+    "page": null
+  }
+},
+{
+  "rule_id": "4.20",
+  "section_code": "4",
+  "section": "Pages suivantes",
+  "rule_text": "Lorsqu’un benchmark est modifié, il est nécessaire de chainer les deux benchmarks avec indication de la date de modification du dit benchmark",
+  "applicable_to": [
+    "all"
+  ],
+  "check_type": [
+    "data"
+  ],
+  "triggers": [
+    "benchmark"
+  ],
+  "requires_prospectus_check": false,
+  "requires_disclaimer": false,
+  "severity": "medium",
+  "source": {
+    "document": "Synthèse règles présentations commerciales.docx",
+    "page": null
+  }
+},
+{
+  "rule_id": "4.21",
+  "section_code": "4",
+  "section": "Pages suivantes",
+  "rule_text": "Il est possible de présenter la performance d’’autres indices/benchmarks à la condition de séparer strictement cette présentation de celle des performances du fonds avec son benchmark officiel",
+  "applicable_to": [
+    "all"
+  ],
+  "check_type": [
+    "data"
+  ],
+  "triggers": [
+    "indices/benchmarks"
+  ],
+  "requires_prospectus_check": false,
+  "requires_disclaimer": false,
+  "severity": "medium",
+  "source": {
+    "document": "Synthèse règles présentations commerciales.docx",
+    "page": null
+  }
+},
+{
+  "rule_id": "4.22",
+  "section_code": "4",
+  "section": "Pages suivantes",
+  "rule_text": "Pas de recommandation d’investissement directe ou indirecte",
+  "applicable_to": [
+    "all"
+  ],
+  "check_type": [
+    "linguistic"
+  ],
+  "triggers": [
+    "recommandation"
+  ],
+  "requires_prospectus_check": false,
+  "requires_disclaimer": false,
+  "severity": "medium",
+  "source": {
+    "document": "Synthèse règles présentations commerciales.docx",
+    "page": null
+  }
+},
+{
+  "rule_id": "4.23",
+  "section_code": "4",
+  "section": "Pages suivantes",
+  "rule_text": "Ne pas indiquer si une valeur est sous-évaluée / surévaluée / correctement évaluée",
+  "applicable_to": [
+    "all"
+  ],
+  "check_type": [
+    "linguistic"
+  ],
+  "triggers": [
+    "valeur"
+  ],
+  "requires_prospectus_check": false,
+  "requires_disclaimer": false,
+  "severity": "medium",
+  "source": {
+    "document": "Synthèse règles présentations commerciales.docx",
+    "page": null
+  }
+},
+{
+  "rule_id": "4.24",
+  "section_code": "4",
+  "section": "Pages suivantes",
+  "rule_text": "Ne pas suggérer une stratégie d’investissement",
+  "applicable_to": [
+    "all"
+  ],
+  "check_type": [
+    "linguistic"
+  ],
+  "triggers": [
+    "stratégie"
+  ],
+  "requires_prospectus_check": false,
+  "requires_disclaimer": false,
+  "severity": "medium",
+  "source": {
+    "document": "Synthèse règles présentations commerciales.docx",
+    "page": null
+  }
+},
+{
+  "rule_id": "4.25",
+  "section_code": "4",
+  "section": "Pages suivantes",
+  "rule_text": "Ne pas comparer des valeurs entre elles",
+  "applicable_to": [
+    "all"
+  ],
+  "check_type": [
+    "linguistic"
+  ],
+  "triggers": [
+    "valeurs"
+  ],
+  "requires_prospectus_check": false,
+  "requires_disclaimer": false,
+  "severity": "medium",
+  "source": {
+    "document": "Synthèse règles présentations commerciales.docx",
+    "page": null
+  }
+},
+{
+  "rule_id": "4.26",
+  "section_code": "4",
+  "section": "Pages suivantes",
+  "rule_text": "Ne pas citer plusieurs fois une même valeur",
+  "applicable_to": [
+    "all"
+  ],
+  "check_type": [
+    "linguistic"
+  ],
+  "triggers": [
+    "valeur"
+  ],
+  "requires_prospectus_check": false,
+  "requires_disclaimer": false,
+  "severity": "medium",
+  "source": {
+    "document": "Synthèse règles présentations commerciales.docx",
+    "page": null
+  }
+},
+{
+  "rule_id": "4.27",
+  "section_code": "4",
+  "section": "Pages suivantes",
+  "rule_text": "Pas de projections futures pour une valeur",
+  "applicable_to": [
+    "all"
+  ],
+  "check_type": [
+    "linguistic"
+  ],
+  "triggers": [
+    "projections"
+  ],
+  "requires_prospectus_check": false,
+  "requires_disclaimer": false,
+  "severity": "medium",
+  "source": {
+    "document": "Synthèse règles présentations commerciales.docx",
+    "page": null
+  }
+},
+{
+  "rule_id": "4.28",
+  "section_code": "4",
+  "section": "Pages suivantes",
+  "rule_text": "Pas d’opinion sur la valeur actuelle/future d’un instrument",
+  "applicable_to": [
+    "all"
+  ],
+  "check_type": [
+    "linguistic"
+  ],
+  "triggers": [
+    "opinion"
+  ],
+  "requires_prospectus_check": false,
+  "requires_disclaimer": false,
+  "severity": "medium",
+  "source": {
+    "document": "Synthèse règles présentations commerciales.docx",
+    "page": null
+  }
+},
+{
+  "rule_id": "4.29",
+  "section_code": "4",
+  "section": "Pages suivantes",
+  "rule_text": "Ne pas dire acheter, vendre, renforcer une valeur",
+  "applicable_to": [
+    "all"
+  ],
+  "check_type": [
+    "linguistic"
+  ],
+  "triggers": [
+    "acheter",
+    "vendre",
+    "renforcer"
+  ],
+  "requires_prospectus_check": false,
+  "requires_disclaimer": false,
+  "severity": "medium",
+  "source": {
+    "document": "Synthèse règles présentations commerciales.docx",
+    "page": null
+  }
+},
+{
+  "rule_id": "4.30",
+  "section_code": "4",
+  "section": "Pages suivantes",
+  "rule_text": "Ne pas faire d’analyse spécifique sur une valeur",
+  "applicable_to": [
+    "all"
+  ],
+  "check_type": [
+    "linguistic"
+  ],
+  "triggers": [
+    "analyse"
+  ],
+  "requires_prospectus_check": false,
+  "requires_disclaimer": false,
+  "severity": "medium",
+  "source": {
+    "document": "Synthèse règles présentations commerciales.docx",
+    "page": null
+  }
+},
+{
+  "rule_id": "4.31",
+  "section_code": "4",
+  "section": "Pages suivantes",
+  "rule_text": "Pas d’opinion favorable/défavorable sur un émetteur ou secteur restreint",
+  "applicable_to": [
+    "all"
+  ],
+  "check_type": [
+    "linguistic"
+  ],
+  "triggers": [
+    "opinion"
+  ],
+  "requires_prospectus_check": false,
+  "requires_disclaimer": false,
+  "severity": "medium",
+  "source": {
+    "document": "Synthèse règles présentations commerciales.docx",
+    "page": null
+  }
+},
+{
+  "rule_id": "4.32",
+  "section_code": "4",
+  "section": "Pages suivantes",
+  "rule_text": "L’usage de formules telles que « selon nous », « à notre avis », même au conditionnel, peut constituer une recommandation d’investissement selon le contexte",
+  "applicable_to": [
+    "all"
+  ],
+  "check_type": [
+    "linguistic"
+  ],
+  "triggers": [
+    "selon nous",
+    "à notre avis"
+  ],
+  "requires_prospectus_check": false,
+  "requires_disclaimer": false,
+  "severity": "medium",
+  "source": {
+    "document": "Synthèse règles présentations commerciales.docx",
+    "page": null
+  }
+},
+{
+  "rule_id": "4.33",
+  "section_code": "4",
+  "section": "Pages suivantes",
+  "rule_text": "Évoquer les tendances de marché",
+  "applicable_to": [
+    "all"
+  ],
+  "check_type": [
+    "linguistic"
+  ],
+  "triggers": [
+    "tendances de marché"
+  ],
+  "requires_prospectus_check": false,
+  "requires_disclaimer": false,
+  "severity": "low",
+  "source": {
+    "document": "Synthèse règles présentations commerciales.docx",
+    "page": null
+  }
+},
+{
+  "rule_id": "4.34",
+  "section_code": "4",
+  "section": "Pages suivantes",
+  "rule_text": "Références aux taux de change, taux d’intérêt, matières premières, indicateurs macroéconomiques (sans mention d’un instrument ou émetteur)",
+  "applicable_to": [
+    "all"
+  ],
+  "check_type": [
+    "linguistic"
+  ],
+  "triggers": [
+    "taux de change",
+    "taux d’intérêt",
+    "matières premières",
+    "indicateurs macroéconomiques"
+  ],
+  "requires_prospectus_check": false,
+  "requires_disclaimer": false,
+  "severity": "low",
+  "source": {
+    "document": "Synthèse règles présentations commerciales.docx",
+    "page": null
+  }
+},
+{
+  "rule_id": "4.35",
+  "section_code": "4",
+  "section": "Pages suivantes",
+  "rule_text": "Évoquer des secteurs généraux (attention si le secteur est restreint)",
+  "applicable_to": [
+    "all"
+  ],
+  "check_type": [
+    "linguistic"
+  ],
+  "triggers": [
+    "secteurs généraux"
+  ],
+  "requires_prospectus_check": false,
+  "requires_disclaimer": false,
+  "severity": "low",
+  "source": {
+    "document": "Synthèse règles présentations commerciales.docx",
+    "page": null
+  }
+},
+{
+  "rule_id": "4.36",
+  "section_code": "4",
+  "section": "Pages suivantes",
+  "rule_text": "Donner des informations factuelles (ex. : événements récents, annonces publiques)",
+  "applicable_to": [
+    "all"
+  ],
+  "check_type": [
+    "linguistic"
+  ],
+  "triggers": [
+    "informations factuelles"
+  ],
+  "requires_prospectus_check": false,
+  "requires_disclaimer": false,
+  "severity": "low",
+  "source": {
+    "document": "Synthèse règles présentations commerciales.docx",
+    "page": null
+  }
+},
+{
+  "rule_id": "4.37",
+  "section_code": "4",
+  "section": "Pages suivantes",
+  "rule_text": "Mentionner des valeurs détenues dans le portefeuille + performances passées avec les disclaimers adéquats",
+  "applicable_to": [
+    "all"
+  ],
+  "check_type": [
+    "linguistic"
+  ],
+  "triggers": [
+    "valeurs détenues"
+  ],
+  "requires_prospectus_check": false,
+  "requires_disclaimer": true,
+  "severity": "low",
+  "source": {
+    "document": "Synthèse règles présentations commerciales.docx",
+    "page": null
+  }
+},
+{
+  "rule_id": "4.38",
+  "section_code": "4",
+  "section": "Pages suivantes",
+  "rule_text": "Donner un exemple illustratif d’un émetteur ou d’une valeur, sans projection ni estimation de prix",
+  "applicable_to": [
+    "all"
+  ],
+  "check_type": [
+    "linguistic"
+  ],
+  "triggers": [
+    "exemple illustratif"
+  ],
+  "requires_prospectus_check": false,
+  "requires_disclaimer": false,
+  "severity": "low",
+  "source": {
+    "document": "Synthèse règles présentations commerciales.docx",
+    "page": null
+  }
+},
+{
+  "rule_id": "4.39",
+  "section_code": "4",
+  "section": "Pages suivantes",
+  "rule_text": "Lors d’une interview : les gérants doivent se limiter à des faits connus du public ; peuvent commenter les données historiques, mais pas d’opinion sur la valeur ou le prix actuels/futurs",
+  "applicable_to": [
+    "all"
+  ],
+  "check_type": [
+    "linguistic"
+  ],
+  "triggers": [
+    "interview"
+  ],
+  "requires_prospectus_check": false,
+  "requires_disclaimer": false,
+  "severity": "medium",
+  "source": {
+    "document": "Synthèse règles présentations commerciales.docx",
+    "page": null
+  }
+},
+{
+  "rule_id": "5.1",
+  "section_code": "5",
+  "section": "Page de fin de présentation",
+  "rule_text": "Mention légale de la SGP (cf. Glossaire)",
+  "applicable_to": [
+    "all"
+  ],
+  "check_type": [
+    "linguistic"
+  ],
+  "triggers": [
+    "SGP"
+  ],
+  "requires_prospectus_check": false,
+  "requires_disclaimer": false,
+  "severity": "low",
+  "source": {
+    "document": "Synthèse règles présentations commerciales.docx",
+    "page": null
+  }
+}
+]

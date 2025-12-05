@@ -1,0 +1,22 @@
+{
+  "Société de Gestion": "ODDO BHF ASSET MANAGEMENT SAS",
+  "Est ce que le produit fait partie de la Sicav d'Oddo": false,
+  "Le client est-il un professionnel": false,
+  "Le document fait-il référence à une nouvelle Stratégie": false,
+  "Le document fait-il référence à un nouveau Produit": true,
+  "nombre_documents": 1,
+  "documents_multilingues": false,
+  "langues": [
+    "EN"
+  ],
+  "type_presentation": "standard",
+  "client_specifique": false,
+  "client_belge": false,
+  "mention_nombre_lignes": false,
+  "nombre_lignes_portefeuille": null,
+  "presentation_equipe_gestion": true,
+  "allemagne_exclusivement": false,
+  "nombre_pages": 35,
+  "approche_esg": "engageante",
+  "pre_commercialisation": true
+}

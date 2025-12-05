@@ -1,0 +1,841 @@
+=== Slide 1 ===
+[top-right]:
+Promotional INFORMATION
+[middle-center]:
+ODDO BHF US Equity Active UCITS ETF
+An investment solution aiming at investing efficiently in US equities
+[bottom-center]:
+September 2025
+
+=== Slide 2 ===
+[top-center]:
+Disclaimer
+[middle-left]:
+ODDO BHF AM is the asset management division of the ODDO BHF Group. It is the common brand of three legally separate asset management companies: ODDO BHF AM SAS (France), ODDO BHF  AM GmbH (Germany) and ODDO BHF  AM Lux (Luxembourg). This document has been drawn up by ODDO BHF ASSET MANAGEMENT SAS. for market communication. Its communication to any investor is the exclusive responsibility of each distributor or advisor with the exception of Belgium, where this document is intended exclusively for distributors and may not be distributed to non-professional clients.
+Potential investors should consult an investment advisor before subscribing to the fund. The investor is informed that the fund presents a risk of capital loss, but also many risks linked to the financial instruments/strategies in the portfolio. In case of subscription, investors must read the Key Information Document (KID) and the fund’s prospectus in order to acquaint themselves with the detailed nature of any risks incurred and all costs. 
+The value of the investment may vary both upwards and downwards and may not be returned in full. The investment must be made in accordance with investors’ investment objectives, their investment horizon and their capacity to deal with the risk arising from the transaction. ODDO BHF ASSET MANAGEMENT SAS cannot be held responsible for any direct or indirect damages resulting from the use of this document or the information contained in it. This information is provided for indicative purposes and may be modified at any moment without prior notice. Any opinions presented in this document result from our market forecasts on the publication date. They are subject to change according to market conditions and ODDO BHF ASSET MANAGEMENT SAS shall not in any case be held contractually liable for them.
+The net asset values presented in this document are provided for indicative purposes only. Only the net asset value marked on the transaction statement and the securities account statement is authoritative. Subscriptions and redemptions of mutual funds are processed at an unknown asset value.
+A summary of investor rights is available free of charge in electronic form in English language on the website at : https://am.oddobhf.com/FRANCE/en/non_professional_investor/infos_reglementaire
+[middle-right]:
+The fund may have been authorized for distribution in different EU member states. Investors are advised to the fact that the management company may decide to withdraw with the arrangements it has made for the distribution of the units of the fund in accordance with Article 93a of Directive 2009/65/EC and Article 32a of Directive 2011/61/EU.The complaints handling policy is available on our website am.oddo-bhf.com in the regulatory information section. Customer complaints can be addressed in the first instance to the following e-mail address: service_client@oddo-bhf.com (or directly to the Consumer Mediation Service: http://mediationconsommateur.be (ONLY FOR BELGIUM))
+The Key Information Document (FR, DEU, ENG) and the prospectus (FR, DEU, ENG) are available free of charge from ODDO BHF ASSET MANAGEMENT SAS or at am.oddo-bhf.com or at authorized distributors. The annual and interim reports are available free of charge from ODDO BHF ASSET MANAGEMENT SAS or on its internet site am.oddo-bhf.com
+The fund is licensed for sale in Switzerland. The Key Information Document, the prospectus, the annual and interim reports for Switzerland can be obtained free of charge from the Swiss Representative and paying agent, BNP Paribas Securities Services, succursale de Zurich, Selnaustrasse 16, 8002 Zurich, Switzerland
+
+Risks
+Equity risk, secondary market risk, concentration risk, emerging market risk, currency risk, risk related to ETF and non-ETF classes, environmental, social and governance standards, risk related to SFDR classification of sub-funds, selection risk, liquidity of investments, risk related to small and mid caps, political and/or legal/regulatory risk, regulatory restrictions and issuer-specific risk, risk related to the investment strategy, risk related to active management, risks related to the quantitative model
+[bottom-right]:
+2
+
+=== Slide 3 ===
+[top-center]:
+Product
+[middle-center]:
+[TABLE] 2 rows × 5 columns.
+Data:
+ Row 1:  | Inception date | Fund size | SFDR classification1 | Risk scale2
+ Row 2: ODDO BHF US Equity Active UCITS ETF | XX/08/2025 | 5 M€ |  | 
+[middle-right]:
+[TABLE] 1 rows × 3 columns.
+Data:
+ Row 1: 6 | 8 | 9
+4/7
+[bottom-center]:
+Data as of 31/08/2025 | Source: ODDO BHF AM, 1 The EU Sustainable Finance Disclosure Regulation (SFDR) is a set of EU rules which aim to make the sustainability profile of funds transparent, more comparable and better understood by end investors. Article 6: The management team does not consider sustainability risks or adverse effects of investment decisions on sustainability factors in the investment decision making process. Article 8: The management team addresses sustainability risks by integrating ESG criteria (Environment and/or Social and/or Governance) into its investment decision making process. Article 9: The management team follows a strict sustainable investment objective that significantly contributes to the challenges of the ecological transition, and addresses Sustainability Risks through ratings provided by the Management Company’s external ESG data provider. | 2 The summary risk indicator (SRI) is a guide to the level of risk of this product compared to other products. It shows how likely it is that the product will lose money because of movements in the markets or because we are not able to pay you. It scales in a range from 1 (lowest risk) to 7 (highest risk). The lowest category does not mean a risk-free investment. This indicator is not constant and is updated if the risk profile of the fund changes over time. Historical data, such as is used to calculate the risk indicator, may not be a reliable indication of the future risk profile of the Fund. There is no guarantee that the management objectives in terms of risk will actually be met. The risk indicator assumes you keep the product until the end of the recommended holding period. The actual risk can vary ! significantly if you cash in at an early stage and you may get back less.
+[bottom-right]:
+3
+
+=== Slide 4 ===
+[top-center]:
+Overview
+ODDO BHF US Equity Active UCITS ETF
+[middle-center]:
+Smart momentum investments in the us stock market
+[middle-right]:
+Why invest IN OUR FUND?
+Profound economical basis: Studies have proved for various time periods that markets move in trends (momentum effect)
+Exploitation of stable market trends: A diversified approach to invest in different market trends with the objective of long-term outperformance utilizing proprietary quantitative models with no human biases.
+Active ETF format: A cost-efficient and transparent way to benefit from our 20 years of experience with the same strategy in dedicated mandates, passing through various market cycles. The founders of the quantitative model in 2000 still manage the strategy today.*
+[middle-left]:
+INVESTMENT STRATEGY summary
+Utilizing a proprietary quantitative approach ODDO BHF US Equity Active UCITS ETF invests in US equities 
+Systematic, long-only and bottom-up stock selection equity strategy “Algo Trend”. The portfolios are almost always fully invested without accepting any off-benchmark (S&P 500) investments
+The quantitative model rates equities based on a smart momentum strategy analysing extensive historical data to detect stable trends in the market
+The portfolio construction process involves a strong focus on diversification and risk management by applying various constraints
+[bottom-center]:
+The fund presents a risk of capital loss.
+Source: ODDO BHF AM | *Current team, subject to change
+[bottom-right]:
+4
+
+=== Slide 5 ===
+[top-center]:
+Overview
+Strategy and Team*
+[top-right]:
+Dr. Stefan braun, CFAGlobal Head of Systematic Strategies ODDO BHF AM
+25 years of investment experience
+[middle-center]:
+ODDO BHF Algo Trend strategies
+Assets under Management ODDO BHF Algo Trend Strategy
+[CHART] Detected chart.
+Type: Doughnut (-4120)
+Series: Unnamed Series
+ Categories:  Emerging Markets ,  Eurozone Core ,  Eurozone Dividends ,  Eurozone ESG ,  Global ,  USA ,  Europe Core , Europe ESG
+€ 4.7 bn
+[middle-right]:
+Karsten seier, CFAGlobal Head of  Systematic Strategies ODDO BHF AM
+25 years of investment experience
+Steffen Fuchs, CFA
+Senior Portfolio Manager / Quantitative AnalystODDO BHF AM
+10 years of investment experience
+Dr. Renata Latocha
+Senior Quantitative AnalystODDO BHF AM
+23 years of investment experience
+Gundula OehlkeQuantitative AnalystODDO BHF AM
+34 years of investment experience
+Thierry Misamer, CIIA, CEFASenior Portfolio ManagerODDO BHF AM
+26 years of investment experience
+[middle-left]:
+Investment Conviction
+Stock markets and stocks move in short to medium term trends
+Behavioral Finance provides a convincing economical basis
+Investment Philosophy
+Exploiting the momentum effect with a purely quantitative concept for stock selection
+Focus on portfolio construction and risk management
+[bottom-right]:
+Thomas Höhenleiter, CIIA, CEFASenior Portfolio ManagerODDO BHF AM
+19 years of investment experience
+5
+[bottom-center]:
+Current team, subject to change. The strategy presents a risk of capital loss.
+Source: ODDO BHF AM | Data as of 31/08/2025 | *Current team, subject to change
+
+=== Slide 6 ===
+[middle-left]:
+[TABLE] 5 rows × 2 columns.
+Data:
+ Row 1: 01 | What are active ETFs and why are they appealing?
+ Row 2: 02 | Why invest in the US Market?
+ Row 3: 03 | The case for momentum investments
+ Row 4: 04 | Investment process
+ Row 5: 05 | Portfolio
+
+=== Slide 7 ===
+[middle-right]:
+What are active ETFs and why are they appealing?
+[middle-left]:
+01
+
+=== Slide 8 ===
+[top-center]:
+Overview
+What are active ETFs?
+[middle-center]:
+An active investment strategy in an etf format
+The ETF itself is just a wrapper
+Smart Beta
+Passive
+Strategy is independent from the vehicle
+ETF
+Mutual Fund
+[middle-left]:
+What are active ETFs?
+An active ETF is an exchange-traded fund that is actively managed
+When looking at ETFs it is important to note that terms like “passive”, “ETF” or “index” are not synonymous
+A variety of strategies can be placed into  the ETF structure to leverage its benefits, not just passive ones
+Unlike passive ETFs which track a benchmark index, an active ETF seeks to outperform the benchmark.
+[middle-right]:
+Active
+Mandate
+[bottom-center]:
+The fund presents a risk of capital loss.
+Source: ODDO BHF AM, Company websites
+[bottom-right]:
+8
+
+=== Slide 9 ===
+[top-center]:
+Overview
+Active ETF: A growing force in Europe
+[middle-center]:
+Although still much more established in the US, Active ETF are rapidly gaining momentum in Europe
+Globally there are $1,100 billion in assets under management in active ETFs which account for 7% of total ETF AuM 
+The majority of assets, over $ 800bn are still held in active ETFs launched in the US, making up 8% of total US market
+In Europe, active ETFs only make up 3% of the ETF market, but are one of the fastest-growing segments, appealing to institutional and retail investors.
+[middle-right]:
+$1 trillion
+Expected AuM in Active ETF in Europe by 2030
+28%
+of ETF AuM in Europe are expected to be actively managed by 2030
+24%
+of professional investors in Europe and Asia already use active ETFs
+[middle-left]:
+Active ETFS AUM in Europe (€BN)
+[bottom-right]:
+94%
+of wealth managers across Europe are planning to increase their use of active ETFs in 2025
+9
+[bottom-center]:
+The fund presents a risk of capital loss.
+Source: ODDO BHF AM, Morningstar, Fidelity, Coalition Greenwich; Trackinsight Global ETF Survey 2024 | Data as of 31/12/2024  | *Current team, subject to change
+55
+33
+[bottom-left]:
+[CHART] Detected chart.
+Type: Column Stacked (52)
+Series: Equity
+ Categories: 2020, 2021, 2022, 2023, 2024
+Series: Fixed Income
+ Categories: 2020, 2021, 2022, 2023, 2024
+Series: Others
+ Categories: 2020, 2021, 2022, 2023, 2024
+Series: Asset Allocation
+ Categories: 2020, 2021, 2022, 2023, 2024
+x5
+23
+21
+13
+
+=== Slide 10 ===
+[top-center]:
+Overview
+Why invest in active ETFs?
+[middle-center]:
+The Benefits of the etf wrapper combined with the advantages of active investing
+ETF envelop 
+Benefits
+[middle-left]:
+Outperformance POTENTIAL
+Actively managed ETFs are based on in-depth research, leveraging on the skills of portfolio managers and offering the chance to outperform the market and generate alpha over the long run for their clients .
+Active 
+Management
+Active ETFs
+Risk Management
+Active strategies are able to react quickly to market changes and help manage risks more effectively.
+Unconstrained 
+While passive funds just follow an index, active strategies are more flexible, allowing for avoiding overexposure to certain sectors or stocks.
+[middle-right]:
+Transparency
+Active ETF holdings are usually published daily on the provider’s website, allowing investors to know their exposure at any time.
+ACCESSIBILITY
+ETFs are listed on stock exchanges like stocks and, in some cases, do not require a minimum investment amount.
+Cost Efficiency
+Active ETFs are designed to trade at prices that closely match the actual value of the fund’s holdings. They also typically have low management fees.
+[bottom-left]:
+ESG
+Active managers can align their portfolios more closely with ESG objectives by selecting investments that meet specific sustainability criteria, without the constraints imposed by index replication.
+[bottom-right]:
+Liquidity/ Flexibility
+Active ETFs are traded on stock exchanges during market hours. Investors can buy or sell at any time throughout the trading day.
+10
+[bottom-center]:
+The funds present a risk of capital loss. Past performance is not a reliable indicator of future performance and is not constant over time.
+Source: ODDO BHF AM, Company websites
+
+=== Slide 11 ===
+[middle-left]:
+02
+[middle-right]:
+Why invest in the US market?
+
+=== Slide 12 ===
+[top-center]:
+Introduction
+Why invest in the USA?
+[middle-center]:
+A leading Market that cannot be neglected
+Industry diversity
+Access to big success stories from both the new and old economy
+Sheer Size of the Country
+With about 345 million people, the USA has the 3rd biggest population in the world and also ranks 3rd in terms of area
+[middle-left]:
+World’s largest economy
+The US economy is the largest worldwide with a GDP of 29 trillion $
+Innovation Center
+Home to many world-leading technology companies and innovative start-ups
+[middle-right]:
+Major Financial Market
+Largest stock market in the world covering around 63% of the global market cap
+Historically attractive
+Since its inception in 1957, the S&P500 generated an average annual performance of 10.3 %
+[bottom-center]:
+Past performance is not a reliable indicator of future performance and is not constant over time
+Source: ODDO BHF AM, Bloomberg, Friedrich Ebert Foundation, IFO, IG, Federal Reserve, Investopedia,WIPO, IMF, MSCI | Data as of 2024
+[bottom-right]:
+12
+
+=== Slide 13 ===
+[top-center]:
+Introduction
+Potential Global Champions from both the New and Old Economy
+[middle-center]:
+The best of both worlds according to our analysis
+[middle-left]:
+Magnificent 7
+The 7 largest US Tech companies, which dominate the US stock market and the technology sector globally with their innovation leadership and impact on technological advancement
+[middle-right]:
+World-leading companies outside of tech
+Many examples of successful companies from various industries showing the diversity of potentially interesting companies to be found in the US market
+[bottom-center]:
+These examples are no investment recommendations
+Source: ODDO BHF AM, Company websites
+[bottom-right]:
+13
+
+=== Slide 14 ===
+[top-center]:
+Introduction
+The World’s most important Financial Market
+[middle-center]:
+attractive performance compared to other regions
+[middle-right]:
+ANNUALIZED PERFORMANCE IN %
+[CHART] Detected chart.
+Type: Column Clustered (51)
+Series: S&P 500 (NR)
+ Categories: 1Y, 3Y, 5Y, 10Y
+Series: Euro Stoxx 50 (NR)
+ Categories: 1Y, 3Y, 5Y, 10Y
+Series: MSCI Emerging Markets (NR)
+ Categories: 1Y, 3Y, 5Y, 10Y
+[middle-left]:
+CUMULATIVE PERFORMANCE
+[CHART] Detected chart.
+Type: Line (4)
+Series: S&P 500 (NR)
+ Time series with 25998 data points
+Series: MSCI Emerging Markets (NR)
+ Time series with 25998 data points
+Series: Euro Stoxx 50 (NR)
+ Time series with 25998 data points
+[bottom-center]:
+Past performance is not a reliable indicator of future performance and is not constant over time
+Source: ODDO BHF AM, Bloomberg | Data as of 30/06/2025
+[bottom-right]:
+14
+
+=== Slide 15 ===
+[middle-right]:
+The case for momentum investments
+[middle-left]:
+03
+
+=== Slide 16 ===
+[top-center]:
+The case for momentum investments
+Are stock markets efficient?
+[middle-center]:
+The Efficient market hypothesis
+Various forms of market efficiency
+The efficient-market hypothesis states that asset prices reflect currently available information
+Weak form: Current asset prices reflect all information contained in historical prices
+Semi-strong form: Asset prices reflect all public information
+Strong-form: Asset prices reflect all public and private information
+Fama 1970
+“Efficient Capital Markets: a Review of Theory and Empirical Work”
+[bottom-center]:
+Past performance is not a reliable indicator of future performance and is not constant over time
+Source: ODDO BHF AM
+[bottom-right]:
+16
+
+=== Slide 17 ===
+[top-center]:
+The case for momentum investments
+The Momentum Effect
+[middle-center]:
+Stock markets move in short- to medium-term trends
+[middle-right]:
+momentum historically outperformed the broad market and other Factors in the us1
+[CHART] Detected chart.
+Type: Line (4)
+Series: MSCI USA Value
+ Categories (11386 total): 34515, 34516, 34517, 34518, 34519 ... (and 11381 more)
+Series: MSCI USA Min Vol
+ Categories (11386 total): 34515, 34516, 34517, 34518, 34519 ... (and 11381 more)
+Series: MSCI USA Growth
+ Categories (11386 total): 34515, 34516, 34517, 34518, 34519 ... (and 11381 more)
+Series: MSCI USA Quality
+ Categories (11386 total): 34515, 34516, 34517, 34518, 34519 ... (and 11381 more)
+Series: MSCI USA Momentum
+ Categories (11386 total): 34515, 34516, 34517, 34518, 34519 ... (and 11381 more)
+Series: MSCI USA
+ Categories (11386 total): 34515, 34516, 34517, 34518, 34519 ... (and 11381 more)
+[middle-left]:
+What is The momentum effect?
+Stock Market “Anomaly”
+Academically well researched
+Persists in various markets and for different time periods
+               
+Continuation of Returns
+Stocks that outperformed in the past tend to outperform in the following period
+Vice versa, stocks with poor past performance, tend to continue underperforming
+[bottom-center]:
+Past performance is not a reliable indicator of future performance and is not constant over time
+Source: Bloomberg, ODDO BHF AM | 1 Net Return in USD as of 31/08/2025
+[bottom-right]:
+17
+
+=== Slide 18 ===
+[top-center]:
+The case for momentum investments
+Behavioral Finance provides theories
+[middle-center]:
+To explain irrational investor behavior
+Behavioral Biases of investors lead to overreaction/underreaction to news
+Overconvidence
+Herding
+[middle-left]:
+Anchoring
+[middle-right]:
+… and many more
+[bottom-center]:
+Source: ODDO BHF AM
+[bottom-right]:
+18
+
+=== Slide 19 ===
+[top-center]:
+The case for momentum investments
+Behavioral Finance Explanations for the Momentum Effect
+[middle-center]:
+irrational investors and cognitive biases
+Overconfidence
+Most people think they are above average, despite it is mathematically impossible…
+100 people were interviewed…
+Are you an above-average driver?
+Are you above-average intelligent?
+Are you an above-average investor?
+[CHART] Detected chart.
+Type: Column Clustered (51)
+Series: Unnamed Series
+ Categories: 3 x Yes, 2 x Yes, 1 x Yes, 0 x Yes
+[middle-left]:
+Herding and Fear of Missing Out
+[middle-right]:
+Over- and Underreaction
+Fair stock price before and after new information becomes available
+Actual stock price
+[CHART] Detected chart.
+Type: Line (4)
+Series: Unnamed Series
+Series: Unnamed Series
+Series: Unnamed Series
+[bottom-center]:
+Past performance is not a reliable indication of future return and is not constant over time.
+Source: ODDO BHF AM, DeBondt and Thaler 1985, Jegadesh and Titman 1993, Kal’s Cartoon, Ola Svenson 1981, Ethan Zell 2020 | Data as of 31/10/2024
+[bottom-right]:
+19
+
+=== Slide 20 ===
+[top-center]:
+The case for momentum investments
+Understanding the Risks of Momentum Investing
+[middle-center]:
+Management of trend reversal risk
+[middle-left]:
+Pro-cyclical beta exposure
+Naïve momentum strategies select stocks which performed well in the past resulting in a high beta portfolio following a market rally and low beta in down-markets
+Trends are likely to end and reverse at a certain point: Risk of large losses when markets correct/rebounds
+[CHART] Detected chart.
+Type: Line (4)
+Series: Unnamed Series
+ Categories (145 total): 36525, 36556, 36585, 36616, 36644 ... (and 140 more)
+Series: Unnamed Series
+ Categories (145 total): 36525, 36556, 36585, 36616, 36644 ... (and 140 more)
+Series: Unnamed Series
+ Categories (145 total): 36525, 36556, 36585, 36616, 36644 ... (and 140 more)
+Index Performance
+[middle-right]:
+Concentration risk
+Naïve momentum strategies imply high concentration risk and high tracking error
+Example: Sector allocation of a S&P500 naïve momentum strategy* during sector rotation 2022-2024
+[CHART] Detected chart.
+Type: Area Stacked 100 (77)
+Series: Automobiles and Parts
+ Categories (25 total): 2022-08-31, 2022-09-30, 2022-10-31, 2022-11-30, 2022-12-31 ... (and 20 more)
+Series: Banks
+ Categories (25 total): 2022-08-31, 2022-09-30, 2022-10-31, 2022-11-30, 2022-12-31 ... (and 20 more)
+Series: Basic Resources
+ Categories (25 total): 2022-08-31, 2022-09-30, 2022-10-31, 2022-11-30, 2022-12-31 ... (and 20 more)
+Series: Chemicals
+ Categories (25 total): 2022-08-31, 2022-09-30, 2022-10-31, 2022-11-30, 2022-12-31 ... (and 20 more)
+Series: Construction and Materials
+ Categories (25 total): 2022-08-31, 2022-09-30, 2022-10-31, 2022-11-30, 2022-12-31 ... (and 20 more)
+Series: Consumer Products and Services
+ Categories (25 total): 2022-08-31, 2022-09-30, 2022-10-31, 2022-11-30, 2022-12-31 ... (and 20 more)
+Series: Energy
+ Categories (25 total): 2022-08-31, 2022-09-30, 2022-10-31, 2022-11-30, 2022-12-31 ... (and 20 more)
+Series: Financial Services
+ Categories (25 total): 2022-08-31, 2022-09-30, 2022-10-31, 2022-11-30, 2022-12-31 ... (and 20 more)
+Series: Food, Beverage and Tobacco
+ Categories (25 total): 2022-08-31, 2022-09-30, 2022-10-31, 2022-11-30, 2022-12-31 ... (and 20 more)
+Series: Health Care
+ Categories (25 total): 2022-08-31, 2022-09-30, 2022-10-31, 2022-11-30, 2022-12-31 ... (and 20 more)
+Series: Industrial Goods and Services
+ Categories (25 total): 2022-08-31, 2022-09-30, 2022-10-31, 2022-11-30, 2022-12-31 ... (and 20 more)
+Series: Insurance
+ Categories (25 total): 2022-08-31, 2022-09-30, 2022-10-31, 2022-11-30, 2022-12-31 ... (and 20 more)
+Series: Media
+ Categories (25 total): 2022-08-31, 2022-09-30, 2022-10-31, 2022-11-30, 2022-12-31 ... (and 20 more)
+Series: Personal Care, Drug and Grocery Stores
+ Categories (25 total): 2022-08-31, 2022-09-30, 2022-10-31, 2022-11-30, 2022-12-31 ... (and 20 more)
+Series: Real Estate
+ Categories (25 total): 2022-08-31, 2022-09-30, 2022-10-31, 2022-11-30, 2022-12-31 ... (and 20 more)
+Series: Retail
+ Categories (25 total): 2022-08-31, 2022-09-30, 2022-10-31, 2022-11-30, 2022-12-31 ... (and 20 more)
+Series: Technology
+ Categories (25 total): 2022-08-31, 2022-09-30, 2022-10-31, 2022-11-30, 2022-12-31 ... (and 20 more)
+Series: Telecommunications
+ Categories (25 total): 2022-08-31, 2022-09-30, 2022-10-31, 2022-11-30, 2022-12-31 ... (and 20 more)
+Series: Travel and Leisure
+ Categories (25 total): 2022-08-31, 2022-09-30, 2022-10-31, 2022-11-30, 2022-12-31 ... (and 20 more)
+Series: Utilities
+ Categories (25 total): 2022-08-31, 2022-09-30, 2022-10-31, 2022-11-30, 2022-12-31 ... (and 20 more)
+[bottom-center]:
+The strategy presents a risk of capital loss.
+Source: ODDO BHF AM, Datastream |  *Long only Investment in top 10% stocks based on 1Y Performance
+[bottom-right]:
+20
+
+=== Slide 21 ===
+[top-center]:
+The case for momentum investments
+Key Takeaways
+[middle-center]:
+According to our analysis
+Stock markets move in short to medium term trends
+Reason: Irrational investor behavior and cognitive biases
+Momentum effect can be exploited via a trend following investment approach offering high outperformance potential in the long term
+Momentum effect is persistent and cannot be arbitraged away
+Momentum has specific risks that need to be understood and managed
+[bottom-center]:
+The fund presents a risk of capital loss.
+Source: ODDO BHF AM
+[bottom-right]:
+21
+
+=== Slide 22 ===
+[middle-left]:
+04
+[middle-right]:
+Investment Process
+
+=== Slide 23 ===
+[top-center]:
+Investment Process
+Algo Trend Investment Process Overview
+[middle-center]:
+systematic and transparent – no “black box”!
+Step 2: Construction of a diversified Momentum Portfolio
+Portfolio optimization
+Build a high momentum portfolio respecting strict risk management constraints
+Expected Active Return
+Risk
+[middle-left]:
+Step 1: Identification of high-quality Trends
+Long-term outperformers
+Short-term trend intact
+Preference for low volatility
+[CHART] Detected chart.
+Type: Line (4)
+Series: Market
+Series: Good
+Series: Good
+Series: Good
+[middle-right]:
+Result:Final Portfolio
+Broadly diversified and risk-controlled portfolio
+ Numerous positions covering many trends
+Monthly rebalancing
+[CHART] Detected chart.
+Type: Pie (5)
+Series: Unnamed Series
+[bottom-center]:
+The fund presents a risk of capital loss.
+Source: ODDO BHF AM
+[bottom-right]:
+23
+
+=== Slide 24 ===
+[top-center]:
+Investment Process
+Step 1: Identification of high-quality Trends
+[middle-center]:
+Assigning a Trend Score to all Companies
+Short-term outperformers (35% of final trend score)
+[CHART] Detected chart.
+Type: Line (4)
+Series: Bad short
+Series: Bad short
+Series: Negative
+Series: Negative Vol
++
+Benchmark
+9 monthsTimeline (40 weeks)
+[middle-left]:
+Long-term outperformers (65% of final trend score)
+[CHART] Detected chart.
+Type: Line (4)
+Series: Good
+Series: Good
+Series: Volatile
+Series: Volatile
+Series: Negative
+Benchmark
+3 years Timeline (150 weeks)
+[middle-right]:
+Ranking including a penalty for volatility
+[TABLE] 5 rows × 5 columns.
+Data:
+ Row 1: Company | Short-term active return | Long-term active return | Volatilty | Final Trend Score
+ Row 2: A | 14,3% | 18,6% | 30,1% | 56,79
+ Row 3: B | 12,9% | 13,6% | 23,7% | 56,35
+ Row 4: C | 18,3% | 16,7% | 30,9% | 55,86
+ Row 5: … | … | … | … | …
+[bottom-center]:
+Past performance is not a reliable indication of future return and is not constant over time. The simulation presented does not constitute a forecast of the future performance of your investments. It is solely designed to illustrate the mechanisms of your investment over the investment period. The value of your investment may deviate upwards or downwards from what is displayed.
+Source: ODDO BHF AM, Datastream
+[bottom-right]:
+24
+
+=== Slide 25 ===
+[top-center]:
+Investment Process
+Step 2: Portfolio Construction
+[middle-center]:
+Building a Broadly diversified and risk-controlled momentum portfolio
+Quantitative Portfolio Optimization
+Country &
+Sector
+Beta
+Tracking
+Error
+Turnover
+Construct the portfolio with the highest possible Final Trend Score while respecting strict risk management constraints
+[middle-left]:
+[TABLE] 5 rows × 2 columns.
+Data:
+ Row 1: Company | Final Trend Score
+ Row 2: A | 56,79
+ Row 3: B | 56,35
+ Row 4: C | 55,86
+ Row 5: … | …
+[bottom-center]:
+The fund presents a risk of capital loss. Past performance is not a reliable indication of future return and is not constant over time. The simulation presented does not constitute a forecast of the future performance of your investments. It is solely designed to illustrate the mechanisms of your investment over the investment period. The value of your investment may deviate upwards or downwards from what is displayed.
+Source: ODDO BHF AM
+[bottom-right]:
+25
+
+=== Slide 26 ===
+[top-center]:
+Investment process
+Example of Portfolio Implementation: Iron Mountain Inc
+[middle-center]:
+momentum score and relative weight over time
+[CHART] Detected chart.
+Type: Column Clustered (51)
+Series: Unnamed Series
+ Time series: 2017-10-31 to 2024-10-31 (85 data points)
+Series: Unnamed Series
+ Time series: 2017-10-31 to 2024-10-31 (85 data points)
+Series: Unnamed Series
+ Time series: 2017-10-31 to 2024-10-31 (85 data points)
+2
+[middle-right]:
+Following a postive long-term outperformance of the stock, the trend score and the overweight increase
+[middle-left]:
+Relative underperformance and increased volatility in the beginning lead to a weak trend score and a slight underweight of the stock in the portfolio
+1
+[bottom-center]:
+Past performance is not a reliable indication of future return and is not constant over time. This example is not an investment recommendation.
+Source: ODDO BHF AM, Datastream | Benchmark: S&P 500 | Data as of 31/10/2024
+[bottom-right]:
+26
+
+=== Slide 27 ===
+[middle-left]:
+05
+[middle-right]:
+Portfolio
+
+=== Slide 28 ===
+[top-center]:
+Portfolio
+Sector Allocation
+[middle-left]:
+Relative sector weights (in %)
+[CHART] Detected chart.
+Type: Bar Clustered (57)
+Series: Unnamed Series
+ Categories (25 total): Capital Goods, Consumer Staples Distribution & Retail, Health Care Equipment & Services, Commercial & Professional Services, Telecommunication Services ... (and 20 more)
+[middle-right]:
+Absolute sector weights (in %)
+[CHART] Detected chart.
+Type: Bar Clustered (57)
+Series: Unnamed Series
+ Categories (25 total): Capital Goods, Consumer Staples Distribution & Retail, Health Care Equipment & Services, Commercial & Professional Services, Telecommunication Services ... (and 20 more)
+[bottom-center]:
+These examples are no investment recommendations
+Source: ODDO BHF AM | Data as of 30/06/2025 | Benchmark: S&P 500 NR
+[bottom-right]:
+28
+
+=== Slide 29 ===
+[top-center]:
+Portfolio
+Largest Positions in the Portfolio
+[middle-center]:
+[TABLE] 12 rows × 5 columns.
+Data:
+ Row 1: Top 10 Holdings |  |  |  | 
+ Row 2:  | FUND (%) | Benchmark (%) | Country | Sector
+ Row 3: NVIDIA CORP | 8,0% | 7,3% | USA | Semiconductors & Semiconductor Equipment
+ Row 4: MICROSOFT CORP | 6,1% | 7,0% | USA | Software & Services
+ Row 5: APPLE INC | 5,2% | 5,9% | USA | Technology Hardware & Equipment
+ Row 6: META PLATFORMS INC | 3,1% | 3,1% | USA | Media & Entertainment
+ Row 7: BROADCOM INC | 3,1% | 2,5% | USA | Semiconductors & Semiconductor Equipment
+ Row 8: BOSTON SCIENTIFIC CORP | 2,9% | 0,3% | USA | Health Care Equipment & Services
+ Row 9: JPMORGAN CHASE & CO | 2,6% | 1,5% | USA | Banks
+ Row 10: NETFLIX INC | 2,5% | 1,1% | USA | Media & Entertainment
+ Row 11: AMAZON.COM INC | 2,4% | 3,9% | USA | Consumer Discretionary Distribution & Retail
+ Row 12: WALMART INC | 2,4% | 0,8% | USA | Consumer Staples Distribution & Retail
+[bottom-center]:
+These examples are no investment recommendations
+Source: ODDO BHF AM | Data as of 30/06/2025 | Benchmark: S&P 500 NR
+[bottom-right]:
+29
+
+=== Slide 30 ===
+[top-center]:
+Portfolio
+Largest Over- and Underweights
+[middle-left]:
+Top 10 relative Weights
+[middle-right]:
+Bottom 10 relative Weights
+[bottom-center]:
+These examples are no investment recommendations
+Source: ODDO BHF AM | Data as of 30/06/2025 | Benchmark: S&P 500 NR
+[bottom-right]:
+30
+
+=== Slide 31 ===
+[top-center]:
+Details
+Fund Characteristics
+[middle-center]:
+[TABLE] 26 rows × 2 columns.
+Data:
+ Row 1: Country available for Sales | France, Germany, Switzerland
+ Row 2: General characteristics | 
+ Row 3: Fund name | ODDO BHF US Equity Active UCITS ETF
+ Row 4: Benchmark | S&P 500 USD Net Total
+ Row 5: Investment objective | The investment objective is to achieve long-term capital growth by investing in a portfolio of US equity securities.
+ Row 6: Inception date | 2025
+ Row 7: Recommended investment horizon | 5 years
+ Row 8: ISIN code | IE000YR7N5U8
+ Row 9: Stock Exchanges | Xetra, Euronext Paris and Dublin, SIX
+ Row 10: Tickers | OBUS, Xetra: ODUS
+ Row 11: Currency | USD
+ Row 12: Dividend policy | Accumulation
+ Row 13: TER | 0,35%
+ Row 14: Minimum Initial Investment Amount | None
+ Row 15: Structure and technical information | 
+ Row 16: Domicile | Ireland
+ Row 17: Management company | HANetf Management Limited
+ Row 18: Legal structure | Sub-fund of the HANetf ICAV 1
+ Row 19: Investment Manager by delegation | ODDO BHF Asset Management GmbH (sub-delegation from ODDO BHF Asset Management SAS )
+ Row 20: Custodian | JP Morgan, Dublin Branch
+ Row 21: Primary Market Parameters | 
+ Row 22: Creation Unit | 100,000 shares
+ Row 23: Initial Offering Price | $10
+ Row 24: Dealing Day | Each Business Day (with exceptions)
+ Row 25: Dealing Deadline | 3:30 p.m. (Irish time) on Business day
+ Row 26: Settlement Date Subscriptions | T+1 (cash) for subscriptions and T+2 (max T+10) for redemptions
+[bottom-center]:
+Source: ODDO BHF AM
+[bottom-right]:
+31
+
+=== Slide 32 ===
+[top-center]:
+GLOSSARY OF TERMS (1/2)
+[middle-left]:
+Performance calculation
+The funds’ cumulative performances are calculated with dividends reinvested. Annualised performance is calculated on an actuarial basis on an annual basis over 365 days. Differences in the performance of a fund relative to its benchmark are arithmetic differences. Statistical indicators are generally calculated on a weekly basis on Fridays, or the previous valuation day failing that.
+Active Share 
+Measure of the percentage of securities in the portfolio that differs from the benchmark. A higher active share implies a greater difference in portfolio allocation vs the benchmark.
+Jensen’s alpha 
+Measure of the performance gap between the portfolio and the benchmark with a similar level of risk (adjusted for β). It measures the value of the fund or the manager’s ability to “beat the market”, also known as excess return.
+Beta 
+β measures the sensitivity of the performance of a portfolio compared with that of its benchmark, i.e., when the bench- mark varies by X%, the fund varies, on average, by a magnitude equal to β*X%.
+[middle-center]:
+Correlation coefficient
+The correlation coefficient defines the degree of dependence between change in the performance of the portfolio and that of its benchmark. The closer it is to 1, the greater the degree of dependence. A negative correlation coefficient means that, on average, the portfolio will fluctuate inversely to its benchmark.
+Duration 
+Duration is a measure of interest rate risk in bond instruments. Duration is expressed as the weighted average life of all flows (interest and principal).
+Distance to bond floor 
+For convertible bonds, the value of the bond component. The distance to the bond floor represents the value of the conversion option into shares.
+Maximum Drawdown 
+The maximum drawdown is the level of loss (in %) recorded on a fund during the worst period of decline over the period under review.
+[middle-right]:
+Average maturity
+Average life is defined as the weighted average maturity (in years) of all the cash flows (including repayment of the of capital) resulting from an investment. Therefore, it is a question a measuring instrument allowing to assess the sensitivity of the price of an asset or a portfolio at a change in interest rates. 
+Sharpe Ratio 
+The Sharpe ratio measures the risk/return profile of the portfolio or benchmark. It is the difference between the annualised performance of the fund (or its benchmark) and the annual return based on the risk-free rate divided by the volatility of the fund (or its benchmark).
+Information ratio 
+The information ratio measures the over/under performance achieved by the manager when he or she deviates from the reference indicator It is equal to the difference in the annualized portfolio return by relative to its reference indicator, divided by the tracking error. 
+Recovery Delay 
+Payback period of maximum drawdown: the time to clear the loss on the worst period of decline and return to the original level.
+[bottom-right]:
+32
+
+=== Slide 33 ===
+[top-center]:
+GlossarY of Terms (2/2)
+[middle-left]:
+Yield to maturity 
+The yield to maturity of a bond is the real rate of return on the bond for an investor who keeps it until its redemption, assuming that the issuer will not default and assuming the reinvestment of interest at the same yield.
+Equity sensitivity 
+For convertible bonds, equity sensitivity measures the percentage change in value induced by a change in the equity markets.
+Credit sensitivity
+Credit sensitivity is used to measure the risk associated with changes in credit spreads. The value of the portfolio is subject to change in the event of deterioration or improvement in the quality of issuers. Thus, a value of +2% for instance means that for an instantaneous 1% increase (respectively decrease) in spreads, the portfolio value would decrease (in- crease) by 2%.
+Interest rate sensitivity 
+For convertible bonds, interest rate sensitivity measures the percentage change in value induced by a change in the interest rate.
+[middle-center]:
+Credit spread 
+The credit spread refers to the risk premium, or the difference between the yields on corporate bonds and government bonds with similar characteristics.
+Turnover rate
+The portfolio turnover rate is the sum of movements (purchases and sales of securities), less the amount of subscriptions/redemptions, based on the average net assets observed over the period.
+Tracking-Error 
+Measure of the relative risk taken by a fund vs its benchmark. The tracking error is the volatility of relative performance, i.e. the annualised standard deviation of the arithmetic over- or underperformance of the portfolio vs its benchmark.
+Weighted Average Life (WAL) 
+For money market funds: weighted average life of the portfolio until the date of termination of financial instruments.
+[middle-right]:
+Weighted Average Maturity (WAM)
+Weighted average maturity of the portfolio: measure of sensitivity of money market funds to interest rate risk.
+Ex-post Value at Risk (VaR) 
+Ex-post VaR is the maximum loss recorded by an investor factoring in an investment period and a confidence interval. Thus, a daily 1-year VaR of x% calculated with a confidence interval of 99% means that, over an observation period of 1 year, only 1% of daily performances were below x%.
+Volatility 
+Volatility is a risk indicator that measures the magnitude of the variation of a portfolio (or benchmark) over a given period. It is calculated as the annualised standard deviation of absolute returns over a defined period.
+[bottom-right]:
+33
+
+=== Slide 34 ===
+[top-center]:
+Important Information
+[middle-center]:
+If ODDO BHF  Asset Management GmbH receives any rebates on the management fee of target funds or other assets, ODDO BHF  Asset Management GmbH undertakes to fully remit such payment to the investor or the fund. If ODDO BHF  Asset Management GmbH performs services for an investment product of a third party, ODDO BHF  Asset Management GmbH will be compensated by the relevant company. Typical services are investment management or sales activities for funds established by a different investment management company. Normally, such compensation is calculated as a percentage of the management fee (up to 100%) of the respective fund, calculated on the basis of such fund’s assets managed or distributed by ODDO BHF  Asset Management GmbH. This may result in the risk that the investment advice given may not be consistent with the investor’s interest. The amount of the management fee is published in the prospectus of the respective fund. Further details are available upon request. It is further intended solely for persons based in countries in which the respective funds are registered for distribution or in which such registration is not required. The shares of the fund have not been registered under the United States Securities Act of 1933, as amended (the “1933 Act”); they may therefore not be publicly offered or sold in the United States of America or to US citizens or any US residents. This publication is intended as marketing instrument and does not satisfy the statutory requirements regarding the impartiality of a financial analysis, and the financial instruments concerned are not subject to any prohibition of trading in advance of the publication of this presentation.
+Copyright © Morningstar, Inc. All Rights Reserved. The information, data, analyses and opinions with reference to Morningstar contained herein (1) include the confidential and proprietary information of Morningstar, (2) may not be copied or redistributed, (3) do not constitute investment advice offered by Morningstar, (4) are provided solely for informational purposes and therefore are not an offer to buy or sell a security, and (5) are not warranted to be correct, complete or accurate. Except as otherwise required by law, Morningstar shall not be responsible for any trading decisions, damages or other losses resulting from, or related to, this information, data, analyses or opinions or their use. This report is supplemental sales literature, and therefore must be preceded or accompanied by a prospectus and disclosure statement. STOXX Limited (“STOXX”) is the source of
+Any aforementioned STOXX index and the data comprised therein. STOXX has not been involved in any way in the creation of any reported information and does neither warrant nor assume any liability whatsoever – including without limitation the accuracy, adequateness, correctness, completeness, timeliness, and fitness for any purpose – with respect to any reported information. Any dissemination or further distribution of any such information pertaining to STOXX is prohibited.
+The European Directive 2014/65/EU (the so-called "MiFID II Directive") extends the scope of provisions requiring that investor information be fair, clear and not misleading, making them applicable also for professional clients. Article 44 of such Directive provides that the information be sufficient for, and presented in a way that it is likely to be understood by, the average member of the group to whom it is directed, or by whom it is likely to be received, and that the information does not disguise, diminish or obscure important items, statements or warnings. We have presented the performance shown in this document in a manner that we deem appropriate for the target audience of this document. Further information on the performance presented in this document is available on request.
+[middle-right]:
+.
+Strictly confidential
+[bottom-right]:
+13.10.2025
+34
+
+=== Slide 35 ===
+

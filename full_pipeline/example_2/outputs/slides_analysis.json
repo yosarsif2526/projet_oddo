@@ -1,0 +1,831 @@
+[
+  {
+    "slide_number": 1,
+    "analysis": {
+      "summary": "Cette slide présente un fonds d'investissement en actions américaines, l'ODDO BHF US Equity Active UCITS ETF, avec une date de septembre 2025.",
+      "themes": [
+        "investissement",
+        "actions américaines",
+        "fonds d'investissement"
+      ],
+      "visual_elements": [
+        "titre",
+        "bloc de texte",
+        "mention légale"
+      ],
+      "data_type": [
+        "description du fonds",
+        "texte marketing",
+        "informations réglementaires",
+        "date"
+      ],
+      "disclaimers": [
+        "Promotional INFORMATION"
+      ]
+    }
+  },
+  {
+    "slide_number": 2,
+    "analysis": {
+      "summary": "Cette slide présente les mentions légales et les avertissements relatifs à un fonds d'investissement géré par ODDO BHF ASSET MANAGEMENT SAS.",
+      "themes": [
+        "mentions légales",
+        "avertissements",
+        "fonds d'investissement"
+      ],
+      "visual_elements": [
+        "titre",
+        "blocs de texte"
+      ],
+      "data_type": [
+        "avertissements légaux",
+        "informations réglementaires"
+      ],
+      "disclaimers": [
+        "ODDO BHF ASSET MANAGEMENT SAS ne peut être tenu responsable de tout dommage direct ou indirect résultant de l'utilisation de ce document",
+        "Les investisseurs doivent consulter un conseiller en investissement avant de souscrire au fonds",
+        "Le fonds présente un risque de perte en capital et d'autres risques liés aux instruments financiers et aux stratégies du portefeuille"
+      ]
+    }
+  },
+  {
+    "slide_number": 3,
+    "analysis": {
+      "summary": "Cette slide présente les informations relatives au produit ODDO BHF US Equity Active UCITS ETF, notamment sa date de création, sa taille et sa classification SFDR. Elle fournit également des informations sur l'échelle de risque et les données de performance.",
+      "themes": [
+        "Fonds d'investissement",
+        "Produit financier",
+        "Risque et performance"
+      ],
+      "visual_elements": [
+        "Tableau 2x5",
+        "Tableau 1x3",
+        "Titre",
+        "Bloc de texte"
+      ],
+      "data_type": [
+        "Description du fonds",
+        "Données de performance",
+        "Informations réglementaires",
+        "Avertissements légaux"
+      ],
+      "disclaimers": [
+        "The EU Sustainable Finance Disclosure Regulation (SFDR) est un ensemble de règles de l'UE qui visent à rendre le profil de durabilité des fonds transparent, plus comparable et mieux compris par les investisseurs finals.",
+        "The summary risk indicator (SRI) est un guide du niveau de risque de ce produit par rapport à d'autres produits."
+      ]
+    }
+  },
+  {
+    "slide_number": 4,
+    "analysis": {
+      "summary": "Cette slide présente un aperçu du fonds d'investissement ODDO BHF US Equity Active UCITS ETF, mettant en avant sa stratégie d'investissement basée sur le momentum et son approche quantitative.",
+      "themes": [
+        "investissement",
+        "momentum",
+        "marché américain",
+        "fonds d'investissement",
+        "stratégie quantitative"
+      ],
+      "visual_elements": [
+        "titre",
+        "blocs de texte",
+        "logo"
+      ],
+      "data_type": [
+        "description du fonds",
+        "texte marketing",
+        "avertissements légaux",
+        "informations réglementaires"
+      ],
+      "disclaimers": [
+        "The fund presents a risk of capital loss."
+      ]
+    }
+  },
+  {
+    "slide_number": 5,
+    "analysis": {
+      "summary": "Cette slide présente une vue d'ensemble de la stratégie d'investissement ODDO BHF Algo Trend, y compris l'équipe de gestion et les convictions d'investissement. Elle fournit également des informations sur les actifs sous gestion et les membres de l'équipe.",
+      "themes": [
+        "Investissement",
+        "Stratégie",
+        "Gestion de portefeuille"
+      ],
+      "visual_elements": [
+        "Chart",
+        "Titres",
+        "Blocs de texte",
+        "Noms et photos des membres de l'équipe"
+      ],
+      "data_type": [
+        "Données de gestion de portefeuille",
+        "Informations sur l'équipe",
+        "Convictions d'investissement",
+        "Avertissements légaux"
+      ],
+      "disclaimers": [
+        "Current team, subject to change. The strategy presents a risk of capital loss."
+      ]
+    }
+  },
+  {
+    "slide_number": 6,
+    "analysis": {
+      "summary": "Cette slide présente un sommaire de contenu lié à un fonds d'investissement, avec des sujets tels que les ETF actifs, les investissements sur le marché américain et le processus d'investissement.",
+      "themes": [
+        "investissement",
+        "fonds",
+        "marché financier"
+      ],
+      "visual_elements": [
+        "tableau"
+      ],
+      "data_type": [
+        "sommaire de contenu",
+        "informations sur le fonds"
+      ],
+      "disclaimers": []
+    }
+  },
+  {
+    "slide_number": 7,
+    "analysis": {
+      "summary": "Cette slide présente une introduction aux ETFs actifs et leur attrait. Elle fait partie d'une présentation commerciale d'un fonds d'investissement.",
+      "themes": [
+        "ETFs actifs",
+        "investissement",
+        "fonds"
+      ],
+      "visual_elements": [
+        "titre",
+        "numéro de slide"
+      ],
+      "data_type": [
+        "texte marketing",
+        "introduction"
+      ],
+      "disclaimers": []
+    }
+  },
+  {
+    "slide_number": 8,
+    "analysis": {
+      "summary": "Cette slide présente une vue d'ensemble des ETFs actifs, expliquant leur fonctionnement et les différences avec les ETFs passifs. Elle définit également les ETFs actifs et leur stratégie d'investissement.",
+      "themes": [
+        "ETFs actifs",
+        "Investissement actif",
+        "Fonds d'investissement"
+      ],
+      "visual_elements": [
+        "Titre",
+        "Blocs de texte",
+        "Logo (ODDO BHF AM)"
+      ],
+      "data_type": [
+        "Description du fonds",
+        "Texte marketing",
+        "Avertissements légaux"
+      ],
+      "disclaimers": [
+        "The fund presents a risk of capital loss."
+      ]
+    }
+  },
+  {
+    "slide_number": 9,
+    "analysis": {
+      "summary": "La slide présente l'évolution des fonds négociés en bourse (ETF) actifs en Europe, avec des données sur les actifs sous gestion et les prévisions de croissance. Elle met en évidence le potentiel de croissance de ce segment.",
+      "themes": [
+        "ETF actifs",
+        "Europe",
+        "Croissance"
+      ],
+      "visual_elements": [
+        "Titre",
+        "Texte",
+        "Graphique en colonnes empilées",
+        "Chiffres et pourcentages"
+      ],
+      "data_type": [
+        "Données de marché",
+        "Prévisions de croissance",
+        "Avertissements légaux"
+      ],
+      "disclaimers": [
+        "The fund presents a risk of capital loss."
+      ]
+    }
+  },
+  {
+    "slide_number": 10,
+    "analysis": {
+      "summary": "Cette slide présente les avantages de l'investissement dans des ETFs actifs, en mettant en avant les bénéfices de la combinaison de l'enveloppe ETF avec les avantages de l'investissement actif.",
+      "themes": [
+        "ETFs actifs",
+        "Investissement actif",
+        "Avantages"
+      ],
+      "visual_elements": [
+        "Titre",
+        "Blocs de texte",
+        "Logo"
+      ],
+      "data_type": [
+        "Texte marketing",
+        "Avantages du produit",
+        "Avertissements légaux"
+      ],
+      "disclaimers": [
+        "Le fonds présente un risque de perte en capital.",
+        "Les performances passées ne sont pas un indicateur fiable des performances futures et ne sont pas constantes dans le temps."
+      ]
+    }
+  },
+  {
+    "slide_number": 11,
+    "analysis": {
+      "summary": "Cette slide présente une question rhétorique pour inciter les investisseurs à considérer le marché américain. Elle fait partie d'une présentation commerciale d'un fonds d'investissement.",
+      "themes": [
+        "investissement",
+        "marché américain",
+        "fonds d'investissement"
+      ],
+      "visual_elements": [
+        "titre",
+        "numéro de slide"
+      ],
+      "data_type": [
+        "texte marketing"
+      ],
+      "disclaimers": []
+    }
+  },
+  {
+    "slide_number": 12,
+    "analysis": {
+      "summary": "Cette slide présente les raisons d'investir aux États-Unis, mettant en avant son marché leader, sa diversité industrielle et son importance économique. Elle souligne également l'attractivité historique du marché américain.",
+      "themes": [
+        "Investissement",
+        "États-Unis",
+        "Marché financier",
+        "Économie",
+        "Innovation"
+      ],
+      "visual_elements": [
+        "Titre",
+        "Blocs de texte",
+        "Informations statistiques"
+      ],
+      "data_type": [
+        "Données de marché",
+        "Informations économiques",
+        "Texte marketing",
+        "Avertissements légaux"
+      ],
+      "disclaimers": [
+        "Past performance is not a reliable indicator of future performance and is not constant over time"
+      ]
+    }
+  },
+  {
+    "slide_number": 13,
+    "analysis": {
+      "summary": "Cette slide présente des exemples de champions mondiaux potentiels issus de l'économie nouvelle et ancienne. Elle met en avant les meilleures entreprises des secteurs technologique et non technologique.",
+      "themes": [
+        "investissement",
+        "champions mondiaux",
+        "économie nouvelle et ancienne"
+      ],
+      "visual_elements": [
+        "titre",
+        "blocs de texte",
+        "numéro de slide"
+      ],
+      "data_type": [
+        "texte marketing",
+        "avertissements légaux"
+      ],
+      "disclaimers": [
+        "Ces exemples ne constituent pas des recommandations d'investissement"
+      ]
+    }
+  },
+  {
+    "slide_number": 14,
+    "analysis": {
+      "summary": "Cette slide présente les performances du marché financier américain par rapport à d'autres régions, avec des données sur les performances annuelles et cumulées de différents indices boursiers.",
+      "themes": [
+        "marché financier",
+        "performance",
+        "indices boursiers"
+      ],
+      "visual_elements": [
+        "titre",
+        "graphique à barres",
+        "graphique linéaire",
+        "texte"
+      ],
+      "data_type": [
+        "données de performance",
+        "indices boursiers",
+        "avertissements légaux",
+        "informations réglementaires"
+      ],
+      "disclaimers": [
+        "Past performance is not a reliable indicator of future performance and is not constant over time"
+      ]
+    }
+  },
+  {
+    "slide_number": 15,
+    "analysis": {
+      "summary": "Cette slide présente le concept d'investissement en momentum. Elle fait partie d'une présentation commerciale d'un fonds d'investissement.",
+      "themes": [
+        "investissement",
+        "momentum",
+        "fonds d'investissement"
+      ],
+      "visual_elements": [
+        "titre",
+        "numéro de slide"
+      ],
+      "data_type": [
+        "texte marketing"
+      ],
+      "disclaimers": []
+    }
+  },
+  {
+    "slide_number": 16,
+    "analysis": {
+      "summary": "Cette slide présente l'hypothèse des marchés efficients et ses différentes formes, ainsi qu'un avertissement sur la fiabilité des performances passées. Elle fait partie d'une présentation commerciale d'un fonds d'investissement.",
+      "themes": [
+        "marchés efficients",
+        "investissements",
+        "performance"
+      ],
+      "visual_elements": [
+        "titre",
+        "blocs de texte",
+        "numéro de slide"
+      ],
+      "data_type": [
+        "texte théorique",
+        "avertissements légaux",
+        "informations réglementaires"
+      ],
+      "disclaimers": [
+        "Past performance is not a reliable indicator of future performance and is not constant over time"
+      ]
+    }
+  },
+  {
+    "slide_number": 17,
+    "analysis": {
+      "summary": "Cette slide présente le concept d'investissement en momentum et son effet sur les marchés boursiers. Elle met en évidence les performances historiques du momentum par rapport au marché global et à d'autres facteurs.",
+      "themes": [
+        "investissement",
+        "momentum",
+        "marchés boursiers"
+      ],
+      "visual_elements": [
+        "titre",
+        "chart linéaire",
+        "blocs de texte",
+        "numéro de slide"
+      ],
+      "data_type": [
+        "données de performance",
+        "texte explicatif",
+        "avertissements légaux"
+      ],
+      "disclaimers": [
+        "Past performance is not a reliable indicator of future performance and is not constant over time"
+      ]
+    }
+  },
+  {
+    "slide_number": 18,
+    "analysis": {
+      "summary": "Cette slide présente le concept d'investissement basé sur la théorie du momentum, en expliquant comment la finance comportementale peut aider à comprendre les comportements irrationnels des investisseurs. Elle met en avant les biais cognitifs qui influencent les décisions d'investissement.",
+      "themes": [
+        "Finance comportementale",
+        "Momentum",
+        "Biais cognitifs"
+      ],
+      "visual_elements": [
+        "Titre",
+        "Blocs de texte",
+        "Logo ODDO BHF AM"
+      ],
+      "data_type": [
+        "Texte marketing",
+        "Informations théoriques"
+      ],
+      "disclaimers": [
+        "Source: ODDO BHF AM"
+      ]
+    }
+  },
+  {
+    "slide_number": 19,
+    "analysis": {
+      "summary": "Cette slide présente les explications de la finance comportementale pour l'effet de momentum dans les investissements, en mettant en avant les biais cognitifs et les comportements irrationnels des investisseurs.",
+      "themes": [
+        "finance comportementale",
+        "effet de momentum",
+        "biais cognitifs"
+      ],
+      "visual_elements": [
+        "titre",
+        "texte",
+        "graphique à barres",
+        "graphique linéaire",
+        "chart"
+      ],
+      "data_type": [
+        "texte marketing",
+        "données de recherche",
+        "avertissements légaux",
+        "informations réglementaires"
+      ],
+      "disclaimers": [
+        "Past performance is not a reliable indication of future return and is not constant over time."
+      ]
+    }
+  },
+  {
+    "slide_number": 20,
+    "analysis": {
+      "summary": "Cette slide présente les risques associés aux investissements à momentum, notamment le risque de retournement de tendance et le risque de concentration. Elle met en évidence les risques potentiels de pertes en capital.",
+      "themes": [
+        "investissements à momentum",
+        "risques de retournement de tendance",
+        "concentration"
+      ],
+      "visual_elements": [
+        "graphique en ligne",
+        "graphique en zone empilée",
+        "titres",
+        "blocs de texte"
+      ],
+      "data_type": [
+        "données de performance",
+        "informations réglementaires",
+        "avertissements légaux"
+      ],
+      "disclaimers": [
+        "The strategy presents a risk of capital loss.",
+        "Source: ODDO BHF AM, Datastream"
+      ]
+    }
+  },
+  {
+    "slide_number": 21,
+    "analysis": {
+      "summary": "Cette slide présente les avantages des investissements à effet de moment, en soulignant leur potentiel de surperformance à long terme. Elle met également en garde contre les risques spécifiques associés à ce type d'investissement.",
+      "themes": [
+        "investissement",
+        "momentum",
+        "risque",
+        "performance",
+        "tendance"
+      ],
+      "visual_elements": [
+        "titre",
+        "blocs de texte",
+        "numéro de slide"
+      ],
+      "data_type": [
+        "texte marketing",
+        "avertissements légaux"
+      ],
+      "disclaimers": [
+        "The fund presents a risk of capital loss."
+      ]
+    }
+  },
+  {
+    "slide_number": 22,
+    "analysis": {
+      "summary": "Cette slide présente le processus d'investissement du fonds. Elle est la 4ème étape d'un processus plus large.",
+      "themes": [
+        "Investissement",
+        "Processus",
+        "Fonds"
+      ],
+      "visual_elements": [
+        "Titre",
+        "Numéro de slide"
+      ],
+      "data_type": [
+        "Texte descriptif",
+        "Informations sur le processus d'investissement"
+      ],
+      "disclaimers": []
+    }
+  },
+  {
+    "slide_number": 23,
+    "analysis": {
+      "summary": "Cette slide présente le processus d'investissement d'un fonds d'investissement, en mettant l'accent sur la transparence et la gestion des risques. Elle décrit les étapes clés du processus, de l'identification des tendances à la construction du portefeuille.",
+      "themes": [
+        "Investissement",
+        "Gestion de portefeuille",
+        "Risque"
+      ],
+      "visual_elements": [
+        "Titre",
+        "Diagramme de flux",
+        "Graphique linéaire",
+        "Graphique en camembert",
+        "Bloc de texte"
+      ],
+      "data_type": [
+        "Description du processus d'investissement",
+        "Informations sur la gestion des risques",
+        "Avertissement légal"
+      ],
+      "disclaimers": [
+        "The fund presents a risk of capital loss."
+      ]
+    }
+  },
+  {
+    "slide_number": 24,
+    "analysis": {
+      "summary": "Cette slide présente le processus d'investissement du fonds, en particulier l'étape d'identification des tendances de haute qualité. Elle montre comment les entreprises sont évaluées et classées en fonction de leur performance à court et à long terme.",
+      "themes": [
+        "Investissement",
+        "Tendances",
+        "Évaluation des entreprises"
+      ],
+      "visual_elements": [
+        "Graphique de ligne",
+        "Tableau",
+        "Titre",
+        "Bloc de texte"
+      ],
+      "data_type": [
+        "Données de performance",
+        "Avertissements légaux",
+        "Informations réglementaires"
+      ],
+      "disclaimers": [
+        "Past performance is not a reliable indication of future return and is not constant over time.",
+        "The simulation presented does not constitute a forecast of the future performance of your investments."
+      ]
+    }
+  },
+  {
+    "slide_number": 25,
+    "analysis": {
+      "summary": "Cette slide présente la deuxième étape du processus d'investissement, à savoir la construction du portefeuille, en mettant l'accent sur la diversification et la gestion des risques. Elle illustre également les critères de sélection des entreprises en fonction de leur score de tendance finale.",
+      "themes": [
+        "construction de portefeuille",
+        "diversification",
+        "gestion des risques"
+      ],
+      "visual_elements": [
+        "titre",
+        "tableau",
+        "texte",
+        "numéro de slide"
+      ],
+      "data_type": [
+        "données de performance",
+        "texte marketing",
+        "avertissements légaux"
+      ],
+      "disclaimers": [
+        "Le fonds présente un risque de perte en capital",
+        "Les performances passées ne constituent pas un indicateur fiable des rendements futurs",
+        "La simulation présentée ne constitue pas une prévision des performances futures de vos investissements"
+      ]
+    }
+  },
+  {
+    "slide_number": 26,
+    "analysis": {
+      "summary": "Cette slide présente un exemple de mise en œuvre de portefeuille pour Iron Mountain Inc, en montrant l'évolution du score de tendance et du poids relatif au fil du temps. Elle illustre le processus d'investissement du fonds.",
+      "themes": [
+        "Investissement",
+        "Portefeuille",
+        "Tendance"
+      ],
+      "visual_elements": [
+        "Chart",
+        "Titre",
+        "Texte",
+        "Légende"
+      ],
+      "data_type": [
+        "Données de performance",
+        "Informations réglementaires",
+        "Avertissements légaux"
+      ],
+      "disclaimers": [
+        "Past performance is not a reliable indication of future return and is not constant over time. This example is not an investment recommendation."
+      ]
+    }
+  },
+  {
+    "slide_number": 27,
+    "analysis": {
+      "summary": "Cette slide présente le portfolio d'un fonds d'investissement. Elle semble être une introduction ou un titre pour une section plus détaillée.",
+      "themes": [
+        "fonds d'investissement",
+        "portfolio",
+        "investissement"
+      ],
+      "visual_elements": [
+        "titre",
+        "numéro de slide",
+        "bloc de texte"
+      ],
+      "data_type": [
+        "titre",
+        "introduction"
+      ],
+      "disclaimers": []
+    }
+  },
+  {
+    "slide_number": 28,
+    "analysis": {
+      "summary": "Cette slide présente l'allocation sectorielle du portefeuille d'un fonds d'investissement, avec des graphiques montrant les poids relatifs et absolus des différents secteurs.",
+      "themes": [
+        "allocation sectorielle",
+        "portefeuille d'investissement",
+        "fonds d'investissement"
+      ],
+      "visual_elements": [
+        "titre",
+        "graphiques à barres",
+        "blocs de texte",
+        "numéro de slide"
+      ],
+      "data_type": [
+        "données de portefeuille",
+        "informations réglementaires",
+        "avertissements légaux"
+      ],
+      "disclaimers": [
+        "Ces exemples ne constituent pas des recommandations d'investissement"
+      ]
+    }
+  },
+  {
+    "slide_number": 29,
+    "analysis": {
+      "summary": "Cette slide présente les principales positions du portefeuille d'un fonds d'investissement, avec les 12 plus grandes participations. Elle fournit des informations sur les entreprises, leur poids dans le portefeuille et leur secteur d'activité.",
+      "themes": [
+        "investissement",
+        "portefeuille",
+        "positions"
+      ],
+      "visual_elements": [
+        "titre",
+        "tableau",
+        "texte"
+      ],
+      "data_type": [
+        "données de portefeuille",
+        "informations sur les entreprises",
+        "avertissements légaux"
+      ],
+      "disclaimers": [
+        "Ces exemples ne constituent pas des recommandations d'investissement"
+      ]
+    }
+  },
+  {
+    "slide_number": 30,
+    "analysis": {
+      "summary": "Cette slide présente les principaux écarts de pondération du portefeuille par rapport à l'indice de référence S&P 500 NR. Elle met en évidence les 10 principales surpondérations et sous-pondérations.",
+      "themes": [
+        "portefeuille",
+        "écarts de pondération",
+        "S&P 500"
+      ],
+      "visual_elements": [
+        "titre",
+        "tableaux",
+        "texte"
+      ],
+      "data_type": [
+        "données de portefeuille",
+        "informations réglementaires",
+        "avertissements légaux"
+      ],
+      "disclaimers": [
+        "Ces exemples ne constituent pas des recommandations d'investissement"
+      ]
+    }
+  },
+  {
+    "slide_number": 31,
+    "analysis": {
+      "summary": "Cette slide présente les caractéristiques détaillées du fonds d'investissement ODDO BHF US Equity Active UCITS ETF, notamment ses objectifs d'investissement, ses performances et ses informations réglementaires.",
+      "themes": [
+        "Fonds d'investissement",
+        "Caractéristiques",
+        "ODDO BHF US Equity Active UCITS ETF"
+      ],
+      "visual_elements": [
+        "Tableau",
+        "Titre",
+        "Bloc de texte"
+      ],
+      "data_type": [
+        "Informations réglementaires",
+        "Données de fonds",
+        "Objectifs d'investissement"
+      ],
+      "disclaimers": [
+        "Source: ODDO BHF AM"
+      ]
+    }
+  },
+  {
+    "slide_number": 32,
+    "analysis": {
+      "summary": "Cette slide présente un glossaire de termes financiers utilisés dans le fonds d'investissement, définissant des concepts tels que la performance, le risque et les indicateurs de gestion.",
+      "themes": [
+        "finances",
+        "investissement",
+        "glossaire"
+      ],
+      "visual_elements": [
+        "titre",
+        "blocs de texte",
+        "numéro de page"
+      ],
+      "data_type": [
+        "définitions financières",
+        "informations techniques"
+      ],
+      "disclaimers": []
+    }
+  },
+  {
+    "slide_number": 33,
+    "analysis": {
+      "summary": "Cette slide présente un glossaire de termes financiers utilisés dans le contexte d'un fonds d'investissement. Elle définit divers concepts tels que le rendement à l'échéance, la sensibilité au crédit et la volatilité.",
+      "themes": [
+        "finances",
+        "investissement",
+        "glossaire"
+      ],
+      "visual_elements": [
+        "titre",
+        "blocs de texte",
+        "numéro de page"
+      ],
+      "data_type": [
+        "définitions financières",
+        "informations réglementaires"
+      ],
+      "disclaimers": []
+    }
+  },
+  {
+    "slide_number": 34,
+    "analysis": {
+      "summary": "Cette slide présente des informations importantes et des avertissements légaux concernant les fonds d'investissement gérés par ODDO BHF Asset Management GmbH.",
+      "themes": [
+        "investissement",
+        "réglementation",
+        "avertissements légaux"
+      ],
+      "visual_elements": [
+        "titre",
+        "blocs de texte",
+        "logo Morningstar",
+        "logo STOXX"
+      ],
+      "data_type": [
+        "informations réglementaires",
+        "avertissements légaux",
+        "mentions de confidentialité"
+      ],
+      "disclaimers": [
+        "Morningstar",
+        "STOXX",
+        "MiFID II Directive",
+        "1933 Act",
+        "Copyright"
+      ]
+    }
+  },
+  {
+    "slide_number": 35,
+    "analysis": {
+      "summary": "Cette slide n'a pas de contenu visible, il est donc impossible de déterminer son contenu.",
+      "themes": [],
+      "visual_elements": [],
+      "data_type": [],
+      "disclaimers": []
+    }
+  }
+]
