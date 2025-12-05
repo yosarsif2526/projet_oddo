@@ -1,0 +1,1485 @@
+[
+  {
+    "slide_number": 1,
+    "applicable_rules": [
+      {
+        "rule_id": "1.1",
+        "section": "Règles générales",
+        "rule_text": "Si document retail : inclure les disclaimers retail (cf. Glossaire des disclaimers)",
+        "severity": "low"
+      },
+      {
+        "rule_id": "1.3",
+        "section": "Règles générales",
+        "rule_text": "Les études/ données chiffrées /graphiques etc., doivent faire l’objet d’un renvoi (note de bas de page) précisant à minima la source et la date",
+        "severity": "medium"
+      },
+      {
+        "rule_id": "1.4",
+        "section": "Règles générales",
+        "rule_text": "Pour chaque fonds présenté : mention obligatoire du SRI avec le disclaimer associé sur la même slide (cf. Glossaire)",
+        "severity": "low"
+      },
+      {
+        "rule_id": "1.6",
+        "section": "Règles générales",
+        "rule_text": "Les avertissements/disclaimers sur les risques doivent : être en gras, utiliser la même police et taille que le texte principal, être visibles (pas en note de bas de page)",
+        "severity": "medium"
+      },
+      {
+        "rule_id": "1.7",
+        "section": "Règles générales",
+        "rule_text": "Les opinions et hypothèses doivent être atténuées : Ex. : « selon notre opinion », « selon nos analyses », « le fonds a pour objectif de… »",
+        "severity": "low"
+      },
+      {
+        "rule_id": "1.8",
+        "section": "Règles générales",
+        "rule_text": "La stratégie du fonds doit être présentée conformément à la documentation légale : seuils d’investissement par classe d’actifs, stratégie, allocation géographique, ticket minimum, etc.",
+        "severity": "medium"
+      },
+      {
+        "rule_id": "1.9",
+        "section": "Règles générales",
+        "rule_text": "Les pays de commercialisation indiqués doivent être conformes aux dernières données (fichier EXCEL : « registration abroad » disponible : I:\\service\\DOC LIB\\GENERAL\\Registration abroad of Funds)",
+        "severity": "medium"
+      },
+      {
+        "rule_id": "2.1",
+        "section": "Page de garde - Présentation Standard (~30 pages)",
+        "rule_text": "Doit indiquer : le nom du fonds, le mois et l’année, la mention « document promotionnel », la cible : retail ou professionnel",
+        "severity": "low"
+      }
+    ]
+  },
+  {
+    "slide_number": 2,
+    "applicable_rules": [
+      {
+        "rule_id": "1.1",
+        "section": "Règles générales",
+        "rule_text": "Si document retail : inclure les disclaimers retail (cf. Glossaire des disclaimers)",
+        "severity": "low"
+      },
+      {
+        "rule_id": "1.6",
+        "section": "Règles générales",
+        "rule_text": "Les avertissements/disclaimers sur les risques doivent : être en gras, utiliser la même police et taille que le texte principal, être visibles (pas en note de bas de page)",
+        "severity": "medium"
+      },
+      {
+        "rule_id": "1.7",
+        "section": "Règles générales",
+        "rule_text": "Les opinions et hypothèses doivent être atténuées : Ex. : « selon notre opinion », « selon nos analyses », « le fonds a pour objectif de… »",
+        "severity": "low"
+      },
+      {
+        "rule_id": "3.1",
+        "section": "La Slide 2 (après la page de garde - Présentation Standard)",
+        "rule_text": "Le disclaimer standard (retail ou professionnel) → attention à adapter le nom du fonds et les clients éligibles",
+        "severity": "low"
+      },
+      {
+        "rule_id": "3.2",
+        "section": "La Slide 2 (après la page de garde - Présentation Standard)",
+        "rule_text": "La mention exhaustive du profil de risque, conformément au prospectus",
+        "severity": "medium"
+      },
+      {
+        "rule_id": "3.3",
+        "section": "La Slide 2 (après la page de garde - Présentation Standard)",
+        "rule_text": "Les pays de commercialisation (registration abroad)",
+        "severity": "medium"
+      }
+    ]
+  },
+  {
+    "slide_number": 3,
+    "applicable_rules": [
+      {
+        "rule_id": "1.3",
+        "section": "Règles générales",
+        "rule_text": "Les études/ données chiffrées /graphiques etc., doivent faire l’objet d’un renvoi (note de bas de page) précisant à minima la source et la date",
+        "severity": "medium"
+      },
+      {
+        "rule_id": "1.4",
+        "section": "Règles générales",
+        "rule_text": "Pour chaque fonds présenté : mention obligatoire du SRI avec le disclaimer associé sur la même slide (cf. Glossaire)",
+        "severity": "low"
+      },
+      {
+        "rule_id": "1.6",
+        "section": "Règles générales",
+        "rule_text": "Les avertissements/disclaimers sur les risques doivent : être en gras, utiliser la même police et taille que le texte principal, être visibles (pas en note de bas de page)",
+        "severity": "medium"
+      },
+      {
+        "rule_id": "4.5",
+        "section": "Pages suivantes",
+        "rule_text": "Vérifier la conformité des données avec la documentation légale (KID, Prospectus, Annexe SFDR)",
+        "severity": "medium"
+      },
+      {
+        "rule_id": "4.14",
+        "section": "Pages suivantes",
+        "rule_text": "Les performances sont obligatoirement et en permanence comparées à l’indicateur de référence du fonds s’il existe",
+        "severity": "medium"
+      },
+      {
+        "rule_id": "4.18",
+        "section": "Pages suivantes",
+        "rule_text": "La période de référence et la source des données doivent être clairement indiquées dans le document",
+        "severity": "low"
+      }
+    ]
+  },
+  {
+    "slide_number": 4,
+    "applicable_rules": [
+      {
+        "rule_id": "1.6",
+        "section": "Règles générales",
+        "rule_text": "Les avertissements/disclaimers sur les risques doivent : être en gras, utiliser la même police et taille que le texte principal, être visibles (pas en note de bas de page)",
+        "severity": "medium"
+      },
+      {
+        "rule_id": "1.7",
+        "section": "Règles générales",
+        "rule_text": "Les opinions et hypothèses doivent être atténuées : Ex. : « selon notre opinion », « selon nos analyses », « le fonds a pour objectif de… »",
+        "severity": "low"
+      },
+      {
+        "rule_id": "1.8",
+        "section": "Règles générales",
+        "rule_text": "La stratégie du fonds doit être présentée conformément à la documentation légale : seuils d’investissement par classe d’actifs, stratégie, allocation géographique, ticket minimum, etc.",
+        "severity": "medium"
+      },
+      {
+        "rule_id": "4.1",
+        "section": "Pages suivantes",
+        "rule_text": "Ne jamais commencer une présentation par la performance : commencer à minima par la présentation du fonds",
+        "severity": "medium"
+      },
+      {
+        "rule_id": "4.5",
+        "section": "Pages suivantes",
+        "rule_text": "Vérifier la conformité des données avec la documentation légale (KID, Prospectus, Annexe SFDR)",
+        "severity": "medium"
+      },
+      {
+        "rule_id": "4.22",
+        "section": "Pages suivantes",
+        "rule_text": "Pas de recommandation d’investissement directe ou indirecte",
+        "severity": "medium"
+      },
+      {
+        "rule_id": "4.24",
+        "section": "Pages suivantes",
+        "rule_text": "Ne pas suggérer une stratégie d’investissement",
+        "severity": "medium"
+      }
+    ]
+  },
+  {
+    "slide_number": 5,
+    "applicable_rules": [
+      {
+        "rule_id": "1.3",
+        "section": "Règles générales",
+        "rule_text": "Les études/ données chiffrées /graphiques etc., doivent faire l’objet d’un renvoi (note de bas de page) précisant à minima la source et la date",
+        "severity": "medium"
+      },
+      {
+        "rule_id": "1.6",
+        "section": "Règles générales",
+        "rule_text": "Les avertissements/disclaimers sur les risques doivent : être en gras, utiliser la même police et taille que le texte principal, être visibles (pas en note de bas de page)",
+        "severity": "medium"
+      },
+      {
+        "rule_id": "1.7",
+        "section": "Règles générales",
+        "rule_text": "Les opinions et hypothèses doivent être atténuées : Ex. : « selon notre opinion », « selon nos analyses », « le fonds a pour objectif de… »",
+        "severity": "low"
+      },
+      {
+        "rule_id": "1.8",
+        "section": "Règles générales",
+        "rule_text": "La stratégie du fonds doit être présentée conformément à la documentation légale : seuils d’investissement par classe d’actifs, stratégie, allocation géographique, ticket minimum, etc.",
+        "severity": "medium"
+      },
+      {
+        "rule_id": "4.5",
+        "section": "Pages suivantes",
+        "rule_text": "Vérifier la conformité des données avec la documentation légale (KID, Prospectus, Annexe SFDR)",
+        "severity": "medium"
+      },
+      {
+        "rule_id": "4.7",
+        "section": "Pages suivantes",
+        "rule_text": "Lorsqu’on présente une équipe de gestion, ajouter en bas de page que « L’équipe est susceptible de changer »",
+        "severity": "low"
+      },
+      {
+        "rule_id": "4.22",
+        "section": "Pages suivantes",
+        "rule_text": "Pas de recommandation d’investissement directe ou indirecte",
+        "severity": "medium"
+      }
+    ]
+  },
+  {
+    "slide_number": 6,
+    "applicable_rules": [
+      {
+        "rule_id": "1.3",
+        "section": "Règles générales",
+        "rule_text": "Les études/ données chiffrées /graphiques etc., doivent faire l’objet d’un renvoi (note de bas de page) précisant à minima la source et la date",
+        "severity": "medium"
+      },
+      {
+        "rule_id": "1.6",
+        "section": "Règles générales",
+        "rule_text": "Les avertissements/disclaimers sur les risques doivent : être en gras, utiliser la même police et taille que le texte principal, être visibles (pas en note de bas de page)",
+        "severity": "medium"
+      },
+      {
+        "rule_id": "1.7",
+        "section": "Règles générales",
+        "rule_text": "Les opinions et hypothèses doivent être atténuées : Ex. : « selon notre opinion », « selon nos analyses », « le fonds a pour objectif de… »",
+        "severity": "low"
+      },
+      {
+        "rule_id": "1.8",
+        "section": "Règles générales",
+        "rule_text": "La stratégie du fonds doit être présentée conformément à la documentation légale : seuils d’investissement par classe d’actifs, stratégie, allocation géographique, ticket minimum, etc.",
+        "severity": "medium"
+      },
+      {
+        "rule_id": "1.9",
+        "section": "Règles générales",
+        "rule_text": "Les pays de commercialisation indiqués doivent être conformes aux dernières données (fichier EXCEL : « registration abroad » disponible : I:\\service\\DOC LIB\\GENERAL\\Registration abroad of Funds)",
+        "severity": "medium"
+      },
+      {
+        "rule_id": "4.1",
+        "section": "Pages suivantes",
+        "rule_text": "Ne jamais commencer une présentation par la performance : commencer à minima par la présentation du fonds",
+        "severity": "medium"
+      },
+      {
+        "rule_id": "4.5",
+        "section": "Pages suivantes",
+        "rule_text": "Vérifier la conformité des données avec la documentation légale (KID, Prospectus, Annexe SFDR)",
+        "severity": "medium"
+      },
+      {
+        "rule_id": "4.18",
+        "section": "Pages suivantes",
+        "rule_text": "La période de référence et la source des données doivent être clairement indiquées dans le document",
+        "severity": "low"
+      }
+    ]
+  },
+  {
+    "slide_number": 7,
+    "applicable_rules": [
+      {
+        "rule_id": "1.7",
+        "section": "Règles générales",
+        "rule_text": "Les opinions et hypothèses doivent être atténuées : Ex. : « selon notre opinion », « selon nos analyses », « le fonds a pour objectif de… »",
+        "severity": "low"
+      },
+      {
+        "rule_id": "1.16",
+        "section": "Règles générales",
+        "rule_text": "Ne pas dire qu'un ETF est liquide",
+        "severity": "low"
+      },
+      {
+        "rule_id": "4.22",
+        "section": "Pages suivantes",
+        "rule_text": "Pas de recommandation d’investissement directe ou indirecte",
+        "severity": "medium"
+      },
+      {
+        "rule_id": "4.24",
+        "section": "Pages suivantes",
+        "rule_text": "Ne pas suggérer une stratégie d’investissement",
+        "severity": "medium"
+      },
+      {
+        "rule_id": "4.32",
+        "section": "Pages suivantes",
+        "rule_text": "L’usage de formules telles que « selon nous », « à notre avis », même au conditionnel, peut constituer une recommandation d’investissement selon le contexte",
+        "severity": "medium"
+      }
+    ]
+  },
+  {
+    "slide_number": 8,
+    "applicable_rules": [
+      {
+        "rule_id": "1.6",
+        "section": "Règles générales",
+        "rule_text": "Les avertissements/disclaimers sur les risques doivent : être en gras, utiliser la même police et taille que le texte principal, être visibles (pas en note de bas de page)",
+        "severity": "medium"
+      },
+      {
+        "rule_id": "1.7",
+        "section": "Règles générales",
+        "rule_text": "Les opinions et hypothèses doivent être atténuées : Ex. : « selon notre opinion », « selon nos analyses », « le fonds a pour objectif de… »",
+        "severity": "low"
+      },
+      {
+        "rule_id": "1.8",
+        "section": "Règles générales",
+        "rule_text": "La stratégie du fonds doit être présentée conformément à la documentation légale : seuils d’investissement par classe d’actifs, stratégie, allocation géographique, ticket minimum, etc.",
+        "severity": "medium"
+      },
+      {
+        "rule_id": "1.16",
+        "section": "Règles générales",
+        "rule_text": "Ne pas dire qu'un ETF est liquide",
+        "severity": "low"
+      },
+      {
+        "rule_id": "4.22",
+        "section": "Pages suivantes",
+        "rule_text": "Pas de recommandation d’investissement directe ou indirecte",
+        "severity": "medium"
+      },
+      {
+        "rule_id": "4.24",
+        "section": "Pages suivantes",
+        "rule_text": "Ne pas suggérer une stratégie d’investissement",
+        "severity": "medium"
+      }
+    ]
+  },
+  {
+    "slide_number": 9,
+    "applicable_rules": [
+      {
+        "rule_id": "1.3",
+        "section": "Règles générales",
+        "rule_text": "Les études/ données chiffrées /graphiques etc., doivent faire l’objet d’un renvoi (note de bas de page) précisant à minima la source et la date",
+        "severity": "medium"
+      },
+      {
+        "rule_id": "1.6",
+        "section": "Règles générales",
+        "rule_text": "Les avertissements/disclaimers sur les risques doivent : être en gras, utiliser la même police et taille que le texte principal, être visibles (pas en note de bas de page)",
+        "severity": "medium"
+      },
+      {
+        "rule_id": "1.7",
+        "section": "Règles générales",
+        "rule_text": "Les opinions et hypothèses doivent être atténuées : Ex. : « selon notre opinion », « selon nos analyses », « le fonds a pour objectif de… »",
+        "severity": "low"
+      },
+      {
+        "rule_id": "4.5",
+        "section": "Pages suivantes",
+        "rule_text": "Vérifier la conformité des données avec la documentation légale (KID, Prospectus, Annexe SFDR)",
+        "severity": "medium"
+      },
+      {
+        "rule_id": "4.18",
+        "section": "Pages suivantes",
+        "rule_text": "La période de référence et la source des données doivent être clairement indiquées dans le document",
+        "severity": "low"
+      }
+    ]
+  },
+  {
+    "slide_number": 10,
+    "applicable_rules": [
+      {
+        "rule_id": "1.1",
+        "section": "Règles générales",
+        "rule_text": "Si document retail : inclure les disclaimers retail (cf. Glossaire des disclaimers)",
+        "severity": "low"
+      },
+      {
+        "rule_id": "1.6",
+        "section": "Règles générales",
+        "rule_text": "Les avertissements/disclaimers sur les risques doivent : être en gras, utiliser la même police et taille que le texte principal, être visibles (pas en note de bas de page)",
+        "severity": "medium"
+      },
+      {
+        "rule_id": "1.7",
+        "section": "Règles générales",
+        "rule_text": "Les opinions et hypothèses doivent être atténuées : Ex. : « selon notre opinion », « selon nos analyses », « le fonds a pour objectif de… »",
+        "severity": "low"
+      },
+      {
+        "rule_id": "1.8",
+        "section": "Règles générales",
+        "rule_text": "La stratégie du fonds doit être présentée conformément à la documentation légale : seuils d’investissement par classe d’actifs, stratégie, allocation géographique, ticket minimum, etc.",
+        "severity": "medium"
+      },
+      {
+        "rule_id": "4.5",
+        "section": "Pages suivantes",
+        "rule_text": "Vérifier la conformité des données avec la documentation légale (KID, Prospectus, Annexe SFDR)",
+        "severity": "medium"
+      },
+      {
+        "rule_id": "4.22",
+        "section": "Pages suivantes",
+        "rule_text": "Pas de recommandation d’investissement directe ou indirecte",
+        "severity": "medium"
+      },
+      {
+        "rule_id": "4.32",
+        "section": "Pages suivantes",
+        "rule_text": "L’usage de formules telles que « selon nous », « à notre avis », même au conditionnel, peut constituer une recommandation d’investissement selon le contexte",
+        "severity": "medium"
+      }
+    ]
+  },
+  {
+    "slide_number": 11,
+    "applicable_rules": [
+      {
+        "rule_id": "1.7",
+        "section": "Règles générales",
+        "rule_text": "Les opinions et hypothèses doivent être atténuées : Ex. : « selon notre opinion », « selon nos analyses », « le fonds a pour objectif de… »",
+        "severity": "low"
+      },
+      {
+        "rule_id": "4.22",
+        "section": "Pages suivantes",
+        "rule_text": "Pas de recommandation d’investissement directe ou indirecte",
+        "severity": "medium"
+      },
+      {
+        "rule_id": "4.32",
+        "section": "Pages suivantes",
+        "rule_text": "L’usage de formules telles que « selon nous », « à notre avis », même au conditionnel, peut constituer une recommandation d’investissement selon le contexte",
+        "severity": "medium"
+      },
+      {
+        "rule_id": "4.33",
+        "section": "Pages suivantes",
+        "rule_text": "Évoquer les tendances de marché",
+        "severity": "low"
+      },
+      {
+        "rule_id": "4.34",
+        "section": "Pages suivantes",
+        "rule_text": "Références aux taux de change, taux d’intérêt, matières premières, indicateurs macroéconomiques (sans mention d’un instrument ou émetteur)",
+        "severity": "low"
+      },
+      {
+        "rule_id": "4.35",
+        "section": "Pages suivantes",
+        "rule_text": "Évoquer des secteurs généraux (attention si le secteur est restreint)",
+        "severity": "low"
+      },
+      {
+        "rule_id": "4.36",
+        "section": "Pages suivantes",
+        "rule_text": "Donner des informations factuelles (ex. : événements récents, annonces publiques)",
+        "severity": "low"
+      }
+    ]
+  },
+  {
+    "slide_number": 12,
+    "applicable_rules": [
+      {
+        "rule_id": "1.3",
+        "section": "Règles générales",
+        "rule_text": "Les études/ données chiffrées /graphiques etc., doivent faire l’objet d’un renvoi (note de bas de page) précisant à minima la source et la date",
+        "severity": "medium"
+      },
+      {
+        "rule_id": "1.6",
+        "section": "Règles générales",
+        "rule_text": "Les avertissements/disclaimers sur les risques doivent : être en gras, utiliser la même police et taille que le texte principal, être visibles (pas en note de bas de page)",
+        "severity": "medium"
+      },
+      {
+        "rule_id": "1.7",
+        "section": "Règles générales",
+        "rule_text": "Les opinions et hypothèses doivent être atténuées : Ex. : « selon notre opinion », « selon nos analyses », « le fonds a pour objectif de… »",
+        "severity": "low"
+      },
+      {
+        "rule_id": "4.18",
+        "section": "Pages suivantes",
+        "rule_text": "La période de référence et la source des données doivent être clairement indiquées dans le document",
+        "severity": "low"
+      },
+      {
+        "rule_id": "4.37",
+        "section": "Pages suivantes",
+        "rule_text": "Mentionner des valeurs détenues dans le portefeuille + performances passées avec les disclaimers adéquats",
+        "severity": "low"
+      }
+    ]
+  },
+  {
+    "slide_number": 13,
+    "applicable_rules": [
+      {
+        "rule_id": "1.6",
+        "section": "Règles générales",
+        "rule_text": "Les avertissements/disclaimers sur les risques doivent : être en gras, utiliser la même police et taille que le texte principal, être visibles (pas en note de bas de page)",
+        "severity": "medium"
+      },
+      {
+        "rule_id": "1.7",
+        "section": "Règles générales",
+        "rule_text": "Les opinions et hypothèses doivent être atténuées : Ex. : « selon notre opinion », « selon nos analyses », « le fonds a pour objectif de… »",
+        "severity": "low"
+      },
+      {
+        "rule_id": "4.22",
+        "section": "Pages suivantes",
+        "rule_text": "Pas de recommandation d’investissement directe ou indirecte",
+        "severity": "medium"
+      },
+      {
+        "rule_id": "4.23",
+        "section": "Pages suivantes",
+        "rule_text": "Ne pas indiquer si une valeur est sous-évaluée / surévaluée / correctement évaluée",
+        "severity": "medium"
+      },
+      {
+        "rule_id": "4.24",
+        "section": "Pages suivantes",
+        "rule_text": "Ne pas suggérer une stratégie d’investissement",
+        "severity": "medium"
+      },
+      {
+        "rule_id": "4.25",
+        "section": "Pages suivantes",
+        "rule_text": "Ne pas comparer des valeurs entre elles",
+        "severity": "medium"
+      },
+      {
+        "rule_id": "4.26",
+        "section": "Pages suivantes",
+        "rule_text": "Ne pas citer plusieurs fois une même valeur",
+        "severity": "medium"
+      },
+      {
+        "rule_id": "4.27",
+        "section": "Pages suivantes",
+        "rule_text": "Pas de projections futures pour une valeur",
+        "severity": "medium"
+      },
+      {
+        "rule_id": "4.28",
+        "section": "Pages suivantes",
+        "rule_text": "Pas d’opinion sur la valeur actuelle/future d’un instrument",
+        "severity": "medium"
+      },
+      {
+        "rule_id": "4.29",
+        "section": "Pages suivantes",
+        "rule_text": "Ne pas dire acheter, vendre, renforcer une valeur",
+        "severity": "medium"
+      },
+      {
+        "rule_id": "4.30",
+        "section": "Pages suivantes",
+        "rule_text": "Ne pas faire d’analyse spécifique sur une valeur",
+        "severity": "medium"
+      },
+      {
+        "rule_id": "4.31",
+        "section": "Pages suivantes",
+        "rule_text": "Pas d’opinion favorable/défavorable sur un émetteur ou secteur restreint",
+        "severity": "medium"
+      },
+      {
+        "rule_id": "4.32",
+        "section": "Pages suivantes",
+        "rule_text": "L’usage de formules telles que « selon nous », « à notre avis », même au conditionnel, peut constituer une recommandation d’investissement selon le contexte",
+        "severity": "medium"
+      },
+      {
+        "rule_id": "4.37",
+        "section": "Pages suivantes",
+        "rule_text": "Mentionner des valeurs détenues dans le portefeuille + performances passées avec les disclaimers adéquats",
+        "severity": "low"
+      },
+      {
+        "rule_id": "4.38",
+        "section": "Pages suivantes",
+        "rule_text": "Donner un exemple illustratif d’un émetteur ou d’une valeur, sans projection ni estimation de prix",
+        "severity": "low"
+      }
+    ]
+  },
+  {
+    "slide_number": 14,
+    "applicable_rules": [
+      {
+        "rule_id": "1.3",
+        "section": "Règles générales",
+        "rule_text": "Les études/ données chiffrées /graphiques etc., doivent faire l’objet d’un renvoi (note de bas de page) précisant à minima la source et la date",
+        "severity": "medium"
+      },
+      {
+        "rule_id": "1.6",
+        "section": "Règles générales",
+        "rule_text": "Les avertissements/disclaimers sur les risques doivent : être en gras, utiliser la même police et taille que le texte principal, être visibles (pas en note de bas de page)",
+        "severity": "medium"
+      },
+      {
+        "rule_id": "4.9",
+        "section": "Pages suivantes",
+        "rule_text": "Les performances doivent être présentées sur une durée minimum de 10 ans pour les performances annualisées et 5 ans pour les autres",
+        "severity": "medium"
+      },
+      {
+        "rule_id": "4.10",
+        "section": "Pages suivantes",
+        "rule_text": "Les performances doivent être présentées nécessairement sous forme de performances annuelles glissantes, annualisées et/ou cumulées",
+        "severity": "medium"
+      },
+      {
+        "rule_id": "4.14",
+        "section": "Pages suivantes",
+        "rule_text": "Les performances sont obligatoirement et en permanence comparées à l’indicateur de référence du fonds s’il existe",
+        "severity": "medium"
+      },
+      {
+        "rule_id": "4.18",
+        "section": "Pages suivantes",
+        "rule_text": "La période de référence et la source des données doivent être clairement indiquées dans le document",
+        "severity": "low"
+      }
+    ]
+  },
+  {
+    "slide_number": 15,
+    "applicable_rules": [
+      {
+        "rule_id": "1.3",
+        "section": "Règles générales",
+        "rule_text": "Les études/ données chiffrées /graphiques etc., doivent faire l’objet d’un renvoi (note de bas de page) précisant à minima la source et la date",
+        "severity": "medium"
+      },
+      {
+        "rule_id": "1.6",
+        "section": "Règles générales",
+        "rule_text": "Les avertissements/disclaimers sur les risques doivent : être en gras, utiliser la même police et taille que le texte principal, être visibles (pas en note de bas de page)",
+        "severity": "medium"
+      },
+      {
+        "rule_id": "1.7",
+        "section": "Règles générales",
+        "rule_text": "Les opinions et hypothèses doivent être atténuées : Ex. : « selon notre opinion », « selon nos analyses », « le fonds a pour objectif de… »",
+        "severity": "low"
+      },
+      {
+        "rule_id": "4.2",
+        "section": "Pages suivantes",
+        "rule_text": "La Notation Morningstar doit être accompagnée (si elle existe) : de la date de calcul, de la catégorie Morningstar de référence",
+        "severity": "medium"
+      },
+      {
+        "rule_id": "4.5",
+        "section": "Pages suivantes",
+        "rule_text": "Vérifier la conformité des données avec la documentation légale (KID, Prospectus, Annexe SFDR)",
+        "severity": "medium"
+      },
+      {
+        "rule_id": "4.18",
+        "section": "Pages suivantes",
+        "rule_text": "La période de référence et la source des données doivent être clairement indiquées dans le document",
+        "severity": "low"
+      },
+      {
+        "rule_id": "4.22",
+        "section": "Pages suivantes",
+        "rule_text": "Pas de recommandation d’investissement directe ou indirecte",
+        "severity": "medium"
+      },
+      {
+        "rule_id": "4.32",
+        "section": "Pages suivantes",
+        "rule_text": "L’usage de formules telles que « selon nous », « à notre avis », même au conditionnel, peut constituer une recommandation d’investissement selon le contexte",
+        "severity": "medium"
+      }
+    ]
+  },
+  {
+    "slide_number": 16,
+    "applicable_rules": [
+      {
+        "rule_id": "1.6",
+        "section": "Règles générales",
+        "rule_text": "Les avertissements/disclaimers sur les risques doivent : être en gras, utiliser la même police et taille que le texte principal, être visibles (pas en note de bas de page)",
+        "severity": "medium"
+      },
+      {
+        "rule_id": "1.7",
+        "section": "Règles générales",
+        "rule_text": "Les opinions et hypothèses doivent être atténuées : Ex. : « selon notre opinion », « selon nos analyses », « le fonds a pour objectif de… »",
+        "severity": "low"
+      },
+      {
+        "rule_id": "4.22",
+        "section": "Pages suivantes",
+        "rule_text": "Pas de recommandation d’investissement directe ou indirecte",
+        "severity": "medium"
+      },
+      {
+        "rule_id": "4.32",
+        "section": "Pages suivantes",
+        "rule_text": "L’usage de formules telles que « selon nous », « à notre avis », même au conditionnel, peut constituer une recommandation d’investissement selon le contexte",
+        "severity": "medium"
+      },
+      {
+        "rule_id": "4.37",
+        "section": "Pages suivantes",
+        "rule_text": "Mentionner des valeurs détenues dans le portefeuille + performances passées avec les disclaimers adéquats",
+        "severity": "low"
+      }
+    ]
+  },
+  {
+    "slide_number": 17,
+    "applicable_rules": [
+      {
+        "rule_id": "1.3",
+        "section": "Règles générales",
+        "rule_text": "Les études/ données chiffrées /graphiques etc., doivent faire l’objet d’un renvoi (note de bas de page) précisant à minima la source et la date",
+        "severity": "medium"
+      },
+      {
+        "rule_id": "1.6",
+        "section": "Règles générales",
+        "rule_text": "Les avertissements/disclaimers sur les risques doivent : être en gras, utiliser la même police et taille que le texte principal, être visibles (pas en note de bas de page)",
+        "severity": "medium"
+      },
+      {
+        "rule_id": "1.7",
+        "section": "Règles générales",
+        "rule_text": "Les opinions et hypothèses doivent être atténuées : Ex. : « selon notre opinion », « selon nos analyses », « le fonds a pour objectif de… »",
+        "severity": "low"
+      },
+      {
+        "rule_id": "4.5",
+        "section": "Pages suivantes",
+        "rule_text": "Vérifier la conformité des données avec la documentation légale (KID, Prospectus, Annexe SFDR)",
+        "severity": "medium"
+      },
+      {
+        "rule_id": "4.9",
+        "section": "Pages suivantes",
+        "rule_text": "Les performances doivent être présentées sur une durée minimum de 10 ans pour les performances annualisées et 5 ans pour les autres",
+        "severity": "medium"
+      },
+      {
+        "rule_id": "4.10",
+        "section": "Pages suivantes",
+        "rule_text": "Les performances doivent être présentées nécessairement sous forme de performances annuelles glissantes, annualisées et/ou cumulées",
+        "severity": "medium"
+      },
+      {
+        "rule_id": "4.14",
+        "section": "Pages suivantes",
+        "rule_text": "Les performances sont obligatoirement et en permanence comparées à l’indicateur de référence du fonds s’il existe",
+        "severity": "medium"
+      },
+      {
+        "rule_id": "4.18",
+        "section": "Pages suivantes",
+        "rule_text": "La période de référence et la source des données doivent être clairement indiquées dans le document",
+        "severity": "low"
+      }
+    ]
+  },
+  {
+    "slide_number": 18,
+    "applicable_rules": [
+      {
+        "rule_id": "1.3",
+        "section": "Règles générales",
+        "rule_text": "Les études/ données chiffrées /graphiques etc., doivent faire l’objet d’un renvoi (note de bas de page) précisant à minima la source et la date",
+        "severity": "medium"
+      },
+      {
+        "rule_id": "1.6",
+        "section": "Règles générales",
+        "rule_text": "Les avertissements/disclaimers sur les risques doivent : être en gras, utiliser la même police et taille que le texte principal, être visibles (pas en note de bas de page)",
+        "severity": "medium"
+      },
+      {
+        "rule_id": "1.7",
+        "section": "Règles générales",
+        "rule_text": "Les opinions et hypothèses doivent être atténuées : Ex. : « selon notre opinion », « selon nos analyses », « le fonds a pour objectif de… »",
+        "severity": "low"
+      },
+      {
+        "rule_id": "4.5",
+        "section": "Pages suivantes",
+        "rule_text": "Vérifier la conformité des données avec la documentation légale (KID, Prospectus, Annexe SFDR)",
+        "severity": "medium"
+      },
+      {
+        "rule_id": "4.18",
+        "section": "Pages suivantes",
+        "rule_text": "La période de référence et la source des données doivent être clairement indiquées dans le document",
+        "severity": "low"
+      }
+    ]
+  },
+  {
+    "slide_number": 19,
+    "applicable_rules": [
+      {
+        "rule_id": "1.3",
+        "section": "Règles générales",
+        "rule_text": "Les études/ données chiffrées /graphiques etc., doivent faire l’objet d’un renvoi (note de bas de page) précisant à minima la source et la date",
+        "severity": "medium"
+      },
+      {
+        "rule_id": "1.6",
+        "section": "Règles générales",
+        "rule_text": "Les avertissements/disclaimers sur les risques doivent : être en gras, utiliser la même police et taille que le texte principal, être visibles (pas en note de bas de page)",
+        "severity": "medium"
+      },
+      {
+        "rule_id": "1.7",
+        "section": "Règles générales",
+        "rule_text": "Les opinions et hypothèses doivent être atténuées : Ex. : « selon notre opinion », « selon nos analyses », « le fonds a pour objectif de… »",
+        "severity": "low"
+      },
+      {
+        "rule_id": "4.18",
+        "section": "Pages suivantes",
+        "rule_text": "La période de référence et la source des données doivent être clairement indiquées dans le document",
+        "severity": "low"
+      },
+      {
+        "rule_id": "4.37",
+        "section": "Pages suivantes",
+        "rule_text": "Mentionner des valeurs détenues dans le portefeuille + performances passées avec les disclaimers adéquats",
+        "severity": "low"
+      }
+    ]
+  },
+  {
+    "slide_number": 20,
+    "applicable_rules": [
+      {
+        "rule_id": "1.3",
+        "section": "Règles générales",
+        "rule_text": "Les études/ données chiffrées /graphiques etc., doivent faire l’objet d’un renvoi (note de bas de page) précisant à minima la source et la date",
+        "severity": "medium"
+      },
+      {
+        "rule_id": "1.6",
+        "section": "Règles générales",
+        "rule_text": "Les avertissements/disclaimers sur les risques doivent : être en gras, utiliser la même police et taille que le texte principal, être visibles (pas en note de bas de page)",
+        "severity": "medium"
+      },
+      {
+        "rule_id": "4.5",
+        "section": "Pages suivantes",
+        "rule_text": "Vérifier la conformité des données avec la documentation légale (KID, Prospectus, Annexe SFDR)",
+        "severity": "medium"
+      },
+      {
+        "rule_id": "4.18",
+        "section": "Pages suivantes",
+        "rule_text": "La période de référence et la source des données doivent être clairement indiquées dans le document",
+        "severity": "low"
+      }
+    ]
+  },
+  {
+    "slide_number": 21,
+    "applicable_rules": [
+      {
+        "rule_id": "1.6",
+        "section": "Règles générales",
+        "rule_text": "Les avertissements/disclaimers sur les risques doivent : être en gras, utiliser la même police et taille que le texte principal, être visibles (pas en note de bas de page)",
+        "severity": "medium"
+      },
+      {
+        "rule_id": "1.7",
+        "section": "Règles générales",
+        "rule_text": "Les opinions et hypothèses doivent être atténuées : Ex. : « selon notre opinion », « selon nos analyses », « le fonds a pour objectif de… »",
+        "severity": "low"
+      },
+      {
+        "rule_id": "4.22",
+        "section": "Pages suivantes",
+        "rule_text": "Pas de recommandation d’investissement directe ou indirecte",
+        "severity": "medium"
+      },
+      {
+        "rule_id": "4.24",
+        "section": "Pages suivantes",
+        "rule_text": "Ne pas suggérer une stratégie d’investissement",
+        "severity": "medium"
+      },
+      {
+        "rule_id": "4.32",
+        "section": "Pages suivantes",
+        "rule_text": "L’usage de formules telles que « selon nous », « à notre avis », même au conditionnel, peut constituer une recommandation d’investissement selon le contexte",
+        "severity": "medium"
+      }
+    ]
+  },
+  {
+    "slide_number": 22,
+    "applicable_rules": [
+      {
+        "rule_id": "1.3",
+        "section": "Règles générales",
+        "rule_text": "Les études/ données chiffrées /graphiques etc., doivent faire l’objet d’un renvoi (note de bas de page) précisant à minima la source et la date",
+        "severity": "medium"
+      },
+      {
+        "rule_id": "1.6",
+        "section": "Règles générales",
+        "rule_text": "Les avertissements/disclaimers sur les risques doivent : être en gras, utiliser la même police et taille que le texte principal, être visibles (pas en note de bas de page)",
+        "severity": "medium"
+      },
+      {
+        "rule_id": "1.7",
+        "section": "Règles générales",
+        "rule_text": "Les opinions et hypothèses doivent être atténuées : Ex. : « selon notre opinion », « selon nos analyses », « le fonds a pour objectif de… »",
+        "severity": "low"
+      },
+      {
+        "rule_id": "1.8",
+        "section": "Règles générales",
+        "rule_text": "La stratégie du fonds doit être présentée conformément à la documentation légale : seuils d’investissement par classe d’actifs, stratégie, allocation géographique, ticket minimum, etc.",
+        "severity": "medium"
+      },
+      {
+        "rule_id": "4.5",
+        "section": "Pages suivantes",
+        "rule_text": "Vérifier la conformité des données avec la documentation légale (KID, Prospectus, Annexe SFDR)",
+        "severity": "medium"
+      },
+      {
+        "rule_id": "4.22",
+        "section": "Pages suivantes",
+        "rule_text": "Pas de recommandation d’investissement directe ou indirecte",
+        "severity": "medium"
+      }
+    ]
+  },
+  {
+    "slide_number": 23,
+    "applicable_rules": [
+      {
+        "rule_id": "1.3",
+        "section": "Règles générales",
+        "rule_text": "Les études/ données chiffrées /graphiques etc., doivent faire l’objet d’un renvoi (note de bas de page) précisant à minima la source et la date",
+        "severity": "medium"
+      },
+      {
+        "rule_id": "1.6",
+        "section": "Règles générales",
+        "rule_text": "Les avertissements/disclaimers sur les risques doivent : être en gras, utiliser la même police et taille que le texte principal, être visibles (pas en note de bas de page)",
+        "severity": "medium"
+      },
+      {
+        "rule_id": "1.7",
+        "section": "Règles générales",
+        "rule_text": "Les opinions et hypothèses doivent être atténuées : Ex. : « selon notre opinion », « selon nos analyses », « le fonds a pour objectif de… »",
+        "severity": "low"
+      },
+      {
+        "rule_id": "1.8",
+        "section": "Règles générales",
+        "rule_text": "La stratégie du fonds doit être présentée conformément à la documentation légale : seuils d’investissement par classe d’actifs, stratégie, allocation géographique, ticket minimum, etc.",
+        "severity": "medium"
+      },
+      {
+        "rule_id": "4.5",
+        "section": "Pages suivantes",
+        "rule_text": "Vérifier la conformité des données avec la documentation légale (KID, Prospectus, Annexe SFDR)",
+        "severity": "medium"
+      },
+      {
+        "rule_id": "4.18",
+        "section": "Pages suivantes",
+        "rule_text": "La période de référence et la source des données doivent être clairement indiquées dans le document",
+        "severity": "low"
+      }
+    ]
+  },
+  {
+    "slide_number": 24,
+    "applicable_rules": [
+      {
+        "rule_id": "1.3",
+        "section": "Règles générales",
+        "rule_text": "Les études/ données chiffrées /graphiques etc., doivent faire l’objet d’un renvoi (note de bas de page) précisant à minima la source et la date",
+        "severity": "medium"
+      },
+      {
+        "rule_id": "1.6",
+        "section": "Règles générales",
+        "rule_text": "Les avertissements/disclaimers sur les risques doivent : être en gras, utiliser la même police et taille que le texte principal, être visibles (pas en note de bas de page)",
+        "severity": "medium"
+      },
+      {
+        "rule_id": "1.7",
+        "section": "Règles générales",
+        "rule_text": "Les opinions et hypothèses doivent être atténuées : Ex. : « selon notre opinion », « selon nos analyses », « le fonds a pour objectif de… »",
+        "severity": "low"
+      },
+      {
+        "rule_id": "4.5",
+        "section": "Pages suivantes",
+        "rule_text": "Vérifier la conformité des données avec la documentation légale (KID, Prospectus, Annexe SFDR)",
+        "severity": "medium"
+      },
+      {
+        "rule_id": "4.18",
+        "section": "Pages suivantes",
+        "rule_text": "La période de référence et la source des données doivent être clairement indiquées dans le document",
+        "severity": "low"
+      }
+    ]
+  },
+  {
+    "slide_number": 25,
+    "applicable_rules": [
+      {
+        "rule_id": "1.3",
+        "section": "Règles générales",
+        "rule_text": "Les études/ données chiffrées /graphiques etc., doivent faire l’objet d’un renvoi (note de bas de page) précisant à minima la source et la date",
+        "severity": "medium"
+      },
+      {
+        "rule_id": "1.6",
+        "section": "Règles générales",
+        "rule_text": "Les avertissements/disclaimers sur les risques doivent : être en gras, utiliser la même police et taille que le texte principal, être visibles (pas en note de bas de page)",
+        "severity": "medium"
+      },
+      {
+        "rule_id": "1.7",
+        "section": "Règles générales",
+        "rule_text": "Les opinions et hypothèses doivent être atténuées : Ex. : « selon notre opinion », « selon nos analyses », « le fonds a pour objectif de… »",
+        "severity": "low"
+      },
+      {
+        "rule_id": "1.8",
+        "section": "Règles générales",
+        "rule_text": "La stratégie du fonds doit être présentée conformément à la documentation légale : seuils d’investissement par classe d’actifs, stratégie, allocation géographique, ticket minimum, etc.",
+        "severity": "medium"
+      },
+      {
+        "rule_id": "4.5",
+        "section": "Pages suivantes",
+        "rule_text": "Vérifier la conformité des données avec la documentation légale (KID, Prospectus, Annexe SFDR)",
+        "severity": "medium"
+      },
+      {
+        "rule_id": "4.18",
+        "section": "Pages suivantes",
+        "rule_text": "La période de référence et la source des données doivent être clairement indiquées dans le document",
+        "severity": "low"
+      }
+    ]
+  },
+  {
+    "slide_number": 26,
+    "applicable_rules": [
+      {
+        "rule_id": "1.3",
+        "section": "Règles générales",
+        "rule_text": "Les études/ données chiffrées /graphiques etc., doivent faire l’objet d’un renvoi (note de bas de page) précisant à minima la source et la date",
+        "severity": "medium"
+      },
+      {
+        "rule_id": "1.6",
+        "section": "Règles générales",
+        "rule_text": "Les avertissements/disclaimers sur les risques doivent : être en gras, utiliser la même police et taille que le texte principal, être visibles (pas en note de bas de page)",
+        "severity": "medium"
+      },
+      {
+        "rule_id": "1.7",
+        "section": "Règles générales",
+        "rule_text": "Les opinions et hypothèses doivent être atténuées : Ex. : « selon notre opinion », « selon nos analyses », « le fonds a pour objectif de… »",
+        "severity": "low"
+      },
+      {
+        "rule_id": "4.5",
+        "section": "Pages suivantes",
+        "rule_text": "Vérifier la conformité des données avec la documentation légale (KID, Prospectus, Annexe SFDR)",
+        "severity": "medium"
+      },
+      {
+        "rule_id": "4.18",
+        "section": "Pages suivantes",
+        "rule_text": "La période de référence et la source des données doivent être clairement indiquées dans le document",
+        "severity": "low"
+      },
+      {
+        "rule_id": "4.37",
+        "section": "Pages suivantes",
+        "rule_text": "Mentionner des valeurs détenues dans le portefeuille + performances passées avec les disclaimers adéquats",
+        "severity": "low"
+      }
+    ]
+  },
+  {
+    "slide_number": 27,
+    "applicable_rules": [
+      {
+        "rule_id": "1.3",
+        "section": "Règles générales",
+        "rule_text": "Les études/ données chiffrées /graphiques etc., doivent faire l’objet d’un renvoi (note de bas de page) précisant à minima la source et la date",
+        "severity": "medium"
+      },
+      {
+        "rule_id": "1.6",
+        "section": "Règles générales",
+        "rule_text": "Les avertissements/disclaimers sur les risques doivent : être en gras, utiliser la même police et taille que le texte principal, être visibles (pas en note de bas de page)",
+        "severity": "medium"
+      },
+      {
+        "rule_id": "1.7",
+        "section": "Règles générales",
+        "rule_text": "Les opinions et hypothèses doivent être atténuées : Ex. : « selon notre opinion », « selon nos analyses », « le fonds a pour objectif de… »",
+        "severity": "low"
+      },
+      {
+        "rule_id": "1.8",
+        "section": "Règles générales",
+        "rule_text": "La stratégie du fonds doit être présentée conformément à la documentation légale : seuils d’investissement par classe d’actifs, stratégie, allocation géographique, ticket minimum, etc.",
+        "severity": "medium"
+      },
+      {
+        "rule_id": "4.5",
+        "section": "Pages suivantes",
+        "rule_text": "Vérifier la conformité des données avec la documentation légale (KID, Prospectus, Annexe SFDR)",
+        "severity": "medium"
+      },
+      {
+        "rule_id": "4.18",
+        "section": "Pages suivantes",
+        "rule_text": "La période de référence et la source des données doivent être clairement indiquées dans le document",
+        "severity": "low"
+      },
+      {
+        "rule_id": "4.37",
+        "section": "Pages suivantes",
+        "rule_text": "Mentionner des valeurs détenues dans le portefeuille + performances passées avec les disclaimers adéquats",
+        "severity": "low"
+      }
+    ]
+  },
+  {
+    "slide_number": 28,
+    "applicable_rules": [
+      {
+        "rule_id": "1.3",
+        "section": "Règles générales",
+        "rule_text": "Les études/ données chiffrées /graphiques etc., doivent faire l’objet d’un renvoi (note de bas de page) précisant à minima la source et la date",
+        "severity": "medium"
+      },
+      {
+        "rule_id": "1.6",
+        "section": "Règles générales",
+        "rule_text": "Les avertissements/disclaimers sur les risques doivent : être en gras, utiliser la même police et taille que le texte principal, être visibles (pas en note de bas de page)",
+        "severity": "medium"
+      },
+      {
+        "rule_id": "1.7",
+        "section": "Règles générales",
+        "rule_text": "Les opinions et hypothèses doivent être atténuées : Ex. : « selon notre opinion », « selon nos analyses », « le fonds a pour objectif de… »",
+        "severity": "low"
+      },
+      {
+        "rule_id": "4.5",
+        "section": "Pages suivantes",
+        "rule_text": "Vérifier la conformité des données avec la documentation légale (KID, Prospectus, Annexe SFDR)",
+        "severity": "medium"
+      },
+      {
+        "rule_id": "4.18",
+        "section": "Pages suivantes",
+        "rule_text": "La période de référence et la source des données doivent être clairement indiquées dans le document",
+        "severity": "low"
+      },
+      {
+        "rule_id": "4.37",
+        "section": "Pages suivantes",
+        "rule_text": "Mentionner des valeurs détenues dans le portefeuille + performances passées avec les disclaimers adéquats",
+        "severity": "low"
+      }
+    ]
+  },
+  {
+    "slide_number": 29,
+    "applicable_rules": [
+      {
+        "rule_id": "1.3",
+        "section": "Règles générales",
+        "rule_text": "Les études/ données chiffrées /graphiques etc., doivent faire l’objet d’un renvoi (note de bas de page) précisant à minima la source et la date",
+        "severity": "medium"
+      },
+      {
+        "rule_id": "1.6",
+        "section": "Règles générales",
+        "rule_text": "Les avertissements/disclaimers sur les risques doivent : être en gras, utiliser la même police et taille que le texte principal, être visibles (pas en note de bas de page)",
+        "severity": "medium"
+      },
+      {
+        "rule_id": "1.7",
+        "section": "Règles générales",
+        "rule_text": "Les opinions et hypothèses doivent être atténuées : Ex. : « selon notre opinion », « selon nos analyses », « le fonds a pour objectif de… »",
+        "severity": "low"
+      },
+      {
+        "rule_id": "4.5",
+        "section": "Pages suivantes",
+        "rule_text": "Vérifier la conformité des données avec la documentation légale (KID, Prospectus, Annexe SFDR)",
+        "severity": "medium"
+      },
+      {
+        "rule_id": "4.18",
+        "section": "Pages suivantes",
+        "rule_text": "La période de référence et la source des données doivent être clairement indiquées dans le document",
+        "severity": "low"
+      },
+      {
+        "rule_id": "4.22",
+        "section": "Pages suivantes",
+        "rule_text": "Pas de recommandation d’investissement directe ou indirecte",
+        "severity": "medium"
+      },
+      {
+        "rule_id": "4.37",
+        "section": "Pages suivantes",
+        "rule_text": "Mentionner des valeurs détenues dans le portefeuille + performances passées avec les disclaimers adéquats",
+        "severity": "low"
+      }
+    ]
+  },
+  {
+    "slide_number": 30,
+    "applicable_rules": [
+      {
+        "rule_id": "1.3",
+        "section": "Règles générales",
+        "rule_text": "Les études/ données chiffrées /graphiques etc., doivent faire l’objet d’un renvoi (note de bas de page) précisant à minima la source et la date",
+        "severity": "medium"
+      },
+      {
+        "rule_id": "1.6",
+        "section": "Règles générales",
+        "rule_text": "Les avertissements/disclaimers sur les risques doivent : être en gras, utiliser la même police et taille que le texte principal, être visibles (pas en note de bas de page)",
+        "severity": "medium"
+      },
+      {
+        "rule_id": "4.5",
+        "section": "Pages suivantes",
+        "rule_text": "Vérifier la conformité des données avec la documentation légale (KID, Prospectus, Annexe SFDR)",
+        "severity": "medium"
+      },
+      {
+        "rule_id": "4.18",
+        "section": "Pages suivantes",
+        "rule_text": "La période de référence et la source des données doivent être clairement indiquées dans le document",
+        "severity": "low"
+      },
+      {
+        "rule_id": "4.37",
+        "section": "Pages suivantes",
+        "rule_text": "Mentionner des valeurs détenues dans le portefeuille + performances passées avec les disclaimers adéquats",
+        "severity": "low"
+      }
+    ]
+  },
+  {
+    "slide_number": 31,
+    "applicable_rules": [
+      {
+        "rule_id": "1.3",
+        "section": "Règles générales",
+        "rule_text": "Les études/ données chiffrées /graphiques etc., doivent faire l’objet d’un renvoi (note de bas de page) précisant à minima la source et la date",
+        "severity": "medium"
+      },
+      {
+        "rule_id": "1.6",
+        "section": "Règles générales",
+        "rule_text": "Les avertissements/disclaimers sur les risques doivent : être en gras, utiliser la même police et taille que le texte principal, être visibles (pas en note de bas de page)",
+        "severity": "medium"
+      },
+      {
+        "rule_id": "1.8",
+        "section": "Règles générales",
+        "rule_text": "La stratégie du fonds doit être présentée conformément à la documentation légale : seuils d’investissement par classe d’actifs, stratégie, allocation géographique, ticket minimum, etc.",
+        "severity": "medium"
+      },
+      {
+        "rule_id": "4.4",
+        "section": "Pages suivantes",
+        "rule_text": "En fin de présentation : inclure les caractéristiques détaillées du fonds",
+        "severity": "low"
+      },
+      {
+        "rule_id": "4.5",
+        "section": "Pages suivantes",
+        "rule_text": "Vérifier la conformité des données avec la documentation légale (KID, Prospectus, Annexe SFDR)",
+        "severity": "medium"
+      },
+      {
+        "rule_id": "4.18",
+        "section": "Pages suivantes",
+        "rule_text": "La période de référence et la source des données doivent être clairement indiquées dans le document",
+        "severity": "low"
+      }
+    ]
+  },
+  {
+    "slide_number": 32,
+    "applicable_rules": [
+      {
+        "rule_id": "1.5",
+        "section": "Règles générales",
+        "rule_text": "Pour les présentations retail : inclure un Glossaire des termes techniques en fin de présentation et s’assurer que ces termes figurent dans le document",
+        "severity": "low"
+      },
+      {
+        "rule_id": "1.7",
+        "section": "Règles générales",
+        "rule_text": "Les opinions et hypothèses doivent être atténuées : Ex. : « selon notre opinion », « selon nos analyses », « le fonds a pour objectif de… »",
+        "severity": "low"
+      },
+      {
+        "rule_id": "1.11",
+        "section": "Règles générales",
+        "rule_text": "Éviter les anglicismes dans les présentations retail, ou les définir (notes de bas de page ou glossaire avec renvoi)",
+        "severity": "low"
+      }
+    ]
+  },
+  {
+    "slide_number": 33,
+    "applicable_rules": [
+      {
+        "rule_id": "1.5",
+        "section": "Règles générales",
+        "rule_text": "Pour les présentations retail : inclure un Glossaire des termes techniques en fin de présentation et s’assurer que ces termes figurent dans le document",
+        "severity": "low"
+      },
+      {
+        "rule_id": "1.6",
+        "section": "Règles générales",
+        "rule_text": "Les avertissements/disclaimers sur les risques doivent : être en gras, utiliser la même police et taille que le texte principal, être visibles (pas en note de bas de page)",
+        "severity": "medium"
+      },
+      {
+        "rule_id": "1.7",
+        "section": "Règles générales",
+        "rule_text": "Les opinions et hypothèses doivent être atténuées : Ex. : « selon notre opinion », « selon nos analyses », « le fonds a pour objectif de… »",
+        "severity": "low"
+      },
+      {
+        "rule_id": "1.11",
+        "section": "Règles générales",
+        "rule_text": "Éviter les anglicismes dans les présentations retail, ou les définir (notes de bas de page ou glossaire avec renvoi)",
+        "severity": "low"
+      }
+    ]
+  },
+  {
+    "slide_number": 34,
+    "applicable_rules": [
+      {
+        "rule_id": "1.1",
+        "section": "Règles générales",
+        "rule_text": "Si document retail : inclure les disclaimers retail (cf. Glossaire des disclaimers)",
+        "severity": "low"
+      },
+      {
+        "rule_id": "1.3",
+        "section": "Règles générales",
+        "rule_text": "Les études/ données chiffrées /graphiques etc., doivent faire l’objet d’un renvoi (note de bas de page) précisant à minima la source et la date",
+        "severity": "medium"
+      },
+      {
+        "rule_id": "1.4",
+        "section": "Règles générales",
+        "rule_text": "Pour chaque fonds présenté : mention obligatoire du SRI avec le disclaimer associé sur la même slide (cf. Glossaire)",
+        "severity": "low"
+      },
+      {
+        "rule_id": "1.6",
+        "section": "Règles générales",
+        "rule_text": "Les avertissements/disclaimers sur les risques doivent : être en gras, utiliser la même police et taille que le texte principal, être visibles (pas en note de bas de page)",
+        "severity": "medium"
+      },
+      {
+        "rule_id": "1.7",
+        "section": "Règles générales",
+        "rule_text": "Les opinions et hypothèses doivent être atténuées : Ex. : « selon notre opinion », « selon nos analyses », « le fonds a pour objectif de… »",
+        "severity": "low"
+      },
+      {
+        "rule_id": "3.1",
+        "section": "La Slide 2 (après la page de garde - Présentation Standard)",
+        "rule_text": "Le disclaimer standard (retail ou professionnel) → attention à adapter le nom du fonds et les clients éligibles",
+        "severity": "low"
+      },
+      {
+        "rule_id": "4.5",
+        "section": "Pages suivantes",
+        "rule_text": "Vérifier la conformité des données avec la documentation légale (KID, Prospectus, Annexe SFDR)",
+        "severity": "medium"
+      },
+      {
+        "rule_id": "4.6",
+        "section": "Pages suivantes",
+        "rule_text": "Indication du responsable de la validation de la présentation, cohérente avec le disclaimer général et la société de gestion",
+        "severity": "low"
+      },
+      {
+        "rule_id": "4.37",
+        "section": "Pages suivantes",
+        "rule_text": "Mentionner des valeurs détenues dans le portefeuille + performances passées avec les disclaimers adéquats",
+        "severity": "low"
+      }
+    ]
+  },
+  {
+    "slide_number": 35,
+    "applicable_rules": [
+      {
+        "rule_id": "1.6",
+        "section": "Règles générales",
+        "rule_text": "Les avertissements/disclaimers sur les risques doivent : être en gras, utiliser la même police et taille que le texte principal, être visibles (pas en note de bas de page)",
+        "severity": "medium"
+      },
+      {
+        "rule_id": "1.7",
+        "section": "Règles générales",
+        "rule_text": "Les opinions et hypothèses doivent être atténuées : Ex. : « selon notre opinion », « selon nos analyses », « le fonds a pour objectif de… »",
+        "severity": "low"
+      },
+      {
+        "rule_id": "4.22",
+        "section": "Pages suivantes",
+        "rule_text": "Pas de recommandation d’investissement directe ou indirecte",
+        "severity": "medium"
+      },
+      {
+        "rule_id": "4.32",
+        "section": "Pages suivantes",
+        "rule_text": "L’usage de formules telles que « selon nous », « à notre avis », même au conditionnel, peut constituer une recommandation d’investissement selon le contexte",
+        "severity": "medium"
+      }
+    ]
+  }
+]
