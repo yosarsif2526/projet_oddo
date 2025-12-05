@@ -1,0 +1,14 @@
+# VectorDB_Prospectus - Requirements
+# Installation: pip install -r requirements.txt
+
+# Core dependencies
+sentence-transformers>=2.5.0  # Changed: Compatible with newer huggingface_hub
+faiss-cpu==1.13.0
+numpy>=1.26.0  # Compatible with Python 3.13
+tqdm==4.66.1
+
+# Document processing
+python-docx==1.1.0
+
+# Optional: GPU support (si disponible)
+# faiss-gpu==1.7.4  # Remplacer faiss-cpu si GPU disponible

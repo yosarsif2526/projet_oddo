@@ -1,0 +1,295 @@
+📘 Guide d’utilisation — VectorDB_Prospectus
+1. Pré-requis
+
+Python 3.10+ installé
+
+git installé (optionnel)
+
+Avoir un prospectus au format Word : prospectus.docx
+
+2. Installation du projet
+2.1. Récupérer le code
+
+Depuis un terminal / PowerShell :
+
+git clone <repo_path>
+cd VectorDB_Prospectus
+
+
+Ou bien copier tous les fichiers fournis dans un même dossier.
+
+2.2. Créer un environnement virtuel
+python -m venv .venv
+
+# Windows
+.venv\Scripts\activate
+
+# Linux / Mac
+source .venv/bin/activate
+
+2.3. Installer les dépendances
+pip install -r requirements.txt
+
+3. Préparation des fichiers
+
+Placer le fichier prospectus.docx dans le même dossier que main.py.
+
+Exemple d’arborescence :
+
+VectorDB_Prospectus/
+ ├─ main.py
+ ├─ parse_prospectus.py
+ ├─ prospectus_vectordb_builder.py
+ ├─ query_prospectus.py
+ ├─ section_type_refiner.py
+ ├─ query_utils.py
+ ├─ config_prospectus.py
+ └─ prospectus.docx
+
+
+(Optionnel) Vérifier / adapter dans config_prospectus.py :
+
+DEFAULT_EMBEDDING_MODEL
+
+MAX_CHUNK_WORDS
+
+PROSPECTUS_SECTION_PATTERNS (si besoin)
+
+4. Configuration du LLM TokenFactory (optionnel)
+
+Si tu veux que le modèle LLM corrige les section_type des chunks, il faut une clé API.
+
+4.1. Définir la variable d’environnement
+Windows (PowerShell) :
+setx TOKENFACTORY_API_KEY "ta_cle_api"
+
+
+Puis ferme et rouvre le terminal, ensuite :
+
+.venv\Scripts\activate
+
+Linux / Mac :
+export TOKENFACTORY_API_KEY="ta_cle_api"
+
+
+Si tu n’as pas de clé, tu peux utiliser le pipeline sans LLM (les types seront ceux de l’heuristique).
+
+5. Construction de la VectorDB (BUILD)
+5.1. Build simple (sans LLM)
+python main.py build --fund-name "Nom du fonds"
+
+
+Exemple :
+
+python main.py build --fund-name "ODDO BHF US Equity Active UCITS ETF"
+
+
+Cette commande :
+
+Lit prospectus.docx
+
+Détecte les sections et les tableaux
+
+Crée des chunks de ~450 mots
+
+Assigne un section_type heuristique
+
+Encode les chunks en embeddings
+
+Construit l’index FAISS + metadata
+
+Les fichiers générés :
+
+outputs/
+ ├─ parsed/
+ │   └─ prospectus_parsed.json
+ └─ index/
+     ├─ prospectus_faiss.index
+     └─ prospectus_metadata.json
+
+5.2. Build avec raffinement LLM
+
+Si TOKENFACTORY_API_KEY est configuré :
+
+python main.py build --fund-name "Nom du fonds" --use-llm-types
+
+
+Le pipeline :
+
+lit les chunks bruts,
+
+appelle TokenFactory pour chaque chunk,
+
+remplace metadata["section_type"] par un type canonique UCITS corrigé.
+
+💡 Conseil :
+
+Lancer d’abord un build sans LLM
+
+Vérifier prospectus_parsed.json
+
+Relancer avec --use-llm-types une fois que le parsing est OK.
+
+6. Interroger la VectorDB (QUERY)
+
+Commande générale :
+
+python main.py query --query "ta question" [options]
+
+6.1. Recherche sémantique simple
+python main.py query \
+  --query "What is the investment objective of the fund?"
+
+6.2. Ajuster le nombre de résultats (top-k)
+python main.py query \
+  --query "main risks" \
+  --top-k 5
+
+6.3. Filtrer par type de section
+python main.py query \
+  --query "dividend distribution" \
+  --section-filter "distribution_policy"
+
+
+Plusieurs types :
+
+python main.py query \
+  --query "investment objective" \
+  --section-filter "objective,strategy"
+
+6.4. Expansion de query (synonymes)
+python main.py query \
+  --query "investment objective" \
+  --expansion \
+  --section-filter "objective"
+
+
+Le texte de la query sera enrichi avec des synonymes définis dans QUERY_EXPANSIONS.
+
+6.5. Re-ranking avec cross-encoder
+python main.py query \
+  --query "What are the main risks?" \
+  --section-filter "risk_profile" \
+  --reranking
+
+
+Le pipeline :
+
+Récupère les résultats par embeddings
+
+Les ré-ordonne avec un modèle CrossEncoder
+
+6.6. Score minimum
+python main.py query \
+  --query "investment objective" \
+  --min-score 0.30
+
+
+Les résultats de score inférieur à 0.30 sont filtrés.
+
+6.7. Ajouter le contexte (avant / après)
+python main.py query \
+  --query "main risks" \
+  --section-filter "risk_profile" \
+  --context
+
+
+La sortie affichera aussi :
+
+Context BEFORE
+
+Context AFTER
+
+pour chaque chunk sélectionné.
+
+7. Recherche hybride (semantic + BM25)
+
+Pour combiner :
+
+Similarité embeddings
+
+Recherche par mots-clés (BM25)
+
+Utilise --hybrid :
+
+python main.py query \
+  --query "dividend payment policy" \
+  --hybrid \
+  --top-k 5
+
+
+La console affiche :
+
+semantic_score
+
+keyword_score
+
+score = combinaison des deux
+
+Les poids sont définis dans query_prospectus_hybrid :
+
+semantic_weight=0.7
+keyword_weight=0.3
+
+
+que tu peux ajuster dans le code si besoin.
+
+8. Comparer les méthodes de recherche
+
+Utilise la commande compare :
+
+python main.py compare \
+  --query "investment objective" \
+  --top-k 3
+
+
+Cela lance :
+
+Recherche sémantique simple
+
+Recherche hybride
+
+Recherche hybride + reranking
+
+et affiche les résultats pour comparer.
+
+9. Mode “ALL” (build + test query)
+
+Pour tout enchaîner :
+
+python main.py all --use-llm-types
+
+
+Cette commande :
+
+Exécute build (avec LLM si possible)
+
+Lance une query de test :
+
+"What is the investment objective of the fund?"
+
+10. Résumé des options principales
+Option	Utilité
+--fund-name	Nom du fonds dans les métadonnées
+--use-llm-types	Utiliser TokenFactory pour corriger section_type
+--query	Texte de la question
+--top-k	Nombre de résultats retournés
+--section-filter	Filtrer par type de section (objective, fees, etc.)
+--expansion	Ajouter des synonymes à la query
+--hybrid	Combiner embeddings + BM25
+--reranking	Re-ranker les résultats via CrossEncoder
+--context	Afficher les chunks avant/après
+--min-score	Score minimum des résultats
+11. En cas de problème
+
+Erreur : index introuvable
+→ lancer d’abord :
+
+python main.py build
+
+
+Changement de modèle d’embeddings
+→ supprimer outputs/index/ puis relancer build.
+
+Prospectus mal découpé
+→ vérifier que les titres sont bien formatés (styles Heading ou MAJUSCULES).
