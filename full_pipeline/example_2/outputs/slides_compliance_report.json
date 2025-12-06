@@ -1,0 +1,470 @@
+[
+  {
+    "slide_number": 1,
+    "non_respected_rules": [
+      {
+        "rule_id": "1.1",
+        "section": "Règles générales",
+        "rule_text": "Si document retail : inclure les disclaimers retail (cf. Glossaire des disclaimers)",
+        "reason": "Le document est destiné à un client retail, mais aucun disclaimer retail n'est visible sur la slide."
+      },
+      {
+        "rule_id": "2.1",
+        "section": "Page de garde - Présentation Standard (~30 pages)",
+        "rule_text": "Doit indiquer : le nom du fonds, le mois et l’année, la mention « document promotionnel », la cible : retail ou professionnel",
+        "reason": "La slide ne mentionne pas explicitement que c'est un document promotionnel, ni la cible (retail)."
+      }
+    ],
+    "uncertain_rules": []
+  },
+  {
+    "slide_number": 2,
+    "non_respected_rules": [
+      {
+        "rule_id": "1.6",
+        "section": "Règles générales",
+        "rule_text": "Les avertissements/disclaimers sur les risques doivent : être en gras, utiliser la même police et taille que le texte principal, être visibles (pas en note de bas de page)",
+        "reason": "Les avertissements/disclaimers sur les risques ne sont pas en gras."
+      }
+    ],
+    "uncertain_rules": []
+  },
+  {
+    "slide_number": 3,
+    "non_respected_rules": [
+      {
+        "rule_id": "1.4",
+        "section": "Règles générales",
+        "rule_text": "Pour chaque fonds présenté : mention obligatoire du SRI avec le disclaimer associé sur la même slide (cf. Glossaire)",
+        "reason": "Le SRI est mentionné mais le disclaimer associé n'est pas clairement visible sur la même slide."
+      },
+      {
+        "rule_id": "1.6",
+        "section": "Règles générales",
+        "rule_text": "Les avertissements/disclaimers sur les risques doivent : être en gras, utiliser la même police et taille que le texte principal, être visibles (pas en note de bas de page)",
+        "reason": "Le disclaimer sur les risques n'est pas en gras et n'utilise pas la même police et taille que le texte principal."
+      }
+    ],
+    "uncertain_rules": [
+      {
+        "rule_id": "4.5",
+        "section": "Pages suivantes",
+        "rule_text": "Vérifier la conformité des données avec la documentation légale (KID, Prospectus, Annexe SFDR)",
+        "reason": "Il est difficile de vérifier la conformité des données avec la documentation légale sans plus d'informations."
+      }
+    ]
+  },
+  {
+    "slide_number": 4,
+    "non_respected_rules": [
+      {
+        "rule_id": "1.6",
+        "section": "Règles générales",
+        "rule_text": "Les avertissements/disclaimers sur les risques doivent : être en gras, utiliser la même police et taille que le texte principal, être visibles (pas en note de bas de page)",
+        "reason": "L'avertissement sur le risque de perte de capital n'est pas en gras."
+      }
+    ],
+    "uncertain_rules": []
+  },
+  {
+    "slide_number": 5,
+    "non_respected_rules": [
+      {
+        "rule_id": "1.6",
+        "section": "Règles générales",
+        "rule_text": "Les avertissements/disclaimers sur les risques doivent : être en gras, utiliser la même police et taille que le texte principal, être visibles (pas en note de bas de page)",
+        "reason": "L'avertissement sur le risque de perte de capital n'est pas en gras et n'utilise pas la même police et taille que le texte principal."
+      },
+      {
+        "rule_id": "1.3",
+        "section": "Règles générales",
+        "rule_text": "Les études/ données chiffrées /graphiques etc., doivent faire l’objet d’un renvoi (note de bas de page) précisant à minima la source et la date",
+        "reason": "Le graphique en anneau (Doughnut) ne comporte pas de renvoi à une note de bas de page précisant la source et la date."
+      }
+    ],
+    "uncertain_rules": []
+  },
+  {
+    "slide_number": 6,
+    "non_respected_rules": [],
+    "uncertain_rules": []
+  },
+  {
+    "slide_number": 7,
+    "non_respected_rules": [],
+    "uncertain_rules": []
+  },
+  {
+    "slide_number": 8,
+    "non_respected_rules": [
+      {
+        "rule_id": "1.6",
+        "section": "Règles générales",
+        "rule_text": "Les avertissements/disclaimers sur les risques doivent : être en gras, utiliser la même police et taille que le texte principal, être visibles (pas en note de bas de page)",
+        "reason": "L'avertissement sur les risques de perte de capital n'est pas en gras."
+      }
+    ],
+    "uncertain_rules": []
+  },
+  {
+    "slide_number": 9,
+    "non_respected_rules": [
+      {
+        "rule_id": "1.6",
+        "section": "Règles générales",
+        "rule_text": "Les avertissements/disclaimers sur les risques doivent : être en gras, utiliser la même police et taille que le texte principal, être visibles (pas en note de bas de page)",
+        "reason": "L'avertissement sur le risque de perte de capital n'est pas en gras et n'utilise pas la même police et taille que le texte principal."
+      }
+    ],
+    "uncertain_rules": []
+  },
+  {
+    "slide_number": 10,
+    "non_respected_rules": [
+      {
+        "rule_id": "1.6",
+        "section": "Règles générales",
+        "rule_text": "Les avertissements/disclaimers sur les risques doivent : être en gras, utiliser la même police et taille que le texte principal, être visibles (pas en note de bas de page)",
+        "reason": "Le disclaimer sur le risque de perte en capital n'est pas en gras."
+      }
+    ],
+    "uncertain_rules": [
+      {
+        "rule_id": "1.7",
+        "section": "Règles générales",
+        "rule_text": "Les opinions et hypothèses doivent être atténuées : Ex. : « selon notre opinion », « selon nos analyses », « le fonds a pour objectif de… »",
+        "reason": "Il n'est pas clair si les affirmations sur les avantages des ETF actifs sont des opinions ou des faits, mais elles ne sont pas explicitement atténuées."
+      }
+    ]
+  },
+  {
+    "slide_number": 11,
+    "non_respected_rules": [
+      {
+        "rule_id": "4.22",
+        "section": "Pages suivantes",
+        "rule_text": "Pas de recommandation d’investissement directe ou indirecte",
+        "reason": "La question « Why invest in the US market? » peut être considérée comme une recommandation d’investissement indirecte, car elle incite le lecteur à considérer l’investissement sur le marché américain."
+      }
+    ],
+    "uncertain_rules": []
+  },
+  {
+    "slide_number": 12,
+    "non_respected_rules": [
+      {
+        "rule_id": "1.6",
+        "section": "Règles générales",
+        "rule_text": "Les avertissements/disclaimers sur les risques doivent : être en gras, utiliser la même police et taille que le texte principal, être visibles (pas en note de bas de page)",
+        "reason": "Le disclaimer « Past performance is not a reliable indicator of future performance and is not constant over time » n'est pas en gras et n'utilise pas la même police et taille que le texte principal."
+      }
+    ],
+    "uncertain_rules": []
+  },
+  {
+    "slide_number": 13,
+    "non_respected_rules": [
+      {
+        "rule_id": "1.7",
+        "section": "Règles générales",
+        "rule_text": "Les opinions et hypothèses doivent être atténuées : Ex. : « selon notre opinion », « selon nos analyses », « le fonds a pour objectif de… »",
+        "reason": "La phrase « The best of both worlds according to our analysis » n'est pas suffisamment atténuée, car elle exprime une opinion sans utiliser de formules d'atténuation claires."
+      },
+      {
+        "rule_id": "4.32",
+        "section": "Pages suivantes",
+        "rule_text": "L’usage de formules telles que « selon nous », « à notre avis », même au conditionnel, peut constituer une recommandation d’investissement selon le contexte",
+        "reason": "La phrase « The best of both worlds according to our analysis » utilise une formule qui peut être considérée comme une recommandation d'investissement, même si elle est utilisée pour exprimer une opinion."
+      }
+    ],
+    "uncertain_rules": []
+  },
+  {
+    "slide_number": 14,
+    "non_respected_rules": [
+      {
+        "rule_id": "1.6",
+        "section": "Règles générales",
+        "rule_text": "Les avertissements/disclaimers sur les risques doivent : être en gras, utiliser la même police et taille que le texte principal, être visibles (pas en note de bas de page)",
+        "reason": "Le texte 'Past performance is not a reliable indicator of future performance and is not constant over time' n'est pas en gras."
+      },
+      {
+        "rule_id": "4.14",
+        "section": "Pages suivantes",
+        "rule_text": "Les performances sont obligatoirement et en permanence comparées à l’indicateur de référence du fonds s’il existe",
+        "reason": "Il n'y a aucune mention de l'indicateur de référence du fonds."
+      }
+    ],
+    "uncertain_rules": []
+  },
+  {
+    "slide_number": 15,
+    "non_respected_rules": [],
+    "uncertain_rules": []
+  },
+  {
+    "slide_number": 16,
+    "non_respected_rules": [
+      {
+        "rule_id": "1.6",
+        "section": "Règles générales",
+        "rule_text": "Les avertissements/disclaimers sur les risques doivent : être en gras, utiliser la même police et taille que le texte principal, être visibles (pas en note de bas de page)",
+        "reason": "Le disclaimer « Past performance is not a reliable indicator of future performance and is not constant over time » n'est pas en gras."
+      }
+    ],
+    "uncertain_rules": []
+  },
+  {
+    "slide_number": 17,
+    "non_respected_rules": [
+      {
+        "rule_id": "1.6",
+        "section": "Règles générales",
+        "rule_text": "Les avertissements/disclaimers sur les risques doivent : être en gras, utiliser la même police et taille que le texte principal, être visibles (pas en note de bas de page)",
+        "reason": "Le texte « Past performance is not a reliable indicator of future performance and is not constant over time » n'est pas en gras et ne semble pas utiliser la même police et taille que le texte principal."
+      },
+      {
+        "rule_id": "4.18",
+        "section": "Pages suivantes",
+        "rule_text": "La période de référence et la source des données doivent être clairement indiquées dans le document",
+        "reason": "La période de référence est mentionnée comme « 31/08/2025 », mais il n'est pas clair si cela correspond à la période de référence pour les données présentées dans le graphique."
+      }
+    ],
+    "uncertain_rules": []
+  },
+  {
+    "slide_number": 18,
+    "non_respected_rules": [
+      {
+        "rule_id": "1.3",
+        "section": "Règles générales",
+        "rule_text": "Les études/ données chiffrées /graphiques etc., doivent faire l’objet d’un renvoi (note de bas de page) précisant à minima la source et la date",
+        "reason": "La source est mentionnée mais pas la date."
+      }
+    ],
+    "uncertain_rules": []
+  },
+  {
+    "slide_number": 19,
+    "non_respected_rules": [
+      {
+        "rule_id": "1.6",
+        "section": "Règles générales",
+        "rule_text": "Les avertissements/disclaimers sur les risques doivent : être en gras, utiliser la même police et taille que le texte principal, être visibles (pas en note de bas de page)",
+        "reason": "Le disclaimer « Past performance is not a reliable indication of future return and is not constant over time. » n'est pas en gras."
+      }
+    ],
+    "uncertain_rules": []
+  },
+  {
+    "slide_number": 20,
+    "non_respected_rules": [
+      {
+        "rule_id": "1.6",
+        "section": "Règles générales",
+        "rule_text": "Les avertissements/disclaimers sur les risques doivent : être en gras, utiliser la même police et taille que le texte principal, être visibles (pas en note de bas de page)",
+        "reason": "L'avertissement sur le risque de perte en capital n'est pas en gras et ne semble pas utiliser la même police et taille que le texte principal."
+      }
+    ],
+    "uncertain_rules": []
+  },
+  {
+    "slide_number": 21,
+    "non_respected_rules": [
+      {
+        "rule_id": "1.6",
+        "section": "Règles générales",
+        "rule_text": "Les avertissements/disclaimers sur les risques doivent : être en gras, utiliser la même police et taille que le texte principal, être visibles (pas en note de bas de page)",
+        "reason": "L'avertissement sur les risques « The fund presents a risk of capital loss. » n'est pas en gras."
+      }
+    ],
+    "uncertain_rules": [
+      {
+        "rule_id": "1.7",
+        "section": "Règles générales",
+        "rule_text": "Les opinions et hypothèses doivent être atténuées : Ex. : « selon notre opinion », « selon nos analyses », « le fonds a pour objectif de… »",
+        "reason": "Le texte « According to our analysis » est une atténuation, mais il est possible que d'autres phrases soient considérées comme des opinions ou hypothèses non atténuées."
+      },
+      {
+        "rule_id": "4.32",
+        "section": "Pages suivantes",
+        "rule_text": "L’usage de formules telles que « selon nous », « à notre avis », même au conditionnel, peut constituer une recommandation d’investissement selon le contexte",
+        "reason": "Le texte « According to our analysis » pourrait être considéré comme une recommandation d'investissement, mais le contexte n'est pas clair."
+      }
+    ]
+  },
+  {
+    "slide_number": 22,
+    "non_respected_rules": [],
+    "uncertain_rules": []
+  },
+  {
+    "slide_number": 23,
+    "non_respected_rules": [
+      {
+        "rule_id": "1.6",
+        "section": "Règles générales",
+        "rule_text": "Les avertissements/disclaimers sur les risques doivent : être en gras, utiliser la même police et taille que le texte principal, être visibles (pas en note de bas de page)",
+        "reason": "L'avertissement sur le risque de perte de capital n'est pas en gras."
+      }
+    ],
+    "uncertain_rules": []
+  },
+  {
+    "slide_number": 24,
+    "non_respected_rules": [
+      {
+        "rule_id": "1.6",
+        "section": "Règles générales",
+        "rule_text": "Les avertissements/disclaimers sur les risques doivent : être en gras, utiliser la même police et taille que le texte principal, être visibles (pas en note de bas de page)",
+        "reason": "Le disclaimer en bas de la slide n'est pas en gras et ne semble pas utiliser la même police et taille que le texte principal."
+      }
+    ],
+    "uncertain_rules": []
+  },
+  {
+    "slide_number": 25,
+    "non_respected_rules": [
+      {
+        "rule_id": "1.6",
+        "section": "Règles générales",
+        "rule_text": "Les avertissements/disclaimers sur les risques doivent : être en gras, utiliser la même police et taille que le texte principal, être visibles (pas en note de bas de page)",
+        "reason": "Le disclaimer sur les risques n'est pas en gras et n'utilise pas la même police et taille que le texte principal."
+      }
+    ],
+    "uncertain_rules": [
+      {
+        "rule_id": "1.3",
+        "section": "Règles générales",
+        "rule_text": "Les études/ données chiffrées /graphiques etc., doivent faire l’objet d’un renvoi (note de bas de page) précisant à minima la source et la date",
+        "reason": "Il n'est pas clair si les données chiffrées dans le tableau sont issues d'une étude ou d'une source spécifique qui nécessite un renvoi."
+      }
+    ]
+  },
+  {
+    "slide_number": 26,
+    "non_respected_rules": [
+      {
+        "rule_id": "1.6",
+        "section": "Règles générales",
+        "rule_text": "Les avertissements/disclaimers sur les risques doivent : être en gras, utiliser la même police et taille que le texte principal, être visibles (pas en note de bas de page)",
+        "reason": "Le disclaimer « Past performance is not a reliable indication of future return and is not constant over time. » n'est pas en gras."
+      }
+    ],
+    "uncertain_rules": []
+  },
+  {
+    "slide_number": 27,
+    "non_respected_rules": [],
+    "uncertain_rules": []
+  },
+  {
+    "slide_number": 28,
+    "non_respected_rules": [
+      {
+        "rule_id": "1.6",
+        "section": "Règles générales",
+        "rule_text": "Les avertissements/disclaimers sur les risques doivent : être en gras, utiliser la même police et taille que le texte principal, être visibles (pas en note de bas de page)",
+        "reason": "Le disclaimer « These examples are no investment recommendations » n'est pas en gras."
+      }
+    ],
+    "uncertain_rules": []
+  },
+  {
+    "slide_number": 29,
+    "non_respected_rules": [
+      {
+        "rule_id": "1.6",
+        "section": "Règles générales",
+        "rule_text": "Les avertissements/disclaimers sur les risques doivent : être en gras, utiliser la même police et taille que le texte principal, être visibles (pas en note de bas de page)",
+        "reason": "Le disclaimer « These examples are no investment recommendations » n'est pas en gras."
+      }
+    ],
+    "uncertain_rules": []
+  },
+  {
+    "slide_number": 30,
+    "non_respected_rules": [
+      {
+        "rule_id": "1.6",
+        "section": "Règles générales",
+        "rule_text": "Les avertissements/disclaimers sur les risques doivent : être en gras, utiliser la même police et taille que le texte principal, être visibles (pas en note de bas de page)",
+        "reason": "Le disclaimer « These examples are no investment recommendations » n'est pas en gras."
+      }
+    ],
+    "uncertain_rules": [
+      {
+        "rule_id": "4.5",
+        "section": "Pages suivantes",
+        "rule_text": "Vérifier la conformité des données avec la documentation légale (KID, Prospectus, Annexe SFDR)",
+        "reason": "Il n'est pas possible de vérifier la conformité des données avec la documentation légale sans plus d'informations."
+      }
+    ]
+  },
+  {
+    "slide_number": 31,
+    "non_respected_rules": [
+      {
+        "rule_id": "1.3",
+        "section": "Règles générales",
+        "rule_text": "Les études/ données chiffrées /graphiques etc., doivent faire l’objet d’un renvoi (note de bas de page) précisant à minima la source et la date",
+        "reason": "La source est mentionnée mais pas la date."
+      },
+      {
+        "rule_id": "4.5",
+        "section": "Pages suivantes",
+        "rule_text": "Vérifier la conformité des données avec la documentation légale (KID, Prospectus, Annexe SFDR)",
+        "reason": "Il n'y a pas de preuve visible que les données ont été vérifiées pour leur conformité avec la documentation légale."
+      }
+    ],
+    "uncertain_rules": []
+  },
+  {
+    "slide_number": 32,
+    "non_respected_rules": [
+      {
+        "rule_id": "1.11",
+        "section": "Règles générales",
+        "rule_text": "Éviter les anglicismes dans les présentations retail, ou les définir (notes de bas de page ou glossaire avec renvoi)",
+        "reason": "La slide contient des termes anglais non définis tels que 'Active Share', 'Jensen’s alpha', 'Beta', 'Sharpe Ratio', 'Information ratio' et 'Recovery Delay' qui ne sont pas expliqués dans le glossaire ou ailleurs dans la présentation."
+      }
+    ],
+    "uncertain_rules": []
+  },
+  {
+    "slide_number": 33,
+    "non_respected_rules": [
+      {
+        "rule_id": "1.11",
+        "section": "Règles générales",
+        "rule_text": "Éviter les anglicismes dans les présentations retail, ou les définir (notes de bas de page ou glossaire avec renvoi)",
+        "reason": "La slide contient des termes anglais non définis tels que 'Tracking-Error', 'Value at Risk (VaR)' et 'Volatility' qui ne sont pas expliqués dans le glossaire ou en note de bas de page."
+      }
+    ],
+    "uncertain_rules": []
+  },
+  {
+    "slide_number": 34,
+    "non_respected_rules": [
+      {
+        "rule_id": "1.6",
+        "section": "Règles générales",
+        "rule_text": "Les avertissements/disclaimers sur les risques doivent : être en gras, utiliser la même police et taille que le texte principal, être visibles (pas en note de bas de page)",
+        "reason": "Les avertissements/disclaimers sur les risques ne sont pas en gras et ne utilisent pas la même police et taille que le texte principal."
+      }
+    ],
+    "uncertain_rules": [
+      {
+        "rule_id": "4.5",
+        "section": "Pages suivantes",
+        "rule_text": "Vérifier la conformité des données avec la documentation légale (KID, Prospectus, Annexe SFDR)",
+        "reason": "Il n'est pas possible de vérifier la conformité des données avec la documentation légale sans accès à ces documents."
+      }
+    ]
+  },
+  {
+    "slide_number": 35,
+    "non_respected_rules": [],
+    "uncertain_rules": []
+  }
+]
