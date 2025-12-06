@@ -1,0 +1,3 @@
+ce folder contient les folders et fichiers des travails de chaque members de l'equipe avec leur nom + d'autres folders et fichiers communs
+
+- le folder de test s'appele full_pipeline , il contient l'integration des traveaux de chaque memebre

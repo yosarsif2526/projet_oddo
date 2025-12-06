@@ -1,0 +1,23 @@
+
+-les folders example_n contiennent les examples sur lesquels tester (pptx , prospectus,metadata) -> c'est dans example_n/outputs que on met les resultats de chaque script
+-les scripts seront tous dans ce folder
+-les autres fichiers/resultatq qui concernent le projet en general seront mis ici
+
+EXPLICATION DES SCRIPTS :
+-metadata_enricher : donne pour chaque exemple une version ameliore de la metadata.json
+-parse_prospectus : donne un json des informations pertinentes du prospectus
+-pptx_extractor : nonne un fichier txt de l'extraction du contenu du powerpoint d'un exemple , contenant seulement le text
+-pptx_extractor_charts : le meme que pptx_extractor mais retourne aussi les charts et tableaux
+-parse_rules: retourne un json de toute les regles avec des informations supplementaires
+-regle_applicables : prend la metadata ameliore d'un document et le resultat de parse_rules , et retourne une nouvelle liste de regles en enleveant celles qui ne concernent pas cet exemple
+-slide_analyser : retourne un json contenant pour chaque slide un summary et des information pertinente de cette slide
+applicable_rules_by_slide : prend le resultat de slide_analyser , et la liste des regles applicables du document , et retourne un json des regles applicables à chaque slide
+
+
+
+autres : 
+-fund_registration_analysis : donnees extraites de fund registrations excel
+-disclaimers output : l'extraction des donnees du fichier excel disclaimer avec categorization
+rules_parsed : le resultat de rules_parser
+
+
