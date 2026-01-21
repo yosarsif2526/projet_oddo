@@ -1,0 +1,269 @@
+{
+  "fund_info_complete": {
+    "inception_date": "2025",
+    "sri_risk_level": 4,
+    "esg_sfdr_article": "Article 9",
+    "benchmark": "S&P 500 NR",
+    "fund_type": "UCITS ETF",
+    "minimum_investment": "amount",
+    "ter": "0.35%",
+    "distribution_policy": "Distribution",
+    "currency": "USD",
+    "fund_name": "An investment solution aiming at investing efficiently in US equities ODDO BHF US Equity Active UCITS ETF  September 2025 Promotional INFORMATION",
+    "countries_available_for_sales": [
+      "Ireland",
+      "France",
+      "Germany",
+      "Switzerland"
+    ],
+    "domicile": "Ireland",
+    "management_company": "HANetf Management Limited",
+    "legal_structure": "Sub-fund of the HANetf ICAV 1",
+    "isin_code": "IE000YR7N5U8",
+    "stock_exchanges": "Xetra, Euronext Paris and Dublin, SIX",
+    "tickers": "OBUS, Xetra: ODUS",
+    "dividend_policy": "Accumulation",
+    "minimum_initial_investment_amount": "None",
+    "creation_unit": "100,000 shares",
+    "initial_offering_price": "$10",
+    "dealing_day": "Each Business Day (with exceptions)",
+    "dealing_deadline": "3:30 p.m. (Irish time) on Business day",
+    "settlement_date_subscriptions": "T+1 (cash) for subscriptions and T+2 (max T+10) for redemptions",
+    "extraction_metadata": {
+      "extraction_date": "2025-12-17T19:27:33.712856",
+      "source_file": "expl2.pptx",
+      "total_slides": 35,
+      "extraction_method": "improved_multi_pattern+table"
+    },
+    "performance_flags": {
+      "has_performance_content": true,
+      "slides_with_performance": [
+        2,
+        4,
+        10,
+        12,
+        14,
+        16,
+        17,
+        19,
+        20,
+        21,
+        23,
+        24,
+        25,
+        26,
+        32,
+        33,
+        34
+      ]
+    },
+    "custodian": "JP Morgan, Dublin Branch",
+    "investment_manager": "ODDO BHF Asset Management GmbH",
+    "recommended_holding_period": "5 years",
+    "settlement_date": "T+1 (cash) for subscriptions and T+2 (max T+10) for redemptions",
+    "fund_size": null,
+    "aum": null
+  },
+  "fund_info_detailed": {
+    "inception_date": {
+      "value": "2025",
+      "source": "pptx"
+    },
+    "sri_risk_level": {
+      "value": 4,
+      "source": "pptx"
+    },
+    "esg_sfdr_article": {
+      "value": "Article 9",
+      "source": "pptx"
+    },
+    "benchmark": {
+      "value": "S&P 500 NR",
+      "source": "pptx"
+    },
+    "fund_type": {
+      "value": "UCITS ETF",
+      "source": "pptx"
+    },
+    "minimum_investment": {
+      "value": "amount",
+      "source": "pptx"
+    },
+    "ter": {
+      "value": "0.35%",
+      "source": "pptx"
+    },
+    "distribution_policy": {
+      "value": "Distribution",
+      "source": "pptx"
+    },
+    "currency": {
+      "value": "USD",
+      "source": "pptx"
+    },
+    "fund_name": {
+      "value": "An investment solution aiming at investing efficiently in US equities ODDO BHF US Equity Active UCITS ETF  September 2025 Promotional INFORMATION",
+      "source": "pptx"
+    },
+    "countries_available_for_sales": {
+      "value": [
+        "Ireland",
+        "France",
+        "Germany",
+        "Switzerland"
+      ],
+      "source": "pptx"
+    },
+    "domicile": {
+      "value": "Ireland",
+      "source": "pptx"
+    },
+    "management_company": {
+      "value": "HANetf Management Limited",
+      "source": "pptx"
+    },
+    "legal_structure": {
+      "value": "Sub-fund of the HANetf ICAV 1",
+      "source": "pptx"
+    },
+    "isin_code": {
+      "value": "IE000YR7N5U8",
+      "source": "pptx"
+    },
+    "stock_exchanges": {
+      "value": "Xetra, Euronext Paris and Dublin, SIX",
+      "source": "pptx"
+    },
+    "tickers": {
+      "value": "OBUS, Xetra: ODUS",
+      "source": "pptx"
+    },
+    "dividend_policy": {
+      "value": "Accumulation",
+      "source": "pptx"
+    },
+    "minimum_initial_investment_amount": {
+      "value": "None",
+      "source": "pptx"
+    },
+    "creation_unit": {
+      "value": "100,000 shares",
+      "source": "pptx"
+    },
+    "initial_offering_price": {
+      "value": "$10",
+      "source": "pptx"
+    },
+    "dealing_day": {
+      "value": "Each Business Day (with exceptions)",
+      "source": "pptx"
+    },
+    "dealing_deadline": {
+      "value": "3:30 p.m. (Irish time) on Business day",
+      "source": "pptx"
+    },
+    "settlement_date_subscriptions": {
+      "value": "T+1 (cash) for subscriptions and T+2 (max T+10) for redemptions",
+      "source": "pptx"
+    },
+    "extraction_metadata": {
+      "value": {
+        "extraction_date": "2025-12-17T19:27:33.712856",
+        "source_file": "expl2.pptx",
+        "total_slides": 35,
+        "extraction_method": "improved_multi_pattern+table"
+      },
+      "source": "pptx"
+    },
+    "performance_flags": {
+      "value": {
+        "has_performance_content": true,
+        "slides_with_performance": [
+          2,
+          4,
+          10,
+          12,
+          14,
+          16,
+          17,
+          19,
+          20,
+          21,
+          23,
+          24,
+          25,
+          26,
+          32,
+          33,
+          34
+        ]
+      },
+      "source": "pptx"
+    }
+  },
+  "extraction_sources": {
+    "pptx": {
+      "extraction_date": "2025-12-17T19:27:33.712856",
+      "source_file": "expl2.pptx",
+      "total_slides": 35,
+      "extraction_method": "improved_multi_pattern+table"
+    }
+  },
+  "performance_flags": {
+    "has_performance_content": true,
+    "slides_with_performance": [
+      2,
+      4,
+      10,
+      12,
+      14,
+      16,
+      17,
+      19,
+      20,
+      21,
+      23,
+      24,
+      25,
+      26,
+      32,
+      33,
+      34
+    ]
+  },
+  "llm_metadata": {
+    "countries_available_for_sales": [
+      "Ireland",
+      "France",
+      "Germany",
+      "Switzerland"
+    ],
+    "isin_code": "IE000YR7N5U8",
+    "domicile": "Ireland",
+    "management_company": "HANetf Management Limited",
+    "legal_structure": "Sub-fund of the HANetf ICAV",
+    "custodian": "JP Morgan, Dublin Branch",
+    "stock_exchanges": [
+      "Xetra",
+      "Euronext Paris and Dublin",
+      "SIX"
+    ],
+    "tickers": [
+      "OBUS",
+      "ODUS"
+    ],
+    "creation_unit": "100,000 shares",
+    "investment_manager": "ODDO BHF Asset Management GmbH",
+    "recommended_holding_period": "5 years",
+    "dealing_deadline": "3:30 p.m. (Irish time) on Business day",
+    "settlement_date": "T+1 (cash) for subscriptions and T+2 (max T+10) for redemptions",
+    "fund_size": null,
+    "aum": null
+  },
+  "extraction_metadata": {
+    "extraction_date": "2025-12-17T19:27:42.268643",
+    "source_file": "expl2.pptx",
+    "total_slides": 35,
+    "extraction_method": "improved_with_llm"
+  }
+}

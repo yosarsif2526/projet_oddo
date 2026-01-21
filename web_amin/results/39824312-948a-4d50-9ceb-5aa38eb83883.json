@@ -1,0 +1,493 @@
+{
+  "analysis_id": "39824312-948a-4d50-9ceb-5aa38eb83883",
+  "timestamp": "2025-12-17T19:48:16.336253",
+  "metadata": {
+    "Société de Gestion": "ODDO BHF ASSET MANAGEMENT SAS",
+    "Est ce que le produit fait partie de la Sicav d'Oddo": false,
+    "Le client est-il un professionnel": false,
+    "Le document fait-il référence à une nouvelle Stratégie": false,
+    "Le document fait-il référence à un nouveau Produit": true
+  },
+  "has_annotated_pptx": true,
+  "global_violations": [
+    {
+      "rule_id": "4.5",
+      "violation_type": "INCOHÉRENCE_PROSPECTUS",
+      "severity": "high",
+      "explanation": "Divergence sur 'benchmark'.",
+      "violating_content": "PPTX: 's&p 500 nr' vs Prospectus: 's&p 500 index (usd, nr)'",
+      "correction": "Corriger dans PPTX: s&p 500 index (usd, nr)",
+      "confidence": 1.0,
+      "source": "global_report",
+      "scope": "document"
+    },
+    {
+      "rule_id": "4.5",
+      "violation_type": "INCOHÉRENCE_PROSPECTUS",
+      "severity": "high",
+      "explanation": "Divergence sur 'esg_sfdr_article'.",
+      "violating_content": "PPTX: 'article 9' vs Prospectus: 'article 8'",
+      "correction": "Corriger dans PPTX: article 8",
+      "confidence": 1.0,
+      "source": "global_report",
+      "scope": "document"
+    }
+  ],
+  "results": [
+    {
+      "slide_id": 1,
+      "slide_type": "ODDO BHF US Equity Active UCITS ETF",
+      "conforme": false,
+      "violations": [
+        {
+          "rule_id": "2.1",
+          "rule_text": "",
+          "issue": "Le slide ne contient pas la mention 'document promotionnel' ni la cible ('retail' ou 'professionnel')",
+          "evidence": "Slide 1",
+          "suggested_fix": "Ajouter la mention 'document promotionnel' et préciser la cible ('retail' ou 'professionnel')"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "slide_id": 2,
+      "slide_type": "Disclaimer",
+      "conforme": true,
+      "violations": [],
+      "notes": ""
+    },
+    {
+      "slide_id": 3,
+      "slide_type": "Product",
+      "conforme": false,
+      "violations": [
+        {
+          "rule_id": "1.3",
+          "rule_text": "",
+          "issue": "Aucune étude ou donnée chiffrée n'est référencée avec une note de bas de page précisant la source et la date, bien que certaines sources soient mentionnées dans les notes de bas de page, mais sans renvoi précis.",
+          "evidence": "",
+          "suggested_fix": ""
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "slide_id": 4,
+      "slide_type": "Overview ODDO BHF US Equity Active UCITS ETF",
+      "conforme": false,
+      "violations": [
+        {
+          "rule_id": "1.11",
+          "rule_text": "",
+          "issue": "Aucune définition ou explication des termes anglais utilisés dans le document n'a été trouvée, notamment pour les termes 'Smart momentum', 'Smart Beta', 'ETF', 'ESG', 'SFDR', 'UCITS', 'KID'.",
+          "evidence": "",
+          "suggested_fix": ""
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "slide_id": 5,
+      "slide_type": "Overview",
+      "conforme": true,
+      "violations": [],
+      "notes": ""
+    },
+    {
+      "slide_id": 6,
+      "slide_type": "",
+      "conforme": true,
+      "violations": [],
+      "notes": ""
+    },
+    {
+      "slide_id": 7,
+      "slide_type": "",
+      "conforme": true,
+      "violations": [],
+      "notes": ""
+    },
+    {
+      "slide_id": 8,
+      "slide_type": "Overview What are active ETFs?",
+      "conforme": false,
+      "violations": [
+        {
+          "rule_id": "1.8",
+          "rule_text": "",
+          "issue": "L'information requise sur les seuils d'investissement par classe d'actifs, stratégie, allocation géographique, ticket minimum, etc. n'a pas été trouvée dans le document fourni.",
+          "evidence": "",
+          "suggested_fix": ""
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "slide_id": 9,
+      "slide_type": "Overview Active ETF: A growing force in Europe",
+      "conforme": false,
+      "violations": [
+        {
+          "rule_id": "4.2.6",
+          "rule_text": "",
+          "issue": "La phrase contient une projection future pour une valeur, ce qui est interdit.",
+          "evidence": "Expected AuM in Active ETF in Europe by 2030",
+          "suggested_fix": "Remplacer la phrase par une formulation plus neutre, telle que : 'Objectif d'AuM en Active ETF en Europe à l'horizon 2030' ou 'Prévisions d'AuM en Active ETF en Europe pour 2030'"
+        },
+        {
+          "rule_id": "1.11",
+          "rule_text": "",
+          "issue": "Aucune définition ou explication des termes anglais utilisés dans le document n'a été trouvée, notamment pour les termes 'Smart momentum', 'Smart Beta', 'ETF', 'ESG', 'SFDR', 'UCITS', 'KID'.",
+          "evidence": "",
+          "suggested_fix": ""
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "slide_id": 10,
+      "slide_type": "Overview",
+      "conforme": false,
+      "violations": [
+        {
+          "rule_id": "1.11",
+          "rule_text": "",
+          "issue": "Aucune définition ou explication des termes anglais utilisés dans le document n'a été trouvée, notamment pour les termes 'Smart momentum', 'Smart Beta', 'ETF', 'ESG', 'SFDR', 'UCITS', 'KID'.",
+          "evidence": "",
+          "suggested_fix": ""
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "slide_id": 11,
+      "slide_type": "",
+      "conforme": true,
+      "violations": [],
+      "notes": ""
+    },
+    {
+      "slide_id": 12,
+      "slide_type": "Introduction Why invest in the USA?",
+      "conforme": true,
+      "violations": [],
+      "notes": ""
+    },
+    {
+      "slide_id": 13,
+      "slide_type": "Introduction",
+      "conforme": true,
+      "violations": [],
+      "notes": ""
+    },
+    {
+      "slide_id": 14,
+      "slide_type": "Introduction The World’s most important Financial Market",
+      "conforme": false,
+      "violations": [
+        {
+          "rule_id": "4.3.19",
+          "rule_text": "",
+          "issue": "Le S&P 500 est présenté comme un benchmark du fonds, ce qui n'est pas autorisé selon la règle 4.3.19. Il devrait être présenté séparément en annexe.",
+          "evidence": "Le S&P 500 est présenté comme un benchmark du fonds",
+          "suggested_fix": "Présenter le S&P 500 séparément en annexe, sans le présenter comme un benchmark du fonds."
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "slide_id": 15,
+      "slide_type": "The case for momentum investments",
+      "conforme": true,
+      "violations": [],
+      "notes": ""
+    },
+    {
+      "slide_id": 16,
+      "slide_type": "The case for momentum investments",
+      "conforme": false,
+      "violations": [
+        {
+          "rule_id": "1.11",
+          "rule_text": "",
+          "issue": "Aucune définition ou explication des termes anglais utilisés dans le document n'a été trouvée, notamment pour les termes 'Smart momentum', 'Smart Beta', 'ETF', 'ESG', 'SFDR', 'UCITS', 'KID'.",
+          "evidence": "",
+          "suggested_fix": ""
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "slide_id": 17,
+      "slide_type": "The case for momentum investments",
+      "conforme": false,
+      "violations": [
+        {
+          "rule_id": "4.3.19",
+          "rule_text": "",
+          "issue": "Le chart présenté est un indice autre que l'indicateur de référence officiel et devrait être présenté séparément en annexe",
+          "evidence": "Le chart MSCI USA Value, Min Vol, Growth, Quality, Momentum, and USA est présenté comme un benchmark du fonds",
+          "suggested_fix": "Présenter le chart MSCI USA Value, Min Vol, Growth, Quality, Momentum, and USA séparément en annexe et éviter de le présenter comme un benchmark du fonds"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "slide_id": 18,
+      "slide_type": "The case for momentum investments",
+      "conforme": false,
+      "violations": [
+        {
+          "rule_id": "1.8",
+          "rule_text": "",
+          "issue": "L'information requise sur les seuils d'investissement par classe d'actifs, stratégie, allocation géographique, ticket minimum, etc. n'a pas été trouvée dans le document fourni.",
+          "evidence": "",
+          "suggested_fix": ""
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "slide_id": 19,
+      "slide_type": "The case for momentum investments",
+      "conforme": false,
+      "violations": [
+        {
+          "rule_id": "4.3.8",
+          "rule_text": "",
+          "issue": "La règle 4.3.8 exige que les performances ne soient pas l'élément central d'un document commercial et que le document commence par la présentation du fonds",
+          "evidence": "Le document commence directement par les performances du momentum investments sans présenter le fonds",
+          "suggested_fix": "Ajouter une section de présentation du fonds avant de présenter les performances du momentum investments"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "slide_id": 20,
+      "slide_type": "The case for momentum investments",
+      "conforme": false,
+      "violations": [
+        {
+          "rule_id": "1.8",
+          "rule_text": "",
+          "issue": "L'information requise sur les seuils d'investissement par classe d'actifs, stratégie, allocation géographique, ticket minimum, etc. n'a pas été trouvée dans le document fourni.",
+          "evidence": "",
+          "suggested_fix": ""
+        },
+        {
+          "rule_id": "4.3.1",
+          "rule_text": "",
+          "issue": "Slide de performance sans l'avertissement obligatoire.",
+          "evidence": "Slide 20",
+          "suggested_fix": "Ajouter: Past performance is not a reliable indication of future return and is not constant over time..."
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "slide_id": 21,
+      "slide_type": "The case for momentum investments",
+      "conforme": false,
+      "violations": [
+        {
+          "rule_id": "1.8",
+          "rule_text": "",
+          "issue": "L'information requise sur les seuils d'investissement par classe d'actifs, stratégie, allocation géographique, ticket minimum, etc. n'a pas été trouvée dans le document fourni.",
+          "evidence": "",
+          "suggested_fix": ""
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "slide_id": 22,
+      "slide_type": "Investment Process",
+      "conforme": true,
+      "violations": [],
+      "notes": ""
+    },
+    {
+      "slide_id": 23,
+      "slide_type": "Investment Process",
+      "conforme": false,
+      "violations": [
+        {
+          "rule_id": "1.8",
+          "rule_text": "",
+          "issue": "L'information requise sur les seuils d'investissement par classe d'actifs, stratégie, allocation géographique, ticket minimum, etc. n'a pas été trouvée dans le document fourni.",
+          "evidence": "",
+          "suggested_fix": ""
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "slide_id": 24,
+      "slide_type": "Investment Process",
+      "conforme": true,
+      "violations": [],
+      "notes": ""
+    },
+    {
+      "slide_id": 25,
+      "slide_type": "Investment Process Step 2: Portfolio Construction",
+      "conforme": false,
+      "violations": [
+        {
+          "rule_id": "4.3.32",
+          "rule_text": "",
+          "issue": "Bien que les hypothèses soient clairement explicitées, il n'est pas clair si elles sont raisonnables et objectives.",
+          "evidence": "La simulation présentée ne constitue pas une prévision de la performance future de vos investissements.",
+          "suggested_fix": "Ajouter une déclaration expliquant pourquoi les hypothèses utilisées sont raisonnables et objectives."
+        },
+        {
+          "rule_id": "1.8",
+          "rule_text": "",
+          "issue": "L'information requise sur les seuils d'investissement par classe d'actifs, stratégie, allocation géographique, ticket minimum, etc. n'a pas été trouvée dans le document fourni.",
+          "evidence": "",
+          "suggested_fix": ""
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "slide_id": 26,
+      "slide_type": "Investment process",
+      "conforme": false,
+      "violations": [
+        {
+          "rule_id": "4.3.26",
+          "rule_text": "",
+          "issue": "Le slide ne fournit pas d’informations sur les performances de l’indicateur de référence, qui est un élément obligatoire pour évaluer la stratégie d’investissement",
+          "evidence": "Le slide ne présente pas les performances de l’indicateur de référence",
+          "suggested_fix": "Ajouter les performances de l’indicateur de référence, telles que le rendement brut ou net de taxes, et expliquer comment elles sont calculées et présentées conformément aux termes du prospectus"
+        },
+        {
+          "rule_id": "1.3",
+          "rule_text": "",
+          "issue": "Aucune étude ou donnée chiffrée n'est référencée avec une note de bas de page précisant la source et la date, bien que certaines sources soient mentionnées dans les notes de bas de page, mais sans renvoi précis.",
+          "evidence": "",
+          "suggested_fix": ""
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "slide_id": 27,
+      "slide_type": "",
+      "conforme": true,
+      "violations": [],
+      "notes": ""
+    },
+    {
+      "slide_id": 28,
+      "slide_type": "Portfolio Sector Allocation",
+      "conforme": false,
+      "violations": [
+        {
+          "rule_id": "4.3.26",
+          "rule_text": "",
+          "issue": "La règle 4.3.26 n'est pas respectée car les performances de l'indicateur de référence ne sont pas calculées et présentées conformément aux termes du prospectus.",
+          "evidence": "Slide 28: Portfolio Sector Allocation",
+          "suggested_fix": "Ajouter les performances de l'indicateur de référence, telles que les rendements nets ou bruts de taxes inclus ou exclus, conformément aux termes du prospectus."
+        },
+        {
+          "rule_id": "1.8",
+          "rule_text": "",
+          "issue": "L'information requise sur les seuils d'investissement par classe d'actifs, stratégie, allocation géographique, ticket minimum, etc. n'a pas été trouvée dans le document fourni.",
+          "evidence": "",
+          "suggested_fix": ""
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "slide_id": 29,
+      "slide_type": "Portfolio Largest Positions in the Portfolio",
+      "conforme": false,
+      "violations": [
+        {
+          "rule_id": "4.3.26",
+          "rule_text": "",
+          "issue": "La règle 4.3.26 exige que les performances de l'indicateur de référence soient calculées et présentées conformément aux termes du prospectus. Cependant, la slide ne fournit pas ces informations.",
+          "evidence": "La slide ne présente pas les performances de l'indicateur de référence",
+          "suggested_fix": "Ajouter les performances de l'indicateur de référence (par exemple, dividendes nets ou bruts de taxes inclus ou exclus) dans la slide ou dans une section dédiée."
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "slide_id": 30,
+      "slide_type": "Portfolio Largest Over- and Underweights",
+      "conforme": false,
+      "violations": [
+        {
+          "rule_id": "4.3.26",
+          "rule_text": "",
+          "issue": "La règle 4.3.26 exige que les performances de l'indicateur de référence soient calculées et présentées conformément aux termes du prospectus, mais celles-ci ne sont pas mentionnées dans le contenu du slide 30.",
+          "evidence": "Slide 30: Portfolio Largest Over- and Underweights",
+          "suggested_fix": "Ajouter les performances de l'indicateur de référence (par exemple, dividendes nets ou bruts de taxes inclus ou exclus) dans le contenu du slide 30."
+        },
+        {
+          "rule_id": "1.3",
+          "rule_text": "",
+          "issue": "Aucune étude ou donnée chiffrée n'est référencée avec une note de bas de page précisant la source et la date, bien que certaines sources soient mentionnées dans les notes de bas de page, mais sans renvoi précis.",
+          "evidence": "",
+          "suggested_fix": ""
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "slide_id": 31,
+      "slide_type": "Details Fund Characteristics",
+      "conforme": false,
+      "violations": [
+        {
+          "rule_id": "1.8",
+          "rule_text": "",
+          "issue": "L'information requise sur les seuils d'investissement par classe d'actifs, stratégie, allocation géographique, ticket minimum, etc. n'a pas été trouvée dans le document fourni.",
+          "evidence": "",
+          "suggested_fix": ""
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "slide_id": 32,
+      "slide_type": "GLOSSARY OF TERMS (1/2)",
+      "conforme": true,
+      "violations": [],
+      "notes": ""
+    },
+    {
+      "slide_id": 33,
+      "slide_type": "GlossarY of Terms (2/2)",
+      "conforme": true,
+      "violations": [],
+      "notes": ""
+    },
+    {
+      "slide_id": 35,
+      "slide_type": "",
+      "conforme": false,
+      "violations": [
+        {
+          "rule_id": "4.4",
+          "rule_text": "",
+          "issue": "Le contenu du Slide 35 ne contient pas les caractéristiques détaillées du fonds",
+          "evidence": "Slide 35",
+          "suggested_fix": "Ajouter les caractéristiques détaillées du fonds au Slide 35"
+        },
+        {
+          "rule_id": "3.3",
+          "rule_text": "",
+          "issue": "La slide 35 ne contient pas les éléments obligatoires requis par la règle 3.3, à savoir le disclaimer standard et le profil de risque.",
+          "evidence": "Slide 35",
+          "suggested_fix": "Ajouter le disclaimer standard et le profil de risque à la slide 35 pour se conformer à la règle 3.3."
+        }
+      ],
+      "notes": ""
+    }
+  ]
+}

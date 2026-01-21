@@ -1,0 +1,199 @@
+{
+  "slide_full": [
+    {
+      "chunk_id": "document_slide_1_full",
+      "chunk_type": "slide_full",
+      "content": "Slide 1: ODDO BHF US Equity Active UCITS ETF\n\nAn investment solution aiming at investing efficiently in US equities\n\nNotes:\n- September 2025",
+      "metadata": {
+        "slide_number": 1,
+        "slide_title": "ODDO BHF US Equity Active UCITS ETF",
+        "has_charts": false,
+        "has_tables": false,
+        "has_images": false,
+        "element_count": 1,
+        "footnote_count": 1,
+        "total_slides": 35
+      }
+    },
+    {
+      "chunk_id": "document_slide_2_full",
+      "chunk_type": "slide_full",
+      "content": "Disclaimer\n\nODDO BHF AM is the asset management division of the ODDO BHF Group. It is the common brand of three legally separate asset management companies: ODDO BHF AM SAS (France), ODDO BHF  AM GmbH (Germany) and ODDO BHF  AM Lux (Luxembourg). \u000bThis document has been drawn up by ODDO BHF ASSET MANAGEMENT SAS. for market communication. Its communication to any investor is the exclusive responsibility of each distributor or advisor with the exception of Belgium, where this document is intended exclusively for distributors and may not be distributed to non-professional clients.\nPotential investors should consult an investment advisor before subscribing to the fund. The investor is informed that the fund presents a risk of capital loss, but also many risks linked to the financial instruments/strategies in the portfolio. In case of subscription, investors must read the Key Information Document (KID) and the fund’s prospectus in order to acquaint themselves with the detailed nature of any risks incurred and all costs. \nThe value of the investment may vary both upwards and downwards and may not be returned in full. The investment must be made in accordance with investors’ investment objectives, their investment horizon and their capacity to deal with the risk arising from the transaction. ODDO BHF ASSET MANAGEMENT SAS cannot be held responsible for any direct or indirect damages resulting from the use of this document or the information contained in it. This information is provided for indicative purposes and may be modified at any moment without prior notice. \u000bAny opinions presented in this document result from our market forecasts on the publication date. They are subject to change according to market conditions and ODDO BHF ASSET MANAGEMENT SAS shall not in any case be held contractually liable for them.\nThe net asset values presented in this document are provided for indicative purposes only. Only the net asset value marked on the transaction statement and the securities account statement is authoritative. Subscriptions and redemptions of mutual funds are processed at an unknown asset value.\nA summary of investor rights is available free of charge in electronic form in English language on the website at : https://am.oddobhf.com/FRANCE/en/non_professional_investor/infos_reglementaire\nThe fund may have been authorized for distribution in different EU member states. Investors are advised to the fact that the management company may decide to withdraw with the arrangements it has made for the distribution of the units of the fund in accordance with Article 93a of Directive 2009/65/EC and Article 32a of Directive 2011/61/EU.\nThe complaints handling policy is available on our website am.oddo-bhf.com in the regulatory information section. Customer complaints can be addressed in the first instance to the following e-mail address: service_client@oddo-bhf.com (or directly to the Consumer Mediation Service: http://mediationconsommateur.be (ONLY FOR BELGIUM))\nThe Key Information Document (FR, DEU, ENG) and the prospectus (FR, DEU, ENG) are available free of charge from ODDO BHF ASSET MANAGEMENT SAS or at am.oddo-bhf.com or at authorized distributors. The annual and interim reports are available free of charge from ODDO BHF ASSET MANAGEMENT SAS or on its internet site am.oddo-bhf.com\nThe fund is licensed for sale in Switzerland. The Key Information Document, the prospectus, the annual and interim reports for Switzerland can be obtained free of charge from the Swiss Representative and paying agent, BNP Paribas Securities Services, succursale de Zurich, Selnaustrasse 16, 8002 Zurich, Switzerland\nRisks\nEquity risk, secondary market risk, concentration risk, emerging market risk, currency risk, risk related to ETF and non-ETF classes, environmental, social and governance standards, risk related to SFDR classification of sub-funds, selection risk, liquidity of investments, risk related to small and mid caps, political and/or legal/regulatory risk, regulatory restrictions and issuer-specific risk, risk related to the investment strategy, risk related to active management, risks related to the quantitative model\nCountries in which the fund is authorized for distribution to the public: Ireland, Germany, France, Switzerland\n\nNotes:\n- 2",
+      "metadata": {
+        "slide_number": 2,
+        "slide_title": "Disclaimer",
+        "has_charts": false,
+        "has_tables": false,
+        "has_images": false,
+        "element_count": 8,
+        "footnote_count": 1,
+        "total_slides": 35
+      }
+    }
+  ],
+  "slide_title": [
+    {
+      "chunk_id": "document_slide_1_title",
+      "chunk_type": "slide_title",
+      "content": "Slide 1 - Titre: ODDO BHF US Equity Active UCITS ETF",
+      "metadata": {
+        "slide_number": 1,
+        "element_type": "title",
+        "parent_chunk": "document_slide_1_full"
+      }
+    },
+    {
+      "chunk_id": "document_slide_2_title",
+      "chunk_type": "slide_title",
+      "content": "Disclaimer",
+      "metadata": {
+        "slide_number": 2,
+        "element_type": "title",
+        "parent_chunk": "document_slide_2_full"
+      }
+    }
+  ],
+  "slide_element": [
+    {
+      "chunk_id": "document_slide_1_elem_1",
+      "chunk_type": "slide_element",
+      "content": "Slide 1 - An investment solution aiming at investing efficiently in US equities",
+      "metadata": {
+        "slide_number": 1,
+        "element_index": 1,
+        "element_type": "body_text",
+        "font_size": 14,
+        "is_bold": false,
+        "parent_chunk": "document_slide_1_full"
+      }
+    },
+    {
+      "chunk_id": "document_slide_2_elem_1",
+      "chunk_type": "slide_element",
+      "content": "ODDO BHF AM is the asset management division of the ODDO BHF Group. It is the common brand of three legally separate asset management companies: ODDO BHF AM SAS (France), ODDO BHF  AM GmbH (Germany) and ODDO BHF  AM Lux (Luxembourg). \u000bThis document has been drawn up by ODDO BHF ASSET MANAGEMENT SAS. for market communication. Its communication to any investor is the exclusive responsibility of each distributor or advisor with the exception of Belgium, where this document is intended exclusively for distributors and may not be distributed to non-professional clients.",
+      "metadata": {
+        "slide_number": 2,
+        "element_index": 1,
+        "element_type": "body_text",
+        "font_size": 12,
+        "is_bold": false,
+        "parent_chunk": "document_slide_2_full"
+      }
+    },
+    {
+      "chunk_id": "document_slide_2_elem_2",
+      "chunk_type": "slide_element",
+      "content": "Potential investors should consult an investment advisor before subscribing to the fund. The investor is informed that the fund presents a risk of capital loss, but also many risks linked to the financial instruments/strategies in the portfolio. In case of subscription, investors must read the Key Information Document (KID) and the fund’s prospectus in order to acquaint themselves with the detailed nature of any risks incurred and all costs. ",
+      "metadata": {
+        "slide_number": 2,
+        "element_index": 2,
+        "element_type": "body_text",
+        "font_size": 12,
+        "is_bold": false,
+        "parent_chunk": "document_slide_2_full"
+      }
+    },
+    {
+      "chunk_id": "document_slide_2_elem_3",
+      "chunk_type": "slide_element",
+      "content": "The value of the investment may vary both upwards and downwards and may not be returned in full. The investment must be made in accordance with investors’ investment objectives, their investment horizon and their capacity to deal with the risk arising from the transaction. ODDO BHF ASSET MANAGEMENT SAS cannot be held responsible for any direct or indirect damages resulting from the use of this document or the information contained in it. This information is provided for indicative purposes and may be modified at any moment without prior notice. ",
+      "metadata": {
+        "slide_number": 2,
+        "element_index": 3,
+        "element_type": "body_text",
+        "font_size": 12,
+        "is_bold": false,
+        "parent_chunk": "document_slide_2_full"
+      }
+    },
+    {
+      "chunk_id": "document_slide_2_elem_4",
+      "chunk_type": "slide_element",
+      "content": "Any opinions presented in this document result from our market forecasts on the publication date. They are subject to change according to market conditions and ODDO BHF ASSET MANAGEMENT SAS shall not in any case be held contractually liable for them.",
+      "metadata": {
+        "slide_number": 2,
+        "element_index": 4,
+        "element_type": "body_text",
+        "font_size": 12,
+        "is_bold": false,
+        "parent_chunk": "document_slide_2_full"
+      }
+    },
+    {
+      "chunk_id": "document_slide_2_elem_5",
+      "chunk_type": "slide_element",
+      "content": "The net asset values presented in this document are provided for indicative purposes only. Only the net asset value marked on the transaction statement and the securities account statement is authoritative. Subscriptions and redemptions of mutual funds are processed at an unknown asset value.",
+      "metadata": {
+        "slide_number": 2,
+        "element_index": 5,
+        "element_type": "body_text",
+        "font_size": 12,
+        "is_bold": false,
+        "parent_chunk": "document_slide_2_full"
+      }
+    },
+    {
+      "chunk_id": "document_slide_2_elem_6",
+      "chunk_type": "slide_element",
+      "content": "A summary of investor rights is available free of charge in electronic form in English language on the website at : https://am.oddobhf.com/FRANCE/en/non_professional_investor/infos_reglementaire",
+      "metadata": {
+        "slide_number": 2,
+        "element_index": 6,
+        "element_type": "body_text",
+        "font_size": 12,
+        "is_bold": false,
+        "parent_chunk": "document_slide_2_full"
+      }
+    },
+    {
+      "chunk_id": "document_slide_2_elem_7",
+      "chunk_type": "slide_element",
+      "content": "The fund may have been authorized for distribution in different EU member states. Investors are advised to the fact that the management company may decide to withdraw with the arrangements it has made for the distribution of the units of the fund in accordance with Article 93a of Directive 2009/65/EC and Article 32a of Directive 2011/61/EU.",
+      "metadata": {
+        "slide_number": 2,
+        "element_index": 7,
+        "element_type": "body_text",
+        "font_size": 12,
+        "is_bold": false,
+        "parent_chunk": "document_slide_2_full"
+      }
+    },
+    {
+      "chunk_id": "document_slide_2_elem_8",
+      "chunk_type": "slide_element",
+      "content": "The complaints handling policy is available on our website am.oddo-bhf.com in the regulatory information section. Customer complaints can be addressed in the first instance to the following e-mail address: service_client@oddo-bhf.com (or directly to the Consumer Mediation Service: http://mediationconsommateur.be (ONLY FOR BELGIUM))",
+      "metadata": {
+        "slide_number": 2,
+        "element_index": 8,
+        "element_type": "body_text",
+        "font_size": 12,
+        "is_bold": false,
+        "parent_chunk": "document_slide_2_full"
+      }
+    }
+  ],
+  "footnote": [
+    {
+      "chunk_id": "document_slide_1_footnote_1",
+      "chunk_type": "footnote",
+      "content": "Slide 1 - Note: September 2025",
+      "metadata": {
+        "slide_number": 1,
+        "footnote_index": 1,
+        "element_type": "footnote",
+        "parent_chunk": "document_slide_1_full"
+      }
+    },
+    {
+      "chunk_id": "document_slide_2_footnote_1",
+      "chunk_type": "footnote",
+      "content": "2",
+      "metadata": {
+        "slide_number": 2,
+        "footnote_index": 1,
+        "element_type": "footnote",
+        "parent_chunk": "document_slide_2_full"
+      }
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+Flask
+Werkzeug
+openai
+httpx
+pandas
+openpyxl
+python-pptx
+python-docx
+PyPDF2

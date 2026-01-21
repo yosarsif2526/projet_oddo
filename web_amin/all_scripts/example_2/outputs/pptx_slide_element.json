@@ -1,0 +1,1445 @@
+[
+  {
+    "chunk_id": "document_slide_1_elem_1",
+    "chunk_type": "slide_element",
+    "content": "Slide 1 - An investment solution aiming at investing efficiently in US equities",
+    "metadata": {
+      "slide_number": 1,
+      "element_index": 1,
+      "element_type": "body_text",
+      "font_size": 14,
+      "is_bold": false,
+      "parent_chunk": "document_slide_1_full"
+    }
+  },
+  {
+    "chunk_id": "document_slide_2_elem_1",
+    "chunk_type": "slide_element",
+    "content": "ODDO BHF AM is the asset management division of the ODDO BHF Group. It is the common brand of three legally separate asset management companies: ODDO BHF AM SAS (France), ODDO BHF  AM GmbH (Germany) and ODDO BHF  AM Lux (Luxembourg). \u000bThis document has been drawn up by ODDO BHF ASSET MANAGEMENT SAS. for market communication. Its communication to any investor is the exclusive responsibility of each distributor or advisor with the exception of Belgium, where this document is intended exclusively for distributors and may not be distributed to non-professional clients.",
+    "metadata": {
+      "slide_number": 2,
+      "element_index": 1,
+      "element_type": "body_text",
+      "font_size": 12,
+      "is_bold": false,
+      "parent_chunk": "document_slide_2_full"
+    }
+  },
+  {
+    "chunk_id": "document_slide_2_elem_2",
+    "chunk_type": "slide_element",
+    "content": "Potential investors should consult an investment advisor before subscribing to the fund. The investor is informed that the fund presents a risk of capital loss, but also many risks linked to the financial instruments/strategies in the portfolio. In case of subscription, investors must read the Key Information Document (KID) and the fund’s prospectus in order to acquaint themselves with the detailed nature of any risks incurred and all costs. ",
+    "metadata": {
+      "slide_number": 2,
+      "element_index": 2,
+      "element_type": "body_text",
+      "font_size": 12,
+      "is_bold": false,
+      "parent_chunk": "document_slide_2_full"
+    }
+  },
+  {
+    "chunk_id": "document_slide_2_elem_3",
+    "chunk_type": "slide_element",
+    "content": "The value of the investment may vary both upwards and downwards and may not be returned in full. The investment must be made in accordance with investors’ investment objectives, their investment horizon and their capacity to deal with the risk arising from the transaction. ODDO BHF ASSET MANAGEMENT SAS cannot be held responsible for any direct or indirect damages resulting from the use of this document or the information contained in it. This information is provided for indicative purposes and may be modified at any moment without prior notice. ",
+    "metadata": {
+      "slide_number": 2,
+      "element_index": 3,
+      "element_type": "body_text",
+      "font_size": 12,
+      "is_bold": false,
+      "parent_chunk": "document_slide_2_full"
+    }
+  },
+  {
+    "chunk_id": "document_slide_2_elem_4",
+    "chunk_type": "slide_element",
+    "content": "Any opinions presented in this document result from our market forecasts on the publication date. They are subject to change according to market conditions and ODDO BHF ASSET MANAGEMENT SAS shall not in any case be held contractually liable for them.",
+    "metadata": {
+      "slide_number": 2,
+      "element_index": 4,
+      "element_type": "body_text",
+      "font_size": 12,
+      "is_bold": false,
+      "parent_chunk": "document_slide_2_full"
+    }
+  },
+  {
+    "chunk_id": "document_slide_2_elem_5",
+    "chunk_type": "slide_element",
+    "content": "The net asset values presented in this document are provided for indicative purposes only. Only the net asset value marked on the transaction statement and the securities account statement is authoritative. Subscriptions and redemptions of mutual funds are processed at an unknown asset value.",
+    "metadata": {
+      "slide_number": 2,
+      "element_index": 5,
+      "element_type": "body_text",
+      "font_size": 12,
+      "is_bold": false,
+      "parent_chunk": "document_slide_2_full"
+    }
+  },
+  {
+    "chunk_id": "document_slide_2_elem_6",
+    "chunk_type": "slide_element",
+    "content": "A summary of investor rights is available free of charge in electronic form in English language on the website at : https://am.oddobhf.com/FRANCE/en/non_professional_investor/infos_reglementaire",
+    "metadata": {
+      "slide_number": 2,
+      "element_index": 6,
+      "element_type": "body_text",
+      "font_size": 12,
+      "is_bold": false,
+      "parent_chunk": "document_slide_2_full"
+    }
+  },
+  {
+    "chunk_id": "document_slide_2_elem_7",
+    "chunk_type": "slide_element",
+    "content": "The fund may have been authorized for distribution in different EU member states. Investors are advised to the fact that the management company may decide to withdraw with the arrangements it has made for the distribution of the units of the fund in accordance with Article 93a of Directive 2009/65/EC and Article 32a of Directive 2011/61/EU.",
+    "metadata": {
+      "slide_number": 2,
+      "element_index": 7,
+      "element_type": "body_text",
+      "font_size": 12,
+      "is_bold": false,
+      "parent_chunk": "document_slide_2_full"
+    }
+  },
+  {
+    "chunk_id": "document_slide_2_elem_8",
+    "chunk_type": "slide_element",
+    "content": "The complaints handling policy is available on our website am.oddo-bhf.com in the regulatory information section. Customer complaints can be addressed in the first instance to the following e-mail address: service_client@oddo-bhf.com (or directly to the Consumer Mediation Service: http://mediationconsommateur.be (ONLY FOR BELGIUM))",
+    "metadata": {
+      "slide_number": 2,
+      "element_index": 8,
+      "element_type": "body_text",
+      "font_size": 12,
+      "is_bold": false,
+      "parent_chunk": "document_slide_2_full"
+    }
+  },
+  {
+    "chunk_id": "document_slide_3_elem_1",
+    "chunk_type": "slide_element",
+    "content": "Slide 3 - [TABLE: 2 rows × 5 columns. Data: Inception date, Fund size, SFDR classification1, Risk scale2]",
+    "metadata": {
+      "slide_number": 3,
+      "element_index": 1,
+      "element_type": "body_text",
+      "font_size": 12,
+      "is_bold": false,
+      "parent_chunk": "document_slide_3_full"
+    }
+  },
+  {
+    "chunk_id": "document_slide_3_elem_2",
+    "chunk_type": "slide_element",
+    "content": "Slide 3 - [TABLE: 1 rows × 3 columns. Data: 6, 8, 9]",
+    "metadata": {
+      "slide_number": 3,
+      "element_index": 2,
+      "element_type": "body_text",
+      "font_size": 12,
+      "is_bold": false,
+      "parent_chunk": "document_slide_3_full"
+    }
+  },
+  {
+    "chunk_id": "document_slide_4_elem_1",
+    "chunk_type": "slide_element",
+    "content": "Slide 4 - Why invest IN OUR FUND?\nProfound economical basis: Studies have proved for various time periods that markets move in trends (momentum effect)\nExploitation of stable market trends: A diversified approach to invest in different market trends with the objective of long-term outperformance utilizing proprietary quantitative models with no human biases.\nActive ETF format: A cost-efficient and transparent way to benefit from our 20 years of experience with the same strategy in dedicated mandates, passing through various market cycles. The founders of the quantitative model in 2000 still manage the strategy today.*",
+    "metadata": {
+      "slide_number": 4,
+      "element_index": 1,
+      "element_type": "body_text",
+      "font_size": 14,
+      "is_bold": false,
+      "parent_chunk": "document_slide_4_full"
+    }
+  },
+  {
+    "chunk_id": "document_slide_4_elem_2",
+    "chunk_type": "slide_element",
+    "content": "Slide 4 - INVESTMENT STRATEGY summary\nUtilizing a proprietary quantitative approach ODDO BHF US Equity Active UCITS ETF invests in US equities \nThe quantitative model rates equities based on a smart momentum strategy analysing extensive historical data with the aim to detect stable trends in the market\nThe portfolio construction process involves a strong focus on diversification and risk management by applying various constraints",
+    "metadata": {
+      "slide_number": 4,
+      "element_index": 2,
+      "element_type": "body_text",
+      "font_size": 12,
+      "is_bold": false,
+      "parent_chunk": "document_slide_4_full"
+    }
+  },
+  {
+    "chunk_id": "document_slide_5_elem_1",
+    "chunk_type": "slide_element",
+    "content": "Slide 5 - ODDO BHF “Algo Trend” strategies\nAssets under Management ODDO BHF “Algo Trend” Strategy\n[CHART: Doughnut chart showing Emerging Markets, Eurozone Core, Eurozone Dividends, Eurozone ESG, Global, USA, Europe Core, Europe ESG]\n€ 4.7 bn",
+    "metadata": {
+      "slide_number": 5,
+      "element_index": 1,
+      "element_type": "body_text",
+      "font_size": 14,
+      "is_bold": false,
+      "parent_chunk": "document_slide_5_full"
+    }
+  },
+  {
+    "chunk_id": "document_slide_5_elem_2",
+    "chunk_type": "slide_element",
+    "content": "Slide 5 - Investment Conviction\nStock markets and stocks move in short to medium term trends\nBehavioral Finance provides a convincing economical basis\nInvestment Philosophy\nExploiting the momentum effect with a purely quantitative concept for stock selection\nFocus on portfolio construction and risk management",
+    "metadata": {
+      "slide_number": 5,
+      "element_index": 2,
+      "element_type": "body_text",
+      "font_size": 12,
+      "is_bold": false,
+      "parent_chunk": "document_slide_5_full"
+    }
+  },
+  {
+    "chunk_id": "document_slide_5_elem_3",
+    "chunk_type": "slide_element",
+    "content": "Slide 5 - Dr. Stefan braun, CFA\nGlobal Head of Systematic Strategies\nODDO BHF AM\n25 years of investment experience\nKarsten seier, CFA\nGlobal Head of Systematic Strategies\nODDO BHF AM\n25 years of investment experience\nSteffen Fuchs, CFA\nSenior Portfolio Manager / Quantitative Analyst\nODDO BHF AM\n10 years of investment experience\nDr. Renata Latocha\nSenior Quantitative Analyst\nODDO BHF AM\n23 years of investment experience\nGundula Oehlke\nQuantitative Analyst\nODDO BHF AM\n34 years of investment experience\nThierry Misamer, CIIA, CEFA\nSenior Portfolio Manager\nODDO BHF AM\n26 years of investment experience",
+    "metadata": {
+      "slide_number": 5,
+      "element_index": 3,
+      "element_type": "body_text",
+      "font_size": 12,
+      "is_bold": false,
+      "parent_chunk": "document_slide_5_full"
+    }
+  },
+  {
+    "chunk_id": "document_slide_5_elem_4",
+    "chunk_type": "slide_element",
+    "content": "Slide 5 - [CHART: Doughnut chart showing Emerging Markets, Eurozone Core, Eurozone Dividends, Eurozone ESG, Global, USA, Europe Core, Europe ESG]",
+    "metadata": {
+      "slide_number": 5,
+      "element_index": 4,
+      "element_type": "chart",
+      "font_size": 12,
+      "is_bold": false,
+      "parent_chunk": "document_slide_5_full"
+    }
+  },
+  {
+    "chunk_id": "document_slide_6_elem_1",
+    "chunk_type": "slide_element",
+    "content": "Slide 6 - [TABLE: 5 rows × 2 columns. Data: Row 1: 01 | What are active ETFs and why are they appealing? Row 2: 02 | Why invest in the US Market? Row 3: 03 | The case for momentum investments Row 4: 04 | Investment process Row 5: 05 | Portfolio]",
+    "metadata": {
+      "slide_number": 6,
+      "element_index": 1,
+      "element_type": "body_text",
+      "font_size": 0,
+      "is_bold": false,
+      "parent_chunk": "document_slide_6_full"
+    }
+  },
+  {
+    "chunk_id": "document_slide_7_elem_1",
+    "chunk_type": "slide_element",
+    "content": "Slide 7 - What are active ETFs and why are they appealing?",
+    "metadata": {
+      "slide_number": 7,
+      "element_index": 1,
+      "element_type": "body_text",
+      "font_size": 14,
+      "is_bold": false,
+      "parent_chunk": "document_slide_7_full"
+    }
+  },
+  {
+    "chunk_id": "document_slide_7_elem_2",
+    "chunk_type": "slide_element",
+    "content": "Slide 7 - 01",
+    "metadata": {
+      "slide_number": 7,
+      "element_index": 2,
+      "element_type": "body_text",
+      "font_size": 14,
+      "is_bold": false,
+      "parent_chunk": "document_slide_7_full"
+    }
+  },
+  {
+    "chunk_id": "document_slide_8_elem_1",
+    "chunk_type": "slide_element",
+    "content": "Slide 8 - An active investment strategy in an etf format\nThe ETF itself is just a wrapper\nSmart Beta\nPassive\nStrategy is independent from the vehicle\nETF\nMutual Fund",
+    "metadata": {
+      "slide_number": 8,
+      "element_index": 1,
+      "element_type": "body_text",
+      "font_size": 14,
+      "is_bold": false,
+      "parent_chunk": "document_slide_8_full"
+    }
+  },
+  {
+    "chunk_id": "document_slide_8_elem_2",
+    "chunk_type": "slide_element",
+    "content": "Slide 8 - What are active ETFs?\nAn active ETF is an exchange-traded fund that is actively managed\nWhen looking at ETFs it is important to note that terms like “passive”, “ETF” or “index” are not synonymous\nA variety of strategies can be placed into  the ETF structure to leverage its benefits, not just passive ones\nUnlike passive ETFs which track a benchmark index, an active ETF seeks to outperform the benchmark.",
+    "metadata": {
+      "slide_number": 8,
+      "element_index": 2,
+      "element_type": "body_text",
+      "font_size": 14,
+      "is_bold": false,
+      "parent_chunk": "document_slide_8_full"
+    }
+  },
+  {
+    "chunk_id": "document_slide_8_elem_3",
+    "chunk_type": "slide_element",
+    "content": "Slide 8 - Active\nMandate",
+    "metadata": {
+      "slide_number": 8,
+      "element_index": 3,
+      "element_type": "body_text",
+      "font_size": 14,
+      "is_bold": false,
+      "parent_chunk": "document_slide_8_full"
+    }
+  },
+  {
+    "chunk_id": "document_slide_9_elem_1",
+    "chunk_type": "slide_element",
+    "content": "Slide 9 - Although still much more established in the US, Active ETF are rapidly gaining momentum in Europe\nGlobally there are $1,100 billion in assets under management in active ETFs which account for 7% of total ETF AuM \nThe majority of assets, over $ 800bn are still held in active ETFs launched in the US, making up 8% of total US market\nIn Europe, active ETFs only make up 3% of the ETF market, but are one of the fastest-growing segments, appealing to institutional and retail investors.",
+    "metadata": {
+      "slide_number": 9,
+      "element_index": 1,
+      "element_type": "body_text",
+      "font_size": 14,
+      "is_bold": false,
+      "parent_chunk": "document_slide_9_full"
+    }
+  },
+  {
+    "chunk_id": "document_slide_9_elem_2",
+    "chunk_type": "slide_element",
+    "content": "Slide 9 - $1 trillion\nExpected AuM in Active ETF in Europe by 2030\n28%\nof ETF AuM in Europe are expected to be actively managed by 2030\n24%\nof professional investors in Europe and Asia already use active ETFs",
+    "metadata": {
+      "slide_number": 9,
+      "element_index": 2,
+      "element_type": "body_text",
+      "font_size": 14,
+      "is_bold": false,
+      "parent_chunk": "document_slide_9_full"
+    }
+  },
+  {
+    "chunk_id": "document_slide_9_elem_3",
+    "chunk_type": "slide_element",
+    "content": "Slide 9 - Active ETFS AUM in Europe (€BN)",
+    "metadata": {
+      "slide_number": 9,
+      "element_index": 3,
+      "element_type": "body_text",
+      "font_size": 14,
+      "is_bold": false,
+      "parent_chunk": "document_slide_9_full"
+    }
+  },
+  {
+    "chunk_id": "document_slide_9_elem_4",
+    "chunk_type": "slide_element",
+    "content": "Slide 9 - [CHART: Column Stacked chart with Equity, Fixed Income, Others, and Asset Allocation series]",
+    "metadata": {
+      "slide_number": 9,
+      "element_index": 4,
+      "element_type": "chart",
+      "font_size": 12,
+      "is_bold": false,
+      "parent_chunk": "document_slide_9_full"
+    }
+  },
+  {
+    "chunk_id": "document_slide_10_elem_1",
+    "chunk_type": "slide_element",
+    "content": "Slide 10 - The Benefits of the etf wrapper combined with the advantages of active investing",
+    "metadata": {
+      "slide_number": 10,
+      "element_index": 1,
+      "element_type": "body_text",
+      "font_size": 14,
+      "is_bold": false,
+      "parent_chunk": "document_slide_10_full"
+    }
+  },
+  {
+    "chunk_id": "document_slide_10_elem_2",
+    "chunk_type": "slide_element",
+    "content": "Slide 10 - Outperformance POTENTIAL\nActively managed ETFs are based on in-depth research, leveraging on the skills of portfolio managers and offering the chance to outperform the market and generate alpha over the long run for their clients (risk of capital loss).",
+    "metadata": {
+      "slide_number": 10,
+      "element_index": 2,
+      "element_type": "body_text",
+      "font_size": 12,
+      "is_bold": false,
+      "parent_chunk": "document_slide_10_full"
+    }
+  },
+  {
+    "chunk_id": "document_slide_10_elem_3",
+    "chunk_type": "slide_element",
+    "content": "Slide 10 - Active \nManagement\nActive ETFs\nRisk Management\nActive strategies are able to react quickly to market changes and help manage risks more effectively.",
+    "metadata": {
+      "slide_number": 10,
+      "element_index": 3,
+      "element_type": "body_text",
+      "font_size": 12,
+      "is_bold": false,
+      "parent_chunk": "document_slide_10_full"
+    }
+  },
+  {
+    "chunk_id": "document_slide_10_elem_4",
+    "chunk_type": "slide_element",
+    "content": "Slide 10 - Unconstrained \nWhile passive funds just follow an index, \u000bactive strategies are more flexible, allowing for avoiding overexposure to certain sectors or stocks.",
+    "metadata": {
+      "slide_number": 10,
+      "element_index": 4,
+      "element_type": "body_text",
+      "font_size": 12,
+      "is_bold": false,
+      "parent_chunk": "document_slide_10_full"
+    }
+  },
+  {
+    "chunk_id": "document_slide_10_elem_5",
+    "chunk_type": "slide_element",
+    "content": "Slide 10 - Transparency\nActive ETF holdings are usually published daily on the provider’s website, allowing investors to know their exposure at any time.",
+    "metadata": {
+      "slide_number": 10,
+      "element_index": 5,
+      "element_type": "body_text",
+      "font_size": 12,
+      "is_bold": false,
+      "parent_chunk": "document_slide_10_full"
+    }
+  },
+  {
+    "chunk_id": "document_slide_10_elem_6",
+    "chunk_type": "slide_element",
+    "content": "Slide 10 - ACCESSIBILITY\nETFs are listed on stock exchanges like stocks and, in some cases, do not require a minimum investment amount.",
+    "metadata": {
+      "slide_number": 10,
+      "element_index": 6,
+      "element_type": "body_text",
+      "font_size": 12,
+      "is_bold": false,
+      "parent_chunk": "document_slide_10_full"
+    }
+  },
+  {
+    "chunk_id": "document_slide_10_elem_7",
+    "chunk_type": "slide_element",
+    "content": "Slide 10 - Cost Efficiency\nActive ETFs are designed to trade at prices that closely match the actual value of the fund’s holdings. They also typically have low management fees.",
+    "metadata": {
+      "slide_number": 10,
+      "element_index": 7,
+      "element_type": "body_text",
+      "font_size": 12,
+      "is_bold": false,
+      "parent_chunk": "document_slide_10_full"
+    }
+  },
+  {
+    "chunk_id": "document_slide_10_elem_8",
+    "chunk_type": "slide_element",
+    "content": "Slide 10 - ESG\nActive managers can align their portfolios more closely with ESG objectives by selecting investments that meet specific sustainability criteria, without the constraints imposed by index replication.",
+    "metadata": {
+      "slide_number": 10,
+      "element_index": 8,
+      "element_type": "body_text",
+      "font_size": 12,
+      "is_bold": false,
+      "parent_chunk": "document_slide_10_full"
+    }
+  },
+  {
+    "chunk_id": "document_slide_11_elem_1",
+    "chunk_type": "slide_element",
+    "content": "Slide 11 - Why invest in the US market?",
+    "metadata": {
+      "slide_number": 11,
+      "element_index": 1,
+      "element_type": "body_text",
+      "font_size": 14,
+      "is_bold": false,
+      "parent_chunk": "document_slide_11_full"
+    }
+  },
+  {
+    "chunk_id": "document_slide_12_elem_1",
+    "chunk_type": "slide_element",
+    "content": "Slide 12 - A leading Market that cannot be neglected\nIndustry diversity\nAccess to big success stories from both the new and old economy\nSheer Size of the Country\nWith about 345 million people, the USA has the 3rd biggest population in the world and also ranks 3rd in terms of area",
+    "metadata": {
+      "slide_number": 12,
+      "element_index": 1,
+      "element_type": "body_text",
+      "font_size": 14,
+      "is_bold": false,
+      "parent_chunk": "document_slide_12_full"
+    }
+  },
+  {
+    "chunk_id": "document_slide_12_elem_2",
+    "chunk_type": "slide_element",
+    "content": "Slide 12 - World’s largest economy\nThe US economy is the largest worldwide with a GDP of 29 trillion $\nInnovation Center\nHome to many world-leading technology companies and innovative start-ups",
+    "metadata": {
+      "slide_number": 12,
+      "element_index": 2,
+      "element_type": "body_text",
+      "font_size": 14,
+      "is_bold": false,
+      "parent_chunk": "document_slide_12_full"
+    }
+  },
+  {
+    "chunk_id": "document_slide_12_elem_3",
+    "chunk_type": "slide_element",
+    "content": "Slide 12 - Major Financial Market\nLargest stock market in the world covering around 63% of the global market cap\nHistorically attractive\nSince its inception in 1957, the S&P500 generated an average annual performance of 10.3 %",
+    "metadata": {
+      "slide_number": 12,
+      "element_index": 3,
+      "element_type": "body_text",
+      "font_size": 14,
+      "is_bold": false,
+      "parent_chunk": "document_slide_12_full"
+    }
+  },
+  {
+    "chunk_id": "document_slide_12_elem_4",
+    "chunk_type": "slide_element",
+    "content": "Slide 12 - 12",
+    "metadata": {
+      "slide_number": 12,
+      "element_index": 4,
+      "element_type": "body_text",
+      "font_size": 14,
+      "is_bold": false,
+      "parent_chunk": "document_slide_12_full"
+    }
+  },
+  {
+    "chunk_id": "document_slide_13_elem_1",
+    "chunk_type": "slide_element",
+    "content": "Slide 13 - Magnificent 7\nThe 7 largest US Tech companies, which dominate the US stock market and the technology sector globally with their innovation leadership and impact on technological advancement",
+    "metadata": {
+      "slide_number": 13,
+      "element_index": 1,
+      "element_type": "body_text",
+      "font_size": 14,
+      "is_bold": false,
+      "parent_chunk": "document_slide_13_full"
+    }
+  },
+  {
+    "chunk_id": "document_slide_13_elem_2",
+    "chunk_type": "slide_element",
+    "content": "Slide 13 - World-leading companies outside of tech\nMany examples of successful companies from various industries showing the diversity of potentially interesting companies to be found in the US market",
+    "metadata": {
+      "slide_number": 13,
+      "element_index": 2,
+      "element_type": "body_text",
+      "font_size": 14,
+      "is_bold": false,
+      "parent_chunk": "document_slide_13_full"
+    }
+  },
+  {
+    "chunk_id": "document_slide_14_elem_1",
+    "chunk_type": "slide_element",
+    "content": "Slide 14 - attractive historical performance compared to other regions",
+    "metadata": {
+      "slide_number": 14,
+      "element_index": 1,
+      "element_type": "body_text",
+      "font_size": 14,
+      "is_bold": false,
+      "parent_chunk": "document_slide_14_full"
+    }
+  },
+  {
+    "chunk_id": "document_slide_14_elem_2",
+    "chunk_type": "slide_element",
+    "content": "Slide 14 - CUMULATIVE PERFORMANCE",
+    "metadata": {
+      "slide_number": 14,
+      "element_index": 2,
+      "element_type": "body_text",
+      "font_size": 14,
+      "is_bold": false,
+      "parent_chunk": "document_slide_14_full"
+    }
+  },
+  {
+    "chunk_id": "document_slide_14_elem_3",
+    "chunk_type": "slide_element",
+    "content": "Slide 14 - [CHART: Line chart with S&P 500, MSCI Emerging Markets, and Euro Stoxx 50 series]",
+    "metadata": {
+      "slide_number": 14,
+      "element_index": 3,
+      "element_type": "chart",
+      "font_size": 12,
+      "is_bold": false,
+      "parent_chunk": "document_slide_14_full"
+    }
+  },
+  {
+    "chunk_id": "document_slide_14_elem_4",
+    "chunk_type": "slide_element",
+    "content": "Slide 14 - ANNUALIZED PERFORMANCE IN %\n[CHART: Column Clustered chart with S&P 500, Euro Stoxx 50, and MSCI Emerging Markets series]",
+    "metadata": {
+      "slide_number": 14,
+      "element_index": 4,
+      "element_type": "chart",
+      "font_size": 12,
+      "is_bold": false,
+      "parent_chunk": "document_slide_14_full"
+    }
+  },
+  {
+    "chunk_id": "document_slide_15_elem_1",
+    "chunk_type": "slide_element",
+    "content": "Slide 15 - 03",
+    "metadata": {
+      "slide_number": 15,
+      "element_index": 1,
+      "element_type": "body_text",
+      "font_size": 14,
+      "is_bold": false,
+      "parent_chunk": "document_slide_15_full"
+    }
+  },
+  {
+    "chunk_id": "document_slide_16_elem_1",
+    "chunk_type": "slide_element",
+    "content": "Slide 16 - Are stock markets efficient?\nThe Efficient market hypothesis\nVarious forms of market efficiency\nThe efficient-market hypothesis states that asset prices reflect currently available information\nWeak form: Current asset prices reflect all information contained in historical prices\nSemi-strong form: Asset prices reflect all public information\nStrong-form: Asset prices reflect all public and private information\nFama 1970\n“Efficient Capital Markets: a Review of Theory and Empirical Work”",
+    "metadata": {
+      "slide_number": 16,
+      "element_index": 1,
+      "element_type": "body_text",
+      "font_size": 14,
+      "is_bold": false,
+      "parent_chunk": "document_slide_16_full"
+    }
+  },
+  {
+    "chunk_id": "document_slide_17_elem_1",
+    "chunk_type": "slide_element",
+    "content": "Slide 17 - Stock markets move in short- to medium-term trends\nmomentum historically outperformed the broad market and other Factors in the us1",
+    "metadata": {
+      "slide_number": 17,
+      "element_index": 1,
+      "element_type": "body_text",
+      "font_size": 14,
+      "is_bold": false,
+      "parent_chunk": "document_slide_17_full"
+    }
+  },
+  {
+    "chunk_id": "document_slide_17_elem_2",
+    "chunk_type": "slide_element",
+    "content": "Slide 17 - [CHART: Line chart comparing MSCI USA Value, Min Vol, Growth, Quality, Momentum, and USA]",
+    "metadata": {
+      "slide_number": 17,
+      "element_index": 2,
+      "element_type": "chart",
+      "font_size": 12,
+      "is_bold": false,
+      "parent_chunk": "document_slide_17_full"
+    }
+  },
+  {
+    "chunk_id": "document_slide_17_elem_3",
+    "chunk_type": "slide_element",
+    "content": "Slide 17 - What is The momentum effect?\nStock Market “Anomaly”\nAcademically well researched\nPersists in various markets and for different time periods\n\nContinuation of Returns\nStocks that outperformed in the past tend to outperform in the following period\nVice versa, stocks with poor past performance, tend to continue underperforming",
+    "metadata": {
+      "slide_number": 17,
+      "element_index": 3,
+      "element_type": "body_text",
+      "font_size": 12,
+      "is_bold": false,
+      "parent_chunk": "document_slide_17_full"
+    }
+  },
+  {
+    "chunk_id": "document_slide_18_elem_1",
+    "chunk_type": "slide_element",
+    "content": "Slide 18 - Behavioral Finance provides theories",
+    "metadata": {
+      "slide_number": 18,
+      "element_index": 1,
+      "element_type": "body_text",
+      "font_size": 14,
+      "is_bold": false,
+      "parent_chunk": "document_slide_18_full"
+    }
+  },
+  {
+    "chunk_id": "document_slide_18_elem_2",
+    "chunk_type": "slide_element",
+    "content": "Slide 18 - To explain irrational investor behavior",
+    "metadata": {
+      "slide_number": 18,
+      "element_index": 2,
+      "element_type": "body_text",
+      "font_size": 14,
+      "is_bold": false,
+      "parent_chunk": "document_slide_18_full"
+    }
+  },
+  {
+    "chunk_id": "document_slide_18_elem_3",
+    "chunk_type": "slide_element",
+    "content": "Slide 18 - Behavioral Biases of investors lead to overreaction/underreaction to news",
+    "metadata": {
+      "slide_number": 18,
+      "element_index": 3,
+      "element_type": "body_text",
+      "font_size": 14,
+      "is_bold": false,
+      "parent_chunk": "document_slide_18_full"
+    }
+  },
+  {
+    "chunk_id": "document_slide_18_elem_4",
+    "chunk_type": "slide_element",
+    "content": "Slide 18 - Overconvidence\nHerding\nAnchoring\n… and many more",
+    "metadata": {
+      "slide_number": 18,
+      "element_index": 4,
+      "element_type": "body_text",
+      "font_size": 14,
+      "is_bold": false,
+      "parent_chunk": "document_slide_18_full"
+    }
+  },
+  {
+    "chunk_id": "document_slide_18_elem_5",
+    "chunk_type": "slide_element",
+    "content": "Slide 18 - Anchoring",
+    "metadata": {
+      "slide_number": 18,
+      "element_index": 5,
+      "element_type": "body_text",
+      "font_size": 14,
+      "is_bold": false,
+      "parent_chunk": "document_slide_18_full"
+    }
+  },
+  {
+    "chunk_id": "document_slide_19_elem_1",
+    "chunk_type": "slide_element",
+    "content": "Slide 19 - irrational investors and cognitive biases\nOverconfidence\nMost people think they are above average, despite it is mathematically impossible…\n100 people were interviewed…\nAre you an above-average driver?\nAre you above-average intelligent?\nAre you an above-average investor?",
+    "metadata": {
+      "slide_number": 19,
+      "element_index": 1,
+      "element_type": "body_text",
+      "font_size": 14,
+      "is_bold": false,
+      "parent_chunk": "document_slide_19_full"
+    }
+  },
+  {
+    "chunk_id": "document_slide_19_elem_2",
+    "chunk_type": "slide_element",
+    "content": "Slide 19 - [CHART: Column Clustered chart with 3 categories]",
+    "metadata": {
+      "slide_number": 19,
+      "element_index": 2,
+      "element_type": "chart",
+      "font_size": 12,
+      "is_bold": false,
+      "parent_chunk": "document_slide_19_full"
+    }
+  },
+  {
+    "chunk_id": "document_slide_19_elem_3",
+    "chunk_type": "slide_element",
+    "content": "Slide 19 - Herding and Fear of Missing Out",
+    "metadata": {
+      "slide_number": 19,
+      "element_index": 3,
+      "element_type": "body_text",
+      "font_size": 14,
+      "is_bold": false,
+      "parent_chunk": "document_slide_19_full"
+    }
+  },
+  {
+    "chunk_id": "document_slide_19_elem_4",
+    "chunk_type": "slide_element",
+    "content": "Slide 19 - Over- and Underreaction\nFair stock price before and after new information becomes available\nActual stock price",
+    "metadata": {
+      "slide_number": 19,
+      "element_index": 4,
+      "element_type": "body_text",
+      "font_size": 14,
+      "is_bold": false,
+      "parent_chunk": "document_slide_19_full"
+    }
+  },
+  {
+    "chunk_id": "document_slide_19_elem_5",
+    "chunk_type": "slide_element",
+    "content": "Slide 19 - [CHART: Line chart with 3 series]",
+    "metadata": {
+      "slide_number": 19,
+      "element_index": 5,
+      "element_type": "chart",
+      "font_size": 12,
+      "is_bold": false,
+      "parent_chunk": "document_slide_19_full"
+    }
+  },
+  {
+    "chunk_id": "document_slide_20_elem_1",
+    "chunk_type": "slide_element",
+    "content": "Slide 20 - Management of trend reversal risk",
+    "metadata": {
+      "slide_number": 20,
+      "element_index": 1,
+      "element_type": "body_text",
+      "font_size": 14,
+      "is_bold": false,
+      "parent_chunk": "document_slide_20_full"
+    }
+  },
+  {
+    "chunk_id": "document_slide_20_elem_2",
+    "chunk_type": "slide_element",
+    "content": "Slide 20 - Pro-cyclical beta exposure\nNaïve momentum strategies select stocks which performed well in the past resulting in a high beta portfolio following a market rally and low beta in down-markets\nTrends are likely to end and reverse at a certain point: Risk of large losses when markets correct/rebounds",
+    "metadata": {
+      "slide_number": 20,
+      "element_index": 2,
+      "element_type": "body_text",
+      "font_size": 12,
+      "is_bold": false,
+      "parent_chunk": "document_slide_20_full"
+    }
+  },
+  {
+    "chunk_id": "document_slide_20_elem_3",
+    "chunk_type": "slide_element",
+    "content": "Slide 20 - [CHART: Line chart with 4 series]",
+    "metadata": {
+      "slide_number": 20,
+      "element_index": 3,
+      "element_type": "chart",
+      "font_size": 12,
+      "is_bold": false,
+      "parent_chunk": "document_slide_20_full"
+    }
+  },
+  {
+    "chunk_id": "document_slide_20_elem_4",
+    "chunk_type": "slide_element",
+    "content": "Slide 20 - Concentration risk\nNaïve momentum strategies imply high concentration risk and high tracking error\nExample: Sector allocation of a S&P500 naïve momentum strategy* during sector rotation 2022-2024\n\n[CHART: Area Stacked 100 chart with 20 series]",
+    "metadata": {
+      "slide_number": 20,
+      "element_index": 4,
+      "element_type": "body_text",
+      "font_size": 12,
+      "is_bold": false,
+      "parent_chunk": "document_slide_20_full"
+    }
+  },
+  {
+    "chunk_id": "document_slide_21_elem_1",
+    "chunk_type": "slide_element",
+    "content": "Slide 21 - Key Takeaways\nAccording to our analysis\nStock markets move in short to medium term trends\nReason: Irrational investor behavior and cognitive biases\nMomentum effect can be exploited via a trend following investment approach offering high outperformance potential in the long term\nMomentum effect is persistent and cannot be arbitraged away\nMomentum has specific risks that need to be understood and managed",
+    "metadata": {
+      "slide_number": 21,
+      "element_index": 1,
+      "element_type": "body_text",
+      "font_size": 14,
+      "is_bold": false,
+      "parent_chunk": "document_slide_21_full"
+    }
+  },
+  {
+    "chunk_id": "document_slide_22_elem_1",
+    "chunk_type": "slide_element",
+    "content": "Slide 22 - 04",
+    "metadata": {
+      "slide_number": 22,
+      "element_index": 1,
+      "element_type": "body_text",
+      "font_size": 14,
+      "is_bold": false,
+      "parent_chunk": "document_slide_22_full"
+    }
+  },
+  {
+    "chunk_id": "document_slide_23_elem_1",
+    "chunk_type": "slide_element",
+    "content": "Slide 23 - systematic and transparent – no “black box”!\nStep 2: Construction of a diversified Momentum Portfolio\nPortfolio optimization\nBuild a high momentum portfolio respecting strict risk management constraints\nExpected Active Return\nRisk",
+    "metadata": {
+      "slide_number": 23,
+      "element_index": 1,
+      "element_type": "body_text",
+      "font_size": 14,
+      "is_bold": false,
+      "parent_chunk": "document_slide_23_full"
+    }
+  },
+  {
+    "chunk_id": "document_slide_23_elem_2",
+    "chunk_type": "slide_element",
+    "content": "Slide 23 - Step 1: Identification of high-quality Trends\nLong-term outperformers\nShort-term trend intact\nPreference for low volatility",
+    "metadata": {
+      "slide_number": 23,
+      "element_index": 2,
+      "element_type": "body_text",
+      "font_size": 12,
+      "is_bold": false,
+      "parent_chunk": "document_slide_23_full"
+    }
+  },
+  {
+    "chunk_id": "document_slide_23_elem_3",
+    "chunk_type": "slide_element",
+    "content": "Slide 23 - [CHART: Detected chart. Type: Line (4) Series: Market Series: Good Series: Good Series: Good]",
+    "metadata": {
+      "slide_number": 23,
+      "element_index": 3,
+      "element_type": "chart",
+      "font_size": 12,
+      "is_bold": false,
+      "parent_chunk": "document_slide_23_full"
+    }
+  },
+  {
+    "chunk_id": "document_slide_23_elem_4",
+    "chunk_type": "slide_element",
+    "content": "Slide 23 - Result:\nFinal Portfolio\nBroadly diversified and risk-controlled portfolio\n Numerous positions covering many trends\nMonthly rebalancing\n\n[CHART: Detected chart. Type: Pie (5) Series: Unnamed Series]",
+    "metadata": {
+      "slide_number": 23,
+      "element_index": 4,
+      "element_type": "body_text",
+      "font_size": 12,
+      "is_bold": false,
+      "parent_chunk": "document_slide_23_full"
+    }
+  },
+  {
+    "chunk_id": "document_slide_24_elem_1",
+    "chunk_type": "slide_element",
+    "content": "Slide 24 - Step 1: Identification of high-quality Trends",
+    "metadata": {
+      "slide_number": 24,
+      "element_index": 1,
+      "element_type": "body_text",
+      "font_size": 14,
+      "is_bold": false,
+      "parent_chunk": "document_slide_24_full"
+    }
+  },
+  {
+    "chunk_id": "document_slide_24_elem_2",
+    "chunk_type": "slide_element",
+    "content": "Slide 24 - Assigning a Trend Score to all Companies",
+    "metadata": {
+      "slide_number": 24,
+      "element_index": 2,
+      "element_type": "body_text",
+      "font_size": 12,
+      "is_bold": false,
+      "parent_chunk": "document_slide_24_full"
+    }
+  },
+  {
+    "chunk_id": "document_slide_24_elem_3",
+    "chunk_type": "slide_element",
+    "content": "Slide 24 - [CHART: Line chart with 4 series]",
+    "metadata": {
+      "slide_number": 24,
+      "element_index": 3,
+      "element_type": "chart",
+      "font_size": 12,
+      "is_bold": false,
+      "parent_chunk": "document_slide_24_full"
+    }
+  },
+  {
+    "chunk_id": "document_slide_24_elem_4",
+    "chunk_type": "slide_element",
+    "content": "Slide 24 - [TABLE: 5x5 table with company trend scores]",
+    "metadata": {
+      "slide_number": 24,
+      "element_index": 4,
+      "element_type": "table",
+      "font_size": 12,
+      "is_bold": false,
+      "parent_chunk": "document_slide_24_full"
+    }
+  },
+  {
+    "chunk_id": "document_slide_25_elem_1",
+    "chunk_type": "slide_element",
+    "content": "Slide 25 - Building a Broadly diversified and risk-controlled momentum portfolio\nQuantitative Portfolio Optimization\nCountry &\nSector\nBeta\nTracking\nError\nTurnover\nConstruct the portfolio with the highest possible Final Trend Score while respecting strict risk management constraints",
+    "metadata": {
+      "slide_number": 25,
+      "element_index": 1,
+      "element_type": "body_text",
+      "font_size": 14,
+      "is_bold": false,
+      "parent_chunk": "document_slide_25_full"
+    }
+  },
+  {
+    "chunk_id": "document_slide_25_elem_2",
+    "chunk_type": "slide_element",
+    "content": "Slide 25 - [TABLE: 5 rows × 2 columns. Data: Company | Final Trend Score]",
+    "metadata": {
+      "slide_number": 25,
+      "element_index": 2,
+      "element_type": "body_text",
+      "font_size": 12,
+      "is_bold": false,
+      "parent_chunk": "document_slide_25_full"
+    }
+  },
+  {
+    "chunk_id": "document_slide_25_elem_3",
+    "chunk_type": "slide_element",
+    "content": "Slide 25 - [TABLE] 5 rows × 2 columns.\nData:\n Row 1: Company | Final Trend Score\n Row 2: A | 56,79\n Row 3: B | 56,35\n Row 4: C | 55,86\n Row 5: … | …",
+    "metadata": {
+      "slide_number": 25,
+      "element_index": 3,
+      "element_type": "body_text",
+      "font_size": 12,
+      "is_bold": false,
+      "parent_chunk": "document_slide_25_full"
+    }
+  },
+  {
+    "chunk_id": "document_slide_26_elem_1",
+    "chunk_type": "slide_element",
+    "content": "Slide 26 - Example of Portfolio Implementation: Iron Mountain Inc",
+    "metadata": {
+      "slide_number": 26,
+      "element_index": 1,
+      "element_type": "body_text",
+      "font_size": 14,
+      "is_bold": false,
+      "parent_chunk": "document_slide_26_full"
+    }
+  },
+  {
+    "chunk_id": "document_slide_26_elem_2",
+    "chunk_type": "slide_element",
+    "content": "Slide 26 - [CHART: Column Clustered chart showing momentum score and relative weight over time]",
+    "metadata": {
+      "slide_number": 26,
+      "element_index": 2,
+      "element_type": "chart",
+      "font_size": 12,
+      "is_bold": false,
+      "parent_chunk": "document_slide_26_full"
+    }
+  },
+  {
+    "chunk_id": "document_slide_26_elem_3",
+    "chunk_type": "slide_element",
+    "content": "Slide 26 - Following a postive long-term outperformance of the stock, the trend score and the overweight increase\n\nRelative underperformance and increased volatility in the beginning lead to a weak trend score and a slight underweight of the stock in the portfolio",
+    "metadata": {
+      "slide_number": 26,
+      "element_index": 3,
+      "element_type": "body_text",
+      "font_size": 12,
+      "is_bold": false,
+      "parent_chunk": "document_slide_26_full"
+    }
+  },
+  {
+    "chunk_id": "document_slide_27_elem_1",
+    "chunk_type": "slide_element",
+    "content": "Slide 27 - 05",
+    "metadata": {
+      "slide_number": 27,
+      "element_index": 1,
+      "element_type": "body_text",
+      "font_size": 0,
+      "is_bold": false,
+      "parent_chunk": "document_slide_27_full"
+    }
+  },
+  {
+    "chunk_id": "document_slide_27_elem_2",
+    "chunk_type": "slide_element",
+    "content": "Slide 27 - Portfolio",
+    "metadata": {
+      "slide_number": 27,
+      "element_index": 2,
+      "element_type": "body_text",
+      "font_size": 0,
+      "is_bold": false,
+      "parent_chunk": "document_slide_27_full"
+    }
+  },
+  {
+    "chunk_id": "document_slide_28_elem_1",
+    "chunk_type": "slide_element",
+    "content": "Slide 28 - Relative sector weights (in %)\n[CHART: Bar Clustered chart with 25 categories]",
+    "metadata": {
+      "slide_number": 28,
+      "element_index": 1,
+      "element_type": "body_text",
+      "font_size": 14,
+      "is_bold": false,
+      "parent_chunk": "document_slide_28_full"
+    }
+  },
+  {
+    "chunk_id": "document_slide_28_elem_2",
+    "chunk_type": "slide_element",
+    "content": "Slide 28 - Absolute sector weights (in %)\n[CHART: Bar Clustered chart with 25 categories]",
+    "metadata": {
+      "slide_number": 28,
+      "element_index": 2,
+      "element_type": "body_text",
+      "font_size": 12,
+      "is_bold": false,
+      "parent_chunk": "document_slide_28_full"
+    }
+  },
+  {
+    "chunk_id": "document_slide_29_elem_1",
+    "chunk_type": "slide_element",
+    "content": "Slide 29 - [TABLE: 12 rows × 5 columns. Data: Top 10 Holdings, FUND (%), Benchmark (%), Country, Sector, NVIDIA CORP, MICROSOFT CORP, APPLE INC, META PLATFORMS INC, BROADCOM INC, BOSTON SCIENTIFIC CORP, JPMORGAN CHASE & CO, NETFLIX INC, AMAZON.COM INC, WALMART INC]",
+    "metadata": {
+      "slide_number": 29,
+      "element_index": 1,
+      "element_type": "body_text",
+      "font_size": 12,
+      "is_bold": false,
+      "parent_chunk": "document_slide_29_full"
+    }
+  },
+  {
+    "chunk_id": "document_slide_30_elem_1",
+    "chunk_type": "slide_element",
+    "content": "Slide 30 - Top 10 relative Weights\nBottom 10 relative Weights",
+    "metadata": {
+      "slide_number": 30,
+      "element_index": 1,
+      "element_type": "body_text",
+      "font_size": 14,
+      "is_bold": false,
+      "parent_chunk": "document_slide_30_full"
+    }
+  },
+  {
+    "chunk_id": "document_slide_31_elem_1",
+    "chunk_type": "slide_element",
+    "content": "Slide 31 - [TABLE: 26 rows × 2 columns. Data: Countries available for Sales | Ireland, France, Germany, Switzerland, General characteristics | , Fund name | ODDO BHF US Equity Active UCITS ETF, Benchmark | S&P 500 USD Net Total, Investment objective | The investment objective is to achieve long-term capital growth by investing in a portfolio of US equity securities., Inception date | 2025, Recommended investment horizon | 5 years, ISIN code | IE000YR7N5U8, Stock Exchanges | Xetra, Euronext Paris and Dublin, SIX, Tickers | OBUS, Xetra: ODUS, Currency | USD, Dividend policy | Accumulation, TER | 0,35%, Minimum Initial Investment Amount | None, Structure and technical information | , Domicile | Ireland, Management company | HANetf Management Limited, Legal structure | Sub-fund of the HANetf ICAV 1, Investment Manager by delegation | ODDO BHF Asset Management GmbH (sub-delegation from ODDO BHF Asset Management SAS ), Custodian | JP Morgan, Dublin Branch, Primary Market Parameters | , Creation Unit | 100,000 shares, Initial Offering Price | $10, Dealing Day | Each Business Day (with exceptions), Dealing Deadline | 3:30 p.m. (Irish time) on Business day, Settlement Date Subscriptions | T+1 (cash) for subscriptions and T+2 (max T+10) for redemptions]",
+    "metadata": {
+      "slide_number": 31,
+      "element_index": 1,
+      "element_type": "body_text",
+      "font_size": 12,
+      "is_bold": false,
+      "parent_chunk": "document_slide_31_full"
+    }
+  },
+  {
+    "chunk_id": "document_slide_32_elem_1",
+    "chunk_type": "slide_element",
+    "content": "Slide 32 - Performance calculation\nThe funds’ cumulative performances are calculated with dividends reinvested. Annualised performance is calculated on an actuarial basis on an annual basis over 365 days. Differences in the performance of a fund relative to its benchmark are arithmetic differences. Statistical indicators are generally calculated on a weekly basis on Fridays, or the previous valuation day failing that.",
+    "metadata": {
+      "slide_number": 32,
+      "element_index": 1,
+      "element_type": "body_text",
+      "font_size": 14,
+      "is_bold": false,
+      "parent_chunk": "document_slide_32_full"
+    }
+  },
+  {
+    "chunk_id": "document_slide_32_elem_2",
+    "chunk_type": "slide_element",
+    "content": "Slide 32 - Active Share\nMeasure of the percentage of securities in the portfolio that differs from the benchmark. A higher active share implies a greater difference in portfolio allocation vs the benchmark.",
+    "metadata": {
+      "slide_number": 32,
+      "element_index": 2,
+      "element_type": "body_text",
+      "font_size": 14,
+      "is_bold": false,
+      "parent_chunk": "document_slide_32_full"
+    }
+  },
+  {
+    "chunk_id": "document_slide_32_elem_3",
+    "chunk_type": "slide_element",
+    "content": "Slide 32 - Jensen’s alpha\nMeasure of the performance gap between the portfolio and the benchmark with a similar level of risk (adjusted for β). It measures the value of the fund or the manager’s ability to “beat the market”, also known as excess return.",
+    "metadata": {
+      "slide_number": 32,
+      "element_index": 3,
+      "element_type": "body_text",
+      "font_size": 14,
+      "is_bold": false,
+      "parent_chunk": "document_slide_32_full"
+    }
+  },
+  {
+    "chunk_id": "document_slide_32_elem_4",
+    "chunk_type": "slide_element",
+    "content": "Slide 32 - Beta\nβ measures the sensitivity of the performance of a portfolio compared with that of its benchmark, i.e., when the bench- mark varies by X%, the fund varies, on average, by a magnitude equal to β*X%.",
+    "metadata": {
+      "slide_number": 32,
+      "element_index": 4,
+      "element_type": "body_text",
+      "font_size": 14,
+      "is_bold": false,
+      "parent_chunk": "document_slide_32_full"
+    }
+  },
+  {
+    "chunk_id": "document_slide_32_elem_5",
+    "chunk_type": "slide_element",
+    "content": "Slide 32 - Correlation coefficient\nThe correlation coefficient defines the degree of dependence between change in the performance of the portfolio and that of its benchmark. The closer it is to 1, the greater the degree of dependence. A negative correlation coefficient means that, on average, the portfolio will fluctuate inversely to its benchmark.",
+    "metadata": {
+      "slide_number": 32,
+      "element_index": 5,
+      "element_type": "body_text",
+      "font_size": 14,
+      "is_bold": false,
+      "parent_chunk": "document_slide_32_full"
+    }
+  },
+  {
+    "chunk_id": "document_slide_32_elem_6",
+    "chunk_type": "slide_element",
+    "content": "Slide 32 - Duration\nDuration is a measure of interest rate risk in bond instruments. Duration is expressed as the weighted average life of all flows (interest and principal).",
+    "metadata": {
+      "slide_number": 32,
+      "element_index": 6,
+      "element_type": "body_text",
+      "font_size": 14,
+      "is_bold": false,
+      "parent_chunk": "document_slide_32_full"
+    }
+  },
+  {
+    "chunk_id": "document_slide_32_elem_7",
+    "chunk_type": "slide_element",
+    "content": "Slide 32 - Distance to bond floor\nFor convertible bonds, the value of the bond component. The distance to the bond floor represents the value of the conversion option into shares.",
+    "metadata": {
+      "slide_number": 32,
+      "element_index": 7,
+      "element_type": "body_text",
+      "font_size": 14,
+      "is_bold": false,
+      "parent_chunk": "document_slide_32_full"
+    }
+  },
+  {
+    "chunk_id": "document_slide_32_elem_8",
+    "chunk_type": "slide_element",
+    "content": "Slide 32 - Maximum Drawdown\nThe maximum drawdown is the level of loss (in %) recorded on a fund during the worst period of decline over the period under review.",
+    "metadata": {
+      "slide_number": 32,
+      "element_index": 8,
+      "element_type": "body_text",
+      "font_size": 14,
+      "is_bold": false,
+      "parent_chunk": "document_slide_32_full"
+    }
+  },
+  {
+    "chunk_id": "document_slide_32_elem_9",
+    "chunk_type": "slide_element",
+    "content": "Slide 32 - Average maturity\nAverage life is defined as the weighted average maturity (in years) of all the cash flows (including repayment of the of capital) resulting from an investment. Therefore, it is a question a measuring instrument allowing to assess the sensitivity of the price of an asset or a portfolio at a change in interest rates.",
+    "metadata": {
+      "slide_number": 32,
+      "element_index": 9,
+      "element_type": "body_text",
+      "font_size": 14,
+      "is_bold": false,
+      "parent_chunk": "document_slide_32_full"
+    }
+  },
+  {
+    "chunk_id": "document_slide_32_elem_10",
+    "chunk_type": "slide_element",
+    "content": "Slide 32 - Sharpe Ratio\nThe Sharpe ratio measures the risk/return profile of the portfolio or benchmark. It is the difference between the annualised performance of the fund (or its benchmark) and the annual return based on the risk-free rate divided by the volatility of the fund (or its benchmark).",
+    "metadata": {
+      "slide_number": 32,
+      "element_index": 10,
+      "element_type": "body_text",
+      "font_size": 14,
+      "is_bold": false,
+      "parent_chunk": "document_slide_32_full"
+    }
+  },
+  {
+    "chunk_id": "document_slide_32_elem_11",
+    "chunk_type": "slide_element",
+    "content": "Slide 32 - Information ratio\nThe information ratio measures the over/under performance achieved by the manager when he or she deviates from the reference indicator It is equal to the difference in the annualized portfolio return by relative to its reference indicator, divided by the tracking error.",
+    "metadata": {
+      "slide_number": 32,
+      "element_index": 11,
+      "element_type": "body_text",
+      "font_size": 14,
+      "is_bold": false,
+      "parent_chunk": "document_slide_32_full"
+    }
+  },
+  {
+    "chunk_id": "document_slide_32_elem_12",
+    "chunk_type": "slide_element",
+    "content": "Slide 32 - Recovery Delay\nPayback period of maximum drawdown: the time to clear the loss on the worst period of decline and return to the original level.",
+    "metadata": {
+      "slide_number": 32,
+      "element_index": 12,
+      "element_type": "body_text",
+      "font_size": 14,
+      "is_bold": false,
+      "parent_chunk": "document_slide_32_full"
+    }
+  },
+  {
+    "chunk_id": "document_slide_33_elem_1",
+    "chunk_type": "slide_element",
+    "content": "Slide 33 - Yield to maturity\nThe yield to maturity of a bond is the real rate of return on the bond for an investor who keeps it until its redemption, assuming that the issuer will not default and assuming the reinvestment of interest at the same yield.",
+    "metadata": {
+      "slide_number": 33,
+      "element_index": 1,
+      "element_type": "body_text",
+      "font_size": 14,
+      "is_bold": false,
+      "parent_chunk": "document_slide_33_full"
+    }
+  },
+  {
+    "chunk_id": "document_slide_33_elem_2",
+    "chunk_type": "slide_element",
+    "content": "Slide 33 - Equity sensitivity\nFor convertible bonds, equity sensitivity measures the percentage change in value induced by a change in the equity markets.",
+    "metadata": {
+      "slide_number": 33,
+      "element_index": 2,
+      "element_type": "body_text",
+      "font_size": 14,
+      "is_bold": false,
+      "parent_chunk": "document_slide_33_full"
+    }
+  },
+  {
+    "chunk_id": "document_slide_33_elem_3",
+    "chunk_type": "slide_element",
+    "content": "Slide 33 - Credit sensitivity\nCredit sensitivity is used to measure the risk associated with changes in credit spreads. The value of the portfolio is subject to change in the event of deterioration or improvement in the quality of issuers. Thus, a value of +2% for instance means that for an instantaneous 1% increase (respectively decrease) in spreads, the portfolio value would decrease (in- crease) by 2%.",
+    "metadata": {
+      "slide_number": 33,
+      "element_index": 3,
+      "element_type": "body_text",
+      "font_size": 14,
+      "is_bold": false,
+      "parent_chunk": "document_slide_33_full"
+    }
+  },
+  {
+    "chunk_id": "document_slide_33_elem_4",
+    "chunk_type": "slide_element",
+    "content": "Slide 33 - Interest rate sensitivity\nFor convertible bonds, interest rate sensitivity measures the percentage change in value induced by a change in the interest rate.",
+    "metadata": {
+      "slide_number": 33,
+      "element_index": 4,
+      "element_type": "body_text",
+      "font_size": 14,
+      "is_bold": false,
+      "parent_chunk": "document_slide_33_full"
+    }
+  },
+  {
+    "chunk_id": "document_slide_33_elem_5",
+    "chunk_type": "slide_element",
+    "content": "Slide 33 - Credit spread\nThe credit spread refers to the risk premium, or the difference between the yields on corporate bonds and government bonds with similar characteristics.",
+    "metadata": {
+      "slide_number": 33,
+      "element_index": 5,
+      "element_type": "body_text",
+      "font_size": 14,
+      "is_bold": false,
+      "parent_chunk": "document_slide_33_full"
+    }
+  },
+  {
+    "chunk_id": "document_slide_33_elem_6",
+    "chunk_type": "slide_element",
+    "content": "Slide 33 - Turnover rate\nThe portfolio turnover rate is the sum of movements (purchases and sales of securities), less the amount of subscriptions/redemptions, based on the average net assets observed over the period.",
+    "metadata": {
+      "slide_number": 33,
+      "element_index": 6,
+      "element_type": "body_text",
+      "font_size": 14,
+      "is_bold": false,
+      "parent_chunk": "document_slide_33_full"
+    }
+  },
+  {
+    "chunk_id": "document_slide_33_elem_7",
+    "chunk_type": "slide_element",
+    "content": "Slide 33 - Tracking-Error\nMeasure of the relative risk taken by a fund vs its benchmark. The tracking error is the volatility of relative performance, i.e. the annualised standard deviation of the arithmetic over- or underperformance of the portfolio vs its benchmark.",
+    "metadata": {
+      "slide_number": 33,
+      "element_index": 7,
+      "element_type": "body_text",
+      "font_size": 14,
+      "is_bold": false,
+      "parent_chunk": "document_slide_33_full"
+    }
+  },
+  {
+    "chunk_id": "document_slide_33_elem_8",
+    "chunk_type": "slide_element",
+    "content": "Slide 33 - Weighted Average Life (WAL)\nFor money market funds: weighted average life of the portfolio until the date of termination of financial instruments.",
+    "metadata": {
+      "slide_number": 33,
+      "element_index": 8,
+      "element_type": "body_text",
+      "font_size": 14,
+      "is_bold": false,
+      "parent_chunk": "document_slide_33_full"
+    }
+  },
+  {
+    "chunk_id": "document_slide_33_elem_9",
+    "chunk_type": "slide_element",
+    "content": "Slide 33 - Weighted Average Maturity (WAM)\nWeighted average maturity of the portfolio: measure of sensitivity of money market funds to interest rate risk.",
+    "metadata": {
+      "slide_number": 33,
+      "element_index": 9,
+      "element_type": "body_text",
+      "font_size": 14,
+      "is_bold": false,
+      "parent_chunk": "document_slide_33_full"
+    }
+  },
+  {
+    "chunk_id": "document_slide_33_elem_10",
+    "chunk_type": "slide_element",
+    "content": "Slide 33 - Ex-post Value at Risk (VaR)\nEx-post VaR is the maximum loss recorded by an investor factoring in an investment period and a confidence interval. Thus, a daily 1-year VaR of x% calculated with a confidence interval of 99% means that, over an observation period of 1 year, only 1% of daily performances were below x%.",
+    "metadata": {
+      "slide_number": 33,
+      "element_index": 10,
+      "element_type": "body_text",
+      "font_size": 14,
+      "is_bold": false,
+      "parent_chunk": "document_slide_33_full"
+    }
+  },
+  {
+    "chunk_id": "document_slide_33_elem_11",
+    "chunk_type": "slide_element",
+    "content": "Slide 33 - Volatility\nVolatility is a risk indicator that measures the magnitude of the variation of a portfolio (or benchmark) over a given period. It is calculated as the annualised standard deviation of absolute returns over a defined period.",
+    "metadata": {
+      "slide_number": 33,
+      "element_index": 11,
+      "element_type": "body_text",
+      "font_size": 14,
+      "is_bold": false,
+      "parent_chunk": "document_slide_33_full"
+    }
+  }
+]

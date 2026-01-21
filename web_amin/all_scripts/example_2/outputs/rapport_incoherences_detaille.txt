@@ -1,0 +1,96 @@
+================================================================================
+RAPPORT D'INCOHÉRENCES - FUSION PROSPECTUS + PPTX
+================================================================================
+
+📅 Date : 17/12/2025 19:28:07
+📊 Total incohérences : 3
+
+
+🔴 ============================================================================
+🔴 INCOHÉRENCES CRITIQUE
+🔴 ============================================================================
+
+[1] CHAMP : esg_sfdr_article
+--------------------------------------------------------------------------------
+🔵 Prospectus : Article 8
+🟢 PPTX       : Article 9
+✅ Résolution : prospectus_kept
+
+🤖 ANALYSE LLM :
+--------------------------------------------------------------------------------
+**Analyse de l'incohérence**
+
+1. **Valeur probablement correcte** : Article 9. En effet, l'article 9 du règlement SFDR (Sustainable Finance Disclosure Regulation) est plus exigeant que l'article 8, car il concerne les produits financiers qui promeuvent des caractéristiques environnementales ou sociales. Il est peu probable qu'un prospectus mentionne un article moins exigeant que celui mentionné dans un document de présentation (PPTX).
+
+2. **Explication de la différence** : La différence peut être due à une erreur de saisie ou à une mauvaise interprétation des exigences réglementaires.
+
+3. **Impact sur la conformité réglementaire** : Cette incohérence peut avoir un impact significatif sur la conformité réglementaire, car elle peut entraîner une mauvaise classification du produit financier et une non-conformité aux exigences de transparence.
+
+4. **Action recommandée** : Vérifier les documents sources et les exigences réglementaires pour déterminer la valeur correcte. Mettre à jour les documents pour garantir la cohérence et la conformité réglementaire.
+
+================================================================================
+
+[2] CHAMP : fund_name
+--------------------------------------------------------------------------------
+🔵 Prospectus : ODDO BHF US Equity Active UCITS ETF
+🟢 PPTX       : An investment solution aiming at investing efficiently in US equities ODDO BHF US Equity Active UCITS ETF  September 2025 Promotional INFORMATION
+✅ Résolution : prospectus_kept
+
+🤖 ANALYSE LLM :
+--------------------------------------------------------------------------------
+**Analyse de l'incohérence**
+
+1. **Valeur probablement correcte** : ODDO BHF US Equity Active UCITS ETF (valeur Prospectus)
+   * Raison : Le nom du fonds est généralement standardisé et spécifié dans les documents officiels tels que le prospectus.
+
+2. **Explication de la différence** : 
+   * La valeur PPTX contient des informations supplémentaires non pertinentes pour le nom du fonds, telles que la date et des détails promotionnels.
+
+3. **Impact sur la conformité réglementaire** : 
+   * Une incohérence dans le nom du fonds peut entraîner des problèmes de conformité réglementaire, notamment en matière de reporting et de documentation.
+
+4. **Action recommandée** : 
+   * Harmoniser les valeurs en utilisant le nom standardisé du fonds (ODDO BHF US Equity Active UCITS ETF) pour garantir la cohérence et la conformité réglementaire.
+
+================================================================================
+
+
+🟠 ============================================================================
+🟠 INCOHÉRENCES IMPORTANTE
+🟠 ============================================================================
+
+[1] CHAMP : distribution_policy
+--------------------------------------------------------------------------------
+🔵 Prospectus : Accumulation/Distribution
+🟢 PPTX       : Distribution
+✅ Résolution : prospectus_kept
+
+🤖 ANALYSE LLM :
+--------------------------------------------------------------------------------
+**Analyse de l'incohérence**
+
+1. **Valeur probablement correcte** : Accumulation/Distribution (Prospectus)
+   * Raison : Cette valeur est plus détaillée et précise, indiquant que la politique de distribution peut impliquer à la fois l'accumulation et la distribution de fonds.
+
+2. **Explication de la différence** :
+   * La différence peut être due à une simplification excessive dans le PPTX, qui ne reflète pas l'ensemble des aspects de la politique de distribution.
+
+3. **Impact sur la conformité réglementaire** :
+   * Cette incohérence peut entraîner des problèmes de conformité réglementaire, car les informations fournies dans le Prospectus et le PPTX doivent être cohérentes et exactes.
+
+4. **Action recommandée** :
+   * Vérifier les documents sources pour confirmer la politique de distribution réelle.
+   * Mettre à jour le PPTX pour refléter avec précision la politique de distribution, en utilisant la valeur « Accumulation/Distribution » si confirmée.
+
+================================================================================
+
+
+💡 RECOMMANDATIONS
+================================================================================
+
+1. Vérifier manuellement les incohérences CRITIQUES
+2. Valider la source correcte avec les équipes métier
+3. Mettre à jour la source erronée
+4. Relancer la fusion après correction
+
+================================================================================

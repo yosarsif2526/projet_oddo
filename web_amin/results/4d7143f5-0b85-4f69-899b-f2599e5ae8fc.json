@@ -1,0 +1,55 @@
+{
+  "analysis_id": "4d7143f5-0b85-4f69-899b-f2599e5ae8fc",
+  "timestamp": "2025-12-13T17:05:01.709017",
+  "metadata": {
+    "Société de Gestion": "ODDO BHF ASSET MANAGEMENT SAS",
+    "Est ce que le produit fait partie de la Sicav d'Oddo": true,
+    "Le client est-il un professionnel": false,
+    "Le document fait-il référence à une nouvelle Stratégie": false,
+    "Le document fait-il référence à un nouveau Produit": false,
+    "fund_name": "ODDO BHF Algo Trend US"
+  },
+  "has_annotated_pptx": true,
+  "results": [
+    {
+      "slide_id": 1,
+      "conforme": false,
+      "violations": [
+        {
+          "rule_id": "RULE_018",
+          "rule_text": "Format de date valide",
+          "issue": "Format de date non valide",
+          "evidence": "Septembre 2025",
+          "suggested_fix": "Utiliser le format 'Sept 2025' ou 'September 2025'"
+        }
+      ]
+    },
+    {
+      "slide_id": 2,
+      "conforme": true,
+      "violations": []
+    },
+    {
+      "slide_id": 3,
+      "conforme": true,
+      "violations": []
+    },
+    {
+      "slide_id": 4,
+      "conforme": true,
+      "violations": []
+    },
+    {
+      "slide_id": 5,
+      "slide_type": "RISKS",
+      "conforme": true,
+      "violations": []
+    },
+    {
+      "slide_id": 6,
+      "slide_type": "LEGAL_END",
+      "conforme": true,
+      "violations": []
+    }
+  ]
+}

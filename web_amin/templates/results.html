@@ -1,0 +1,1102 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rapport d'Audit - ODDO BHF Asset Management</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --primary: #1a365d;
+            --secondary: #2563eb;
+            --accent: #3b82f6;
+            --success: #10b981;
+            --danger: #ef4444;
+            --warning: #f59e0b;
+            --light: #f8fafc;
+            --dark: #0f172a;
+            --border: #e2e8f0;
+            --shadow: rgba(15, 23, 42, 0.08);
+
+            --bg: radial-gradient(1200px 600px at 15% 0%, rgba(37, 99, 235, 0.12), transparent 55%),
+                  radial-gradient(900px 520px at 85% 10%, rgba(59, 130, 246, 0.10), transparent 60%),
+                  linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%);
+            --surface: rgba(255, 255, 255, 0.9);
+            --surface-strong: rgba(255, 255, 255, 1);
+            --text: var(--dark);
+            --muted: #64748b;
+            --muted-2: #94a3b8;
+            --ring: rgba(59, 130, 246, 0.18);
+            --glow: rgba(59, 130, 246, 0.25);
+            --glow-2: rgba(34, 211, 238, 0.22);
+        }
+
+        html[data-theme="dark"] {
+            --primary: #0b2a4a;
+            --secondary: #60a5fa;
+            --accent: #22d3ee;
+            --light: #0b1220;
+            --dark: #e5e7eb;
+            --border: rgba(148, 163, 184, 0.18);
+            --shadow: rgba(0, 0, 0, 0.45);
+
+            --bg: radial-gradient(1100px 700px at 15% 0%, rgba(96, 165, 250, 0.18), transparent 55%),
+                  radial-gradient(900px 520px at 85% 10%, rgba(34, 211, 238, 0.18), transparent 60%),
+                  radial-gradient(900px 520px at 60% 90%, rgba(16, 185, 129, 0.10), transparent 55%),
+                  linear-gradient(135deg, #070b14 0%, #0b1220 100%);
+            --surface: rgba(15, 23, 42, 0.72);
+            --surface-strong: rgba(15, 23, 42, 0.92);
+            --text: #e5e7eb;
+            --muted: #a1a1aa;
+            --muted-2: #94a3b8;
+            --ring: rgba(34, 211, 238, 0.22);
+            --glow: rgba(34, 211, 238, 0.25);
+            --glow-2: rgba(96, 165, 250, 0.22);
+        }
+
+        body {
+            font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif;
+            background: var(--bg);
+            min-height: 100vh;
+            color: var(--text);
+            line-height: 1.6;
+            transition: background 0.35s ease, color 0.25s ease;
+        }
+
+        body::before {
+            content: "";
+            position: fixed;
+            inset: 0;
+            pointer-events: none;
+            background: radial-gradient(500px 350px at 35% 20%, rgba(59, 130, 246, 0.10), transparent 60%),
+                        radial-gradient(420px 320px at 75% 35%, rgba(34, 211, 238, 0.10), transparent 60%);
+            opacity: 1;
+            animation: floatGlow 10s ease-in-out infinite;
+        }
+
+        /* Header */
+        .header {
+            background: linear-gradient(135deg, rgba(11, 42, 74, 0.92) 0%, rgba(37, 99, 235, 0.85) 40%, rgba(34, 211, 238, 0.55) 100%);
+            color: white;
+            padding: 2.25rem 0;
+            box-shadow: 0 18px 40px -26px rgba(0,0,0,0.35);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .header::after {
+            content: "";
+            position: absolute;
+            inset: -2px;
+            background: radial-gradient(800px 400px at 15% 20%, rgba(255,255,255,0.12), transparent 60%),
+                        radial-gradient(700px 420px at 85% 0%, rgba(34, 211, 238, 0.16), transparent 60%);
+            opacity: 1;
+            pointer-events: none;
+        }
+
+        .header-container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 0 2rem;
+        }
+
+        .header-top {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 1.5rem;
+        }
+
+        .header-top > * {
+            position: relative;
+            z-index: 1;
+        }
+
+        .header-title {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+        }
+
+        .header-icon {
+            width: 48px;
+            height: 48px;
+            background: rgba(255,255,255,0.2);
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.5rem;
+        }
+
+        .header-title h1 {
+            font-size: 1.75rem;
+            font-weight: 700;
+            letter-spacing: -0.5px;
+        }
+
+        .header-meta {
+            font-size: 0.9rem;
+            opacity: 0.9;
+        }
+
+        /* Action Buttons */
+        .action-buttons {
+            display: flex;
+            gap: 0.75rem;
+            flex-wrap: wrap;
+            align-items: center;
+        }
+
+        .theme-toggle {
+            border: 1px solid rgba(255, 255, 255, 0.22);
+            background: rgba(255, 255, 255, 0.08);
+            color: white;
+            border-radius: 999px;
+            padding: 0.6rem 0.85rem;
+            cursor: pointer;
+            display: inline-flex;
+            align-items: center;
+            gap: 0.55rem;
+            font-weight: 700;
+            font-size: 0.9rem;
+            transition: transform 0.18s ease, box-shadow 0.25s ease, background 0.25s ease, border-color 0.25s ease;
+            position: relative;
+            overflow: hidden;
+            user-select: none;
+        }
+
+        .theme-toggle::before {
+            content: "";
+            position: absolute;
+            inset: -2px;
+            background: radial-gradient(120px 80px at 20% 0%, rgba(34, 211, 238, 0.22), transparent 55%),
+                        radial-gradient(140px 100px at 80% 100%, rgba(96, 165, 250, 0.20), transparent 55%);
+            opacity: 0;
+            transition: opacity 0.25s ease;
+        }
+
+        .theme-toggle:hover {
+            transform: translateY(-1px);
+            border-color: rgba(255, 255, 255, 0.36);
+            background: rgba(255, 255, 255, 0.12);
+            box-shadow: 0 14px 30px -18px rgba(0,0,0,0.35);
+        }
+
+        .theme-toggle:hover::before {
+            opacity: 1;
+        }
+
+        .theme-toggle .icon {
+            position: relative;
+            width: 28px;
+            height: 28px;
+            border-radius: 999px;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            background: linear-gradient(135deg, rgba(255, 255, 255, 0.18), rgba(34, 211, 238, 0.16));
+            border: 1px solid rgba(255, 255, 255, 0.18);
+            box-shadow: 0 10px 25px -18px rgba(0,0,0,0.35);
+        }
+
+        .theme-toggle span {
+            position: relative;
+        }
+
+        .btn {
+            padding: 0.625rem 1.25rem;
+            border: none;
+            border-radius: 8px;
+            font-weight: 600;
+            font-size: 0.875rem;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .btn::after {
+            content: "";
+            position: absolute;
+            inset: -2px;
+            background: radial-gradient(220px 140px at 15% 50%, rgba(255, 255, 255, 0.22), transparent 60%),
+                        radial-gradient(220px 140px at 85% 50%, rgba(34, 211, 238, 0.18), transparent 60%);
+            opacity: 0;
+            transition: opacity 0.25s ease;
+        }
+
+        .btn:hover::after {
+            opacity: 1;
+        }
+
+        .btn-white {
+            background: rgba(255, 255, 255, 0.92);
+            color: rgba(11, 42, 74, 0.95);
+        }
+
+        .btn-white:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+
+        .btn-outline {
+            background: rgba(255, 255, 255, 0.06);
+            color: white;
+            border: 1px solid rgba(255,255,255,0.28);
+            backdrop-filter: blur(10px);
+        }
+
+        .btn-outline:hover {
+            background: rgba(255,255,255,0.1);
+            border-color: rgba(255,255,255,0.5);
+        }
+
+        .btn-pptx {
+            background: linear-gradient(135deg, #fbbf24, #f59e0b);
+            color: white;
+        }
+
+        .btn-pptx:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(245, 158, 11, 0.4);
+        }
+
+        /* Main Container */
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        /* Stats Cards */
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+            gap: 1.5rem;
+            margin-bottom: 2rem;
+        }
+
+        .stat-card {
+            background: linear-gradient(var(--surface-strong), var(--surface-strong)) padding-box,
+                        linear-gradient(135deg, rgba(96, 165, 250, 0.55), rgba(34, 211, 238, 0.45), rgba(16, 185, 129, 0.28)) border-box;
+            border: 1px solid transparent;
+            border-radius: 12px;
+            padding: 1.75rem;
+            box-shadow: 0 10px 25px -22px var(--shadow);
+            transition: transform 0.25s ease, box-shadow 0.25s ease;
+            border-left: 4px solid var(--secondary);
+            backdrop-filter: blur(12px);
+        }
+
+        .stat-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 22px 50px -30px var(--shadow), 0 0 0 4px var(--ring);
+        }
+
+        .stat-card.success {
+            border-left-color: var(--success);
+        }
+
+        .stat-card.danger {
+            border-left-color: var(--danger);
+        }
+
+        .stat-card.warning {
+            border-left-color: var(--warning);
+        }
+
+        .stat-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 1rem;
+        }
+
+        .stat-label {
+            font-size: 0.875rem;
+            font-weight: 600;
+            color: var(--muted);
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .stat-icon {
+            width: 40px;
+            height: 40px;
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.25rem;
+        }
+
+        .stat-card.success .stat-icon {
+            background: #d1fae5;
+            color: var(--success);
+        }
+
+        .stat-card.danger .stat-icon {
+            background: #fee2e2;
+            color: var(--danger);
+        }
+
+        .stat-value {
+            font-size: 2.5rem;
+            font-weight: 700;
+            color: var(--text);
+            line-height: 1;
+        }
+
+        /* Metadata Section */
+        .metadata-section {
+            background: linear-gradient(var(--surface-strong), var(--surface-strong)) padding-box,
+                        linear-gradient(135deg, rgba(96, 165, 250, 0.45), rgba(34, 211, 238, 0.40)) border-box;
+            border: 1px solid transparent;
+            border-radius: 12px;
+            padding: 2rem;
+            margin-bottom: 2rem;
+            box-shadow: 0 10px 25px -22px var(--shadow);
+            backdrop-filter: blur(12px);
+        }
+
+        .section-title {
+            font-size: 1.25rem;
+            font-weight: 700;
+            color: var(--primary);
+            margin-bottom: 1.5rem;
+            padding-bottom: 0.75rem;
+            border-bottom: 2px solid var(--light);
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        html[data-theme="dark"] .section-title {
+            color: var(--text);
+        }
+
+        .metadata-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 1.25rem;
+        }
+
+        .metadata-item {
+            padding: 1rem;
+            background: linear-gradient(var(--surface), var(--surface)) padding-box,
+                        linear-gradient(135deg, rgba(96, 165, 250, 0.30), rgba(34, 211, 238, 0.24)) border-box;
+            border-radius: 8px;
+            border: 1px solid transparent;
+            border-left: 3px solid var(--accent);
+            transition: transform 0.25s ease, box-shadow 0.25s ease;
+        }
+
+        .metadata-item:hover {
+            transform: translateY(-1px);
+            box-shadow: 0 18px 45px -32px var(--shadow), 0 0 0 4px var(--ring);
+        }
+
+        .metadata-label {
+            font-size: 0.75rem;
+            font-weight: 600;
+            color: var(--muted);
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-bottom: 0.375rem;
+        }
+
+        .metadata-value {
+            font-size: 0.95rem;
+            color: var(--text);
+            font-weight: 500;
+        }
+
+        /* Filter Bar */
+        .filter-bar {
+            background: linear-gradient(var(--surface-strong), var(--surface-strong)) padding-box,
+                        linear-gradient(135deg, rgba(96, 165, 250, 0.40), rgba(34, 211, 238, 0.35)) border-box;
+            border: 1px solid transparent;
+            border-radius: 12px;
+            padding: 1.25rem;
+            margin-bottom: 2rem;
+            box-shadow: 0 10px 25px -22px var(--shadow);
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 1rem;
+            backdrop-filter: blur(12px);
+        }
+
+        .filter-label {
+            font-weight: 600;
+            color: var(--text);
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .filter-buttons {
+            display: flex;
+            gap: 0.5rem;
+            flex-wrap: wrap;
+        }
+
+        .filter-btn {
+            padding: 0.5rem 1rem;
+            border: 1px solid var(--border);
+            background: var(--surface);
+            color: var(--muted);
+            border-radius: 8px;
+            font-size: 0.875rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .filter-btn:hover {
+            border-color: rgba(34, 211, 238, 0.35);
+            color: var(--accent);
+            box-shadow: 0 0 0 4px var(--ring);
+            transform: translateY(-1px);
+        }
+
+        .filter-btn.active {
+            background: var(--accent);
+            border-color: var(--accent);
+            color: white;
+        }
+
+        /* Slide Cards */
+        .slide-card {
+            background: linear-gradient(var(--surface-strong), var(--surface-strong)) padding-box,
+                        linear-gradient(135deg, rgba(96, 165, 250, 0.40), rgba(34, 211, 238, 0.34)) border-box;
+            border: 1px solid transparent;
+            border-radius: 12px;
+            padding: 2rem;
+            margin-bottom: 1.5rem;
+            box-shadow: 0 10px 25px -22px var(--shadow);
+            transition: transform 0.25s ease, box-shadow 0.25s ease;
+            border-left: 4px solid transparent;
+            backdrop-filter: blur(12px);
+        }
+
+        .slide-card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 22px 55px -34px var(--shadow), 0 0 0 4px var(--ring);
+        }
+
+        .slide-card.compliant {
+            border-left-color: var(--success);
+        }
+
+        .slide-card.non-compliant {
+            border-left-color: var(--danger);
+        }
+
+        .slide-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding-bottom: 1rem;
+            margin-bottom: 1.5rem;
+            border-bottom: 2px solid var(--light);
+        }
+
+        .slide-info {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+        }
+
+        .slide-number {
+            width: 48px;
+            height: 48px;
+            background: linear-gradient(135deg, var(--secondary), var(--accent));
+            color: white;
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 700;
+            font-size: 1.25rem;
+        }
+
+        .slide-details h3 {
+            font-size: 1.1rem;
+            color: var(--text);
+            font-weight: 600;
+            margin-bottom: 0.25rem;
+        }
+
+        .slide-type {
+            font-size: 0.875rem;
+            color: var(--muted);
+        }
+
+        .slide-badge {
+            padding: 0.5rem 1rem;
+            border-radius: 20px;
+            font-weight: 600;
+            font-size: 0.875rem;
+            display: inline-flex;
+            align-items: center;
+            gap: 0.375rem;
+        }
+
+        .slide-badge.success {
+            background: #d1fae5;
+            color: #065f46;
+        }
+
+        .slide-badge.danger {
+            background: #fee2e2;
+            color: #991b1b;
+        }
+
+        /* Violations (pro UI) */
+        .violations-title {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 1rem;
+            font-size: 0.95rem;
+            font-weight: 700;
+            color: var(--text);
+            margin-bottom: 1rem;
+            padding-bottom: 0.75rem;
+            border-bottom: 1px solid var(--border);
+        }
+
+        .global-violations-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 1rem;
+        }
+
+        .violation-card {
+            background: linear-gradient(var(--surface), var(--surface)) padding-box,
+                        linear-gradient(135deg, rgba(239, 68, 68, 0.16), rgba(245, 158, 11, 0.14)) border-box;
+            border: 1px solid transparent;
+            border-radius: 12px;
+            padding: 1.25rem;
+            box-shadow: 0 10px 25px -26px var(--shadow);
+        }
+
+        .violation-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 0.75rem;
+            margin-bottom: 0.9rem;
+        }
+
+        .violation-id {
+            font-weight: 800;
+            font-size: 0.95rem;
+            color: var(--primary);
+            letter-spacing: 0.2px;
+        }
+
+        html[data-theme="dark"] .violation-id {
+            color: var(--text);
+        }
+
+        .violation-meta {
+            display: inline-flex;
+            gap: 0.5rem;
+            flex-wrap: wrap;
+            justify-content: flex-end;
+        }
+
+        .pill {
+            display: inline-flex;
+            align-items: center;
+            padding: 0.28rem 0.6rem;
+            border-radius: 999px;
+            font-size: 0.72rem;
+            font-weight: 800;
+            letter-spacing: 0.4px;
+            text-transform: uppercase;
+            border: 1px solid var(--border);
+            background: var(--surface-strong);
+            color: var(--muted);
+        }
+
+        .pill.sev-high {
+            color: #991b1b;
+            background: #fee2e2;
+            border-color: rgba(239, 68, 68, 0.35);
+        }
+
+        .pill.sev-medium {
+            color: #92400e;
+            background: #fef3c7;
+            border-color: rgba(245, 158, 11, 0.35);
+        }
+
+        .pill.sev-low {
+            color: #065f46;
+            background: #d1fae5;
+            border-color: rgba(16, 185, 129, 0.35);
+        }
+
+        .violation-section {
+            margin-top: 0.85rem;
+        }
+
+        .violation-label {
+            font-size: 0.72rem;
+            font-weight: 800;
+            color: var(--muted);
+            text-transform: uppercase;
+            letter-spacing: 0.6px;
+            margin-bottom: 0.35rem;
+        }
+
+        .violation-content {
+            font-size: 0.95rem;
+            color: var(--text);
+            font-weight: 500;
+            line-height: 1.65;
+        }
+
+        .violation-evidence {
+            font-size: 0.9rem;
+            color: var(--text);
+            line-height: 1.65;
+            background: rgba(2, 6, 23, 0.04);
+            border: 1px solid var(--border);
+            border-radius: 10px;
+            padding: 0.85rem;
+            white-space: pre-wrap;
+            word-break: break-word;
+        }
+
+        html[data-theme="dark"] .violation-evidence {
+            background: rgba(148, 163, 184, 0.12);
+        }
+
+        /* Print Styles */
+        @media print {
+            .header-top, .action-buttons, .filter-bar {
+                display: none;
+            }
+
+            .slide-card {
+                page-break-inside: avoid;
+            }
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .container {
+                padding: 1rem;
+            }
+
+            .header-container {
+                padding: 0 1rem;
+            }
+
+            .header-top {
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 1rem;
+            }
+
+            .action-buttons {
+                width: 100%;
+            }
+
+            .btn {
+                flex: 1;
+                justify-content: center;
+            }
+
+            .stats-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .metadata-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .filter-bar {
+                flex-direction: column;
+                align-items: stretch;
+            }
+
+            .filter-buttons {
+                flex-direction: column;
+            }
+
+            .filter-btn {
+                width: 100%;
+            }
+
+            .slide-header {
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 1rem;
+            }
+        }
+
+        @keyframes floatGlow {
+            0%, 100% {
+                transform: translate3d(0, 0, 0);
+                opacity: 0.9;
+            }
+            50% {
+                transform: translate3d(0, -10px, 0);
+                opacity: 1;
+            }
+        }
+
+        @media (prefers-reduced-motion: reduce) {
+            * {
+                animation-duration: 0.001ms !important;
+                animation-iteration-count: 1 !important;
+                transition-duration: 0.001ms !important;
+                scroll-behavior: auto !important;
+            }
+
+            body::before {
+                animation: none !important;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="header-container">
+            <div class="header-top">
+                <div class="header-title">
+                    <div class="header-icon">📊</div>
+                    <div>
+                        <h1>Rapport d'Audit de Conformité</h1>
+                        <p class="header-meta">Généré le {{ data.timestamp }}</p>
+                    </div>
+                </div>
+                <div class="action-buttons">
+                    <button class="theme-toggle" id="themeToggle" type="button" aria-label="Activer le mode sombre">
+                        <span class="icon" aria-hidden="true">🌙</span>
+                        <span id="themeToggleLabel">Mode sombre</span>
+                    </button>
+                    <a href="/" class="btn btn-white">
+                        <span>🔙</span>
+                        <span>Nouvelle analyse</span>
+                    </a>
+                    <a href="/download/{{ data.analysis_id }}" class="btn btn-outline">
+                        <span>💾</span>
+                        <span>JSON</span>
+                    </a>
+                    {% if data.has_annotated_pptx %}
+                    <a href="/download-pptx/{{ data.analysis_id }}" class="btn btn-pptx">
+                        <span>📥</span>
+                        <span>PPTX Annoté</span>
+                    </a>
+                    {% endif %}
+                    <button onclick="window.print()" class="btn btn-outline">
+                        <span>🖨️</span>
+                        <span>Imprimer</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Container -->
+    <main class="container">
+        <!-- Statistics -->
+        <div class="stats-grid">
+            <div class="stat-card">
+                <div class="stat-header">
+                    <span class="stat-label">Total Slides</span>
+                    <div class="stat-icon" style="background: #e0e7ff; color: var(--secondary);">📄</div>
+                </div>
+                <div class="stat-value">{{ data.results|length }}</div>
+            </div>
+
+            <div class="stat-card success">
+                <div class="stat-header">
+                    <span class="stat-label">Conformes</span>
+                    <div class="stat-icon">✓</div>
+                </div>
+                <div class="stat-value">{{ data.results|selectattr('conforme', 'equalto', true)|list|length }}</div>
+            </div>
+
+            <div class="stat-card danger">
+                <div class="stat-header">
+                    <span class="stat-label">Non Conformes</span>
+                    <div class="stat-icon">✕</div>
+                </div>
+                <div class="stat-value">{{ data.results|selectattr('conforme', 'equalto', false)|list|length }}</div>
+            </div>
+
+            <div class="stat-card warning" style="border-left-color: var(--warning);">
+                <div class="stat-header">
+                    <span class="stat-label">Violations</span>
+                    <div class="stat-icon" style="background: #fef3c7; color: var(--warning);">⚠</div>
+                </div>
+                <div class="stat-value">
+                    {% set total_violations = namespace(count=0) %}
+                    {% for slide in data.results %}
+                        {% set total_violations.count = total_violations.count + (slide.violations|length) %}
+                    {% endfor %}
+                    {{ total_violations.count }}
+                </div>
+            </div>
+        </div>
+
+        <!-- Metadata -->
+        <section class="metadata-section">
+            <h2 class="section-title">
+                <span>📋</span>
+                <span>Informations du Fonds</span>
+            </h2>
+            <div class="metadata-grid">
+                <div class="metadata-item">
+                    <div class="metadata-label">Nom du fonds</div>
+                    <div class="metadata-value">{{ data.metadata.fund_name or 'Non spécifié' }}</div>
+                </div>
+                <div class="metadata-item">
+                    <div class="metadata-label">Société de Gestion</div>
+                    <div class="metadata-value">{{ data.metadata['Société de Gestion'] or 'Non spécifié' }}</div>
+                </div>
+                <div class="metadata-item">
+                    <div class="metadata-label">Type de client</div>
+                    <div class="metadata-value">
+                        {% if data.metadata['Le client est-il un professionnel'] %}
+                            Professionnel (MIF II)
+                        {% else %}
+                            Retail
+                        {% endif %}
+                    </div>
+                </div>
+                <div class="metadata-item">
+                    <div class="metadata-label">Sicav ODDO BHF</div>
+                    <div class="metadata-value">
+                        {% if data.metadata["Est ce que le produit fait partie de la Sicav d'Oddo"] %}
+                            Oui
+                        {% else %}
+                            Non
+                        {% endif %}
+                    </div>
+                </div>
+                <div class="metadata-item">
+                    <div class="metadata-label">Nouvelle Stratégie</div>
+                    <div class="metadata-value">
+                        {% if data.metadata['Le document fait-il référence à une nouvelle Stratégie'] %}
+                            Oui
+                        {% else %}
+                            Non
+                        {% endif %}
+                    </div>
+                </div>
+                <div class="metadata-item">
+                    <div class="metadata-label">Nouveau Produit</div>
+                    <div class="metadata-value">
+                        {% if data.metadata['Le document fait-il référence à un nouveau Produit'] %}
+                            Oui
+                        {% else %}
+                            Non
+                        {% endif %}
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        {% if data.global_violations and data.global_violations|length > 0 %}
+        <section class="metadata-section">
+            <h2 class="section-title">
+                <span>📌</span>
+                <span>Violations globales (document)</span>
+            </h2>
+            <div class="violations-container">
+                <h4 class="violations-title">
+                    <span>⚠️</span>
+                    <span>{{ data.global_violations|length }} Violation{% if data.global_violations|length > 1 %}s{% endif %} détectée{% if data.global_violations|length > 1 %}s{% endif %}</span>
+                </h4>
+
+                <div class="global-violations-grid">
+                    {% for violation in data.global_violations %}
+                    <div class="violation-card">
+                        <div class="violation-header">
+                            <span class="violation-id">Règle {{ violation.rule_id }}</span>
+                            <div class="violation-meta">
+                                {% if violation.violation_type %}
+                                <span class="pill">{{ violation.violation_type }}</span>
+                                {% endif %}
+                                {% if violation.severity %}
+                                <span class="pill sev-{{ violation.severity }}">{{ violation.severity }}</span>
+                                {% endif %}
+                            </div>
+                        </div>
+
+                        <div class="violation-section">
+                            <div class="violation-label">Problème identifié</div>
+                            <div class="violation-content">{{ violation.explanation }}</div>
+                        </div>
+
+                        <div class="violation-section">
+                            <div class="violation-label">Preuve</div>
+                            <div class="violation-evidence">{{ violation.violating_content }}</div>
+                        </div>
+                    </div>
+                    {% endfor %}
+                </div>
+            </div>
+        </section>
+        {% endif %}
+
+        <!-- Filter Bar -->
+        <div class="filter-bar">
+            <div class="filter-label">
+                <span>🔍</span>
+                <span>Filtrer les résultats</span>
+            </div>
+            <div class="filter-buttons">
+                <button class="filter-btn active" onclick="filterSlides('all', this)">
+                    Toutes ({{ data.results|length }})
+                </button>
+                <button class="filter-btn" onclick="filterSlides('non-conforme', this)">
+                    Non conformes ({{ data.results|selectattr('conforme', 'equalto', false)|list|length }})
+                </button>
+                <button class="filter-btn" onclick="filterSlides('conforme', this)">
+                    Conformes ({{ data.results|selectattr('conforme', 'equalto', true)|list|length }})
+                </button>
+            </div>
+        </div>
+
+        <!-- Slides -->
+        {% for slide in data.results %}
+        <article class="slide-card {% if slide.conforme %}compliant{% else %}non-compliant{% endif %}" 
+                 data-status="{% if slide.conforme %}conforme{% else %}non-conforme{% endif %}">
+            <div class="slide-header">
+                <div class="slide-info">
+                    <div class="slide-number">{{ slide.slide_id }}</div>
+                    <div class="slide-details">
+                        <h3>Slide {{ slide.slide_id }}</h3>
+                        <p class="slide-type">{{ slide.slide_type }}</p>
+                    </div>
+                </div>
+                <span class="slide-badge {% if slide.conforme %}success{% else %}danger{% endif %}">
+                    {% if slide.conforme %}
+                        <span>✓</span>
+                        <span>Conforme</span>
+                    {% else %}
+                        <span>✕</span>
+                        <span>Non Conforme</span>
+                    {% endif %}
+                </span>
+            </div>
+
+            {% if slide.violations and slide.violations|length > 0 %}
+            <div class="violations-container">
+                <h4 class="violations-title">
+                    <span>⚠️</span>
+                    <span>{{ slide.violations|length }} Violation{% if slide.violations|length > 1 %}s{% endif %} détectée{% if slide.violations|length > 1 %}s{% endif %}</span>
+                </h4>
+
+                {% for violation in slide.violations %}
+                <div class="violation-card">
+                    <div class="violation-header">
+                        <span class="violation-id">{{ violation.rule_id }}</span>
+                    </div>
+
+                    <div class="violation-section">
+                        <div class="violation-label">Règle</div>
+                        <div class="violation-content">{{ violation.rule_text }}</div>
+                    </div>
+
+                    <div class="violation-section">
+                        <div class="violation-label">Problème identifié</div>
+                        <div class="violation-content">{{ violation.issue }}</div>
+                    </div>
+
+                    <div class="violation-section">
+                        <div class="violation-label">Preuve</div>
+                        <div class="violation-evidence">{{ violation.evidence }}</div>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+            {% else %}
+            <div class="no-violations">
+                <div class="no-violations-icon">✓</div>
+                <div class="no-violations-text">Aucune violation détectée sur cette slide</div>
+            </div>
+            {% endif %}
+
+            {% if slide.notes %}
+            <div class="notes-section">
+                <div class="notes-label">
+                    <span>📝</span>
+                    <span>Notes d'analyse</span>
+                </div>
+                <div class="notes-content">{{ slide.notes }}</div>
+            </div>
+            {% endif %}
+        </article>
+        {% endfor %}
+    </main>
+
+    <script>
+        function applyTheme(theme) {
+            const root = document.documentElement;
+            root.dataset.theme = theme;
+            const btnIcon = document.querySelector('#themeToggle .icon');
+            const btnLabel = document.getElementById('themeToggleLabel');
+            const isDark = theme === 'dark';
+            if (btnIcon) btnIcon.textContent = isDark ? '☀️' : '🌙';
+            if (btnLabel) btnLabel.textContent = isDark ? 'Mode clair' : 'Mode sombre';
+            const btn = document.getElementById('themeToggle');
+            if (btn) btn.setAttribute('aria-label', isDark ? 'Activer le mode clair' : 'Activer le mode sombre');
+        }
+
+        function getInitialTheme() {
+            const stored = localStorage.getItem('theme');
+            if (stored === 'light' || stored === 'dark') return stored;
+            return window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+        }
+
+        applyTheme(getInitialTheme());
+
+        document.getElementById('themeToggle').addEventListener('click', function() {
+            const current = document.documentElement.dataset.theme === 'dark' ? 'dark' : 'light';
+            const next = current === 'dark' ? 'light' : 'dark';
+            localStorage.setItem('theme', next);
+            applyTheme(next);
+        });
+
+        function filterSlides(filter, button) {
+            // Update button states
+            document.querySelectorAll('.filter-btn').forEach(btn => {
+                btn.classList.remove('active');
+            });
+            button.classList.add('active');
+
+            // Filter slides
+            document.querySelectorAll('.slide-card').forEach(card => {
+                if (filter === 'all') {
+                    card.style.display = 'block';
+                } else {
+                    card.style.display = card.dataset.status === filter ? 'block' : 'none';
+                }
+            });
+        }
+    </script>
+</body>
+</html>

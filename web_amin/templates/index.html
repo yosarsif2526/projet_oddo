@@ -1,0 +1,1098 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audit de Conformité - ODDO BHF Asset Management</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --primary: #1a365d;
+            --secondary: #2563eb;
+            --accent: #3b82f6;
+            --success: #10b981;
+            --danger: #ef4444;
+            --warning: #f59e0b;
+            --light: #f8fafc;
+            --dark: #0f172a;
+            --border: #e2e8f0;
+            --shadow: rgba(15, 23, 42, 0.08);
+
+            --bg: radial-gradient(1200px 600px at 15% 0%, rgba(37, 99, 235, 0.12), transparent 55%),
+                  radial-gradient(900px 520px at 85% 10%, rgba(59, 130, 246, 0.10), transparent 60%),
+                  linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%);
+            --surface: rgba(255, 255, 255, 0.9);
+            --surface-strong: rgba(255, 255, 255, 1);
+            --text: var(--dark);
+            --muted: #64748b;
+            --muted-2: #94a3b8;
+            --ring: rgba(59, 130, 246, 0.18);
+            --glow: rgba(59, 130, 246, 0.25);
+            --glow-2: rgba(34, 211, 238, 0.22);
+        }
+
+        html[data-theme="dark"] {
+            --primary: #0b2a4a;
+            --secondary: #60a5fa;
+            --accent: #22d3ee;
+            --light: #0b1220;
+            --dark: #e5e7eb;
+            --border: rgba(148, 163, 184, 0.18);
+            --shadow: rgba(0, 0, 0, 0.45);
+
+            --bg: radial-gradient(1100px 700px at 15% 0%, rgba(96, 165, 250, 0.18), transparent 55%),
+                  radial-gradient(900px 520px at 85% 10%, rgba(34, 211, 238, 0.18), transparent 60%),
+                  radial-gradient(900px 520px at 60% 90%, rgba(16, 185, 129, 0.10), transparent 55%),
+                  linear-gradient(135deg, #070b14 0%, #0b1220 100%);
+            --surface: rgba(15, 23, 42, 0.72);
+            --surface-strong: rgba(15, 23, 42, 0.92);
+            --text: #e5e7eb;
+            --muted: #a1a1aa;
+            --muted-2: #94a3b8;
+            --ring: rgba(34, 211, 238, 0.22);
+            --glow: rgba(34, 211, 238, 0.25);
+            --glow-2: rgba(96, 165, 250, 0.22);
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: var(--bg);
+            min-height: 100vh;
+            padding: 0;
+            line-height: 1.6;
+            color: var(--text);
+            transition: background 0.35s ease, color 0.25s ease;
+        }
+
+        body::before {
+            content: "";
+            position: fixed;
+            inset: 0;
+            pointer-events: none;
+            background: radial-gradient(500px 350px at 35% 20%, rgba(59, 130, 246, 0.10), transparent 60%),
+                        radial-gradient(420px 320px at 75% 35%, rgba(34, 211, 238, 0.10), transparent 60%);
+            filter: blur(0px);
+            opacity: 1;
+            animation: floatGlow 10s ease-in-out infinite;
+        }
+
+        /* Header Navigation */
+        .nav-header {
+            background: var(--surface);
+            border-bottom: 1px solid var(--border);
+            padding: 1rem 0;
+            box-shadow: 0 1px 3px var(--shadow);
+            backdrop-filter: blur(10px);
+        }
+
+        .nav-container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 0 2rem;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .logo-section {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+        }
+
+        .logo {
+            width: 180px;
+            height: 40px;
+            background: var(--primary);
+            border-radius: 4px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-weight: 700;
+            font-size: 1.1rem;
+            letter-spacing: -0.5px;
+        }
+
+        .app-title {
+            font-size: 1rem;
+            color: var(--text);
+            font-weight: 500;
+        }
+
+        .nav-actions {
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+        }
+
+        .theme-toggle {
+            border: 1px solid var(--border);
+            background: var(--surface);
+            color: var(--text);
+            border-radius: 999px;
+            padding: 0.6rem 0.85rem;
+            cursor: pointer;
+            display: inline-flex;
+            align-items: center;
+            gap: 0.55rem;
+            font-weight: 600;
+            font-size: 0.9rem;
+            transition: transform 0.18s ease, box-shadow 0.25s ease, background 0.25s ease, border-color 0.25s ease;
+            box-shadow: 0 10px 25px -18px var(--shadow);
+            position: relative;
+            overflow: hidden;
+            user-select: none;
+        }
+
+        .theme-toggle::before {
+            content: "";
+            position: absolute;
+            inset: -2px;
+            background: radial-gradient(120px 80px at 20% 0%, rgba(34, 211, 238, 0.25), transparent 55%),
+                        radial-gradient(140px 100px at 80% 100%, rgba(96, 165, 250, 0.20), transparent 55%);
+            opacity: 0;
+            transition: opacity 0.25s ease;
+        }
+
+        .theme-toggle:hover {
+            transform: translateY(-1px);
+            border-color: rgba(34, 211, 238, 0.35);
+            box-shadow: 0 14px 30px -18px var(--shadow), 0 0 0 4px var(--ring);
+        }
+
+        .theme-toggle:hover::before {
+            opacity: 1;
+        }
+
+        .theme-toggle:active {
+            transform: translateY(0);
+        }
+
+        .theme-toggle .icon {
+            position: relative;
+            width: 28px;
+            height: 28px;
+            border-radius: 999px;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            background: linear-gradient(135deg, rgba(59, 130, 246, 0.25), rgba(34, 211, 238, 0.22));
+            border: 1px solid rgba(255, 255, 255, 0.12);
+            box-shadow: 0 10px 25px -18px var(--shadow), 0 0 22px -14px var(--glow);
+        }
+
+        .theme-toggle span {
+            position: relative;
+        }
+
+        /* Main Container */
+        .main-wrapper {
+            max-width: 1400px;
+            margin: 3rem auto;
+            padding: 0 2rem;
+        }
+
+        /* Hero Section */
+        .hero-section {
+            text-align: center;
+            margin-bottom: 3rem;
+            animation: fadeInUp 0.6s ease-out;
+        }
+
+        .hero-section h1 {
+            font-size: 2.5rem;
+            font-weight: 700;
+            color: var(--primary);
+            margin-bottom: 0.75rem;
+            letter-spacing: -1px;
+        }
+
+        html[data-theme="dark"] .hero-section h1 {
+            color: var(--text);
+        }
+
+        .hero-section .subtitle {
+            font-size: 1.15rem;
+            color: var(--muted);
+            font-weight: 400;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        /* Form Container */
+        .form-wrapper {
+            max-width: 900px;
+            margin: 0 auto;
+            background: linear-gradient(var(--surface-strong), var(--surface-strong)) padding-box,
+                        linear-gradient(135deg, rgba(96, 165, 250, 0.55), rgba(34, 211, 238, 0.55), rgba(16, 185, 129, 0.40)) border-box;
+            border: 1px solid transparent;
+            border-radius: 16px;
+            box-shadow: 0 10px 25px -18px var(--shadow);
+            overflow: hidden;
+            animation: fadeInUp 0.8s ease-out 0.2s both;
+            backdrop-filter: blur(12px);
+            position: relative;
+        }
+
+        .form-wrapper::after {
+            content: "";
+            position: absolute;
+            inset: 0;
+            pointer-events: none;
+            background: radial-gradient(420px 220px at 20% 0%, rgba(34, 211, 238, 0.14), transparent 60%),
+                        radial-gradient(420px 220px at 80% 100%, rgba(96, 165, 250, 0.12), transparent 60%);
+            opacity: 0.9;
+        }
+
+        /* Progress Bar */
+        .progress-bar {
+            height: 4px;
+            background: var(--light);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .progress-fill {
+            height: 100%;
+            background: linear-gradient(90deg, var(--secondary), var(--accent));
+            width: 0%;
+            transition: width 0.3s ease;
+        }
+
+        /* Form Content */
+        .form-content {
+            padding: 3rem;
+            position: relative;
+            z-index: 1;
+        }
+
+        /* Section Headers */
+        .section-header {
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+            margin-bottom: 1.5rem;
+            padding-bottom: 1rem;
+            border-bottom: 2px solid var(--light);
+        }
+
+        .section-icon {
+            width: 36px;
+            height: 36px;
+            background: linear-gradient(135deg, var(--secondary), var(--accent));
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 1.25rem;
+        }
+
+        .section-header h2 {
+            font-size: 1.25rem;
+            font-weight: 600;
+            color: var(--primary);
+            margin: 0;
+        }
+
+        html[data-theme="dark"] .section-header h2 {
+            color: var(--text);
+        }
+
+        .section-header .step-number {
+            margin-left: auto;
+            font-size: 0.875rem;
+            color: var(--muted-2);
+            font-weight: 500;
+        }
+
+        /* Form Groups */
+        .form-section {
+            margin-bottom: 2.5rem;
+        }
+
+        .form-group {
+            margin-bottom: 1.5rem;
+        }
+
+        .form-label {
+            display: block;
+            font-size: 0.875rem;
+            font-weight: 600;
+            color: var(--text);
+            margin-bottom: 0.5rem;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .required {
+            color: var(--danger);
+            margin-left: 0.25rem;
+        }
+
+        /* File Upload */
+        .file-upload-wrapper {
+            position: relative;
+            border: 2px dashed var(--border);
+            border-radius: 12px;
+            padding: 2rem;
+            text-align: center;
+            transition: all 0.3s ease;
+            background: linear-gradient(var(--surface), var(--surface)) padding-box,
+                        linear-gradient(135deg, rgba(96, 165, 250, 0.45), rgba(34, 211, 238, 0.45), rgba(16, 185, 129, 0.30)) border-box;
+            border: 1px solid transparent;
+            cursor: pointer;
+            box-shadow: 0 10px 25px -22px var(--shadow);
+        }
+
+        .file-upload-wrapper:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 18px 40px -28px var(--shadow), 0 0 0 4px var(--ring);
+        }
+
+        .file-upload-wrapper.has-file {
+            background: linear-gradient(var(--surface), var(--surface)) padding-box,
+                        linear-gradient(135deg, rgba(16, 185, 129, 0.55), rgba(34, 211, 238, 0.45), rgba(96, 165, 250, 0.35)) border-box;
+        }
+
+        .file-upload-wrapper.dragover {
+            transform: translateY(-2px) scale(1.01);
+            box-shadow: 0 20px 45px -28px var(--shadow), 0 0 0 6px var(--ring);
+        }
+
+        .file-upload-wrapper input[type="file"] {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+            opacity: 0;
+            cursor: pointer;
+        }
+
+        .upload-icon {
+            width: 48px;
+            height: 48px;
+            margin: 0 auto 1rem;
+            background: linear-gradient(135deg, var(--secondary), var(--accent));
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 1.5rem;
+        }
+
+        .upload-text {
+            font-size: 0.95rem;
+            color: var(--muted);
+            margin-bottom: 0.5rem;
+        }
+
+        .upload-hint {
+            font-size: 0.8rem;
+            color: var(--muted-2);
+        }
+
+        .file-name-display {
+            margin-top: 1rem;
+            padding: 0.75rem 1rem;
+            background: var(--surface-strong);
+            border-radius: 8px;
+            display: none;
+            align-items: center;
+            gap: 0.5rem;
+            border: 1px solid var(--border);
+        }
+
+        .file-name-display.active {
+            display: flex;
+        }
+
+        .file-name-display .check-icon {
+            color: var(--success);
+            font-size: 1.25rem;
+        }
+
+        /* Text Inputs */
+        .input-wrapper {
+            position: relative;
+        }
+
+        .form-input {
+            width: 100%;
+            padding: 0.875rem 1rem;
+            border: 2px solid var(--border);
+            border-radius: 8px;
+            font-size: 0.95rem;
+            transition: all 0.3s ease;
+            background: var(--surface-strong);
+            color: var(--text);
+        }
+
+        .form-input:focus {
+            outline: none;
+            border-color: var(--accent);
+            box-shadow: 0 0 0 4px var(--ring);
+        }
+
+        .form-input::placeholder {
+            color: #cbd5e1;
+        }
+
+        /* Checkboxes */
+        .checkbox-wrapper {
+            display: flex;
+            align-items: flex-start;
+            gap: 0.75rem;
+            padding: 1rem;
+            background: linear-gradient(var(--surface), var(--surface)) padding-box,
+                        linear-gradient(135deg, rgba(96, 165, 250, 0.30), rgba(34, 211, 238, 0.28)) border-box;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            border: 1px solid transparent;
+            box-shadow: 0 10px 25px -24px var(--shadow);
+        }
+
+        .checkbox-wrapper:hover {
+            transform: translateY(-1px);
+            box-shadow: 0 16px 35px -26px var(--shadow), 0 0 0 4px var(--ring);
+        }
+
+        .checkbox-wrapper input[type="checkbox"] {
+            width: 20px;
+            height: 20px;
+            cursor: pointer;
+            accent-color: var(--accent);
+            margin-top: 2px;
+        }
+
+        .checkbox-label {
+            font-size: 0.9rem;
+            color: var(--text);
+            cursor: pointer;
+            flex: 1;
+            line-height: 1.5;
+        }
+
+        /* Grid Layout for Checkboxes */
+        .checkbox-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 1rem;
+        }
+
+        /* Info Box */
+        .info-box {
+            background: linear-gradient(var(--surface), var(--surface)) padding-box,
+                        linear-gradient(135deg, rgba(96, 165, 250, 0.55), rgba(34, 211, 238, 0.40)) border-box;
+            border: 1px solid transparent;
+            border-left: 4px solid var(--secondary);
+            padding: 1.25rem;
+            border-radius: 8px;
+            margin-top: 2rem;
+            box-shadow: 0 14px 30px -26px var(--shadow);
+        }
+
+        .info-box-header {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            font-weight: 600;
+            color: var(--secondary);
+            margin-bottom: 0.5rem;
+        }
+
+        .info-box-content {
+            font-size: 0.875rem;
+            color: var(--text);
+            line-height: 1.6;
+            opacity: 0.9;
+        }
+
+        .info-box-content ul {
+            margin: 0.5rem 0 0 1.25rem;
+        }
+
+        .info-box-content li {
+            margin-bottom: 0.25rem;
+        }
+
+        /* Submit Button */
+        .submit-wrapper {
+            margin-top: 2rem;
+            padding-top: 2rem;
+            border-top: 1px solid var(--border);
+        }
+
+        .submit-btn {
+            width: 100%;
+            padding: 1rem 2rem;
+            background: linear-gradient(135deg, var(--primary) 0%, var(--secondary) 100%);
+            color: white;
+            border: none;
+            border-radius: 8px;
+            font-size: 1rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 6px -1px rgba(26, 54, 93, 0.2);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 0.5rem;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .submit-btn::after {
+            content: "";
+            position: absolute;
+            inset: -2px;
+            background: radial-gradient(200px 120px at 15% 50%, rgba(255, 255, 255, 0.22), transparent 60%),
+                        radial-gradient(220px 140px at 85% 50%, rgba(34, 211, 238, 0.18), transparent 60%);
+            opacity: 0;
+            transition: opacity 0.25s ease;
+        }
+
+        .submit-btn:hover:not(:disabled) {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 15px -3px rgba(26, 54, 93, 0.3);
+        }
+
+        .submit-btn:hover:not(:disabled)::after {
+            opacity: 1;
+        }
+
+        .submit-btn:active:not(:disabled) {
+            transform: translateY(0);
+        }
+
+        .submit-btn:disabled {
+            background: #cbd5e1;
+            cursor: not-allowed;
+            transform: none;
+            box-shadow: none;
+        }
+
+        /* Loading State */
+        .loading-overlay {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(15, 23, 42, 0.75);
+            backdrop-filter: blur(4px);
+            z-index: 1000;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .loading-overlay.active {
+            display: flex;
+        }
+
+        .loading-content {
+            background: var(--surface-strong);
+            padding: 3rem;
+            border-radius: 16px;
+            text-align: center;
+            max-width: 400px;
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.3);
+        }
+
+        .spinner {
+            width: 60px;
+            height: 60px;
+            margin: 0 auto 1.5rem;
+            border: 4px solid var(--light);
+            border-top: 4px solid var(--accent);
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+        }
+
+        .loading-title {
+            font-size: 1.25rem;
+            font-weight: 600;
+            color: var(--primary);
+            margin-bottom: 0.5rem;
+        }
+
+        html[data-theme="dark"] .loading-title {
+            color: var(--text);
+        }
+
+        .loading-text {
+            font-size: 0.95rem;
+            color: var(--muted);
+        }
+
+        .loading-steps {
+            margin-top: 1.5rem;
+            text-align: left;
+        }
+
+        .loading-step {
+            padding: 0.5rem 0;
+            font-size: 0.875rem;
+            color: var(--muted-2);
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .loading-step.active {
+            color: var(--accent);
+            font-weight: 500;
+        }
+
+        /* Error Message */
+        .error-message {
+            display: none;
+            margin-top: 1rem;
+            padding: 1rem;
+            background: #fee;
+            border: 1px solid #fca5a5;
+            border-left: 4px solid var(--danger);
+            border-radius: 8px;
+            color: #991b1b;
+            font-size: 0.9rem;
+        }
+
+        .error-message.active {
+            display: block;
+            animation: slideDown 0.3s ease-out;
+        }
+
+        /* Animations */
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes spin {
+            to { transform: rotate(360deg); }
+        }
+
+        @keyframes slideDown {
+            from {
+                opacity: 0;
+                max-height: 0;
+            }
+            to {
+                opacity: 1;
+                max-height: 200px;
+            }
+        }
+
+        @keyframes floatGlow {
+            0%, 100% {
+                transform: translate3d(0, 0, 0);
+                opacity: 0.9;
+            }
+            50% {
+                transform: translate3d(0, -10px, 0);
+                opacity: 1;
+            }
+        }
+
+        @media (prefers-reduced-motion: reduce) {
+            * {
+                animation-duration: 0.001ms !important;
+                animation-iteration-count: 1 !important;
+                transition-duration: 0.001ms !important;
+                scroll-behavior: auto !important;
+            }
+
+            body::before {
+                animation: none !important;
+            }
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .main-wrapper {
+                padding: 0 1rem;
+                margin: 2rem auto;
+            }
+
+            .form-content {
+                padding: 2rem 1.5rem;
+            }
+
+            .hero-section h1 {
+                font-size: 1.75rem;
+            }
+
+            .checkbox-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .nav-container {
+                flex-direction: column;
+                gap: 1rem;
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navigation Header -->
+    <nav class="nav-header">
+        <div class="nav-container">
+            <div class="logo-section">
+                <div class="logo">ODDO BHF</div>
+                <div class="app-title">Audit de Conformité</div>
+            </div>
+            <div class="nav-actions">
+                <button class="theme-toggle" id="themeToggle" type="button" aria-label="Activer le mode sombre">
+                    <span class="icon" aria-hidden="true">🌙</span>
+                    <span id="themeToggleLabel">Mode sombre</span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="main-wrapper">
+        <!-- Hero Section -->
+        <div class="hero-section">
+            <h1>Analyse de Conformité Réglementaire</h1>
+            <p class="subtitle">Vérification automatisée des présentations commerciales selon les normes AMF et ESMA</p>
+        </div>
+
+        <!-- Form -->
+        <div class="form-wrapper">
+            <div class="progress-bar">
+                <div class="progress-fill" id="progressBar"></div>
+            </div>
+
+            <div class="form-content">
+                <form id="uploadForm" enctype="multipart/form-data">
+                    
+                    <!-- Section 1: Documents -->
+                    <div class="form-section">
+                        <div class="section-header">
+                            <div class="section-icon">📄</div>
+                            <h2>Documents requis</h2>
+                            <span class="step-number">Étape 1/2</span>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="form-label">
+                                Présentation PowerPoint<span class="required">*</span>
+                            </label>
+                            <div class="file-upload-wrapper" id="pptxWrapper">
+                                <input type="file" name="presentation" id="presentation" accept=".pptx" required>
+                                <div class="upload-icon">📊</div>
+                                <div class="upload-text">Cliquez pour sélectionner ou glissez-déposez</div>
+                                <div class="upload-hint">Format accepté : .pptx • Taille max : 100 MB</div>
+                                <div class="file-name-display" id="pptxDisplay">
+                                    <span class="check-icon">✓</span>
+                                    <span id="pptxName"></span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="form-label">
+                                Prospectus de référence<span class="required">*</span>
+                            </label>
+                            <div class="file-upload-wrapper" id="prospectusWrapper">
+                                <input type="file" name="prospectus" id="prospectus" accept=".pdf,.docx" required>
+                                <div class="upload-icon">📋</div>
+                                <div class="upload-text">Cliquez pour sélectionner ou glissez-déposez</div>
+                                <div class="upload-hint">Formats acceptés : .pdf, .docx • Taille max : 100 MB</div>
+                                <div class="file-name-display" id="prospectusDisplay">
+                                    <span class="check-icon">✓</span>
+                                    <span id="prospectusName"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Section 2: Métadonnées -->
+                    <div class="form-section">
+                        <div class="section-header">
+                            <div class="section-icon">⚙️</div>
+                            <h2>Informations du fonds</h2>
+                            <span class="step-number">Étape 2/2</span>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="form-label" for="fund_name">
+                                Nom du fonds<span class="required">*</span>
+                            </label>
+                            <div class="input-wrapper">
+                                <input 
+                                    type="text" 
+                                    id="fund_name" 
+                                    name="fund_name" 
+                                    class="form-input"
+                                    placeholder="Exemple : ODDO BHF Avenir Europe"
+                                    required
+                                >
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="form-label" for="societe_gestion">
+                                Société de gestion<span class="required">*</span>
+                            </label>
+                            <div class="input-wrapper">
+                                <input 
+                                    type="text" 
+                                    id="societe_gestion" 
+                                    name="societe_gestion" 
+                                    class="form-input"
+                                    placeholder="Exemple : ODDO BHF Asset Management SAS"
+                                    required
+                                >
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="form-label">Paramètres additionnels</label>
+                            <div class="checkbox-grid">
+                                <div class="checkbox-wrapper">
+                                    <input type="checkbox" id="sicav_oddo" name="sicav_oddo" value="true">
+                                    <label class="checkbox-label" for="sicav_oddo">
+                                        Produit de la Sicav ODDO BHF
+                                    </label>
+                                </div>
+
+                                <div class="checkbox-wrapper">
+                                    <input type="checkbox" id="client_professionnel" name="client_professionnel" value="true">
+                                    <label class="checkbox-label" for="client_professionnel">
+                                        Client professionnel (MIF II)
+                                    </label>
+                                </div>
+
+                                <div class="checkbox-wrapper">
+                                    <input type="checkbox" id="nouvelle_strategie" name="nouvelle_strategie" value="true">
+                                    <label class="checkbox-label" for="nouvelle_strategie">
+                                        Nouvelle stratégie d'investissement
+                                    </label>
+                                </div>
+
+                                <div class="checkbox-wrapper">
+                                    <input type="checkbox" id="nouveau_produit" name="nouveau_produit" value="true">
+                                    <label class="checkbox-label" for="nouveau_produit">
+                                        Nouveau produit (lancement)
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Info Box -->
+                    <div class="info-box">
+                        <div class="info-box-header">
+                            <span>ℹ️</span>
+                            <span>Informations importantes</span>
+                        </div>
+                        <div class="info-box-content">
+                            <ul>
+                                <li>L'analyse complète prend entre 5 et 15 minutes</li>
+                                <li>Les documents sont analysés selon les référentiels AMF et ESMA</li>
+                                <li>Un rapport détaillé et une présentation annotée seront générés</li>
+                                <li>Tous les champs marqués d'un astérisque (*) sont obligatoires</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Submit Section -->
+                    <div class="submit-wrapper">
+                        <button type="submit" class="submit-btn" id="submitBtn">
+                            <span>🚀</span>
+                            <span>Lancer l'analyse de conformité</span>
+                        </button>
+                        <div class="error-message" id="errorMsg"></div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Loading Overlay -->
+    <div class="loading-overlay" id="loadingOverlay">
+        <div class="loading-content">
+            <div class="spinner"></div>
+            <h3 class="loading-title">Analyse en cours</h3>
+            <p class="loading-text">Veuillez patienter pendant le traitement de vos documents</p>
+            <div class="loading-steps">
+                <div class="loading-step active" id="step1">⏳ Chargement des documents...</div>
+                <div class="loading-step" id="step2">⏳ Construction de l'index prospectus...</div>
+                <div class="loading-step" id="step3">⏳ Analyse des slides...</div>
+                <div class="loading-step" id="step4">⏳ Vérification de conformité...</div>
+                <div class="loading-step" id="step5">⏳ Génération du rapport...</div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function applyTheme(theme) {
+            const root = document.documentElement;
+            root.dataset.theme = theme;
+            const btnIcon = document.querySelector('#themeToggle .icon');
+            const btnLabel = document.getElementById('themeToggleLabel');
+            const isDark = theme === 'dark';
+            if (btnIcon) btnIcon.textContent = isDark ? '☀️' : '🌙';
+            if (btnLabel) btnLabel.textContent = isDark ? 'Mode clair' : 'Mode sombre';
+            const btn = document.getElementById('themeToggle');
+            if (btn) btn.setAttribute('aria-label', isDark ? 'Activer le mode clair' : 'Activer le mode sombre');
+        }
+
+        function getInitialTheme() {
+            const stored = localStorage.getItem('theme');
+            if (stored === 'light' || stored === 'dark') return stored;
+            return window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+        }
+
+        applyTheme(getInitialTheme());
+
+        document.getElementById('themeToggle').addEventListener('click', function() {
+            const current = document.documentElement.dataset.theme === 'dark' ? 'dark' : 'light';
+            const next = current === 'dark' ? 'light' : 'dark';
+            localStorage.setItem('theme', next);
+            applyTheme(next);
+        });
+
+        // Progress bar update
+        function updateProgress() {
+            const inputs = document.querySelectorAll('input[required]');
+            let filled = 0;
+            inputs.forEach(input => {
+                if (input.type === 'file') {
+                    if (input.files.length > 0) filled++;
+                } else {
+                    if (input.value.trim()) filled++;
+                }
+            });
+            const progress = (filled / inputs.length) * 100;
+            document.getElementById('progressBar').style.width = progress + '%';
+        }
+
+        // File upload handlers
+        document.getElementById('presentation').addEventListener('change', function(e) {
+            const file = e.target.files[0];
+            if (file) {
+                document.getElementById('pptxName').textContent = file.name;
+                document.getElementById('pptxDisplay').classList.add('active');
+                document.getElementById('pptxWrapper').classList.add('has-file');
+                updateProgress();
+            }
+        });
+
+        document.getElementById('prospectus').addEventListener('change', function(e) {
+            const file = e.target.files[0];
+            if (file) {
+                document.getElementById('prospectusName').textContent = file.name;
+                document.getElementById('prospectusDisplay').classList.add('active');
+                document.getElementById('prospectusWrapper').classList.add('has-file');
+                updateProgress();
+            }
+        });
+
+        function addDragHandlers(wrapperId) {
+            const wrapper = document.getElementById(wrapperId);
+            if (!wrapper) return;
+            ['dragenter', 'dragover'].forEach(evt => {
+                wrapper.addEventListener(evt, (e) => {
+                    e.preventDefault();
+                    e.stopPropagation();
+                    wrapper.classList.add('dragover');
+                });
+            });
+            ['dragleave', 'drop'].forEach(evt => {
+                wrapper.addEventListener(evt, (e) => {
+                    e.preventDefault();
+                    e.stopPropagation();
+                    wrapper.classList.remove('dragover');
+                });
+            });
+        }
+
+        addDragHandlers('pptxWrapper');
+        addDragHandlers('prospectusWrapper');
+
+        // Text inputs progress
+        document.querySelectorAll('.form-input').forEach(input => {
+            input.addEventListener('input', updateProgress);
+        });
+
+        // Form submission
+        document.getElementById('uploadForm').addEventListener('submit', async function(e) {
+            e.preventDefault();
+            
+            const formData = new FormData(this);
+            const submitBtn = document.getElementById('submitBtn');
+            const loadingOverlay = document.getElementById('loadingOverlay');
+            const errorMsg = document.getElementById('errorMsg');
+            
+            // Hide error
+            errorMsg.classList.remove('active');
+            
+            // Show loading
+            submitBtn.disabled = true;
+            loadingOverlay.classList.add('active');
+            
+            // Simulate loading steps (optional)
+            const steps = ['step1', 'step2', 'step3', 'step4', 'step5'];
+            let currentStep = 0;
+            const stepInterval = setInterval(() => {
+                if (currentStep > 0) {
+                    document.getElementById(steps[currentStep - 1]).classList.remove('active');
+                }
+                if (currentStep < steps.length) {
+                    document.getElementById(steps[currentStep]).classList.add('active');
+                    currentStep++;
+                }
+            }, 3000);
+            
+            try {
+                const response = await fetch('/upload', {
+                    method: 'POST',
+                    body: formData
+                });
+                
+                const data = await response.json();
+                
+                clearInterval(stepInterval);
+                
+                if (data.success) {
+                    window.location.href = data.redirect;
+                } else {
+                    throw new Error(data.error || 'Erreur inconnue lors de l\'analyse');
+                }
+            } catch (error) {
+                clearInterval(stepInterval);
+                console.error('Erreur:', error);
+                errorMsg.textContent = '❌ ' + error.message;
+                errorMsg.classList.add('active');
+                submitBtn.disabled = false;
+                loadingOverlay.classList.remove('active');
+            }
+        });
+
+        // Initial progress
+        updateProgress();
+    </script>
+</body>
+</html>

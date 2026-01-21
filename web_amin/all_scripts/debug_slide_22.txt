@@ -1,0 +1,5 @@
+[
+  {"chunk_id": "document_slide_22_full", "chunk_type": "slide_full", "content": "Slide 22: Investment Process\n\n04", "metadata": {"slide_number": 22, "slide_title": "Investment Process", "has_charts": false, "has_tables": false, "has_images": false, "element_count": 1, "footnote_count": 0, "total_slides": 35}},
+  {"chunk_id": "document_slide_22_title", "chunk_type": "slide_title", "content": "Slide 22 - Titre: Investment Process", "metadata": {"slide_number": 22, "element_type": "title", "parent_chunk": "document_slide_22_full"}},
+  {"chunk_id": "document_slide_22_elem_1", "chunk_type": "slide_element", "content": "Slide 22 - 04", "metadata": {"slide_number": 22, "element_index": 1, "element_type": "body_text", "font_size": 14, "is_bold": false, "parent_chunk": "document_slide_22_full"}}
+]

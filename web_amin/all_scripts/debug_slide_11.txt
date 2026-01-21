@@ -1,0 +1,5 @@
+[
+  {"chunk_id": "document_slide_11_full", "chunk_type": "slide_full", "content": "Slide 11: \n\nWhy invest in the US market?\n\n", "metadata": {"slide_number": 11, "slide_title": "", "has_charts": false, "has_tables": false, "has_images": false, "element_count": 1, "footnote_count": 0, "total_slides": 35}},
+  {"chunk_id": "document_slide_11_title", "chunk_type": "slide_title", "content": "Slide 11 - Titre: ", "metadata": {"slide_number": 11, "element_type": "title", "parent_chunk": "document_slide_11_full"}},
+  {"chunk_id": "document_slide_11_elem_1", "chunk_type": "slide_element", "content": "Slide 11 - Why invest in the US market?", "metadata": {"slide_number": 11, "element_index": 1, "element_type": "body_text", "font_size": 14, "is_bold": false, "parent_chunk": "document_slide_11_full"}}
+]

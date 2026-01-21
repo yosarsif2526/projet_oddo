@@ -1,0 +1,4453 @@
+{
+  "metadata": {
+    "phase": "2.2_fusion_optimale",
+    "description": "Force match structurel + RAG enrichi + LLM validation",
+    "timestamp": "2025-12-17T19:33:58.689506",
+    "fund_name": "ODDO BHF US Equity Active UCITS ETF",
+    "document_context": {
+      "client_type": "retail",
+      "fund_type": "UCITS ETF",
+      "esg_article": "Article 8",
+      "is_new_product": true,
+      "is_new_strategy": false,
+      "language": "FR",
+      "countries": [
+        "Ireland",
+        "France",
+        "Germany",
+        "Switzerland"
+      ],
+      "has_benchmark": true,
+      "can_display_performance": false
+    },
+    "config": {
+      "top_k_structural": 3,
+      "top_k_performance": 12,
+      "top_k_content": 6,
+      "use_llm": true,
+      "require_content_match": true
+    }
+  },
+  "slides_analysis": [
+    {
+      "slide_number": 1,
+      "slide_title": "ODDO BHF US Equity Active UCITS ETF",
+      "slide_type": "structural",
+      "query": "Slide 1 | Doc[retail, UCITS ETF, Article 8] | Résumé: Présentation d'un fonds d'investissement visant à investir efficacement dans les actions américaines | Thèmes: investissement, actions américaines",
+      "selected_rules": [
+        {
+          "rule_id": "2.1",
+          "rule_text": "Doit indiquer : Le nom du fonds, le mois et l'année, la mention « document promotionnel », la cible : retail ou professionnel...",
+          "check_type": "page_garde_structure",
+          "section": "2 -- Page de garde - Présentation Standard",
+          "severity": "high",
+          "faiss_score": 1.0,
+          "specificity_score": 1.0,
+          "final_score": 1.0,
+          "force_matched": true,
+          "llm_validated": false,
+          "is_generic": false
+        },
+        {
+          "rule_id": "1.15",
+          "rule_text": "Éviter de mentionner d'autres fonds (Oddo ou autres) dans une présentation standard d'un fonds sauf si c'est une présentation de gamme...",
+          "check_type": "content_restriction",
+          "section": "1 -- Règles générales",
+          "severity": "medium",
+          "faiss_score": 0.883,
+          "specificity_score": 1.0,
+          "final_score": 0.883,
+          "force_matched": false,
+          "llm_validated": false,
+          "is_generic": false
+        },
+        {
+          "rule_id": "5.1",
+          "rule_text": "Mention légale de la SGP (cf. Glossaire)...",
+          "check_type": "page_fin_structure",
+          "section": "5 -- Page de fin de présentation",
+          "severity": "medium",
+          "faiss_score": 0.882,
+          "specificity_score": 1.0,
+          "final_score": 0.882,
+          "force_matched": false,
+          "llm_validated": false,
+          "is_generic": false
+        }
+      ],
+      "validation": {
+        "by_check_type": {
+          "page_garde_structure": 1,
+          "content_restriction": 1,
+          "page_fin_structure": 1
+        },
+        "by_severity": {
+          "high": 1,
+          "medium": 2
+        },
+        "generic_rules_count": 0,
+        "warnings": [],
+        "coherence_score": 1.0
+      },
+      "statistics": {
+        "faiss_candidates": 3,
+        "final_rules": 3,
+        "by_check_type": {
+          "page_garde_structure": 1,
+          "content_restriction": 1,
+          "page_fin_structure": 1
+        },
+        "by_severity": {
+          "high": 1,
+          "medium": 2
+        },
+        "generic_rules_count": 0,
+        "warnings": [],
+        "coherence_score": 1.0
+      }
+    },
+    {
+      "slide_number": 2,
+      "slide_title": "Disclaimer",
+      "slide_type": "structural",
+      "query": "Slide 2 | Doc[retail, UCITS ETF, Article 8] | Résumé: Disclaimer et avertissements relatifs à la communication marketing | Thèmes: avertissements, mentions légales",
+      "selected_rules": [
+        {
+          "rule_id": "3.1",
+          "rule_text": "Le disclaimer standard (retail ou professionnel) → attention à adapter le nom du fonds et les clients éligibles...",
+          "check_type": "slide_2_disclaimer",
+          "section": "3 -- La Slide 2",
+          "severity": "high",
+          "faiss_score": 1.0,
+          "specificity_score": 1.0,
+          "final_score": 1.0,
+          "force_matched": true,
+          "llm_validated": false,
+          "is_generic": false
+        },
+        {
+          "rule_id": "3.2",
+          "rule_text": "La mention exhaustive du profil de risque, conformément au prospectus...",
+          "check_type": "slide_2_risk_profile",
+          "section": "3 -- La Slide 2",
+          "severity": "high",
+          "faiss_score": 1.0,
+          "specificity_score": 1.0,
+          "final_score": 1.0,
+          "force_matched": true,
+          "llm_validated": false,
+          "is_generic": false
+        },
+        {
+          "rule_id": "3.3",
+          "rule_text": "Les pays de commercialisation (registration abroad)...",
+          "check_type": "slide_2_countries",
+          "section": "3 -- La Slide 2",
+          "severity": "high",
+          "faiss_score": 1.0,
+          "specificity_score": 1.0,
+          "final_score": 1.0,
+          "force_matched": true,
+          "llm_validated": false,
+          "is_generic": false
+        }
+      ],
+      "validation": {
+        "by_check_type": {
+          "slide_2_disclaimer": 1,
+          "slide_2_risk_profile": 1,
+          "slide_2_countries": 1
+        },
+        "by_severity": {
+          "high": 3
+        },
+        "generic_rules_count": 0,
+        "warnings": [],
+        "coherence_score": 1.0
+      },
+      "statistics": {
+        "faiss_candidates": 3,
+        "final_rules": 3,
+        "by_check_type": {
+          "slide_2_disclaimer": 1,
+          "slide_2_risk_profile": 1,
+          "slide_2_countries": 1
+        },
+        "by_severity": {
+          "high": 3
+        },
+        "generic_rules_count": 0,
+        "warnings": [],
+        "coherence_score": 1.0
+      }
+    },
+    {
+      "slide_number": 3,
+      "slide_title": "Product",
+      "slide_type": "content",
+      "query": "Slide 3 | Doc[retail, UCITS ETF, Article 8] | Résumé: Informations sur le produit, notamment la date de création, la taille du fonds, la classification SFDR et l'échelle de risque. | Thèmes: informations produit, classification SFDR, échelle de risque | Visuels: tableau",
+      "selected_rules": [
+        {
+          "rule_id": "1.3",
+          "rule_text": "Les études/ données chiffrées /graphiques etc., doivent faire l'objet d'un renvoi (note de bas de page) précisant à minima la source et la date...",
+          "check_type": "citation_verification",
+          "section": "1 -- Règles générales",
+          "severity": "medium",
+          "faiss_score": 0.741,
+          "specificity_score": 1.8,
+          "final_score": 1.334,
+          "force_matched": false,
+          "llm_validated": false,
+          "is_generic": false
+        },
+        {
+          "rule_id": "4.4",
+          "rule_text": "En fin de présentation : inclure les caractéristiques détaillées du fonds...",
+          "check_type": "document_structure",
+          "section": "4 -- Pages suivantes",
+          "severity": "low",
+          "faiss_score": 0.779,
+          "specificity_score": 1.0,
+          "final_score": 0.779,
+          "force_matched": false,
+          "llm_validated": false,
+          "is_generic": false
+        },
+        {
+          "rule_id": "4.1",
+          "rule_text": "Ne jamais commencer une présentation par la performance : commencer à minima par la présentation du fonds...",
+          "check_type": "slide_order",
+          "section": "4 -- Pages suivantes",
+          "severity": "high",
+          "faiss_score": 0.778,
+          "specificity_score": 1.0,
+          "final_score": 0.778,
+          "force_matched": false,
+          "llm_validated": false,
+          "is_generic": false
+        },
+        {
+          "rule_id": "3.1",
+          "rule_text": "Le disclaimer standard (retail ou professionnel) → attention à adapter le nom du fonds et les clients éligibles...",
+          "check_type": "slide_2_disclaimer",
+          "section": "3 -- La Slide 2",
+          "severity": "high",
+          "faiss_score": 0.773,
+          "specificity_score": 1.0,
+          "final_score": 0.773,
+          "force_matched": false,
+          "llm_validated": false,
+          "is_generic": false
+        },
+        {
+          "rule_id": "4.6",
+          "rule_text": "Indication du responsable de la validation de la présentation, cohérente avec le disclaimer général et la société de gestion...",
+          "check_type": "document_validation",
+          "section": "4 -- Pages suivantes",
+          "severity": "low",
+          "faiss_score": 0.773,
+          "specificity_score": 1.0,
+          "final_score": 0.773,
+          "force_matched": false,
+          "llm_validated": false,
+          "is_generic": false
+        },
+        {
+          "rule_id": "4.3",
+          "rule_text": "Les objectifs de nombre de lignes en portefeuille doivent être mentionnés dans le prospectus. Si la présentation mentionne un nombre de lignes dans le...",
+          "check_type": "prospectus_coherence",
+          "section": "4 -- Pages suivantes",
+          "severity": "medium",
+          "faiss_score": 0.767,
+          "specificity_score": 1.0,
+          "final_score": 0.767,
+          "force_matched": false,
+          "llm_validated": false,
+          "is_generic": false
+        }
+      ],
+      "validation": {
+        "by_check_type": {
+          "citation_verification": 1,
+          "document_structure": 1,
+          "slide_order": 1,
+          "slide_2_disclaimer": 1,
+          "document_validation": 1,
+          "prospectus_coherence": 1
+        },
+        "by_severity": {
+          "medium": 2,
+          "low": 2,
+          "high": 2
+        },
+        "generic_rules_count": 0,
+        "warnings": [],
+        "coherence_score": 1.0
+      },
+      "statistics": {
+        "faiss_candidates": 6,
+        "final_rules": 6,
+        "by_check_type": {
+          "citation_verification": 1,
+          "document_structure": 1,
+          "slide_order": 1,
+          "slide_2_disclaimer": 1,
+          "document_validation": 1,
+          "prospectus_coherence": 1
+        },
+        "by_severity": {
+          "medium": 2,
+          "low": 2,
+          "high": 2
+        },
+        "generic_rules_count": 0,
+        "warnings": [],
+        "coherence_score": 1.0
+      }
+    },
+    {
+      "slide_number": 4,
+      "slide_title": "Overview ODDO BHF US Equity Active UCITS ETF",
+      "slide_type": "content",
+      "query": "Slide 4 | Doc[retail, UCITS ETF, Article 8] | Résumé: Présentation de l'ODDO BHF US Equity Active UCITS ETF, un fonds d'investissement qui utilise une approche quantitative pour investir dans les actions américaines en exploitant les tendances de marché | Thèmes: investissement, marché actions, stratégie quantitative",
+      "selected_rules": [
+        {
+          "rule_id": "3.1",
+          "rule_text": "Le disclaimer standard (retail ou professionnel) → attention à adapter le nom du fonds et les clients éligibles...",
+          "check_type": "slide_2_disclaimer",
+          "section": "3 -- La Slide 2",
+          "severity": "high",
+          "faiss_score": 0.831,
+          "specificity_score": 1.0,
+          "final_score": 0.831,
+          "force_matched": false,
+          "llm_validated": false,
+          "is_generic": false
+        },
+        {
+          "rule_id": "1.11",
+          "rule_text": "Éviter les anglicismes dans les présentations retail, ou les définir (notes de bas de page ou glossaire avec renvoi)...",
+          "check_type": "linguistic_anglicisms",
+          "section": "1 -- Règles générales",
+          "severity": "low",
+          "faiss_score": 0.829,
+          "specificity_score": 1.0,
+          "final_score": 0.829,
+          "force_matched": false,
+          "llm_validated": false,
+          "is_generic": false
+        },
+        {
+          "rule_id": "1.9",
+          "rule_text": "Les pays de commercialisation indiqués doivent être conformes aux dernières données (fichier EXCEL : « registration abroad »)...",
+          "check_type": "registration_verification",
+          "section": "1 -- Règles générales",
+          "severity": "high",
+          "faiss_score": 0.825,
+          "specificity_score": 1.0,
+          "final_score": 0.825,
+          "force_matched": false,
+          "llm_validated": false,
+          "is_generic": false
+        },
+        {
+          "rule_id": "4.4",
+          "rule_text": "En fin de présentation : inclure les caractéristiques détaillées du fonds...",
+          "check_type": "document_structure",
+          "section": "4 -- Pages suivantes",
+          "severity": "low",
+          "faiss_score": 0.824,
+          "specificity_score": 1.0,
+          "final_score": 0.824,
+          "force_matched": false,
+          "llm_validated": false,
+          "is_generic": false
+        },
+        {
+          "rule_id": "2.1",
+          "rule_text": "Doit indiquer : Le nom du fonds, le mois et l'année, la mention « document promotionnel », la cible : retail ou professionnel...",
+          "check_type": "page_garde_structure",
+          "section": "2 -- Page de garde - Présentation Standard",
+          "severity": "high",
+          "faiss_score": 0.8,
+          "specificity_score": 1.0,
+          "final_score": 0.8,
+          "force_matched": false,
+          "llm_validated": false,
+          "is_generic": false
+        },
+        {
+          "rule_id": "4.1",
+          "rule_text": "Ne jamais commencer une présentation par la performance : commencer à minima par la présentation du fonds...",
+          "check_type": "slide_order",
+          "section": "4 -- Pages suivantes",
+          "severity": "high",
+          "faiss_score": 0.8,
+          "specificity_score": 1.0,
+          "final_score": 0.8,
+          "force_matched": false,
+          "llm_validated": false,
+          "is_generic": false
+        }
+      ],
+      "validation": {
+        "by_check_type": {
+          "slide_2_disclaimer": 1,
+          "linguistic_anglicisms": 1,
+          "registration_verification": 1,
+          "document_structure": 1,
+          "page_garde_structure": 1,
+          "slide_order": 1
+        },
+        "by_severity": {
+          "high": 4,
+          "low": 2
+        },
+        "generic_rules_count": 0,
+        "warnings": [],
+        "coherence_score": 1.0
+      },
+      "statistics": {
+        "faiss_candidates": 6,
+        "final_rules": 6,
+        "by_check_type": {
+          "slide_2_disclaimer": 1,
+          "linguistic_anglicisms": 1,
+          "registration_verification": 1,
+          "document_structure": 1,
+          "page_garde_structure": 1,
+          "slide_order": 1
+        },
+        "by_severity": {
+          "high": 4,
+          "low": 2
+        },
+        "generic_rules_count": 0,
+        "warnings": [],
+        "coherence_score": 1.0
+      }
+    },
+    {
+      "slide_number": 5,
+      "slide_title": "Overview",
+      "slide_type": "content",
+      "query": "Slide 5 | Doc[retail, UCITS ETF, Article 8] | Résumé: Présentation des stratégies ODDO BHF 'Algo Trend' et de leurs actifs sous gestion | Thèmes: stratégies d'investissement, gestion de portefeuille | Visuels: graphique",
+      "selected_rules": [
+        {
+          "rule_id": "4.2.8",
+          "rule_text": "Ne pas dire acheter, vendre, renforcer une valeur...",
+          "check_type": "linguistic_restrictions",
+          "section": "4 -- Pages suivantes",
+          "severity": "high",
+          "faiss_score": 0.807,
+          "specificity_score": 1.0,
+          "final_score": 0.807,
+          "force_matched": false,
+          "llm_validated": false,
+          "is_generic": false
+        },
+        {
+          "rule_id": "1.5",
+          "rule_text": "Pour les présentations retail : inclure un Glossaire des termes techniques en fin de présentation et s'assurer que ces termes figurent dans le documen...",
+          "check_type": "glossary_presence",
+          "section": "1 -- Règles générales",
+          "severity": "medium",
+          "faiss_score": 0.807,
+          "specificity_score": 1.0,
+          "final_score": 0.807,
+          "force_matched": false,
+          "llm_validated": false,
+          "is_generic": false
+        },
+        {
+          "rule_id": "4.3",
+          "rule_text": "Les objectifs de nombre de lignes en portefeuille doivent être mentionnés dans le prospectus. Si la présentation mentionne un nombre de lignes dans le...",
+          "check_type": "prospectus_coherence",
+          "section": "4 -- Pages suivantes",
+          "severity": "medium",
+          "faiss_score": 0.805,
+          "specificity_score": 1.0,
+          "final_score": 0.805,
+          "force_matched": false,
+          "llm_validated": false,
+          "is_generic": false
+        },
+        {
+          "rule_id": "5.1",
+          "rule_text": "Mention légale de la SGP (cf. Glossaire)...",
+          "check_type": "page_fin_structure",
+          "section": "5 -- Page de fin de présentation",
+          "severity": "medium",
+          "faiss_score": 0.803,
+          "specificity_score": 1.0,
+          "final_score": 0.803,
+          "force_matched": false,
+          "llm_validated": false,
+          "is_generic": false
+        },
+        {
+          "rule_id": "4.4",
+          "rule_text": "En fin de présentation : inclure les caractéristiques détaillées du fonds...",
+          "check_type": "document_structure",
+          "section": "4 -- Pages suivantes",
+          "severity": "low",
+          "faiss_score": 0.795,
+          "specificity_score": 1.0,
+          "final_score": 0.795,
+          "force_matched": false,
+          "llm_validated": false,
+          "is_generic": false
+        },
+        {
+          "rule_id": "4.3.31",
+          "rule_text": "Pour les fonds de private equity destinés aux clients retail, la présentation d’un TRI net avant l’échéance du fonds est interdite....",
+          "check_type": "private_equity_irr_retail_restriction",
+          "section": "4 -- Pages suivantes",
+          "severity": "high",
+          "faiss_score": 0.788,
+          "specificity_score": 1.0,
+          "final_score": 0.788,
+          "force_matched": false,
+          "llm_validated": false,
+          "is_generic": false
+        }
+      ],
+      "validation": {
+        "by_check_type": {
+          "linguistic_restrictions": 1,
+          "glossary_presence": 1,
+          "prospectus_coherence": 1,
+          "page_fin_structure": 1,
+          "document_structure": 1,
+          "private_equity_irr_retail_restriction": 1
+        },
+        "by_severity": {
+          "high": 2,
+          "medium": 3,
+          "low": 1
+        },
+        "generic_rules_count": 0,
+        "warnings": [],
+        "coherence_score": 1.0
+      },
+      "statistics": {
+        "faiss_candidates": 6,
+        "final_rules": 6,
+        "by_check_type": {
+          "linguistic_restrictions": 1,
+          "glossary_presence": 1,
+          "prospectus_coherence": 1,
+          "page_fin_structure": 1,
+          "document_structure": 1,
+          "private_equity_irr_retail_restriction": 1
+        },
+        "by_severity": {
+          "high": 2,
+          "medium": 3,
+          "low": 1
+        },
+        "generic_rules_count": 0,
+        "warnings": [],
+        "coherence_score": 1.0
+      }
+    },
+    {
+      "slide_number": 6,
+      "slide_title": "",
+      "slide_type": "content",
+      "query": "Slide 6 | Doc[retail, UCITS ETF, Article 8] | Résumé: Présentation des sujets abordés dans la présentation | Thèmes: investissement, marché financier | Visuels: tableau",
+      "selected_rules": [
+        {
+          "rule_id": "1.11",
+          "rule_text": "Éviter les anglicismes dans les présentations retail, ou les définir (notes de bas de page ou glossaire avec renvoi)...",
+          "check_type": "linguistic_anglicisms",
+          "section": "1 -- Règles générales",
+          "severity": "low",
+          "faiss_score": 0.8,
+          "specificity_score": 1.0,
+          "final_score": 0.8,
+          "force_matched": false,
+          "llm_validated": false,
+          "is_generic": false
+        },
+        {
+          "rule_id": "1.8",
+          "rule_text": "La stratégie du fonds doit être présentée conformément à la documentation légale : seuils d'investissement par classe d'actifs, stratégie, allocation ...",
+          "check_type": "prospectus_coherence",
+          "section": "1 -- Règles générales",
+          "severity": "high",
+          "faiss_score": 0.8,
+          "specificity_score": 1.0,
+          "final_score": 0.8,
+          "force_matched": false,
+          "llm_validated": false,
+          "is_generic": false
+        },
+        {
+          "rule_id": "3.1",
+          "rule_text": "Le disclaimer standard (retail ou professionnel) → attention à adapter le nom du fonds et les clients éligibles...",
+          "check_type": "slide_2_disclaimer",
+          "section": "3 -- La Slide 2",
+          "severity": "high",
+          "faiss_score": 0.797,
+          "specificity_score": 1.0,
+          "final_score": 0.797,
+          "force_matched": false,
+          "llm_validated": false,
+          "is_generic": false
+        },
+        {
+          "rule_id": "4.3.31",
+          "rule_text": "Pour les fonds de private equity destinés aux clients retail, la présentation d’un TRI net avant l’échéance du fonds est interdite....",
+          "check_type": "private_equity_irr_retail_restriction",
+          "section": "4 -- Pages suivantes",
+          "severity": "high",
+          "faiss_score": 0.794,
+          "specificity_score": 1.0,
+          "final_score": 0.794,
+          "force_matched": false,
+          "llm_validated": false,
+          "is_generic": false
+        },
+        {
+          "rule_id": "4.3",
+          "rule_text": "Les objectifs de nombre de lignes en portefeuille doivent être mentionnés dans le prospectus. Si la présentation mentionne un nombre de lignes dans le...",
+          "check_type": "prospectus_coherence",
+          "section": "4 -- Pages suivantes",
+          "severity": "medium",
+          "faiss_score": 0.792,
+          "specificity_score": 1.0,
+          "final_score": 0.792,
+          "force_matched": false,
+          "llm_validated": false,
+          "is_generic": false
+        },
+        {
+          "rule_id": "1.15",
+          "rule_text": "Éviter de mentionner d'autres fonds (Oddo ou autres) dans une présentation standard d'un fonds sauf si c'est une présentation de gamme...",
+          "check_type": "content_restriction",
+          "section": "1 -- Règles générales",
+          "severity": "medium",
+          "faiss_score": 0.792,
+          "specificity_score": 1.0,
+          "final_score": 0.792,
+          "force_matched": false,
+          "llm_validated": false,
+          "is_generic": false
+        }
+      ],
+      "validation": {
+        "by_check_type": {
+          "linguistic_anglicisms": 1,
+          "prospectus_coherence": 2,
+          "slide_2_disclaimer": 1,
+          "private_equity_irr_retail_restriction": 1,
+          "content_restriction": 1
+        },
+        "by_severity": {
+          "low": 1,
+          "high": 3,
+          "medium": 2
+        },
+        "generic_rules_count": 0,
+        "warnings": [],
+        "coherence_score": 1.0
+      },
+      "statistics": {
+        "faiss_candidates": 6,
+        "final_rules": 6,
+        "by_check_type": {
+          "linguistic_anglicisms": 1,
+          "prospectus_coherence": 2,
+          "slide_2_disclaimer": 1,
+          "private_equity_irr_retail_restriction": 1,
+          "content_restriction": 1
+        },
+        "by_severity": {
+          "low": 1,
+          "high": 3,
+          "medium": 2
+        },
+        "generic_rules_count": 0,
+        "warnings": [],
+        "coherence_score": 1.0
+      }
+    },
+    {
+      "slide_number": 7,
+      "slide_title": "",
+      "slide_type": "content",
+      "query": "Slide 7 | Doc[retail, UCITS ETF, Article 8] | Résumé: Présentation des ETF actifs et de leur attrait | Thèmes: ETF actifs, investissement",
+      "selected_rules": [
+        {
+          "rule_id": "4.1.1",
+          "rule_text": "Approche engageante (≥ 20 % d'exclusion et ≥ 90 % du portefeuille couvert) → pas de limite à la communication ESG...",
+          "check_type": "esg_communication",
+          "section": "4 -- Pages suivantes",
+          "severity": "medium",
+          "faiss_score": 0.834,
+          "specificity_score": 1.0,
+          "final_score": 0.834,
+          "force_matched": false,
+          "llm_validated": false,
+          "is_generic": false
+        },
+        {
+          "rule_id": "4.2.6",
+          "rule_text": "Pas de projections futures pour une valeur...",
+          "check_type": "linguistic_restrictions",
+          "section": "4 -- Pages suivantes",
+          "severity": "high",
+          "faiss_score": 0.832,
+          "specificity_score": 1.0,
+          "final_score": 0.832,
+          "force_matched": false,
+          "llm_validated": false,
+          "is_generic": false
+        },
+        {
+          "rule_id": "4.2.8",
+          "rule_text": "Ne pas dire acheter, vendre, renforcer une valeur...",
+          "check_type": "linguistic_restrictions",
+          "section": "4 -- Pages suivantes",
+          "severity": "high",
+          "faiss_score": 0.823,
+          "specificity_score": 1.0,
+          "final_score": 0.823,
+          "force_matched": false,
+          "llm_validated": false,
+          "is_generic": false
+        },
+        {
+          "rule_id": "4.4",
+          "rule_text": "En fin de présentation : inclure les caractéristiques détaillées du fonds...",
+          "check_type": "document_structure",
+          "section": "4 -- Pages suivantes",
+          "severity": "low",
+          "faiss_score": 0.821,
+          "specificity_score": 1.0,
+          "final_score": 0.821,
+          "force_matched": false,
+          "llm_validated": false,
+          "is_generic": false
+        },
+        {
+          "rule_id": "3.1",
+          "rule_text": "Le disclaimer standard (retail ou professionnel) → attention à adapter le nom du fonds et les clients éligibles...",
+          "check_type": "slide_2_disclaimer",
+          "section": "3 -- La Slide 2",
+          "severity": "high",
+          "faiss_score": 0.821,
+          "specificity_score": 1.0,
+          "final_score": 0.821,
+          "force_matched": false,
+          "llm_validated": false,
+          "is_generic": false
+        },
+        {
+          "rule_id": "4.2.5",
+          "rule_text": "Ne pas citer plusieurs fois une même valeur...",
+          "check_type": "content_restriction",
+          "section": "4 -- Pages suivantes",
+          "severity": "medium",
+          "faiss_score": 0.821,
+          "specificity_score": 1.0,
+          "final_score": 0.821,
+          "force_matched": false,
+          "llm_validated": false,
+          "is_generic": false
+        }
+      ],
+      "validation": {
+        "by_check_type": {
+          "esg_communication": 1,
+          "linguistic_restrictions": 2,
+          "document_structure": 1,
+          "slide_2_disclaimer": 1,
+          "content_restriction": 1
+        },
+        "by_severity": {
+          "medium": 2,
+          "high": 3,
+          "low": 1
+        },
+        "generic_rules_count": 0,
+        "warnings": [],
+        "coherence_score": 1.0
+      },
+      "statistics": {
+        "faiss_candidates": 6,
+        "final_rules": 6,
+        "by_check_type": {
+          "esg_communication": 1,
+          "linguistic_restrictions": 2,
+          "document_structure": 1,
+          "slide_2_disclaimer": 1,
+          "content_restriction": 1
+        },
+        "by_severity": {
+          "medium": 2,
+          "high": 3,
+          "low": 1
+        },
+        "generic_rules_count": 0,
+        "warnings": [],
+        "coherence_score": 1.0
+      }
+    },
+    {
+      "slide_number": 8,
+      "slide_title": "Overview What are active ETFs?",
+      "slide_type": "content",
+      "query": "Slide 8 | Doc[retail, UCITS ETF, Article 8] | Résumé: Présentation des ETF actifs et de leur stratégie d'investissement | Thèmes: ETF actifs, stratégie d'investissement | Données: comparaison benchmark",
+      "selected_rules": [
+        {
+          "rule_id": "4.3.18",
+          "rule_text": "Lorsque l’indicateur de référence est modifié, les deux benchmarks doivent être présentés de manière chaînée avec indication de la date de modificatio...",
+          "check_type": "benchmark_change_chaining",
+          "section": "4 -- Pages suivantes",
+          "severity": "high",
+          "faiss_score": 0.78,
+          "specificity_score": 2.5,
+          "final_score": 1.949,
+          "force_matched": false,
+          "llm_validated": false,
+          "is_generic": false
+        },
+        {
+          "rule_id": "4.3.26",
+          "rule_text": "Les performances de l’indicateur de référence doivent être calculées et présentées conformément aux termes du prospectus (par exemple, dividendes nets...",
+          "check_type": "benchmark_terms_consistency",
+          "section": "4 -- Pages suivantes",
+          "severity": "high",
+          "faiss_score": 0.748,
+          "specificity_score": 2.5,
+          "final_score": 1.871,
+          "force_matched": false,
+          "llm_validated": false,
+          "is_generic": false
+        },
+        {
+          "rule_id": "1.8",
+          "rule_text": "La stratégie du fonds doit être présentée conformément à la documentation légale : seuils d'investissement par classe d'actifs, stratégie, allocation ...",
+          "check_type": "prospectus_coherence",
+          "section": "1 -- Règles générales",
+          "severity": "high",
+          "faiss_score": 0.776,
+          "specificity_score": 1.0,
+          "final_score": 0.776,
+          "force_matched": false,
+          "llm_validated": false,
+          "is_generic": false
+        },
+        {
+          "rule_id": "4.2.3",
+          "rule_text": "Ne pas suggérer une stratégie d'investissement...",
+          "check_type": "linguistic_restrictions",
+          "section": "4 -- Pages suivantes",
+          "severity": "high",
+          "faiss_score": 0.774,
+          "specificity_score": 1.0,
+          "final_score": 0.774,
+          "force_matched": false,
+          "llm_validated": false,
+          "is_generic": false
+        },
+        {
+          "rule_id": "3.3",
+          "rule_text": "Les pays de commercialisation (registration abroad)...",
+          "check_type": "slide_2_countries",
+          "section": "3 -- La Slide 2",
+          "severity": "high",
+          "faiss_score": 0.773,
+          "specificity_score": 1.0,
+          "final_score": 0.773,
+          "force_matched": false,
+          "llm_validated": false,
+          "is_generic": false
+        },
+        {
+          "rule_id": "4.3",
+          "rule_text": "Les objectifs de nombre de lignes en portefeuille doivent être mentionnés dans le prospectus. Si la présentation mentionne un nombre de lignes dans le...",
+          "check_type": "prospectus_coherence",
+          "section": "4 -- Pages suivantes",
+          "severity": "medium",
+          "faiss_score": 0.767,
+          "specificity_score": 1.0,
+          "final_score": 0.767,
+          "force_matched": false,
+          "llm_validated": false,
+          "is_generic": false
+        }
+      ],
+      "validation": {
+        "by_check_type": {
+          "benchmark_change_chaining": 1,
+          "benchmark_terms_consistency": 1,
+          "prospectus_coherence": 2,
+          "linguistic_restrictions": 1,
+          "slide_2_countries": 1
+        },
+        "by_severity": {
+          "high": 5,
+          "medium": 1
+        },
+        "generic_rules_count": 0,
+        "warnings": [],
+        "coherence_score": 1.0
+      },
+      "statistics": {
+        "faiss_candidates": 6,
+        "final_rules": 6,
+        "by_check_type": {
+          "benchmark_change_chaining": 1,
+          "benchmark_terms_consistency": 1,
+          "prospectus_coherence": 2,
+          "linguistic_restrictions": 1,
+          "slide_2_countries": 1
+        },
+        "by_severity": {
+          "high": 5,
+          "medium": 1
+        },
+        "generic_rules_count": 0,
+        "warnings": [],
+        "coherence_score": 1.0
+      }
+    },
+    {
+      "slide_number": 9,
+      "slide_title": "Overview Active ETF: A growing force in Europe",
+      "slide_type": "content",
+      "query": "Slide 9 | Doc[retail, UCITS ETF, Article 8] | Résumé: Les ETF actifs gagnent en popularité en Europe, avec une prévision de 1 000 milliards d'euros d'actifs sous gestion d'ici 2030. | Thèmes: ETF actifs, marché européen, croissance | Visuels: graphique",
+      "selected_rules": [
+        {
+          "rule_id": "4.2.6",
+          "rule_text": "Pas de projections futures pour une valeur...",
+          "check_type": "linguistic_restrictions",
+          "section": "4 -- Pages suivantes",
+          "severity": "high",
+          "faiss_score": 0.853,
+          "specificity_score": 1.0,
+          "final_score": 0.853,
+          "force_matched": false,
+          "llm_validated": false,
+          "is_generic": false
+        },
+        {
+          "rule_id": "1.11",
+          "rule_text": "Éviter les anglicismes dans les présentations retail, ou les définir (notes de bas de page ou glossaire avec renvoi)...",
+          "check_type": "linguistic_anglicisms",
+          "section": "1 -- Règles générales",
+          "severity": "low",
+          "faiss_score": 0.85,
+          "specificity_score": 1.0,
+          "final_score": 0.85,
+          "force_matched": false,
+          "llm_validated": false,
+          "is_generic": false
+        },
+        {
+          "rule_id": "1.8",
+          "rule_text": "La stratégie du fonds doit être présentée conformément à la documentation légale : seuils d'investissement par classe d'actifs, stratégie, allocation ...",
+          "check_type": "prospectus_coherence",
+          "section": "1 -- Règles générales",
+          "severity": "high",
+          "faiss_score": 0.846,
+          "specificity_score": 1.0,
+          "final_score": 0.846,
+          "force_matched": false,
+          "llm_validated": false,
+          "is_generic": false
+        },
+        {
+          "rule_id": "4.2.7",
+          "rule_text": "Pas d'opinion sur la valeur actuelle/future d'un instrument...",
+          "check_type": "linguistic_restrictions",
+          "section": "4 -- Pages suivantes",
+          "severity": "high",
+          "faiss_score": 0.843,
+          "specificity_score": 1.0,
+          "final_score": 0.843,
+          "force_matched": false,
+          "llm_validated": false,
+          "is_generic": false
+        },
+        {
+          "rule_id": "4.3.23",
+          "rule_text": "Pour la clientèle retail, l’utilisation du track record d’un autre fonds ou d’une autre stratégie n’est pas autorisée....",
+          "check_type": "track_record_restriction",
+          "section": "4 -- Pages suivantes",
+          "severity": "high",
+          "faiss_score": 0.841,
+          "specificity_score": 1.0,
+          "final_score": 0.841,
+          "force_matched": false,
+          "llm_validated": false,
+          "is_generic": false
+        },
+        {
+          "rule_id": "1.16",
+          "rule_text": "Ne pas dire qu'un ETF est liquide...",
+          "check_type": "linguistic_restrictions",
+          "section": "1 -- Règles générales",
+          "severity": "medium",
+          "faiss_score": 0.839,
+          "specificity_score": 1.0,
+          "final_score": 0.839,
+          "force_matched": false,
+          "llm_validated": false,
+          "is_generic": false
+        }
+      ],
+      "validation": {
+        "by_check_type": {
+          "linguistic_restrictions": 3,
+          "linguistic_anglicisms": 1,
+          "prospectus_coherence": 1,
+          "track_record_restriction": 1
+        },
+        "by_severity": {
+          "high": 4,
+          "low": 1,
+          "medium": 1
+        },
+        "generic_rules_count": 0,
+        "warnings": [],
+        "coherence_score": 1.0
+      },
+      "statistics": {
+        "faiss_candidates": 6,
+        "final_rules": 6,
+        "by_check_type": {
+          "linguistic_restrictions": 3,
+          "linguistic_anglicisms": 1,
+          "prospectus_coherence": 1,
+          "track_record_restriction": 1
+        },
+        "by_severity": {
+          "high": 4,
+          "low": 1,
+          "medium": 1
+        },
+        "generic_rules_count": 0,
+        "warnings": [],
+        "coherence_score": 1.0
+      }
+    },
+    {
+      "slide_number": 10,
+      "slide_title": "Overview",
+      "slide_type": "content",
+      "query": "Slide 10 | Doc[retail, UCITS ETF, Article 8] | Résumé: Présentation des avantages des ETFs actifs | Thèmes: investissement actif, ETFs, gestion de risques, transparence, efficacité coûts",
+      "selected_rules": [
+        {
+          "rule_id": "1.11",
+          "rule_text": "Éviter les anglicismes dans les présentations retail, ou les définir (notes de bas de page ou glossaire avec renvoi)...",
+          "check_type": "linguistic_anglicisms",
+          "section": "1 -- Règles générales",
+          "severity": "low",
+          "faiss_score": 0.831,
+          "specificity_score": 1.0,
+          "final_score": 0.831,
+          "force_matched": false,
+          "llm_validated": false,
+          "is_generic": false
+        },
+        {
+          "rule_id": "4.2.3",
+          "rule_text": "Ne pas suggérer une stratégie d'investissement...",
+          "check_type": "linguistic_restrictions",
+          "section": "4 -- Pages suivantes",
+          "severity": "high",
+          "faiss_score": 0.829,
+          "specificity_score": 1.0,
+          "final_score": 0.829,
+          "force_matched": false,
+          "llm_validated": false,
+          "is_generic": false
+        },
+        {
+          "rule_id": "1.8",
+          "rule_text": "La stratégie du fonds doit être présentée conformément à la documentation légale : seuils d'investissement par classe d'actifs, stratégie, allocation ...",
+          "check_type": "prospectus_coherence",
+          "section": "1 -- Règles générales",
+          "severity": "high",
+          "faiss_score": 0.827,
+          "specificity_score": 1.0,
+          "final_score": 0.827,
+          "force_matched": false,
+          "llm_validated": false,
+          "is_generic": false
+        },
+        {
+          "rule_id": "4.2.8",
+          "rule_text": "Ne pas dire acheter, vendre, renforcer une valeur...",
+          "check_type": "linguistic_restrictions",
+          "section": "4 -- Pages suivantes",
+          "severity": "high",
+          "faiss_score": 0.824,
+          "specificity_score": 1.0,
+          "final_score": 0.824,
+          "force_matched": false,
+          "llm_validated": false,
+          "is_generic": false
+        },
+        {
+          "rule_id": "1.5",
+          "rule_text": "Pour les présentations retail : inclure un Glossaire des termes techniques en fin de présentation et s'assurer que ces termes figurent dans le documen...",
+          "check_type": "glossary_presence",
+          "section": "1 -- Règles générales",
+          "severity": "medium",
+          "faiss_score": 0.822,
+          "specificity_score": 1.0,
+          "final_score": 0.822,
+          "force_matched": false,
+          "llm_validated": false,
+          "is_generic": false
+        },
+        {
+          "rule_id": "4.2.5",
+          "rule_text": "Ne pas citer plusieurs fois une même valeur...",
+          "check_type": "content_restriction",
+          "section": "4 -- Pages suivantes",
+          "severity": "medium",
+          "faiss_score": 0.82,
+          "specificity_score": 1.0,
+          "final_score": 0.82,
+          "force_matched": false,
+          "llm_validated": false,
+          "is_generic": false
+        }
+      ],
+      "validation": {
+        "by_check_type": {
+          "linguistic_anglicisms": 1,
+          "linguistic_restrictions": 2,
+          "prospectus_coherence": 1,
+          "glossary_presence": 1,
+          "content_restriction": 1
+        },
+        "by_severity": {
+          "low": 1,
+          "high": 3,
+          "medium": 2
+        },
+        "generic_rules_count": 0,
+        "warnings": [],
+        "coherence_score": 1.0
+      },
+      "statistics": {
+        "faiss_candidates": 6,
+        "final_rules": 6,
+        "by_check_type": {
+          "linguistic_anglicisms": 1,
+          "linguistic_restrictions": 2,
+          "prospectus_coherence": 1,
+          "glossary_presence": 1,
+          "content_restriction": 1
+        },
+        "by_severity": {
+          "low": 1,
+          "high": 3,
+          "medium": 2
+        },
+        "generic_rules_count": 0,
+        "warnings": [],
+        "coherence_score": 1.0
+      }
+    },
+    {
+      "slide_number": 11,
+      "slide_title": "",
+      "slide_type": "content",
+      "query": "Slide 11 | Doc[retail, UCITS ETF, Article 8] | Résumé: Présentation des raisons d'investir sur le marché américain | Thèmes: investissement, marché américain",
+      "selected_rules": [
+        {
+          "rule_id": "4.3.31",
+          "rule_text": "Pour les fonds de private equity destinés aux clients retail, la présentation d’un TRI net avant l’échéance du fonds est interdite....",
+          "check_type": "private_equity_irr_retail_restriction",
+          "section": "4 -- Pages suivantes",
+          "severity": "high",
+          "faiss_score": 0.885,
+          "specificity_score": 1.0,
+          "final_score": 0.885,
+          "force_matched": false,
+          "llm_validated": false,
+          "is_generic": false
+        },
+        {
+          "rule_id": "4.3.19",
+          "rule_text": "Lorsqu’un autre indice que l’indicateur de référence officiel est présenté, cet indice doit apparaître séparément en annexe et ne pas être présenté co...",
+          "check_type": "other_indices_separation",
+          "section": "4 -- Pages suivantes",
+          "severity": "medium",
+          "faiss_score": 0.883,
+          "specificity_score": 1.0,
+          "final_score": 0.883,
+          "force_matched": false,
+          "llm_validated": false,
+          "is_generic": false
+        },
+        {
+          "rule_id": "4.4",
+          "rule_text": "En fin de présentation : inclure les caractéristiques détaillées du fonds...",
+          "check_type": "document_structure",
+          "section": "4 -- Pages suivantes",
+          "severity": "low",
+          "faiss_score": 0.882,
+          "specificity_score": 1.0,
+          "final_score": 0.882,
+          "force_matched": false,
+          "llm_validated": false,
+          "is_generic": false
+        },
+        {
+          "rule_id": "4.1.1",
+          "rule_text": "Approche engageante (≥ 20 % d'exclusion et ≥ 90 % du portefeuille couvert) → pas de limite à la communication ESG...",
+          "check_type": "esg_communication",
+          "section": "4 -- Pages suivantes",
+          "severity": "medium",
+          "faiss_score": 0.879,
+          "specificity_score": 1.0,
+          "final_score": 0.879,
+          "force_matched": false,
+          "llm_validated": false,
+          "is_generic": false
+        },
+        {
+          "rule_id": "1.8",
+          "rule_text": "La stratégie du fonds doit être présentée conformément à la documentation légale : seuils d'investissement par classe d'actifs, stratégie, allocation ...",
+          "check_type": "prospectus_coherence",
+          "section": "1 -- Règles générales",
+          "severity": "high",
+          "faiss_score": 0.879,
+          "specificity_score": 1.0,
+          "final_score": 0.879,
+          "force_matched": false,
+          "llm_validated": false,
+          "is_generic": false
+        },
+        {
+          "rule_id": "1.5",
+          "rule_text": "Pour les présentations retail : inclure un Glossaire des termes techniques en fin de présentation et s'assurer que ces termes figurent dans le documen...",
+          "check_type": "glossary_presence",
+          "section": "1 -- Règles générales",
+          "severity": "medium",
+          "faiss_score": 0.872,
+          "specificity_score": 1.0,
+          "final_score": 0.872,
+          "force_matched": false,
+          "llm_validated": false,
+          "is_generic": false
+        }
+      ],
+      "validation": {
+        "by_check_type": {
+          "private_equity_irr_retail_restriction": 1,
+          "other_indices_separation": 1,
+          "document_structure": 1,
+          "esg_communication": 1,
+          "prospectus_coherence": 1,
+          "glossary_presence": 1
+        },
+        "by_severity": {
+          "high": 2,
+          "medium": 3,
+          "low": 1
+        },
+        "generic_rules_count": 0,
+        "warnings": [],
+        "coherence_score": 1.0
+      },
+      "statistics": {
+        "faiss_candidates": 6,
+        "final_rules": 6,
+        "by_check_type": {
+          "private_equity_irr_retail_restriction": 1,
+          "other_indices_separation": 1,
+          "document_structure": 1,
+          "esg_communication": 1,
+          "prospectus_coherence": 1,
+          "glossary_presence": 1
+        },
+        "by_severity": {
+          "high": 2,
+          "medium": 3,
+          "low": 1
+        },
+        "generic_rules_count": 0,
+        "warnings": [],
+        "coherence_score": 1.0
+      }
+    },
+    {
+      "slide_number": 12,
+      "slide_title": "Introduction Why invest in the USA?",
+      "slide_type": "performance",
+      "query": "Slide 12 | Doc[retail, UCITS ETF, Article 8] | Résumé: Présentation des avantages de l'investissement aux États-Unis | Thèmes: investissement, marché américain, économie | Données: valeurs performance",
+      "selected_rules": [
+        {
+          "rule_id": "4.3.10",
+          "rule_text": "La forme de présentation des performances (annuelles glissantes, annualisées ou cumulées) doit respecter les règles de présentation définies pour le f...",
+          "check_type": "performance_presentation_format",
+          "section": "4 -- Pages suivantes",
+          "severity": "medium",
+          "faiss_score": 0.826,
+          "specificity_score": 2.5,
+          "final_score": 2.064,
+          "force_matched": false,
+          "llm_validated": false,
+          "is_generic": false
+        },
+        {
+          "rule_id": "4.3.9",
+          "rule_text": "Lorsque la présentation est destinée aux retails seules les performances des parts retails peuvent être présentées...",
+          "check_type": "performance_share_class",
+          "section": "4 -- Pages suivantes",
+          "severity": "medium",
+          "faiss_score": 0.824,
+          "specificity_score": 2.5,
+          "final_score": 2.061,
+          "force_matched": false,
+          "llm_validated": false,
+          "is_generic": false
+        },
+        {
+          "rule_id": "4.3.7",
+          "rule_text": "Les performances sont obligatoirement présentées nettes de tout frais de gestion pour la clientèle retail...",
+          "check_type": "performance_net_fees",
+          "section": "4 -- Pages suivantes",
+          "severity": "high",
+          "faiss_score": 0.823,
+          "specificity_score": 2.5,
+          "final_score": 2.058,
+          "force_matched": false,
+          "llm_validated": false,
+          "is_generic": false
+        },
+        {
+          "rule_id": "4.3.19",
+          "rule_text": "Lorsqu’un autre indice que l’indicateur de référence officiel est présenté, cet indice doit apparaître séparément en annexe et ne pas être présenté co...",
+          "check_type": "other_indices_separation",
+          "section": "4 -- Pages suivantes",
+          "severity": "medium",
+          "faiss_score": 0.819,
+          "specificity_score": 1.0,
+          "final_score": 0.819,
+          "force_matched": false,
+          "llm_validated": false,
+          "is_generic": false
+        },
+        {
+          "rule_id": "4.3.31",
+          "rule_text": "Pour les fonds de private equity destinés aux clients retail, la présentation d’un TRI net avant l’échéance du fonds est interdite....",
+          "check_type": "private_equity_irr_retail_restriction",
+          "section": "4 -- Pages suivantes",
+          "severity": "high",
+          "faiss_score": 0.815,
+          "specificity_score": 1.0,
+          "final_score": 0.815,
+          "force_matched": false,
+          "llm_validated": false,
+          "is_generic": false
+        },
+        {
+          "rule_id": "1.8",
+          "rule_text": "La stratégie du fonds doit être présentée conformément à la documentation légale : seuils d'investissement par classe d'actifs, stratégie, allocation ...",
+          "check_type": "prospectus_coherence",
+          "section": "1 -- Règles générales",
+          "severity": "high",
+          "faiss_score": 0.813,
+          "specificity_score": 1.0,
+          "final_score": 0.813,
+          "force_matched": false,
+          "llm_validated": false,
+          "is_generic": false
+        },
+        {
+          "rule_id": "4.1",
+          "rule_text": "Ne jamais commencer une présentation par la performance : commencer à minima par la présentation du fonds...",
+          "check_type": "slide_order",
+          "section": "4 -- Pages suivantes",
+          "severity": "high",
+          "faiss_score": 0.801,
+          "specificity_score": 1.0,
+          "final_score": 0.801,
+          "force_matched": false,
+          "llm_validated": false,
+          "is_generic": false
+        },
+        {
+          "rule_id": "4.3.23",
+          "rule_text": "Pour la clientèle retail, l’utilisation du track record d’un autre fonds ou d’une autre stratégie n’est pas autorisée....",
+          "check_type": "track_record_restriction",
+          "section": "4 -- Pages suivantes",
+          "severity": "high",
+          "faiss_score": 0.8,
+          "specificity_score": 1.0,
+          "final_score": 0.8,
+          "force_matched": false,
+          "llm_validated": false,
+          "is_generic": false
+        },
+        {
+          "rule_id": "4.3.8",
+          "rule_text": "Un document commercial ne peut pas débuter par les performances mais au minimum par la présentation du fonds. Les performances ne peuvent jamais repré...",
+          "check_type": "slide_order",
+          "section": "4 -- Pages suivantes",
+          "severity": "high",
+          "faiss_score": 0.796,
+          "specificity_score": 1.0,
+          "final_score": 0.796,
+          "force_matched": false,
+          "llm_validated": false,
+          "is_generic": false
+        },
+        {
+          "rule_id": "1.9",
+          "rule_text": "Les pays de commercialisation indiqués doivent être conformes aux dernières données (fichier EXCEL : « registration abroad »)...",
+          "check_type": "registration_verification",
+          "section": "1 -- Règles générales",
+          "severity": "high",
+          "faiss_score": 0.786,
+          "specificity_score": 1.0,
+          "final_score": 0.786,
+          "force_matched": false,
+          "llm_validated": false,
+          "is_generic": false
+        },
+        {
+          "rule_id": "4.2.3",
+          "rule_text": "Ne pas suggérer une stratégie d'investissement...",
+          "check_type": "linguistic_restrictions",
+          "section": "4 -- Pages suivantes",
+          "severity": "high",
+          "faiss_score": 0.782,
+          "specificity_score": 1.0,
+          "final_score": 0.782,
+          "force_matched": false,
+          "llm_validated": false,
+          "is_generic": false
+        },
+        {
+          "rule_id": "2.1",
+          "rule_text": "Doit indiquer : Le nom du fonds, le mois et l'année, la mention « document promotionnel », la cible : retail ou professionnel...",
+          "check_type": "page_garde_structure",
+          "section": "2 -- Page de garde - Présentation Standard",
+          "severity": "high",
+          "faiss_score": 0.776,
+          "specificity_score": 1.0,
+          "final_score": 0.776,
+          "force_matched": false,
+          "llm_validated": false,
+          "is_generic": false
+        }
+      ],
+      "validation": {
+        "by_check_type": {
+          "performance_presentation_format": 1,
+          "performance_share_class": 1,
+          "performance_net_fees": 1,
+          "other_indices_separation": 1,
+          "private_equity_irr_retail_restriction": 1,
+          "prospectus_coherence": 1,
+          "slide_order": 2,
+          "track_record_restriction": 1,
+          "registration_verification": 1,
+          "linguistic_restrictions": 1,
+          "page_garde_structure": 1
+        },
+        "by_severity": {
+          "medium": 3,
+          "high": 9
+        },
+        "generic_rules_count": 0,
+        "warnings": [],
+        "coherence_score": 1.0
+      },
+      "statistics": {
+        "faiss_candidates": 12,
+        "final_rules": 12,
+        "by_check_type": {
+          "performance_presentation_format": 1,
+          "performance_share_class": 1,
+          "performance_net_fees": 1,
+          "other_indices_separation": 1,
+          "private_equity_irr_retail_restriction": 1,
+          "prospectus_coherence": 1,
+          "slide_order": 2,
+          "track_record_restriction": 1,
+          "registration_verification": 1,
+          "linguistic_restrictions": 1,
+          "page_garde_structure": 1
+        },
+        "by_severity": {
+          "medium": 3,
+          "high": 9
+        },
+        "generic_rules_count": 0,
+        "warnings": [],
+        "coherence_score": 1.0
+      }
+    },
+    {
+      "slide_number": 13,
+      "slide_title": "Introduction",
+      "slide_type": "content",
+      "query": "Slide 13 | Doc[retail, UCITS ETF, Article 8] | Résumé: Présentation de champions mondiaux potentiels issus de l'économie nouvelle et ancienne | Thèmes: économie, entreprises, technologie",
+      "selected_rules": [
+        {
+          "rule_id": "4.2.4",
+          "rule_text": "Ne pas comparer des valeurs entre elles...",
+          "check_type": "linguistic_restrictions",
+          "section": "4 -- Pages suivantes",
+          "severity": "medium",
+          "faiss_score": 0.828,
+          "specificity_score": 1.0,
+          "final_score": 0.828,
+          "force_matched": false,
+          "llm_validated": false,
+          "is_generic": false
+        },
+        {
+          "rule_id": "4.4",
+          "rule_text": "En fin de présentation : inclure les caractéristiques détaillées du fonds...",
+          "check_type": "document_structure",
+          "section": "4 -- Pages suivantes",
+          "severity": "low",
+          "faiss_score": 0.826,
+          "specificity_score": 1.0,
+          "final_score": 0.826,
+          "force_matched": false,
+          "llm_validated": false,
+          "is_generic": false
+        },
+        {
+          "rule_id": "4.2.10",
+          "rule_text": "Pas d'opinion favorable/défavorable sur un émetteur ou secteur restreint...",
+          "check_type": "linguistic_restrictions",
+          "section": "4 -- Pages suivantes",
+          "severity": "high",
+          "faiss_score": 0.823,
+          "specificity_score": 1.0,
+          "final_score": 0.823,
+          "force_matched": false,
+          "llm_validated": false,
+          "is_generic": false
+        },
+        {
+          "rule_id": "4.2.5",
+          "rule_text": "Ne pas citer plusieurs fois une même valeur...",
+          "check_type": "content_restriction",
+          "section": "4 -- Pages suivantes",
+          "severity": "medium",
+          "faiss_score": 0.82,
+          "specificity_score": 1.0,
+          "final_score": 0.82,
+          "force_matched": false,
+          "llm_validated": false,
+          "is_generic": false
+        },
+        {
+          "rule_id": "4.1",
+          "rule_text": "Ne jamais commencer une présentation par la performance : commencer à minima par la présentation du fonds...",
+          "check_type": "slide_order",
+          "section": "4 -- Pages suivantes",
+          "severity": "high",
+          "faiss_score": 0.818,
+          "specificity_score": 1.0,
+          "final_score": 0.818,
+          "force_matched": false,
+          "llm_validated": false,
+          "is_generic": false
+        },
+        {
+          "rule_id": "4.3.31",
+          "rule_text": "Pour les fonds de private equity destinés aux clients retail, la présentation d’un TRI net avant l’échéance du fonds est interdite....",
+          "check_type": "private_equity_irr_retail_restriction",
+          "section": "4 -- Pages suivantes",
+          "severity": "high",
+          "faiss_score": 0.814,
+          "specificity_score": 1.0,
+          "final_score": 0.814,
+          "force_matched": false,
+          "llm_validated": false,
+          "is_generic": false
+        }
+      ],
+      "validation": {
+        "by_check_type": {
+          "linguistic_restrictions": 2,
+          "document_structure": 1,
+          "content_restriction": 1,
+          "slide_order": 1,
+          "private_equity_irr_retail_restriction": 1
+        },
+        "by_severity": {
+          "medium": 2,
+          "low": 1,
+          "high": 3
+        },
+        "generic_rules_count": 0,
+        "warnings": [],
+        "coherence_score": 1.0
+      },
+      "statistics": {
+        "faiss_candidates": 6,
+        "final_rules": 6,
+        "by_check_type": {
+          "linguistic_restrictions": 2,
+          "document_structure": 1,
+          "content_restriction": 1,
+          "slide_order": 1,
+          "private_equity_irr_retail_restriction": 1
+        },
+        "by_severity": {
+          "medium": 2,
+          "low": 1,
+          "high": 3
+        },
+        "generic_rules_count": 0,
+        "warnings": [],
+        "coherence_score": 1.0
+      }
+    },
+    {
+      "slide_number": 14,
+      "slide_title": "Introduction The World’s most important Financial Market",
+      "slide_type": "performance",
+      "query": "Slide 14 | Doc[retail, UCITS ETF, Article 8] | Résumé: Présentation du marché financier le plus important au monde avec des performances historiques attractives | Thèmes: marché financier, performance historique | Visuels: graphique | Données: valeurs performance, comparaison benchmark",
+      "selected_rules": [
+        {
+          "rule_id": "4.3.6",
+          "rule_text": "Les performances ne peuvent être en aucun cas comparées à un autre indicateur de référence qui ne serait pas mentionné dans le prospectus/DIC du fonds...",
+          "check_type": "performance_benchmark_restriction",
+          "section": "4 -- Pages suivantes",
+          "severity": "high",
+          "faiss_score": 0.739,
+          "specificity_score": 4.0,
+          "final_score": 2.955,
+          "force_matched": false,
+          "llm_validated": false,
+          "is_generic": false
+        },
+        {
+          "rule_id": "4.3.5",
+          "rule_text": "Les performances sont obligatoirement et en permanence comparées à l'indicateur de référence du fonds s'il existe...",
+          "check_type": "performance_benchmark_comparison",
+          "section": "4 -- Pages suivantes",
+          "severity": "high",
+          "faiss_score": 0.718,
+          "specificity_score": 4.0,
+          "final_score": 2.873,
+          "force_matched": false,
+          "llm_validated": false,
+          "is_generic": false
+        },
+        {
+          "rule_id": "4.3.2",
+          "rule_text": "Les performances doivent être présentées sur une durée minimum de 10 ans pour les performances annualisées et 5 ans pour les autres. Toutefois, lorsqu...",
+          "check_type": "performance_duration",
+          "section": "4 -- Pages suivantes",
+          "severity": "high",
+          "faiss_score": 0.776,
+          "specificity_score": 2.5,
+          "final_score": 1.941,
+          "force_matched": false,
+          "llm_validated": false,
+          "is_generic": false
+        },
+        {
+          "rule_id": "4.3.15",
+          "rule_text": "Les performances inférieures à un mois ne peuvent pas être présentées, sauf sous la forme de performance YTD....",
+          "check_type": "performance_period_minimum",
+          "section": "4 -- Pages suivantes",
+          "severity": "high",
+          "faiss_score": 0.769,
+          "specificity_score": 2.5,
+          "final_score": 1.923,
+          "force_matched": false,
+          "llm_validated": false,
+          "is_generic": false
+        },
+        {
+          "rule_id": "4.3.26",
+          "rule_text": "Les performances de l’indicateur de référence doivent être calculées et présentées conformément aux termes du prospectus (par exemple, dividendes nets...",
+          "check_type": "benchmark_terms_consistency",
+          "section": "4 -- Pages suivantes",
+          "severity": "high",
+          "faiss_score": 0.763,
+          "specificity_score": 2.5,
+          "final_score": 1.907,
+          "force_matched": false,
+          "llm_validated": false,
+          "is_generic": false
+        },
+        {
+          "rule_id": "4.3.9",
+          "rule_text": "Lorsque la présentation est destinée aux retails seules les performances des parts retails peuvent être présentées...",
+          "check_type": "performance_share_class",
+          "section": "4 -- Pages suivantes",
+          "severity": "medium",
+          "faiss_score": 0.756,
+          "specificity_score": 2.5,
+          "final_score": 1.891,
+          "force_matched": false,
+          "llm_validated": false,
+          "is_generic": false
+        },
+        {
+          "rule_id": "4.3.10",
+          "rule_text": "La forme de présentation des performances (annuelles glissantes, annualisées ou cumulées) doit respecter les règles de présentation définies pour le f...",
+          "check_type": "performance_presentation_format",
+          "section": "4 -- Pages suivantes",
+          "severity": "medium",
+          "faiss_score": 0.751,
+          "specificity_score": 2.5,
+          "final_score": 1.879,
+          "force_matched": false,
+          "llm_validated": false,
+          "is_generic": false
+        },
+        {
+          "rule_id": "4.3.22",
+          "rule_text": "La période de référence et la source des performances présentées doivent être clairement indiquées....",
+          "check_type": "performance_source_period",
+          "section": "4 -- Pages suivantes",
+          "severity": "high",
+          "faiss_score": 0.747,
+          "specificity_score": 2.5,
+          "final_score": 1.867,
+          "force_matched": false,
+          "llm_validated": false,
+          "is_generic": false
+        },
+        {
+          "rule_id": "4.3.7",
+          "rule_text": "Les performances sont obligatoirement présentées nettes de tout frais de gestion pour la clientèle retail...",
+          "check_type": "performance_net_fees",
+          "section": "4 -- Pages suivantes",
+          "severity": "high",
+          "faiss_score": 0.746,
+          "specificity_score": 2.5,
+          "final_score": 1.866,
+          "force_matched": false,
+          "llm_validated": false,
+          "is_generic": false
+        },
+        {
+          "rule_id": "4.3.19",
+          "rule_text": "Lorsqu’un autre indice que l’indicateur de référence officiel est présenté, cet indice doit apparaître séparément en annexe et ne pas être présenté co...",
+          "check_type": "other_indices_separation",
+          "section": "4 -- Pages suivantes",
+          "severity": "medium",
+          "faiss_score": 0.766,
+          "specificity_score": 1.0,
+          "final_score": 0.766,
+          "force_matched": false,
+          "llm_validated": false,
+          "is_generic": false
+        },
+        {
+          "rule_id": "4.4",
+          "rule_text": "En fin de présentation : inclure les caractéristiques détaillées du fonds...",
+          "check_type": "document_structure",
+          "section": "4 -- Pages suivantes",
+          "severity": "low",
+          "faiss_score": 0.761,
+          "specificity_score": 1.0,
+          "final_score": 0.761,
+          "force_matched": false,
+          "llm_validated": false,
+          "is_generic": false
+        },
+        {
+          "rule_id": "3.3",
+          "rule_text": "Les pays de commercialisation (registration abroad)...",
+          "check_type": "slide_2_countries",
+          "section": "3 -- La Slide 2",
+          "severity": "high",
+          "faiss_score": 0.752,
+          "specificity_score": 1.0,
+          "final_score": 0.752,
+          "force_matched": false,
+          "llm_validated": false,
+          "is_generic": false
+        }
+      ],
+      "validation": {
+        "by_check_type": {
+          "performance_benchmark_restriction": 1,
+          "performance_benchmark_comparison": 1,
+          "performance_duration": 1,
+          "performance_period_minimum": 1,
+          "benchmark_terms_consistency": 1,
+          "performance_share_class": 1,
+          "performance_presentation_format": 1,
+          "performance_source_period": 1,
+          "performance_net_fees": 1,
+          "other_indices_separation": 1,
+          "document_structure": 1,
+          "slide_2_countries": 1
+        },
+        "by_severity": {
+          "high": 8,
+          "medium": 3,
+          "low": 1
+        },
+        "generic_rules_count": 0,
+        "warnings": [],
+        "coherence_score": 1.0
+      },
+      "statistics": {
+        "faiss_candidates": 12,
+        "final_rules": 12,
+        "by_check_type": {
+          "performance_benchmark_restriction": 1,
+          "performance_benchmark_comparison": 1,
+          "performance_duration": 1,
+          "performance_period_minimum": 1,
+          "benchmark_terms_consistency": 1,
+          "performance_share_class": 1,
+          "performance_presentation_format": 1,
+          "performance_source_period": 1,
+          "performance_net_fees": 1,
+          "other_indices_separation": 1,
+          "document_structure": 1,
+          "slide_2_countries": 1
+        },
+        "by_severity": {
+          "high": 8,
+          "medium": 3,
+          "low": 1
+        },
+        "generic_rules_count": 0,
+        "warnings": [],
+        "coherence_score": 1.0
+      }
+    },
+    {
+      "slide_number": 15,
+      "slide_title": "The case for momentum investments",
+      "slide_type": "content",
+      "query": "Slide 15 | Doc[retail, UCITS ETF, Article 8] | Résumé: Présentation de l'argument en faveur des investissements à momentum | Thèmes: investissement, momentum | Visuels: graphique",
+      "selected_rules": [
+        {
+          "rule_id": "4.3.19",
+          "rule_text": "Lorsqu’un autre indice que l’indicateur de référence officiel est présenté, cet indice doit apparaître séparément en annexe et ne pas être présenté co...",
+          "check_type": "other_indices_separation",
+          "section": "4 -- Pages suivantes",
+          "severity": "medium",
+          "faiss_score": 0.805,
+          "specificity_score": 1.0,
+          "final_score": 0.805,
+          "force_matched": false,
+          "llm_validated": false,
+          "is_generic": false
+        },
+        {
+          "rule_id": "4.3",
+          "rule_text": "Les objectifs de nombre de lignes en portefeuille doivent être mentionnés dans le prospectus. Si la présentation mentionne un nombre de lignes dans le...",
+          "check_type": "prospectus_coherence",
+          "section": "4 -- Pages suivantes",
+          "severity": "medium",
+          "faiss_score": 0.803,
+          "specificity_score": 1.0,
+          "final_score": 0.803,
+          "force_matched": false,
+          "llm_validated": false,
+          "is_generic": false
+        },
+        {
+          "rule_id": "2.1",
+          "rule_text": "Doit indiquer : Le nom du fonds, le mois et l'année, la mention « document promotionnel », la cible : retail ou professionnel...",
+          "check_type": "page_garde_structure",
+          "section": "2 -- Page de garde - Présentation Standard",
+          "severity": "high",
+          "faiss_score": 0.799,
+          "specificity_score": 1.0,
+          "final_score": 0.799,
+          "force_matched": false,
+          "llm_validated": false,
+          "is_generic": false
+        },
+        {
+          "rule_id": "4.2.8",
+          "rule_text": "Ne pas dire acheter, vendre, renforcer une valeur...",
+          "check_type": "linguistic_restrictions",
+          "section": "4 -- Pages suivantes",
+          "severity": "high",
+          "faiss_score": 0.79,
+          "specificity_score": 1.0,
+          "final_score": 0.79,
+          "force_matched": false,
+          "llm_validated": false,
+          "is_generic": false
+        },
+        {
+          "rule_id": "3.3",
+          "rule_text": "Les pays de commercialisation (registration abroad)...",
+          "check_type": "slide_2_countries",
+          "section": "3 -- La Slide 2",
+          "severity": "high",
+          "faiss_score": 0.788,
+          "specificity_score": 1.0,
+          "final_score": 0.788,
+          "force_matched": false,
+          "llm_validated": false,
+          "is_generic": false
+        },
+        {
+          "rule_id": "4.3.23",
+          "rule_text": "Pour la clientèle retail, l’utilisation du track record d’un autre fonds ou d’une autre stratégie n’est pas autorisée....",
+          "check_type": "track_record_restriction",
+          "section": "4 -- Pages suivantes",
+          "severity": "high",
+          "faiss_score": 0.778,
+          "specificity_score": 1.0,
+          "final_score": 0.778,
+          "force_matched": false,
+          "llm_validated": false,
+          "is_generic": false
+        }
+      ],
+      "validation": {
+        "by_check_type": {
+          "other_indices_separation": 1,
+          "prospectus_coherence": 1,
+          "page_garde_structure": 1,
+          "linguistic_restrictions": 1,
+          "slide_2_countries": 1,
+          "track_record_restriction": 1
+        },
+        "by_severity": {
+          "medium": 2,
+          "high": 4
+        },
+        "generic_rules_count": 0,
+        "warnings": [],
+        "coherence_score": 1.0
+      },
+      "statistics": {
+        "faiss_candidates": 6,
+        "final_rules": 6,
+        "by_check_type": {
+          "other_indices_separation": 1,
+          "prospectus_coherence": 1,
+          "page_garde_structure": 1,
+          "linguistic_restrictions": 1,
+          "slide_2_countries": 1,
+          "track_record_restriction": 1
+        },
+        "by_severity": {
+          "medium": 2,
+          "high": 4
+        },
+        "generic_rules_count": 0,
+        "warnings": [],
+        "coherence_score": 1.0
+      }
+    },
+    {
+      "slide_number": 16,
+      "slide_title": "The case for momentum investments",
+      "slide_type": "content",
+      "query": "Slide 16 | Doc[retail, UCITS ETF, Article 8] | Résumé: Présentation de l'hypothèse des marchés efficients et de ses différentes formes | Thèmes: marchés financiers, hypothèse des marchés efficients",
+      "selected_rules": [
+        {
+          "rule_id": "1.11",
+          "rule_text": "Éviter les anglicismes dans les présentations retail, ou les définir (notes de bas de page ou glossaire avec renvoi)...",
+          "check_type": "linguistic_anglicisms",
+          "section": "1 -- Règles générales",
+          "severity": "low",
+          "faiss_score": 0.79,
+          "specificity_score": 1.0,
+          "final_score": 0.79,
+          "force_matched": false,
+          "llm_validated": false,
+          "is_generic": false
+        },
+        {
+          "rule_id": "4.2.8",
+          "rule_text": "Ne pas dire acheter, vendre, renforcer une valeur...",
+          "check_type": "linguistic_restrictions",
+          "section": "4 -- Pages suivantes",
+          "severity": "high",
+          "faiss_score": 0.778,
+          "specificity_score": 1.0,
+          "final_score": 0.778,
+          "force_matched": false,
+          "llm_validated": false,
+          "is_generic": false
+        },
+        {
+          "rule_id": "3.3",
+          "rule_text": "Les pays de commercialisation (registration abroad)...",
+          "check_type": "slide_2_countries",
+          "section": "3 -- La Slide 2",
+          "severity": "high",
+          "faiss_score": 0.768,
+          "specificity_score": 1.0,
+          "final_score": 0.768,
+          "force_matched": false,
+          "llm_validated": false,
+          "is_generic": false
+        }
+      ],
+      "validation": {
+        "by_check_type": {
+          "linguistic_anglicisms": 1,
+          "linguistic_restrictions": 1,
+          "slide_2_countries": 1
+        },
+        "by_severity": {
+          "low": 1,
+          "high": 2
+        },
+        "generic_rules_count": 0,
+        "warnings": [],
+        "coherence_score": 1.0
+      },
+      "statistics": {
+        "faiss_candidates": 3,
+        "final_rules": 3,
+        "by_check_type": {
+          "linguistic_anglicisms": 1,
+          "linguistic_restrictions": 1,
+          "slide_2_countries": 1
+        },
+        "by_severity": {
+          "low": 1,
+          "high": 2
+        },
+        "generic_rules_count": 0,
+        "warnings": [],
+        "coherence_score": 1.0
+      }
+    },
+    {
+      "slide_number": 17,
+      "slide_title": "The case for momentum investments",
+      "slide_type": "performance",
+      "query": "Slide 17 | Doc[retail, UCITS ETF, Article 8] | Résumé: La stratégie d'investissement basée sur l'effet de momentum et ses performances historiques | Thèmes: investissement, momentum, marché boursier | Visuels: graphique | Données: valeurs performance, comparaison benchmark",
+      "selected_rules": [
+        {
+          "rule_id": "4.3.6",
+          "rule_text": "Les performances ne peuvent être en aucun cas comparées à un autre indicateur de référence qui ne serait pas mentionné dans le prospectus/DIC du fonds...",
+          "check_type": "performance_benchmark_restriction",
+          "section": "4 -- Pages suivantes",
+          "severity": "high",
+          "faiss_score": 0.741,
+          "specificity_score": 4.0,
+          "final_score": 2.962,
+          "force_matched": false,
+          "llm_validated": false,
+          "is_generic": false
+        },
+        {
+          "rule_id": "4.3.5",
+          "rule_text": "Les performances sont obligatoirement et en permanence comparées à l'indicateur de référence du fonds s'il existe...",
+          "check_type": "performance_benchmark_comparison",
+          "section": "4 -- Pages suivantes",
+          "severity": "high",
+          "faiss_score": 0.717,
+          "specificity_score": 4.0,
+          "final_score": 2.869,
+          "force_matched": false,
+          "llm_validated": false,
+          "is_generic": false
+        },
+        {
+          "rule_id": "4.3.15",
+          "rule_text": "Les performances inférieures à un mois ne peuvent pas être présentées, sauf sous la forme de performance YTD....",
+          "check_type": "performance_period_minimum",
+          "section": "4 -- Pages suivantes",
+          "severity": "high",
+          "faiss_score": 0.768,
+          "specificity_score": 2.5,
+          "final_score": 1.92,
+          "force_matched": false,
+          "llm_validated": false,
+          "is_generic": false
+        },
+        {
+          "rule_id": "4.3.2",
+          "rule_text": "Les performances doivent être présentées sur une durée minimum de 10 ans pour les performances annualisées et 5 ans pour les autres. Toutefois, lorsqu...",
+          "check_type": "performance_duration",
+          "section": "4 -- Pages suivantes",
+          "severity": "high",
+          "faiss_score": 0.767,
+          "specificity_score": 2.5,
+          "final_score": 1.918,
+          "force_matched": false,
+          "llm_validated": false,
+          "is_generic": false
+        },
+        {
+          "rule_id": "4.3.22",
+          "rule_text": "La période de référence et la source des performances présentées doivent être clairement indiquées....",
+          "check_type": "performance_source_period",
+          "section": "4 -- Pages suivantes",
+          "severity": "high",
+          "faiss_score": 0.761,
+          "specificity_score": 2.5,
+          "final_score": 1.903,
+          "force_matched": false,
+          "llm_validated": false,
+          "is_generic": false
+        },
+        {
+          "rule_id": "4.3.10",
+          "rule_text": "La forme de présentation des performances (annuelles glissantes, annualisées ou cumulées) doit respecter les règles de présentation définies pour le f...",
+          "check_type": "performance_presentation_format",
+          "section": "4 -- Pages suivantes",
+          "severity": "medium",
+          "faiss_score": 0.76,
+          "specificity_score": 2.5,
+          "final_score": 1.9,
+          "force_matched": false,
+          "llm_validated": false,
+          "is_generic": false
+        },
+        {
+          "rule_id": "4.3.7",
+          "rule_text": "Les performances sont obligatoirement présentées nettes de tout frais de gestion pour la clientèle retail...",
+          "check_type": "performance_net_fees",
+          "section": "4 -- Pages suivantes",
+          "severity": "high",
+          "faiss_score": 0.756,
+          "specificity_score": 2.5,
+          "final_score": 1.889,
+          "force_matched": false,
+          "llm_validated": false,
+          "is_generic": false
+        },
+        {
+          "rule_id": "4.3.19",
+          "rule_text": "Lorsqu’un autre indice que l’indicateur de référence officiel est présenté, cet indice doit apparaître séparément en annexe et ne pas être présenté co...",
+          "check_type": "other_indices_separation",
+          "section": "4 -- Pages suivantes",
+          "severity": "medium",
+          "faiss_score": 0.767,
+          "specificity_score": 1.0,
+          "final_score": 0.767,
+          "force_matched": false,
+          "llm_validated": false,
+          "is_generic": false
+        },
+        {
+          "rule_id": "4.2.3",
+          "rule_text": "Ne pas suggérer une stratégie d'investissement...",
+          "check_type": "linguistic_restrictions",
+          "section": "4 -- Pages suivantes",
+          "severity": "high",
+          "faiss_score": 0.766,
+          "specificity_score": 1.0,
+          "final_score": 0.766,
+          "force_matched": false,
+          "llm_validated": false,
+          "is_generic": false
+        },
+        {
+          "rule_id": "3.3",
+          "rule_text": "Les pays de commercialisation (registration abroad)...",
+          "check_type": "slide_2_countries",
+          "section": "3 -- La Slide 2",
+          "severity": "high",
+          "faiss_score": 0.764,
+          "specificity_score": 1.0,
+          "final_score": 0.764,
+          "force_matched": false,
+          "llm_validated": false,
+          "is_generic": false
+        },
+        {
+          "rule_id": "2.1",
+          "rule_text": "Doit indiquer : Le nom du fonds, le mois et l'année, la mention « document promotionnel », la cible : retail ou professionnel...",
+          "check_type": "page_garde_structure",
+          "section": "2 -- Page de garde - Présentation Standard",
+          "severity": "high",
+          "faiss_score": 0.758,
+          "specificity_score": 1.0,
+          "final_score": 0.758,
+          "force_matched": false,
+          "llm_validated": false,
+          "is_generic": false
+        },
+        {
+          "rule_id": "1.8",
+          "rule_text": "La stratégie du fonds doit être présentée conformément à la documentation légale : seuils d'investissement par classe d'actifs, stratégie, allocation ...",
+          "check_type": "prospectus_coherence",
+          "section": "1 -- Règles générales",
+          "severity": "high",
+          "faiss_score": 0.754,
+          "specificity_score": 1.0,
+          "final_score": 0.754,
+          "force_matched": false,
+          "llm_validated": false,
+          "is_generic": false
+        }
+      ],
+      "validation": {
+        "by_check_type": {
+          "performance_benchmark_restriction": 1,
+          "performance_benchmark_comparison": 1,
+          "performance_period_minimum": 1,
+          "performance_duration": 1,
+          "performance_source_period": 1,
+          "performance_presentation_format": 1,
+          "performance_net_fees": 1,
+          "other_indices_separation": 1,
+          "linguistic_restrictions": 1,
+          "slide_2_countries": 1,
+          "page_garde_structure": 1,
+          "prospectus_coherence": 1
+        },
+        "by_severity": {
+          "high": 10,
+          "medium": 2
+        },
+        "generic_rules_count": 0,
+        "warnings": [],
+        "coherence_score": 1.0
+      },
+      "statistics": {
+        "faiss_candidates": 12,
+        "final_rules": 12,
+        "by_check_type": {
+          "performance_benchmark_restriction": 1,
+          "performance_benchmark_comparison": 1,
+          "performance_period_minimum": 1,
+          "performance_duration": 1,
+          "performance_source_period": 1,
+          "performance_presentation_format": 1,
+          "performance_net_fees": 1,
+          "other_indices_separation": 1,
+          "linguistic_restrictions": 1,
+          "slide_2_countries": 1,
+          "page_garde_structure": 1,
+          "prospectus_coherence": 1
+        },
+        "by_severity": {
+          "high": 10,
+          "medium": 2
+        },
+        "generic_rules_count": 0,
+        "warnings": [],
+        "coherence_score": 1.0
+      }
+    },
+    {
+      "slide_number": 18,
+      "slide_title": "The case for momentum investments",
+      "slide_type": "content",
+      "query": "Slide 18 | Doc[retail, UCITS ETF, Article 8] | Résumé: La finance comportementale explique les comportements irrationnels des investisseurs | Thèmes: finance comportementale, comportement des investisseurs",
+      "selected_rules": [
+        {
+          "rule_id": "4.3",
+          "rule_text": "Les objectifs de nombre de lignes en portefeuille doivent être mentionnés dans le prospectus. Si la présentation mentionne un nombre de lignes dans le...",
+          "check_type": "prospectus_coherence",
+          "section": "4 -- Pages suivantes",
+          "severity": "medium",
+          "faiss_score": 0.8,
+          "specificity_score": 1.0,
+          "final_score": 0.8,
+          "force_matched": false,
+          "llm_validated": false,
+          "is_generic": false
+        },
+        {
+          "rule_id": "3.1",
+          "rule_text": "Le disclaimer standard (retail ou professionnel) → attention à adapter le nom du fonds et les clients éligibles...",
+          "check_type": "slide_2_disclaimer",
+          "section": "3 -- La Slide 2",
+          "severity": "high",
+          "faiss_score": 0.798,
+          "specificity_score": 1.0,
+          "final_score": 0.798,
+          "force_matched": false,
+          "llm_validated": false,
+          "is_generic": false
+        },
+        {
+          "rule_id": "1.8",
+          "rule_text": "La stratégie du fonds doit être présentée conformément à la documentation légale : seuils d'investissement par classe d'actifs, stratégie, allocation ...",
+          "check_type": "prospectus_coherence",
+          "section": "1 -- Règles générales",
+          "severity": "high",
+          "faiss_score": 0.797,
+          "specificity_score": 1.0,
+          "final_score": 0.797,
+          "force_matched": false,
+          "llm_validated": false,
+          "is_generic": false
+        },
+        {
+          "rule_id": "1.15",
+          "rule_text": "Éviter de mentionner d'autres fonds (Oddo ou autres) dans une présentation standard d'un fonds sauf si c'est une présentation de gamme...",
+          "check_type": "content_restriction",
+          "section": "1 -- Règles générales",
+          "severity": "medium",
+          "faiss_score": 0.796,
+          "specificity_score": 1.0,
+          "final_score": 0.796,
+          "force_matched": false,
+          "llm_validated": false,
+          "is_generic": false
+        },
+        {
+          "rule_id": "3.3",
+          "rule_text": "Les pays de commercialisation (registration abroad)...",
+          "check_type": "slide_2_countries",
+          "section": "3 -- La Slide 2",
+          "severity": "high",
+          "faiss_score": 0.795,
+          "specificity_score": 1.0,
+          "final_score": 0.795,
+          "force_matched": false,
+          "llm_validated": false,
+          "is_generic": false
+        },
+        {
+          "rule_id": "1.5",
+          "rule_text": "Pour les présentations retail : inclure un Glossaire des termes techniques en fin de présentation et s'assurer que ces termes figurent dans le documen...",
+          "check_type": "glossary_presence",
+          "section": "1 -- Règles générales",
+          "severity": "medium",
+          "faiss_score": 0.795,
+          "specificity_score": 1.0,
+          "final_score": 0.795,
+          "force_matched": false,
+          "llm_validated": false,
+          "is_generic": false
+        }
+      ],
+      "validation": {
+        "by_check_type": {
+          "prospectus_coherence": 2,
+          "slide_2_disclaimer": 1,
+          "content_restriction": 1,
+          "slide_2_countries": 1,
+          "glossary_presence": 1
+        },
+        "by_severity": {
+          "medium": 3,
+          "high": 3
+        },
+        "generic_rules_count": 0,
+        "warnings": [],
+        "coherence_score": 1.0
+      },
+      "statistics": {
+        "faiss_candidates": 6,
+        "final_rules": 6,
+        "by_check_type": {
+          "prospectus_coherence": 2,
+          "slide_2_disclaimer": 1,
+          "content_restriction": 1,
+          "slide_2_countries": 1,
+          "glossary_presence": 1
+        },
+        "by_severity": {
+          "medium": 3,
+          "high": 3
+        },
+        "generic_rules_count": 0,
+        "warnings": [],
+        "coherence_score": 1.0
+      }
+    },
+    {
+      "slide_number": 19,
+      "slide_title": "The case for momentum investments",
+      "slide_type": "content",
+      "query": "Slide 19 | Doc[retail, UCITS ETF, Article 8] | Résumé: La théorie du momentum et les explications de la finance comportementale | Thèmes: finance comportementale, effet momentum | Visuels: graphique",
+      "selected_rules": [
+        {
+          "rule_id": "1.15",
+          "rule_text": "Éviter de mentionner d'autres fonds (Oddo ou autres) dans une présentation standard d'un fonds sauf si c'est une présentation de gamme...",
+          "check_type": "content_restriction",
+          "section": "1 -- Règles générales",
+          "severity": "medium",
+          "faiss_score": 0.823,
+          "specificity_score": 1.0,
+          "final_score": 0.823,
+          "force_matched": false,
+          "llm_validated": false,
+          "is_generic": false
+        },
+        {
+          "rule_id": "4.3.19",
+          "rule_text": "Lorsqu’un autre indice que l’indicateur de référence officiel est présenté, cet indice doit apparaître séparément en annexe et ne pas être présenté co...",
+          "check_type": "other_indices_separation",
+          "section": "4 -- Pages suivantes",
+          "severity": "medium",
+          "faiss_score": 0.816,
+          "specificity_score": 1.0,
+          "final_score": 0.816,
+          "force_matched": false,
+          "llm_validated": false,
+          "is_generic": false
+        },
+        {
+          "rule_id": "3.3",
+          "rule_text": "Les pays de commercialisation (registration abroad)...",
+          "check_type": "slide_2_countries",
+          "section": "3 -- La Slide 2",
+          "severity": "high",
+          "faiss_score": 0.802,
+          "specificity_score": 1.0,
+          "final_score": 0.802,
+          "force_matched": false,
+          "llm_validated": false,
+          "is_generic": false
+        },
+        {
+          "rule_id": "2.1",
+          "rule_text": "Doit indiquer : Le nom du fonds, le mois et l'année, la mention « document promotionnel », la cible : retail ou professionnel...",
+          "check_type": "page_garde_structure",
+          "section": "2 -- Page de garde - Présentation Standard",
+          "severity": "high",
+          "faiss_score": 0.802,
+          "specificity_score": 1.0,
+          "final_score": 0.802,
+          "force_matched": false,
+          "llm_validated": false,
+          "is_generic": false
+        },
+        {
+          "rule_id": "4.1",
+          "rule_text": "Ne jamais commencer une présentation par la performance : commencer à minima par la présentation du fonds...",
+          "check_type": "slide_order",
+          "section": "4 -- Pages suivantes",
+          "severity": "high",
+          "faiss_score": 0.799,
+          "specificity_score": 1.0,
+          "final_score": 0.799,
+          "force_matched": false,
+          "llm_validated": false,
+          "is_generic": false
+        },
+        {
+          "rule_id": "4.3.8",
+          "rule_text": "Un document commercial ne peut pas débuter par les performances mais au minimum par la présentation du fonds. Les performances ne peuvent jamais repré...",
+          "check_type": "slide_order",
+          "section": "4 -- Pages suivantes",
+          "severity": "high",
+          "faiss_score": 0.796,
+          "specificity_score": 1.0,
+          "final_score": 0.796,
+          "force_matched": false,
+          "llm_validated": false,
+          "is_generic": false
+        }
+      ],
+      "validation": {
+        "by_check_type": {
+          "content_restriction": 1,
+          "other_indices_separation": 1,
+          "slide_2_countries": 1,
+          "page_garde_structure": 1,
+          "slide_order": 2
+        },
+        "by_severity": {
+          "medium": 2,
+          "high": 4
+        },
+        "generic_rules_count": 0,
+        "warnings": [],
+        "coherence_score": 1.0
+      },
+      "statistics": {
+        "faiss_candidates": 6,
+        "final_rules": 6,
+        "by_check_type": {
+          "content_restriction": 1,
+          "other_indices_separation": 1,
+          "slide_2_countries": 1,
+          "page_garde_structure": 1,
+          "slide_order": 2
+        },
+        "by_severity": {
+          "medium": 2,
+          "high": 4
+        },
+        "generic_rules_count": 0,
+        "warnings": [],
+        "coherence_score": 1.0
+      }
+    },
+    {
+      "slide_number": 20,
+      "slide_title": "The case for momentum investments",
+      "slide_type": "content",
+      "query": "Slide 20 | Doc[retail, UCITS ETF, Article 8] | Résumé: Analyse des risques liés aux investissements à momentum, notamment le risque de retournement de tendance et le risque de concentration. | Thèmes: investissement à momentum, gestion des risques | Visuels: graphique",
+      "selected_rules": [
+        {
+          "rule_id": "1.8",
+          "rule_text": "La stratégie du fonds doit être présentée conformément à la documentation légale : seuils d'investissement par classe d'actifs, stratégie, allocation ...",
+          "check_type": "prospectus_coherence",
+          "section": "1 -- Règles générales",
+          "severity": "high",
+          "faiss_score": 0.804,
+          "specificity_score": 1.0,
+          "final_score": 0.804,
+          "force_matched": false,
+          "llm_validated": false,
+          "is_generic": false
+        },
+        {
+          "rule_id": "4.4",
+          "rule_text": "En fin de présentation : inclure les caractéristiques détaillées du fonds...",
+          "check_type": "document_structure",
+          "section": "4 -- Pages suivantes",
+          "severity": "low",
+          "faiss_score": 0.804,
+          "specificity_score": 1.0,
+          "final_score": 0.804,
+          "force_matched": false,
+          "llm_validated": false,
+          "is_generic": false
+        },
+        {
+          "rule_id": "4.3.19",
+          "rule_text": "Lorsqu’un autre indice que l’indicateur de référence officiel est présenté, cet indice doit apparaître séparément en annexe et ne pas être présenté co...",
+          "check_type": "other_indices_separation",
+          "section": "4 -- Pages suivantes",
+          "severity": "medium",
+          "faiss_score": 0.8,
+          "specificity_score": 1.0,
+          "final_score": 0.8,
+          "force_matched": false,
+          "llm_validated": false,
+          "is_generic": false
+        },
+        {
+          "rule_id": "5.1",
+          "rule_text": "Mention légale de la SGP (cf. Glossaire)...",
+          "check_type": "page_fin_structure",
+          "section": "5 -- Page de fin de présentation",
+          "severity": "medium",
+          "faiss_score": 0.794,
+          "specificity_score": 1.0,
+          "final_score": 0.794,
+          "force_matched": false,
+          "llm_validated": false,
+          "is_generic": false
+        },
+        {
+          "rule_id": "4.2.5",
+          "rule_text": "Ne pas citer plusieurs fois une même valeur...",
+          "check_type": "content_restriction",
+          "section": "4 -- Pages suivantes",
+          "severity": "medium",
+          "faiss_score": 0.792,
+          "specificity_score": 1.0,
+          "final_score": 0.792,
+          "force_matched": false,
+          "llm_validated": false,
+          "is_generic": false
+        },
+        {
+          "rule_id": "4.1",
+          "rule_text": "Ne jamais commencer une présentation par la performance : commencer à minima par la présentation du fonds...",
+          "check_type": "slide_order",
+          "section": "4 -- Pages suivantes",
+          "severity": "high",
+          "faiss_score": 0.786,
+          "specificity_score": 1.0,
+          "final_score": 0.786,
+          "force_matched": false,
+          "llm_validated": false,
+          "is_generic": false
+        }
+      ],
+      "validation": {
+        "by_check_type": {
+          "prospectus_coherence": 1,
+          "document_structure": 1,
+          "other_indices_separation": 1,
+          "page_fin_structure": 1,
+          "content_restriction": 1,
+          "slide_order": 1
+        },
+        "by_severity": {
+          "high": 2,
+          "low": 1,
+          "medium": 3
+        },
+        "generic_rules_count": 0,
+        "warnings": [],
+        "coherence_score": 1.0
+      },
+      "statistics": {
+        "faiss_candidates": 6,
+        "final_rules": 6,
+        "by_check_type": {
+          "prospectus_coherence": 1,
+          "document_structure": 1,
+          "other_indices_separation": 1,
+          "page_fin_structure": 1,
+          "content_restriction": 1,
+          "slide_order": 1
+        },
+        "by_severity": {
+          "high": 2,
+          "low": 1,
+          "medium": 3
+        },
+        "generic_rules_count": 0,
+        "warnings": [],
+        "coherence_score": 1.0
+      }
+    },
+    {
+      "slide_number": 21,
+      "slide_title": "The case for momentum investments",
+      "slide_type": "content",
+      "query": "Slide 21 | Doc[retail, UCITS ETF, Article 8] | Résumé: La stratégie d'investissement en momentum peut offrir un potentiel de surperformance à long terme en exploitant les tendances de court à moyen terme des marchés boursiers. | Thèmes: investissement en momentum, tendances de marché, comportement des investisseurs",
+      "selected_rules": [
+        {
+          "rule_id": "4.3.19",
+          "rule_text": "Lorsqu’un autre indice que l’indicateur de référence officiel est présenté, cet indice doit apparaître séparément en annexe et ne pas être présenté co...",
+          "check_type": "other_indices_separation",
+          "section": "4 -- Pages suivantes",
+          "severity": "medium",
+          "faiss_score": 0.79,
+          "specificity_score": 1.0,
+          "final_score": 0.79,
+          "force_matched": false,
+          "llm_validated": false,
+          "is_generic": false
+        },
+        {
+          "rule_id": "2.1",
+          "rule_text": "Doit indiquer : Le nom du fonds, le mois et l'année, la mention « document promotionnel », la cible : retail ou professionnel...",
+          "check_type": "page_garde_structure",
+          "section": "2 -- Page de garde - Présentation Standard",
+          "severity": "high",
+          "faiss_score": 0.772,
+          "specificity_score": 1.0,
+          "final_score": 0.772,
+          "force_matched": false,
+          "llm_validated": false,
+          "is_generic": false
+        },
+        {
+          "rule_id": "4.2.8",
+          "rule_text": "Ne pas dire acheter, vendre, renforcer une valeur...",
+          "check_type": "linguistic_restrictions",
+          "section": "4 -- Pages suivantes",
+          "severity": "high",
+          "faiss_score": 0.768,
+          "specificity_score": 1.0,
+          "final_score": 0.768,
+          "force_matched": false,
+          "llm_validated": false,
+          "is_generic": false
+        },
+        {
+          "rule_id": "4.2.3",
+          "rule_text": "Ne pas suggérer une stratégie d'investissement...",
+          "check_type": "linguistic_restrictions",
+          "section": "4 -- Pages suivantes",
+          "severity": "high",
+          "faiss_score": 0.759,
+          "specificity_score": 1.0,
+          "final_score": 0.759,
+          "force_matched": false,
+          "llm_validated": false,
+          "is_generic": false
+        },
+        {
+          "rule_id": "3.3",
+          "rule_text": "Les pays de commercialisation (registration abroad)...",
+          "check_type": "slide_2_countries",
+          "section": "3 -- La Slide 2",
+          "severity": "high",
+          "faiss_score": 0.759,
+          "specificity_score": 1.0,
+          "final_score": 0.759,
+          "force_matched": false,
+          "llm_validated": false,
+          "is_generic": false
+        },
+        {
+          "rule_id": "1.8",
+          "rule_text": "La stratégie du fonds doit être présentée conformément à la documentation légale : seuils d'investissement par classe d'actifs, stratégie, allocation ...",
+          "check_type": "prospectus_coherence",
+          "section": "1 -- Règles générales",
+          "severity": "high",
+          "faiss_score": 0.758,
+          "specificity_score": 1.0,
+          "final_score": 0.758,
+          "force_matched": false,
+          "llm_validated": false,
+          "is_generic": false
+        }
+      ],
+      "validation": {
+        "by_check_type": {
+          "other_indices_separation": 1,
+          "page_garde_structure": 1,
+          "linguistic_restrictions": 2,
+          "slide_2_countries": 1,
+          "prospectus_coherence": 1
+        },
+        "by_severity": {
+          "medium": 1,
+          "high": 5
+        },
+        "generic_rules_count": 0,
+        "warnings": [],
+        "coherence_score": 1.0
+      },
+      "statistics": {
+        "faiss_candidates": 6,
+        "final_rules": 6,
+        "by_check_type": {
+          "other_indices_separation": 1,
+          "page_garde_structure": 1,
+          "linguistic_restrictions": 2,
+          "slide_2_countries": 1,
+          "prospectus_coherence": 1
+        },
+        "by_severity": {
+          "medium": 1,
+          "high": 5
+        },
+        "generic_rules_count": 0,
+        "warnings": [],
+        "coherence_score": 1.0
+      }
+    },
+    {
+      "slide_number": 22,
+      "slide_title": "Investment Process",
+      "slide_type": "content",
+      "query": "Slide 22 | Doc[retail, UCITS ETF, Article 8] | Résumé: Présentation du processus d'investissement | Thèmes: investissement, processus | Visuels: graphique",
+      "selected_rules": [
+        {
+          "rule_id": "3.3",
+          "rule_text": "Les pays de commercialisation (registration abroad)...",
+          "check_type": "slide_2_countries",
+          "section": "3 -- La Slide 2",
+          "severity": "high",
+          "faiss_score": 0.799,
+          "specificity_score": 1.0,
+          "final_score": 0.799,
+          "force_matched": false,
+          "llm_validated": false,
+          "is_generic": false
+        },
+        {
+          "rule_id": "4.4",
+          "rule_text": "En fin de présentation : inclure les caractéristiques détaillées du fonds...",
+          "check_type": "document_structure",
+          "section": "4 -- Pages suivantes",
+          "severity": "low",
+          "faiss_score": 0.797,
+          "specificity_score": 1.0,
+          "final_score": 0.797,
+          "force_matched": false,
+          "llm_validated": false,
+          "is_generic": false
+        },
+        {
+          "rule_id": "1.8",
+          "rule_text": "La stratégie du fonds doit être présentée conformément à la documentation légale : seuils d'investissement par classe d'actifs, stratégie, allocation ...",
+          "check_type": "prospectus_coherence",
+          "section": "1 -- Règles générales",
+          "severity": "high",
+          "faiss_score": 0.793,
+          "specificity_score": 1.0,
+          "final_score": 0.793,
+          "force_matched": false,
+          "llm_validated": false,
+          "is_generic": false
+        },
+        {
+          "rule_id": "4.2.3",
+          "rule_text": "Ne pas suggérer une stratégie d'investissement...",
+          "check_type": "linguistic_restrictions",
+          "section": "4 -- Pages suivantes",
+          "severity": "high",
+          "faiss_score": 0.781,
+          "specificity_score": 1.0,
+          "final_score": 0.781,
+          "force_matched": false,
+          "llm_validated": false,
+          "is_generic": false
+        },
+        {
+          "rule_id": "5.1",
+          "rule_text": "Mention légale de la SGP (cf. Glossaire)...",
+          "check_type": "page_fin_structure",
+          "section": "5 -- Page de fin de présentation",
+          "severity": "medium",
+          "faiss_score": 0.781,
+          "specificity_score": 1.0,
+          "final_score": 0.781,
+          "force_matched": false,
+          "llm_validated": false,
+          "is_generic": false
+        },
+        {
+          "rule_id": "4.3.8",
+          "rule_text": "Un document commercial ne peut pas débuter par les performances mais au minimum par la présentation du fonds. Les performances ne peuvent jamais repré...",
+          "check_type": "slide_order",
+          "section": "4 -- Pages suivantes",
+          "severity": "high",
+          "faiss_score": 0.771,
+          "specificity_score": 1.0,
+          "final_score": 0.771,
+          "force_matched": false,
+          "llm_validated": false,
+          "is_generic": false
+        }
+      ],
+      "validation": {
+        "by_check_type": {
+          "slide_2_countries": 1,
+          "document_structure": 1,
+          "prospectus_coherence": 1,
+          "linguistic_restrictions": 1,
+          "page_fin_structure": 1,
+          "slide_order": 1
+        },
+        "by_severity": {
+          "high": 4,
+          "low": 1,
+          "medium": 1
+        },
+        "generic_rules_count": 0,
+        "warnings": [],
+        "coherence_score": 1.0
+      },
+      "statistics": {
+        "faiss_candidates": 6,
+        "final_rules": 6,
+        "by_check_type": {
+          "slide_2_countries": 1,
+          "document_structure": 1,
+          "prospectus_coherence": 1,
+          "linguistic_restrictions": 1,
+          "page_fin_structure": 1,
+          "slide_order": 1
+        },
+        "by_severity": {
+          "high": 4,
+          "low": 1,
+          "medium": 1
+        },
+        "generic_rules_count": 0,
+        "warnings": [],
+        "coherence_score": 1.0
+      }
+    },
+    {
+      "slide_number": 23,
+      "slide_title": "Investment Process",
+      "slide_type": "content",
+      "query": "Slide 23 | Doc[retail, UCITS ETF, Article 8] | Résumé: Présentation du processus d'investissement, incluant la construction d'un portefeuille diversifié et la gestion des risques. | Thèmes: gestion de portefeuille, processus d'investissement, gestion des risques | Visuels: graphique",
+      "selected_rules": [
+        {
+          "rule_id": "5.1",
+          "rule_text": "Mention légale de la SGP (cf. Glossaire)...",
+          "check_type": "page_fin_structure",
+          "section": "5 -- Page de fin de présentation",
+          "severity": "medium",
+          "faiss_score": 0.796,
+          "specificity_score": 1.0,
+          "final_score": 0.796,
+          "force_matched": false,
+          "llm_validated": false,
+          "is_generic": false
+        },
+        {
+          "rule_id": "1.8",
+          "rule_text": "La stratégie du fonds doit être présentée conformément à la documentation légale : seuils d'investissement par classe d'actifs, stratégie, allocation ...",
+          "check_type": "prospectus_coherence",
+          "section": "1 -- Règles générales",
+          "severity": "high",
+          "faiss_score": 0.788,
+          "specificity_score": 1.0,
+          "final_score": 0.788,
+          "force_matched": false,
+          "llm_validated": false,
+          "is_generic": false
+        },
+        {
+          "rule_id": "4.4",
+          "rule_text": "En fin de présentation : inclure les caractéristiques détaillées du fonds...",
+          "check_type": "document_structure",
+          "section": "4 -- Pages suivantes",
+          "severity": "low",
+          "faiss_score": 0.782,
+          "specificity_score": 1.0,
+          "final_score": 0.782,
+          "force_matched": false,
+          "llm_validated": false,
+          "is_generic": false
+        },
+        {
+          "rule_id": "4.1",
+          "rule_text": "Ne jamais commencer une présentation par la performance : commencer à minima par la présentation du fonds...",
+          "check_type": "slide_order",
+          "section": "4 -- Pages suivantes",
+          "severity": "high",
+          "faiss_score": 0.769,
+          "specificity_score": 1.0,
+          "final_score": 0.769,
+          "force_matched": false,
+          "llm_validated": false,
+          "is_generic": false
+        },
+        {
+          "rule_id": "4.3.8",
+          "rule_text": "Un document commercial ne peut pas débuter par les performances mais au minimum par la présentation du fonds. Les performances ne peuvent jamais repré...",
+          "check_type": "slide_order",
+          "section": "4 -- Pages suivantes",
+          "severity": "high",
+          "faiss_score": 0.763,
+          "specificity_score": 1.0,
+          "final_score": 0.763,
+          "force_matched": false,
+          "llm_validated": false,
+          "is_generic": false
+        },
+        {
+          "rule_id": "2.1",
+          "rule_text": "Doit indiquer : Le nom du fonds, le mois et l'année, la mention « document promotionnel », la cible : retail ou professionnel...",
+          "check_type": "page_garde_structure",
+          "section": "2 -- Page de garde - Présentation Standard",
+          "severity": "high",
+          "faiss_score": 0.761,
+          "specificity_score": 1.0,
+          "final_score": 0.761,
+          "force_matched": false,
+          "llm_validated": false,
+          "is_generic": false
+        }
+      ],
+      "validation": {
+        "by_check_type": {
+          "page_fin_structure": 1,
+          "prospectus_coherence": 1,
+          "document_structure": 1,
+          "slide_order": 2,
+          "page_garde_structure": 1
+        },
+        "by_severity": {
+          "medium": 1,
+          "high": 4,
+          "low": 1
+        },
+        "generic_rules_count": 0,
+        "warnings": [],
+        "coherence_score": 1.0
+      },
+      "statistics": {
+        "faiss_candidates": 6,
+        "final_rules": 6,
+        "by_check_type": {
+          "page_fin_structure": 1,
+          "prospectus_coherence": 1,
+          "document_structure": 1,
+          "slide_order": 2,
+          "page_garde_structure": 1
+        },
+        "by_severity": {
+          "medium": 1,
+          "high": 4,
+          "low": 1
+        },
+        "generic_rules_count": 0,
+        "warnings": [],
+        "coherence_score": 1.0
+      }
+    },
+    {
+      "slide_number": 24,
+      "slide_title": "Investment Process",
+      "slide_type": "content",
+      "query": "Slide 24 | Doc[retail, UCITS ETF, Article 8] | Résumé: Présentation du processus d'investissement en 3 étapes | Thèmes: processus d'investissement, tendance | Visuels: graphique, tableau",
+      "selected_rules": [
+        {
+          "rule_id": "4.3.31",
+          "rule_text": "Pour les fonds de private equity destinés aux clients retail, la présentation d’un TRI net avant l’échéance du fonds est interdite....",
+          "check_type": "private_equity_irr_retail_restriction",
+          "section": "4 -- Pages suivantes",
+          "severity": "high",
+          "faiss_score": 0.791,
+          "specificity_score": 1.0,
+          "final_score": 0.791,
+          "force_matched": false,
+          "llm_validated": false,
+          "is_generic": false
+        },
+        {
+          "rule_id": "4.4",
+          "rule_text": "En fin de présentation : inclure les caractéristiques détaillées du fonds...",
+          "check_type": "document_structure",
+          "section": "4 -- Pages suivantes",
+          "severity": "low",
+          "faiss_score": 0.787,
+          "specificity_score": 1.0,
+          "final_score": 0.787,
+          "force_matched": false,
+          "llm_validated": false,
+          "is_generic": false
+        },
+        {
+          "rule_id": "3.3",
+          "rule_text": "Les pays de commercialisation (registration abroad)...",
+          "check_type": "slide_2_countries",
+          "section": "3 -- La Slide 2",
+          "severity": "high",
+          "faiss_score": 0.784,
+          "specificity_score": 1.0,
+          "final_score": 0.784,
+          "force_matched": false,
+          "llm_validated": false,
+          "is_generic": false
+        },
+        {
+          "rule_id": "5.1",
+          "rule_text": "Mention légale de la SGP (cf. Glossaire)...",
+          "check_type": "page_fin_structure",
+          "section": "5 -- Page de fin de présentation",
+          "severity": "medium",
+          "faiss_score": 0.776,
+          "specificity_score": 1.0,
+          "final_score": 0.776,
+          "force_matched": false,
+          "llm_validated": false,
+          "is_generic": false
+        },
+        {
+          "rule_id": "4.2.3",
+          "rule_text": "Ne pas suggérer une stratégie d'investissement...",
+          "check_type": "linguistic_restrictions",
+          "section": "4 -- Pages suivantes",
+          "severity": "high",
+          "faiss_score": 0.767,
+          "specificity_score": 1.0,
+          "final_score": 0.767,
+          "force_matched": false,
+          "llm_validated": false,
+          "is_generic": false
+        },
+        {
+          "rule_id": "2.1",
+          "rule_text": "Doit indiquer : Le nom du fonds, le mois et l'année, la mention « document promotionnel », la cible : retail ou professionnel...",
+          "check_type": "page_garde_structure",
+          "section": "2 -- Page de garde - Présentation Standard",
+          "severity": "high",
+          "faiss_score": 0.763,
+          "specificity_score": 1.0,
+          "final_score": 0.763,
+          "force_matched": false,
+          "llm_validated": false,
+          "is_generic": false
+        }
+      ],
+      "validation": {
+        "by_check_type": {
+          "private_equity_irr_retail_restriction": 1,
+          "document_structure": 1,
+          "slide_2_countries": 1,
+          "page_fin_structure": 1,
+          "linguistic_restrictions": 1,
+          "page_garde_structure": 1
+        },
+        "by_severity": {
+          "high": 4,
+          "low": 1,
+          "medium": 1
+        },
+        "generic_rules_count": 0,
+        "warnings": [],
+        "coherence_score": 1.0
+      },
+      "statistics": {
+        "faiss_candidates": 6,
+        "final_rules": 6,
+        "by_check_type": {
+          "private_equity_irr_retail_restriction": 1,
+          "document_structure": 1,
+          "slide_2_countries": 1,
+          "page_fin_structure": 1,
+          "linguistic_restrictions": 1,
+          "page_garde_structure": 1
+        },
+        "by_severity": {
+          "high": 4,
+          "low": 1,
+          "medium": 1
+        },
+        "generic_rules_count": 0,
+        "warnings": [],
+        "coherence_score": 1.0
+      }
+    },
+    {
+      "slide_number": 25,
+      "slide_title": "Investment Process Step 2: Portfolio Construction",
+      "slide_type": "content",
+      "query": "Slide 25 | Doc[retail, UCITS ETF, Article 8] | Résumé: La construction du portefeuille consiste à créer un portefeuille diversifié et contrôlé en termes de risque, avec une optimisation quantitative du portefeuille. | Thèmes: construction de portefeuille, gestion de risque | Visuels: tableau",
+      "selected_rules": [
+        {
+          "rule_id": "4.4",
+          "rule_text": "En fin de présentation : inclure les caractéristiques détaillées du fonds...",
+          "check_type": "document_structure",
+          "section": "4 -- Pages suivantes",
+          "severity": "low",
+          "faiss_score": 0.811,
+          "specificity_score": 1.0,
+          "final_score": 0.811,
+          "force_matched": false,
+          "llm_validated": false,
+          "is_generic": false
+        },
+        {
+          "rule_id": "4.3.32",
+          "rule_text": "Les simulations de performances futures doivent reposer sur des hypothèses raisonnables, objectives et clairement explicitées....",
+          "check_type": "future_simulations_assumptions",
+          "section": "4 -- Pages suivantes",
+          "severity": "high",
+          "faiss_score": 0.811,
+          "specificity_score": 1.0,
+          "final_score": 0.811,
+          "force_matched": false,
+          "llm_validated": false,
+          "is_generic": false
+        },
+        {
+          "rule_id": "1.8",
+          "rule_text": "La stratégie du fonds doit être présentée conformément à la documentation légale : seuils d'investissement par classe d'actifs, stratégie, allocation ...",
+          "check_type": "prospectus_coherence",
+          "section": "1 -- Règles générales",
+          "severity": "high",
+          "faiss_score": 0.809,
+          "specificity_score": 1.0,
+          "final_score": 0.809,
+          "force_matched": false,
+          "llm_validated": false,
+          "is_generic": false
+        },
+        {
+          "rule_id": "4.2.3",
+          "rule_text": "Ne pas suggérer une stratégie d'investissement...",
+          "check_type": "linguistic_restrictions",
+          "section": "4 -- Pages suivantes",
+          "severity": "high",
+          "faiss_score": 0.808,
+          "specificity_score": 1.0,
+          "final_score": 0.808,
+          "force_matched": false,
+          "llm_validated": false,
+          "is_generic": false
+        },
+        {
+          "rule_id": "4.3.35",
+          "rule_text": "Toute simulation de performances futures doit être accompagnée d’un disclaimer spécifique indiquant que les performances simulées ne constituent pas u...",
+          "check_type": "future_simulations_disclaimer",
+          "section": "4 -- Pages suivantes",
+          "severity": "high",
+          "faiss_score": 0.806,
+          "specificity_score": 1.0,
+          "final_score": 0.806,
+          "force_matched": false,
+          "llm_validated": false,
+          "is_generic": false
+        },
+        {
+          "rule_id": "4.1",
+          "rule_text": "Ne jamais commencer une présentation par la performance : commencer à minima par la présentation du fonds...",
+          "check_type": "slide_order",
+          "section": "4 -- Pages suivantes",
+          "severity": "high",
+          "faiss_score": 0.8,
+          "specificity_score": 1.0,
+          "final_score": 0.8,
+          "force_matched": false,
+          "llm_validated": false,
+          "is_generic": false
+        }
+      ],
+      "validation": {
+        "by_check_type": {
+          "document_structure": 1,
+          "future_simulations_assumptions": 1,
+          "prospectus_coherence": 1,
+          "linguistic_restrictions": 1,
+          "future_simulations_disclaimer": 1,
+          "slide_order": 1
+        },
+        "by_severity": {
+          "low": 1,
+          "high": 5
+        },
+        "generic_rules_count": 0,
+        "warnings": [],
+        "coherence_score": 1.0
+      },
+      "statistics": {
+        "faiss_candidates": 6,
+        "final_rules": 6,
+        "by_check_type": {
+          "document_structure": 1,
+          "future_simulations_assumptions": 1,
+          "prospectus_coherence": 1,
+          "linguistic_restrictions": 1,
+          "future_simulations_disclaimer": 1,
+          "slide_order": 1
+        },
+        "by_severity": {
+          "low": 1,
+          "high": 5
+        },
+        "generic_rules_count": 0,
+        "warnings": [],
+        "coherence_score": 1.0
+      }
+    },
+    {
+      "slide_number": 26,
+      "slide_title": "Investment process",
+      "slide_type": "performance",
+      "query": "Slide 26 | Doc[retail, UCITS ETF, Article 8] | Résumé: Exemple de mise en œuvre de portefeuille avec Iron Mountain Inc, montrant l'évolution du score de tendance et du poids relatif au fil du temps. | Thèmes: gestion de portefeuille, analyse de tendance | Visuels: graphique | Données: comparaison benchmark",
+      "selected_rules": [
+        {
+          "rule_id": "4.3.17",
+          "rule_text": "Lorsque l’indicateur de référence est supprimé, les performances historiques peuvent être conservées mais la date de suppression du benchmark doit êtr...",
+          "check_type": "benchmark_change_history",
+          "section": "4 -- Pages suivantes",
+          "severity": "medium",
+          "faiss_score": 0.813,
+          "specificity_score": 2.5,
+          "final_score": 2.034,
+          "force_matched": false,
+          "llm_validated": false,
+          "is_generic": false
+        },
+        {
+          "rule_id": "4.3.26",
+          "rule_text": "Les performances de l’indicateur de référence doivent être calculées et présentées conformément aux termes du prospectus (par exemple, dividendes nets...",
+          "check_type": "benchmark_terms_consistency",
+          "section": "4 -- Pages suivantes",
+          "severity": "high",
+          "faiss_score": 0.81,
+          "specificity_score": 2.5,
+          "final_score": 2.025,
+          "force_matched": false,
+          "llm_validated": false,
+          "is_generic": false
+        },
+        {
+          "rule_id": "4.3.18",
+          "rule_text": "Lorsque l’indicateur de référence est modifié, les deux benchmarks doivent être présentés de manière chaînée avec indication de la date de modificatio...",
+          "check_type": "benchmark_change_chaining",
+          "section": "4 -- Pages suivantes",
+          "severity": "high",
+          "faiss_score": 0.803,
+          "specificity_score": 2.5,
+          "final_score": 2.007,
+          "force_matched": false,
+          "llm_validated": false,
+          "is_generic": false
+        },
+        {
+          "rule_id": "1.3",
+          "rule_text": "Les études/ données chiffrées /graphiques etc., doivent faire l'objet d'un renvoi (note de bas de page) précisant à minima la source et la date...",
+          "check_type": "citation_verification",
+          "section": "1 -- Règles générales",
+          "severity": "medium",
+          "faiss_score": 0.814,
+          "specificity_score": 1.8,
+          "final_score": 1.466,
+          "force_matched": false,
+          "llm_validated": false,
+          "is_generic": false
+        },
+        {
+          "rule_id": "4.3.8",
+          "rule_text": "Un document commercial ne peut pas débuter par les performances mais au minimum par la présentation du fonds. Les performances ne peuvent jamais repré...",
+          "check_type": "slide_order",
+          "section": "4 -- Pages suivantes",
+          "severity": "high",
+          "faiss_score": 0.815,
+          "specificity_score": 1.0,
+          "final_score": 0.815,
+          "force_matched": false,
+          "llm_validated": false,
+          "is_generic": false
+        },
+        {
+          "rule_id": "4.1",
+          "rule_text": "Ne jamais commencer une présentation par la performance : commencer à minima par la présentation du fonds...",
+          "check_type": "slide_order",
+          "section": "4 -- Pages suivantes",
+          "severity": "high",
+          "faiss_score": 0.814,
+          "specificity_score": 1.0,
+          "final_score": 0.814,
+          "force_matched": false,
+          "llm_validated": false,
+          "is_generic": false
+        },
+        {
+          "rule_id": "3.2",
+          "rule_text": "La mention exhaustive du profil de risque, conformément au prospectus...",
+          "check_type": "slide_2_risk_profile",
+          "section": "3 -- La Slide 2",
+          "severity": "high",
+          "faiss_score": 0.811,
+          "specificity_score": 1.0,
+          "final_score": 0.811,
+          "force_matched": false,
+          "llm_validated": false,
+          "is_generic": false
+        },
+        {
+          "rule_id": "4.3.19",
+          "rule_text": "Lorsqu’un autre indice que l’indicateur de référence officiel est présenté, cet indice doit apparaître séparément en annexe et ne pas être présenté co...",
+          "check_type": "other_indices_separation",
+          "section": "4 -- Pages suivantes",
+          "severity": "medium",
+          "faiss_score": 0.801,
+          "specificity_score": 1.0,
+          "final_score": 0.801,
+          "force_matched": false,
+          "llm_validated": false,
+          "is_generic": false
+        },
+        {
+          "rule_id": "2.1",
+          "rule_text": "Doit indiquer : Le nom du fonds, le mois et l'année, la mention « document promotionnel », la cible : retail ou professionnel...",
+          "check_type": "page_garde_structure",
+          "section": "2 -- Page de garde - Présentation Standard",
+          "severity": "high",
+          "faiss_score": 0.799,
+          "specificity_score": 1.0,
+          "final_score": 0.799,
+          "force_matched": false,
+          "llm_validated": false,
+          "is_generic": false
+        },
+        {
+          "rule_id": "4.3.23",
+          "rule_text": "Pour la clientèle retail, l’utilisation du track record d’un autre fonds ou d’une autre stratégie n’est pas autorisée....",
+          "check_type": "track_record_restriction",
+          "section": "4 -- Pages suivantes",
+          "severity": "high",
+          "faiss_score": 0.789,
+          "specificity_score": 1.0,
+          "final_score": 0.789,
+          "force_matched": false,
+          "llm_validated": false,
+          "is_generic": false
+        }
+      ],
+      "validation": {
+        "by_check_type": {
+          "benchmark_change_history": 1,
+          "benchmark_terms_consistency": 1,
+          "benchmark_change_chaining": 1,
+          "citation_verification": 1,
+          "slide_order": 2,
+          "slide_2_risk_profile": 1,
+          "other_indices_separation": 1,
+          "page_garde_structure": 1,
+          "track_record_restriction": 1
+        },
+        "by_severity": {
+          "medium": 3,
+          "high": 7
+        },
+        "generic_rules_count": 0,
+        "warnings": [],
+        "coherence_score": 1.0
+      },
+      "statistics": {
+        "faiss_candidates": 10,
+        "final_rules": 10,
+        "by_check_type": {
+          "benchmark_change_history": 1,
+          "benchmark_terms_consistency": 1,
+          "benchmark_change_chaining": 1,
+          "citation_verification": 1,
+          "slide_order": 2,
+          "slide_2_risk_profile": 1,
+          "other_indices_separation": 1,
+          "page_garde_structure": 1,
+          "track_record_restriction": 1
+        },
+        "by_severity": {
+          "medium": 3,
+          "high": 7
+        },
+        "generic_rules_count": 0,
+        "warnings": [],
+        "coherence_score": 1.0
+      }
+    },
+    {
+      "slide_number": 27,
+      "slide_title": "",
+      "slide_type": "content",
+      "query": "Slide 27 | Doc[retail, UCITS ETF, Article 8] | Résumé: Présentation du portefeuille | Thèmes: portefeuille, investissement",
+      "selected_rules": [
+        {
+          "rule_id": "1.5",
+          "rule_text": "Pour les présentations retail : inclure un Glossaire des termes techniques en fin de présentation et s'assurer que ces termes figurent dans le documen...",
+          "check_type": "glossary_presence",
+          "section": "1 -- Règles générales",
+          "severity": "medium",
+          "faiss_score": 0.823,
+          "specificity_score": 1.0,
+          "final_score": 0.823,
+          "force_matched": false,
+          "llm_validated": false,
+          "is_generic": false
+        },
+        {
+          "rule_id": "5.1",
+          "rule_text": "Mention légale de la SGP (cf. Glossaire)...",
+          "check_type": "page_fin_structure",
+          "section": "5 -- Page de fin de présentation",
+          "severity": "medium",
+          "faiss_score": 0.814,
+          "specificity_score": 1.0,
+          "final_score": 0.814,
+          "force_matched": false,
+          "llm_validated": false,
+          "is_generic": false
+        },
+        {
+          "rule_id": "3.1",
+          "rule_text": "Le disclaimer standard (retail ou professionnel) → attention à adapter le nom du fonds et les clients éligibles...",
+          "check_type": "slide_2_disclaimer",
+          "section": "3 -- La Slide 2",
+          "severity": "high",
+          "faiss_score": 0.81,
+          "specificity_score": 1.0,
+          "final_score": 0.81,
+          "force_matched": false,
+          "llm_validated": false,
+          "is_generic": false
+        },
+        {
+          "rule_id": "4.3.19",
+          "rule_text": "Lorsqu’un autre indice que l’indicateur de référence officiel est présenté, cet indice doit apparaître séparément en annexe et ne pas être présenté co...",
+          "check_type": "other_indices_separation",
+          "section": "4 -- Pages suivantes",
+          "severity": "medium",
+          "faiss_score": 0.806,
+          "specificity_score": 1.0,
+          "final_score": 0.806,
+          "force_matched": false,
+          "llm_validated": false,
+          "is_generic": false
+        },
+        {
+          "rule_id": "4.3.23",
+          "rule_text": "Pour la clientèle retail, l’utilisation du track record d’un autre fonds ou d’une autre stratégie n’est pas autorisée....",
+          "check_type": "track_record_restriction",
+          "section": "4 -- Pages suivantes",
+          "severity": "high",
+          "faiss_score": 0.801,
+          "specificity_score": 1.0,
+          "final_score": 0.801,
+          "force_matched": false,
+          "llm_validated": false,
+          "is_generic": false
+        },
+        {
+          "rule_id": "4.4",
+          "rule_text": "En fin de présentation : inclure les caractéristiques détaillées du fonds...",
+          "check_type": "document_structure",
+          "section": "4 -- Pages suivantes",
+          "severity": "low",
+          "faiss_score": 0.796,
+          "specificity_score": 1.0,
+          "final_score": 0.796,
+          "force_matched": false,
+          "llm_validated": false,
+          "is_generic": false
+        }
+      ],
+      "validation": {
+        "by_check_type": {
+          "glossary_presence": 1,
+          "page_fin_structure": 1,
+          "slide_2_disclaimer": 1,
+          "other_indices_separation": 1,
+          "track_record_restriction": 1,
+          "document_structure": 1
+        },
+        "by_severity": {
+          "medium": 3,
+          "high": 2,
+          "low": 1
+        },
+        "generic_rules_count": 0,
+        "warnings": [],
+        "coherence_score": 1.0
+      },
+      "statistics": {
+        "faiss_candidates": 6,
+        "final_rules": 6,
+        "by_check_type": {
+          "glossary_presence": 1,
+          "page_fin_structure": 1,
+          "slide_2_disclaimer": 1,
+          "other_indices_separation": 1,
+          "track_record_restriction": 1,
+          "document_structure": 1
+        },
+        "by_severity": {
+          "medium": 3,
+          "high": 2,
+          "low": 1
+        },
+        "generic_rules_count": 0,
+        "warnings": [],
+        "coherence_score": 1.0
+      }
+    },
+    {
+      "slide_number": 28,
+      "slide_title": "Portfolio Sector Allocation",
+      "slide_type": "performance",
+      "query": "Slide 28 | Doc[retail, UCITS ETF, Article 8] | Résumé: Répartition sectorielle du portefeuille | Thèmes: allocation sectorielle, portefeuille | Visuels: graphique | Données: comparaison benchmark",
+      "selected_rules": [
+        {
+          "rule_id": "4.3.26",
+          "rule_text": "Les performances de l’indicateur de référence doivent être calculées et présentées conformément aux termes du prospectus (par exemple, dividendes nets...",
+          "check_type": "benchmark_terms_consistency",
+          "section": "4 -- Pages suivantes",
+          "severity": "high",
+          "faiss_score": 0.752,
+          "specificity_score": 2.5,
+          "final_score": 1.879,
+          "force_matched": false,
+          "llm_validated": false,
+          "is_generic": false
+        },
+        {
+          "rule_id": "4.2.5",
+          "rule_text": "Ne pas citer plusieurs fois une même valeur...",
+          "check_type": "content_restriction",
+          "section": "4 -- Pages suivantes",
+          "severity": "medium",
+          "faiss_score": 0.791,
+          "specificity_score": 1.0,
+          "final_score": 0.791,
+          "force_matched": false,
+          "llm_validated": false,
+          "is_generic": false
+        },
+        {
+          "rule_id": "4.2.3",
+          "rule_text": "Ne pas suggérer une stratégie d'investissement...",
+          "check_type": "linguistic_restrictions",
+          "section": "4 -- Pages suivantes",
+          "severity": "high",
+          "faiss_score": 0.791,
+          "specificity_score": 1.0,
+          "final_score": 0.791,
+          "force_matched": false,
+          "llm_validated": false,
+          "is_generic": false
+        },
+        {
+          "rule_id": "1.8",
+          "rule_text": "La stratégie du fonds doit être présentée conformément à la documentation légale : seuils d'investissement par classe d'actifs, stratégie, allocation ...",
+          "check_type": "prospectus_coherence",
+          "section": "1 -- Règles générales",
+          "severity": "high",
+          "faiss_score": 0.789,
+          "specificity_score": 1.0,
+          "final_score": 0.789,
+          "force_matched": false,
+          "llm_validated": false,
+          "is_generic": false
+        },
+        {
+          "rule_id": "4.3.31",
+          "rule_text": "Pour les fonds de private equity destinés aux clients retail, la présentation d’un TRI net avant l’échéance du fonds est interdite....",
+          "check_type": "private_equity_irr_retail_restriction",
+          "section": "4 -- Pages suivantes",
+          "severity": "high",
+          "faiss_score": 0.785,
+          "specificity_score": 1.0,
+          "final_score": 0.785,
+          "force_matched": false,
+          "llm_validated": false,
+          "is_generic": false
+        },
+        {
+          "rule_id": "4.3.8",
+          "rule_text": "Un document commercial ne peut pas débuter par les performances mais au minimum par la présentation du fonds. Les performances ne peuvent jamais repré...",
+          "check_type": "slide_order",
+          "section": "4 -- Pages suivantes",
+          "severity": "high",
+          "faiss_score": 0.784,
+          "specificity_score": 1.0,
+          "final_score": 0.784,
+          "force_matched": false,
+          "llm_validated": false,
+          "is_generic": false
+        },
+        {
+          "rule_id": "5.1",
+          "rule_text": "Mention légale de la SGP (cf. Glossaire)...",
+          "check_type": "page_fin_structure",
+          "section": "5 -- Page de fin de présentation",
+          "severity": "medium",
+          "faiss_score": 0.775,
+          "specificity_score": 1.0,
+          "final_score": 0.775,
+          "force_matched": false,
+          "llm_validated": false,
+          "is_generic": false
+        },
+        {
+          "rule_id": "4.1",
+          "rule_text": "Ne jamais commencer une présentation par la performance : commencer à minima par la présentation du fonds...",
+          "check_type": "slide_order",
+          "section": "4 -- Pages suivantes",
+          "severity": "high",
+          "faiss_score": 0.773,
+          "specificity_score": 1.0,
+          "final_score": 0.773,
+          "force_matched": false,
+          "llm_validated": false,
+          "is_generic": false
+        },
+        {
+          "rule_id": "4.3.23",
+          "rule_text": "Pour la clientèle retail, l’utilisation du track record d’un autre fonds ou d’une autre stratégie n’est pas autorisée....",
+          "check_type": "track_record_restriction",
+          "section": "4 -- Pages suivantes",
+          "severity": "high",
+          "faiss_score": 0.765,
+          "specificity_score": 1.0,
+          "final_score": 0.765,
+          "force_matched": false,
+          "llm_validated": false,
+          "is_generic": false
+        },
+        {
+          "rule_id": "3.3",
+          "rule_text": "Les pays de commercialisation (registration abroad)...",
+          "check_type": "slide_2_countries",
+          "section": "3 -- La Slide 2",
+          "severity": "high",
+          "faiss_score": 0.759,
+          "specificity_score": 1.0,
+          "final_score": 0.759,
+          "force_matched": false,
+          "llm_validated": false,
+          "is_generic": false
+        },
+        {
+          "rule_id": "4.3.19",
+          "rule_text": "Lorsqu’un autre indice que l’indicateur de référence officiel est présenté, cet indice doit apparaître séparément en annexe et ne pas être présenté co...",
+          "check_type": "other_indices_separation",
+          "section": "4 -- Pages suivantes",
+          "severity": "medium",
+          "faiss_score": 0.756,
+          "specificity_score": 1.0,
+          "final_score": 0.756,
+          "force_matched": false,
+          "llm_validated": false,
+          "is_generic": false
+        }
+      ],
+      "validation": {
+        "by_check_type": {
+          "benchmark_terms_consistency": 1,
+          "content_restriction": 1,
+          "linguistic_restrictions": 1,
+          "prospectus_coherence": 1,
+          "private_equity_irr_retail_restriction": 1,
+          "slide_order": 2,
+          "page_fin_structure": 1,
+          "track_record_restriction": 1,
+          "slide_2_countries": 1,
+          "other_indices_separation": 1
+        },
+        "by_severity": {
+          "high": 8,
+          "medium": 3
+        },
+        "generic_rules_count": 0,
+        "warnings": [],
+        "coherence_score": 1.0
+      },
+      "statistics": {
+        "faiss_candidates": 11,
+        "final_rules": 11,
+        "by_check_type": {
+          "benchmark_terms_consistency": 1,
+          "content_restriction": 1,
+          "linguistic_restrictions": 1,
+          "prospectus_coherence": 1,
+          "private_equity_irr_retail_restriction": 1,
+          "slide_order": 2,
+          "page_fin_structure": 1,
+          "track_record_restriction": 1,
+          "slide_2_countries": 1,
+          "other_indices_separation": 1
+        },
+        "by_severity": {
+          "high": 8,
+          "medium": 3
+        },
+        "generic_rules_count": 0,
+        "warnings": [],
+        "coherence_score": 1.0
+      }
+    },
+    {
+      "slide_number": 29,
+      "slide_title": "Portfolio Largest Positions in the Portfolio",
+      "slide_type": "performance",
+      "query": "Slide 29 | Doc[retail, UCITS ETF, Article 8] | Résumé: Présentation des principales positions du portefeuille | Thèmes: gestion de portefeuille, composition de l'actif | Visuels: tableau | Données: comparaison benchmark",
+      "selected_rules": [
+        {
+          "rule_id": "4.3.18",
+          "rule_text": "Lorsque l’indicateur de référence est modifié, les deux benchmarks doivent être présentés de manière chaînée avec indication de la date de modificatio...",
+          "check_type": "benchmark_change_chaining",
+          "section": "4 -- Pages suivantes",
+          "severity": "high",
+          "faiss_score": 0.766,
+          "specificity_score": 2.5,
+          "final_score": 1.914,
+          "force_matched": false,
+          "llm_validated": false,
+          "is_generic": false
+        },
+        {
+          "rule_id": "4.3.26",
+          "rule_text": "Les performances de l’indicateur de référence doivent être calculées et présentées conformément aux termes du prospectus (par exemple, dividendes nets...",
+          "check_type": "benchmark_terms_consistency",
+          "section": "4 -- Pages suivantes",
+          "severity": "high",
+          "faiss_score": 0.741,
+          "specificity_score": 2.5,
+          "final_score": 1.854,
+          "force_matched": false,
+          "llm_validated": false,
+          "is_generic": false
+        },
+        {
+          "rule_id": "4.3.19",
+          "rule_text": "Lorsqu’un autre indice que l’indicateur de référence officiel est présenté, cet indice doit apparaître séparément en annexe et ne pas être présenté co...",
+          "check_type": "other_indices_separation",
+          "section": "4 -- Pages suivantes",
+          "severity": "medium",
+          "faiss_score": 0.752,
+          "specificity_score": 1.0,
+          "final_score": 0.752,
+          "force_matched": false,
+          "llm_validated": false,
+          "is_generic": false
+        }
+      ],
+      "validation": {
+        "by_check_type": {
+          "benchmark_change_chaining": 1,
+          "benchmark_terms_consistency": 1,
+          "other_indices_separation": 1
+        },
+        "by_severity": {
+          "high": 2,
+          "medium": 1
+        },
+        "generic_rules_count": 0,
+        "warnings": [],
+        "coherence_score": 1.0
+      },
+      "statistics": {
+        "faiss_candidates": 3,
+        "final_rules": 3,
+        "by_check_type": {
+          "benchmark_change_chaining": 1,
+          "benchmark_terms_consistency": 1,
+          "other_indices_separation": 1
+        },
+        "by_severity": {
+          "high": 2,
+          "medium": 1
+        },
+        "generic_rules_count": 0,
+        "warnings": [],
+        "coherence_score": 1.0
+      }
+    },
+    {
+      "slide_number": 30,
+      "slide_title": "Portfolio Largest Over- and Underweights",
+      "slide_type": "performance",
+      "query": "Slide 30 | Doc[retail, UCITS ETF, Article 8] | Résumé: Présentation des pondérations relatives les plus importantes et les moins importantes du portefeuille | Thèmes: gestion de portefeuille, analyse de pondérations | Visuels: graphique, tableau | Données: comparaison benchmark",
+      "selected_rules": [
+        {
+          "rule_id": "4.3.24",
+          "rule_text": "En cas de modification de l’indicateur de référence ou de la gestion, un commentaire visible doit préciser la nature de la modification et sa date....",
+          "check_type": "benchmark_or_management_change_comment",
+          "section": "4 -- Pages suivantes",
+          "severity": "medium",
+          "faiss_score": 0.828,
+          "specificity_score": 2.5,
+          "final_score": 2.069,
+          "force_matched": false,
+          "llm_validated": false,
+          "is_generic": false
+        },
+        {
+          "rule_id": "4.3.17",
+          "rule_text": "Lorsque l’indicateur de référence est supprimé, les performances historiques peuvent être conservées mais la date de suppression du benchmark doit êtr...",
+          "check_type": "benchmark_change_history",
+          "section": "4 -- Pages suivantes",
+          "severity": "medium",
+          "faiss_score": 0.822,
+          "specificity_score": 2.5,
+          "final_score": 2.055,
+          "force_matched": false,
+          "llm_validated": false,
+          "is_generic": false
+        },
+        {
+          "rule_id": "4.3.26",
+          "rule_text": "Les performances de l’indicateur de référence doivent être calculées et présentées conformément aux termes du prospectus (par exemple, dividendes nets...",
+          "check_type": "benchmark_terms_consistency",
+          "section": "4 -- Pages suivantes",
+          "severity": "high",
+          "faiss_score": 0.802,
+          "specificity_score": 2.5,
+          "final_score": 2.005,
+          "force_matched": false,
+          "llm_validated": false,
+          "is_generic": false
+        },
+        {
+          "rule_id": "1.3",
+          "rule_text": "Les études/ données chiffrées /graphiques etc., doivent faire l'objet d'un renvoi (note de bas de page) précisant à minima la source et la date...",
+          "check_type": "citation_verification",
+          "section": "1 -- Règles générales",
+          "severity": "medium",
+          "faiss_score": 0.812,
+          "specificity_score": 1.8,
+          "final_score": 1.462,
+          "force_matched": false,
+          "llm_validated": false,
+          "is_generic": false
+        },
+        {
+          "rule_id": "4.2.9",
+          "rule_text": "Ne pas faire d'analyse spécifique sur une valeur...",
+          "check_type": "content_restriction",
+          "section": "4 -- Pages suivantes",
+          "severity": "high",
+          "faiss_score": 0.826,
+          "specificity_score": 1.0,
+          "final_score": 0.826,
+          "force_matched": false,
+          "llm_validated": false,
+          "is_generic": false
+        },
+        {
+          "rule_id": "4.2.3",
+          "rule_text": "Ne pas suggérer une stratégie d'investissement...",
+          "check_type": "linguistic_restrictions",
+          "section": "4 -- Pages suivantes",
+          "severity": "high",
+          "faiss_score": 0.819,
+          "specificity_score": 1.0,
+          "final_score": 0.819,
+          "force_matched": false,
+          "llm_validated": false,
+          "is_generic": false
+        },
+        {
+          "rule_id": "4.1",
+          "rule_text": "Ne jamais commencer une présentation par la performance : commencer à minima par la présentation du fonds...",
+          "check_type": "slide_order",
+          "section": "4 -- Pages suivantes",
+          "severity": "high",
+          "faiss_score": 0.818,
+          "specificity_score": 1.0,
+          "final_score": 0.818,
+          "force_matched": false,
+          "llm_validated": false,
+          "is_generic": false
+        },
+        {
+          "rule_id": "4.3.23",
+          "rule_text": "Pour la clientèle retail, l’utilisation du track record d’un autre fonds ou d’une autre stratégie n’est pas autorisée....",
+          "check_type": "track_record_restriction",
+          "section": "4 -- Pages suivantes",
+          "severity": "high",
+          "faiss_score": 0.815,
+          "specificity_score": 1.0,
+          "final_score": 0.815,
+          "force_matched": false,
+          "llm_validated": false,
+          "is_generic": false
+        },
+        {
+          "rule_id": "4.3.19",
+          "rule_text": "Lorsqu’un autre indice que l’indicateur de référence officiel est présenté, cet indice doit apparaître séparément en annexe et ne pas être présenté co...",
+          "check_type": "other_indices_separation",
+          "section": "4 -- Pages suivantes",
+          "severity": "medium",
+          "faiss_score": 0.814,
+          "specificity_score": 1.0,
+          "final_score": 0.814,
+          "force_matched": false,
+          "llm_validated": false,
+          "is_generic": false
+        },
+        {
+          "rule_id": "2.1",
+          "rule_text": "Doit indiquer : Le nom du fonds, le mois et l'année, la mention « document promotionnel », la cible : retail ou professionnel...",
+          "check_type": "page_garde_structure",
+          "section": "2 -- Page de garde - Présentation Standard",
+          "severity": "high",
+          "faiss_score": 0.796,
+          "specificity_score": 1.0,
+          "final_score": 0.796,
+          "force_matched": false,
+          "llm_validated": false,
+          "is_generic": false
+        },
+        {
+          "rule_id": "1.13",
+          "rule_text": "Pas de confusion entre la présentation d'une stratégie et celle d'un fonds dans un même document...",
+          "check_type": "document_coherence",
+          "section": "1 -- Règles générales",
+          "severity": "medium",
+          "faiss_score": 0.813,
+          "specificity_score": 0.5,
+          "final_score": 0.406,
+          "force_matched": false,
+          "llm_validated": false,
+          "is_generic": true
+        }
+      ],
+      "validation": {
+        "by_check_type": {
+          "benchmark_or_management_change_comment": 1,
+          "benchmark_change_history": 1,
+          "benchmark_terms_consistency": 1,
+          "citation_verification": 1,
+          "content_restriction": 1,
+          "linguistic_restrictions": 1,
+          "slide_order": 1,
+          "track_record_restriction": 1,
+          "other_indices_separation": 1,
+          "page_garde_structure": 1,
+          "document_coherence": 1
+        },
+        "by_severity": {
+          "medium": 5,
+          "high": 6
+        },
+        "generic_rules_count": 1,
+        "warnings": [],
+        "coherence_score": 1.0
+      },
+      "statistics": {
+        "faiss_candidates": 11,
+        "final_rules": 11,
+        "by_check_type": {
+          "benchmark_or_management_change_comment": 1,
+          "benchmark_change_history": 1,
+          "benchmark_terms_consistency": 1,
+          "citation_verification": 1,
+          "content_restriction": 1,
+          "linguistic_restrictions": 1,
+          "slide_order": 1,
+          "track_record_restriction": 1,
+          "other_indices_separation": 1,
+          "page_garde_structure": 1,
+          "document_coherence": 1
+        },
+        "by_severity": {
+          "medium": 5,
+          "high": 6
+        },
+        "generic_rules_count": 1,
+        "warnings": [],
+        "coherence_score": 1.0
+      }
+    },
+    {
+      "slide_number": 31,
+      "slide_title": "Details Fund Characteristics",
+      "slide_type": "content",
+      "query": "Slide 31 | Doc[retail, UCITS ETF, Article 8] | Résumé: Caractéristiques détaillées du fonds ODDO BHF US Equity Active UCITS ETF | Thèmes: caractéristiques du fonds, informations générales | Visuels: tableau",
+      "selected_rules": [
+        {
+          "rule_id": "1.8",
+          "rule_text": "La stratégie du fonds doit être présentée conformément à la documentation légale : seuils d'investissement par classe d'actifs, stratégie, allocation ...",
+          "check_type": "prospectus_coherence",
+          "section": "1 -- Règles générales",
+          "severity": "high",
+          "faiss_score": 0.829,
+          "specificity_score": 1.0,
+          "final_score": 0.829,
+          "force_matched": false,
+          "llm_validated": false,
+          "is_generic": false
+        },
+        {
+          "rule_id": "4.3",
+          "rule_text": "Les objectifs de nombre de lignes en portefeuille doivent être mentionnés dans le prospectus. Si la présentation mentionne un nombre de lignes dans le...",
+          "check_type": "prospectus_coherence",
+          "section": "4 -- Pages suivantes",
+          "severity": "medium",
+          "faiss_score": 0.819,
+          "specificity_score": 1.0,
+          "final_score": 0.819,
+          "force_matched": false,
+          "llm_validated": false,
+          "is_generic": false
+        },
+        {
+          "rule_id": "4.2.9",
+          "rule_text": "Ne pas faire d'analyse spécifique sur une valeur...",
+          "check_type": "content_restriction",
+          "section": "4 -- Pages suivantes",
+          "severity": "high",
+          "faiss_score": 0.817,
+          "specificity_score": 1.0,
+          "final_score": 0.817,
+          "force_matched": false,
+          "llm_validated": false,
+          "is_generic": false
+        },
+        {
+          "rule_id": "1.15",
+          "rule_text": "Éviter de mentionner d'autres fonds (Oddo ou autres) dans une présentation standard d'un fonds sauf si c'est une présentation de gamme...",
+          "check_type": "content_restriction",
+          "section": "1 -- Règles générales",
+          "severity": "medium",
+          "faiss_score": 0.815,
+          "specificity_score": 1.0,
+          "final_score": 0.815,
+          "force_matched": false,
+          "llm_validated": false,
+          "is_generic": false
+        },
+        {
+          "rule_id": "4.3.23",
+          "rule_text": "Pour la clientèle retail, l’utilisation du track record d’un autre fonds ou d’une autre stratégie n’est pas autorisée....",
+          "check_type": "track_record_restriction",
+          "section": "4 -- Pages suivantes",
+          "severity": "high",
+          "faiss_score": 0.814,
+          "specificity_score": 1.0,
+          "final_score": 0.814,
+          "force_matched": false,
+          "llm_validated": false,
+          "is_generic": false
+        },
+        {
+          "rule_id": "1.5",
+          "rule_text": "Pour les présentations retail : inclure un Glossaire des termes techniques en fin de présentation et s'assurer que ces termes figurent dans le documen...",
+          "check_type": "glossary_presence",
+          "section": "1 -- Règles générales",
+          "severity": "medium",
+          "faiss_score": 0.808,
+          "specificity_score": 1.0,
+          "final_score": 0.808,
+          "force_matched": false,
+          "llm_validated": false,
+          "is_generic": false
+        }
+      ],
+      "validation": {
+        "by_check_type": {
+          "prospectus_coherence": 2,
+          "content_restriction": 2,
+          "track_record_restriction": 1,
+          "glossary_presence": 1
+        },
+        "by_severity": {
+          "high": 3,
+          "medium": 3
+        },
+        "generic_rules_count": 0,
+        "warnings": [],
+        "coherence_score": 1.0
+      },
+      "statistics": {
+        "faiss_candidates": 6,
+        "final_rules": 6,
+        "by_check_type": {
+          "prospectus_coherence": 2,
+          "content_restriction": 2,
+          "track_record_restriction": 1,
+          "glossary_presence": 1
+        },
+        "by_severity": {
+          "high": 3,
+          "medium": 3
+        },
+        "generic_rules_count": 0,
+        "warnings": [],
+        "coherence_score": 1.0
+      }
+    },
+    {
+      "slide_number": 32,
+      "slide_title": "GLOSSARY OF TERMS (1/2)",
+      "slide_type": "content",
+      "query": "Slide 32 | Doc[retail, UCITS ETF, Article 8] | Résumé: Définitions de termes financiers | Thèmes: finances, investissement, gestion de portefeuille | Données: comparaison benchmark",
+      "selected_rules": [
+        {
+          "rule_id": "4.3.26",
+          "rule_text": "Les performances de l’indicateur de référence doivent être calculées et présentées conformément aux termes du prospectus (par exemple, dividendes nets...",
+          "check_type": "benchmark_terms_consistency",
+          "section": "4 -- Pages suivantes",
+          "severity": "high",
+          "faiss_score": 0.765,
+          "specificity_score": 2.5,
+          "final_score": 1.913,
+          "force_matched": false,
+          "llm_validated": false,
+          "is_generic": false
+        },
+        {
+          "rule_id": "4.3",
+          "rule_text": "Les objectifs de nombre de lignes en portefeuille doivent être mentionnés dans le prospectus. Si la présentation mentionne un nombre de lignes dans le...",
+          "check_type": "prospectus_coherence",
+          "section": "4 -- Pages suivantes",
+          "severity": "medium",
+          "faiss_score": 0.774,
+          "specificity_score": 1.0,
+          "final_score": 0.774,
+          "force_matched": false,
+          "llm_validated": false,
+          "is_generic": false
+        },
+        {
+          "rule_id": "1.8",
+          "rule_text": "La stratégie du fonds doit être présentée conformément à la documentation légale : seuils d'investissement par classe d'actifs, stratégie, allocation ...",
+          "check_type": "prospectus_coherence",
+          "section": "1 -- Règles générales",
+          "severity": "high",
+          "faiss_score": 0.773,
+          "specificity_score": 1.0,
+          "final_score": 0.773,
+          "force_matched": false,
+          "llm_validated": false,
+          "is_generic": false
+        },
+        {
+          "rule_id": "4.3.19",
+          "rule_text": "Lorsqu’un autre indice que l’indicateur de référence officiel est présenté, cet indice doit apparaître séparément en annexe et ne pas être présenté co...",
+          "check_type": "other_indices_separation",
+          "section": "4 -- Pages suivantes",
+          "severity": "medium",
+          "faiss_score": 0.771,
+          "specificity_score": 1.0,
+          "final_score": 0.771,
+          "force_matched": false,
+          "llm_validated": false,
+          "is_generic": false
+        },
+        {
+          "rule_id": "4.2.3",
+          "rule_text": "Ne pas suggérer une stratégie d'investissement...",
+          "check_type": "linguistic_restrictions",
+          "section": "4 -- Pages suivantes",
+          "severity": "high",
+          "faiss_score": 0.763,
+          "specificity_score": 1.0,
+          "final_score": 0.763,
+          "force_matched": false,
+          "llm_validated": false,
+          "is_generic": false
+        },
+        {
+          "rule_id": "3.1",
+          "rule_text": "Le disclaimer standard (retail ou professionnel) → attention à adapter le nom du fonds et les clients éligibles...",
+          "check_type": "slide_2_disclaimer",
+          "section": "3 -- La Slide 2",
+          "severity": "high",
+          "faiss_score": 0.761,
+          "specificity_score": 1.0,
+          "final_score": 0.761,
+          "force_matched": false,
+          "llm_validated": false,
+          "is_generic": false
+        }
+      ],
+      "validation": {
+        "by_check_type": {
+          "benchmark_terms_consistency": 1,
+          "prospectus_coherence": 2,
+          "other_indices_separation": 1,
+          "linguistic_restrictions": 1,
+          "slide_2_disclaimer": 1
+        },
+        "by_severity": {
+          "high": 4,
+          "medium": 2
+        },
+        "generic_rules_count": 0,
+        "warnings": [],
+        "coherence_score": 1.0
+      },
+      "statistics": {
+        "faiss_candidates": 6,
+        "final_rules": 6,
+        "by_check_type": {
+          "benchmark_terms_consistency": 1,
+          "prospectus_coherence": 2,
+          "other_indices_separation": 1,
+          "linguistic_restrictions": 1,
+          "slide_2_disclaimer": 1
+        },
+        "by_severity": {
+          "high": 4,
+          "medium": 2
+        },
+        "generic_rules_count": 0,
+        "warnings": [],
+        "coherence_score": 1.0
+      }
+    },
+    {
+      "slide_number": 33,
+      "slide_title": "GlossarY of Terms (2/2)",
+      "slide_type": "structural",
+      "query": "Slide 33 | Doc[retail, UCITS ETF, Article 8] | Résumé: Définitions de termes financiers | Thèmes: finances, investissement, gestion de risque",
+      "selected_rules": [
+        {
+          "rule_id": "5.1",
+          "rule_text": "Mention légale de la SGP (cf. Glossaire)...",
+          "check_type": "page_fin_structure",
+          "section": "5 -- Page de fin de présentation",
+          "severity": "medium",
+          "faiss_score": 1.0,
+          "specificity_score": 1.0,
+          "final_score": 1.0,
+          "force_matched": true,
+          "llm_validated": false,
+          "is_generic": false
+        },
+        {
+          "rule_id": "1.5",
+          "rule_text": "Pour les présentations retail : inclure un Glossaire des termes techniques en fin de présentation et s'assurer que ces termes figurent dans le documen...",
+          "check_type": "glossary_presence",
+          "section": "1 -- Règles générales",
+          "severity": "medium",
+          "faiss_score": 0.799,
+          "specificity_score": 1.0,
+          "final_score": 0.799,
+          "force_matched": false,
+          "llm_validated": false,
+          "is_generic": false
+        },
+        {
+          "rule_id": "1.8",
+          "rule_text": "La stratégie du fonds doit être présentée conformément à la documentation légale : seuils d'investissement par classe d'actifs, stratégie, allocation ...",
+          "check_type": "prospectus_coherence",
+          "section": "1 -- Règles générales",
+          "severity": "high",
+          "faiss_score": 0.796,
+          "specificity_score": 1.0,
+          "final_score": 0.796,
+          "force_matched": false,
+          "llm_validated": false,
+          "is_generic": false
+        }
+      ],
+      "validation": {
+        "by_check_type": {
+          "page_fin_structure": 1,
+          "glossary_presence": 1,
+          "prospectus_coherence": 1
+        },
+        "by_severity": {
+          "medium": 2,
+          "high": 1
+        },
+        "generic_rules_count": 0,
+        "warnings": [],
+        "coherence_score": 1.0
+      },
+      "statistics": {
+        "faiss_candidates": 3,
+        "final_rules": 3,
+        "by_check_type": {
+          "page_fin_structure": 1,
+          "glossary_presence": 1,
+          "prospectus_coherence": 1
+        },
+        "by_severity": {
+          "medium": 2,
+          "high": 1
+        },
+        "generic_rules_count": 0,
+        "warnings": [],
+        "coherence_score": 1.0
+      }
+    },
+    {
+      "slide_number": 35,
+      "slide_title": "",
+      "slide_type": "structural",
+      "query": "Slide 35 | Doc[retail, UCITS ETF, Article 8] | Résumé: Slide non fournie, impossible de résumer",
+      "selected_rules": [
+        {
+          "rule_id": "5.1",
+          "rule_text": "Mention légale de la SGP (cf. Glossaire)...",
+          "check_type": "page_fin_structure",
+          "section": "5 -- Page de fin de présentation",
+          "severity": "medium",
+          "faiss_score": 1.0,
+          "specificity_score": 1.0,
+          "final_score": 1.0,
+          "force_matched": true,
+          "llm_validated": false,
+          "is_generic": false
+        },
+        {
+          "rule_id": "4.4",
+          "rule_text": "En fin de présentation : inclure les caractéristiques détaillées du fonds...",
+          "check_type": "document_structure",
+          "section": "4 -- Pages suivantes",
+          "severity": "low",
+          "faiss_score": 0.847,
+          "specificity_score": 1.0,
+          "final_score": 0.847,
+          "force_matched": false,
+          "llm_validated": false,
+          "is_generic": false
+        },
+        {
+          "rule_id": "3.3",
+          "rule_text": "Les pays de commercialisation (registration abroad)...",
+          "check_type": "slide_2_countries",
+          "section": "3 -- La Slide 2",
+          "severity": "high",
+          "faiss_score": 0.846,
+          "specificity_score": 1.0,
+          "final_score": 0.846,
+          "force_matched": false,
+          "llm_validated": false,
+          "is_generic": false
+        }
+      ],
+      "validation": {
+        "by_check_type": {
+          "page_fin_structure": 1,
+          "document_structure": 1,
+          "slide_2_countries": 1
+        },
+        "by_severity": {
+          "medium": 1,
+          "low": 1,
+          "high": 1
+        },
+        "generic_rules_count": 0,
+        "warnings": [],
+        "coherence_score": 1.0
+      },
+      "statistics": {
+        "faiss_candidates": 3,
+        "final_rules": 3,
+        "by_check_type": {
+          "page_fin_structure": 1,
+          "document_structure": 1,
+          "slide_2_countries": 1
+        },
+        "by_severity": {
+          "medium": 1,
+          "low": 1,
+          "high": 1
+        },
+        "generic_rules_count": 0,
+        "warnings": [],
+        "coherence_score": 1.0
+      }
+    }
+  ],
+  "global_statistics": {
+    "total_slides": 34,
+    "total_rules_selected": 218,
+    "average_rules_per_slide": 6.41,
+    "unique_rules_used": 44,
+    "slide_types_distribution": {
+      "structural": 4,
+      "content": 23,
+      "performance": 7
+    },
+    "structural_rules_detected": {
+      "slide_1": 1,
+      "slide_2": 3,
+      "last_slides": 1
+    },
+    "most_frequent_rules": [
+      {
+        "rule_id": "1.8",
+        "occurrences": 17,
+        "percentage": 50.0
+      },
+      {
+        "rule_id": "4.4",
+        "occurrences": 14,
+        "percentage": 41.2
+      },
+      {
+        "rule_id": "4.3.19",
+        "occurrences": 14,
+        "percentage": 41.2
+      },
+      {
+        "rule_id": "3.3",
+        "occurrences": 13,
+        "percentage": 38.2
+      },
+      {
+        "rule_id": "2.1",
+        "occurrences": 11,
+        "percentage": 32.4
+      },
+      {
+        "rule_id": "4.1",
+        "occurrences": 11,
+        "percentage": 32.4
+      },
+      {
+        "rule_id": "4.2.3",
+        "occurrences": 11,
+        "percentage": 32.4
+      },
+      {
+        "rule_id": "5.1",
+        "occurrences": 10,
+        "percentage": 29.4
+      },
+      {
+        "rule_id": "3.1",
+        "occurrences": 8,
+        "percentage": 23.5
+      },
+      {
+        "rule_id": "4.3",
+        "occurrences": 8,
+        "percentage": 23.5
+      }
+    ]
+  }
+}
