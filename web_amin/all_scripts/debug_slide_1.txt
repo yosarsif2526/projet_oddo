@@ -1,6 +1,0 @@
-[
-  {"chunk_id": "document_slide_1_full", "chunk_type": "slide_full", "content": "Slide 1: ODDO BHF US Equity Active UCITS ETF\n\nAn investment solution aiming at investing efficiently in US equities\n\nNotes:\n- September 2025", "metadata": {"slide_number": 1, "slide_title": "ODDO BHF US Equity Active UCITS ETF", "has_charts": false, "has_tables": false, "has_images": false, "element_count": 1, "footnote_count": 1, "total_slides": 35}},
-  {"chunk_id": "document_slide_1_title", "chunk_type": "slide_title", "content": "Slide 1 - Titre: ODDO BHF US Equity Active UCITS ETF", "metadata": {"slide_number": 1, "element_type": "title", "parent_chunk": "document_slide_1_full"}},
-  {"chunk_id": "document_slide_1_elem_1", "chunk_type": "slide_element", "content": "Slide 1 - An investment solution aiming at investing efficiently in US equities", "metadata": {"slide_number": 1, "element_index": 1, "element_type": "body_text", "font_size": 14, "is_bold": false, "parent_chunk": "document_slide_1_full"}},
-  {"chunk_id": "document_slide_1_footnote_1", "chunk_type": "footnote", "content": "Slide 1 - Note: September 2025", "metadata": {"slide_number": 1, "footnote_index": 1, "element_type": "footnote", "parent_chunk": "document_slide_1_full"}}
-]
