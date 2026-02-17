@@ -1,4 +1,0 @@
-[
-  {"chunk_id": "document_slide_35_full", "chunk_type": "slide_full", "content": "Slide 35: \n\n\n\n", "metadata": {"slide_number": 35, "slide_title": "", "has_charts": false, "has_tables": false, "has_images": false, "element_count": 0, "footnote_count": 0, "total_slides": 35}},
-  {"chunk_id": "document_slide_35_title", "chunk_type": "slide_title", "content": "Slide 35 - Titre: ", "metadata": {"slide_number": 35, "element_type": "title", "parent_chunk": "document_slide_35_full"}}
-]
