@@ -1,6 +1,0 @@
-[
-  {"chunk_id": "document_slide_27_full", "chunk_type": "slide_full", "content": "Slide 27: \n\n05\nPortfolio\n\nNotes:\n", "metadata": {"slide_number": 27, "slide_title": "", "has_charts": false, "has_tables": false, "has_images": false, "element_count": 2, "footnote_count": 0, "total_slides": 35}},
-  {"chunk_id": "document_slide_27_title", "chunk_type": "slide_title", "content": "Slide 27 - Titre: ", "metadata": {"slide_number": 27, "element_type": "title", "parent_chunk": "document_slide_27_full"}},
-  {"chunk_id": "document_slide_27_elem_1", "chunk_type": "slide_element", "content": "Slide 27 - 05", "metadata": {"slide_number": 27, "element_index": 1, "element_type": "body_text", "font_size": 0, "is_bold": false, "parent_chunk": "document_slide_27_full"}},
-  {"chunk_id": "document_slide_27_elem_2", "chunk_type": "slide_element", "content": "Slide 27 - Portfolio", "metadata": {"slide_number": 27, "element_index": 2, "element_type": "body_text", "font_size": 0, "is_bold": false, "parent_chunk": "document_slide_27_full"}}
-]
